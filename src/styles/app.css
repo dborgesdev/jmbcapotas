@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@theme {
+  --font-sans: "Arial", "Helvetica Neue", sans-serif;
+}
+@layer base {
+  body {
+    margin: 0;
+    background: #fafaf8;
+    color: #191b1e;
+  }
+  a,
+  button,
+  input,
+  select {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button,
+  a,
+  input,
+  select {
+    touch-action: manipulation;
+  }
+  button {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 3px solid #e3262e;
+    outline-offset: 5px;
+  }
+  ::selection {
+    background: #e3262e;
+    color: white;
+  }
+}
+@layer components {
+  .wrap {
+    @apply mx-auto max-w-[1440px] px-5 md:px-10 lg:px-16;
+  }
+  .btn {
+    @apply inline-flex min-h-12 items-center justify-center gap-6 bg-[#d71f2a] px-7 py-4 text-sm font-bold text-white transition-colors hover:bg-[#b51720];
+  }
+  .btn-outline {
+    @apply inline-flex min-h-12 items-center justify-center gap-6 border border-current px-7 py-4 text-sm font-bold transition-colors hover:bg-white/10;
+  }
+  .eyebrow {
+    @apply text-[10px] font-bold uppercase tracking-[.22em] md:text-xs;
+  }
+  .section-title {
+    @apply text-3xl font-black leading-[1.08] tracking-[-.035em] md:text-5xl;
+  }
+  .field {
+    @apply w-full rounded-none border border-neutral-300 bg-white px-4 py-3 text-sm;
+  }
+  .prose {
+    @apply max-w-3xl text-base leading-8 text-neutral-700;
+  }
+  .prose p {
+    @apply mb-6;
+  }
+  .prose h2 {
+    @apply mb-5 mt-10 text-3xl font-bold text-neutral-900;
+  }
+  .prose h3 {
+    @apply mb-4 mt-8 text-xl font-bold;
+  }
+  .prose a {
+    @apply underline;
+  }
+  .prose img {
+    @apply my-8 h-auto max-w-full;
+  }
+  .prose ul {
+    @apply mb-6 list-disc pl-6;
+  }
+  .prose ol {
+    @apply mb-6 list-decimal pl-6;
+  }
+  .prose table {
+    @apply block max-w-full overflow-auto;
+  }
+  .skip {
+    @apply fixed left-4 top-4 z-50 -translate-y-24 bg-white px-5 py-3 text-black focus:translate-y-0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

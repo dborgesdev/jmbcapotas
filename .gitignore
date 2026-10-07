@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+dist/
+.wrangler/
+.tanstack/
+*-audit.json
+.env
+test-results/
+playwright-report/
+artifacts/

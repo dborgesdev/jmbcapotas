@@ -1,0 +1,8 @@
+node_modules
+.pnpm-store
+dist
+.wrangler
+.tanstack
+src/routeTree.gen.ts
+*-audit.json
+pnpm-lock.yaml
