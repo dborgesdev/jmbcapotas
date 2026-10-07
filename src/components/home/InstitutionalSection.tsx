@@ -11,7 +11,7 @@ export function InstitutionalSection({
   return (
     <section
       id="sobre"
-      className="relative isolate flex min-h-[580px] items-center overflow-hidden bg-[#171a1d] text-white md:min-h-[700px]"
+      className="relative isolate flex min-h-145 items-center overflow-hidden bg-[#171a1d] text-white md:min-h-175"
     >
       <Picture
         image={institutional?.images[0]}

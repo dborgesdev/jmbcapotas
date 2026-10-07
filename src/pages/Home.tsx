@@ -7,8 +7,18 @@ import { CategorySection } from "../components/home/CategorySection";
 import { InstitutionalSection } from "../components/home/InstitutionalSection";
 import { WorksSection } from "../components/home/WorksSection";
 import { BlogSection } from "../components/home/BlogSection";
+import finalCtaBg from "../assets/final-cta-bg.webp";
+import type { Media } from "../lib/wordpress/types";
+
 export function Home({ d }: { d: SiteData }) {
-  const hero = d.works?.[0]?.images[0] || d.post?.images[0];
+  const hero: Media = {
+    id: 0,
+    url: finalCtaBg,
+    alt: "Modelos de capotas para picapes",
+    width: 1689,
+    height: 931,
+    srcSet: "",
+  };
   const institutional = d.pages.find((p) => /quem|empresa/.test(p.slug));
   return (
     <>

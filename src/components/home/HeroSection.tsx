@@ -4,7 +4,7 @@ import { whatsapp } from "../../lib/whatsapp";
 import { type Media } from "../../lib/wordpress/types";
 export function HeroSection({ hero }: { hero?: Media }) {
   return (
-    <section className="relative isolate flex min-h-[760px] items-center overflow-hidden bg-[#25282b] text-white md:min-h-[860px] md:h-[95svh] md:max-h-[1080px]">
+    <section className="relative isolate flex min-h-190 items-center overflow-hidden bg-[#25282b] text-white md:min-h-215 md:h-[95svh] md:max-h-270">
       <HeroVideo fallback={hero} />
       <div className="absolute inset-0 -z-10 bg-black/65" />
       <div className="wrap w-full pb-16 pt-36 text-center">
