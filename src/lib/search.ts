@@ -1,4 +1,4 @@
-import type { Search } from "./wordpress/site";
+import type { Search } from "./site/types";
 function termId(value: unknown) {
   const id = Number(value);
   return Number.isSafeInteger(id) && id > 0 ? String(id) : undefined;

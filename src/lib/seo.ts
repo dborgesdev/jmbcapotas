@@ -1,5 +1,5 @@
 import { SITE } from "./config";
-import type { SiteData } from "./wordpress/site";
+import type { SiteData } from "./site/types";
 export function seo(d: SiteData) {
   const title = `${d.title} | JMB Capotas`;
   const description =

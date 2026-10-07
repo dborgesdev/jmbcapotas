@@ -1,0 +1,23 @@
+import { FinalCta } from "../components/home/FinalCta";
+import { type SiteData } from "../lib/site/types";
+import { HeroSection } from "../components/home/HeroSection";
+import { BrandSelector } from "../components/home/BrandSelector";
+import { CategorySection } from "../components/home/CategorySection";
+import { InstitutionalSection } from "../components/home/InstitutionalSection";
+import { WorksSection } from "../components/home/WorksSection";
+import { BlogSection } from "../components/home/BlogSection";
+export function Home({ d }: { d: SiteData }) {
+  const hero = d.works?.[0]?.images[0] || d.post?.images[0];
+  const institutional = d.pages.find((p) => /quem|empresa/.test(p.slug));
+  return (
+    <>
+      <HeroSection hero={hero} />
+      <BrandSelector brands={d.tax.brands} error={d.error} />
+      <CategorySection categories={d.tax.categories} product={d.post} />
+      <InstitutionalSection institutional={institutional} product={d.post} />
+      <WorksSection works={d.works} />
+      <BlogSection posts={d.posts} />
+      <FinalCta image={hero} />
+    </>
+  );
+}

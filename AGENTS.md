@@ -21,3 +21,4 @@ Regras:
 12. Priorizar assets reais; não apresentar imagem gerada como produto/trabalho/sede/equipe real.
 13. Antes de declarar pronto: typecheck, lint, build, testes aplicáveis, rotas/404, responsividade, acessibilidade, SEO e deploy target.
 14. Não alterar decisões aprovadas para “melhorar” arquitetura sem motivo técnico concreto e documentado.
+15. Não concentrar múltiplas páginas, seções independentes ou componentes de domínio em arquivos monolíticos. Manter componentes/seções relevantes em arquivos próprios e separar acesso a dados por domínio. Arquivos agregadores devem apenas compor/orquestrar.

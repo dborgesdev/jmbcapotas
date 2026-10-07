@@ -1,13 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SITE } from "../lib/config";
-import { all } from "../lib/wordpress/client";
-import {
-  taxonomies,
-  productUrl,
-  brandUrl,
-  cityUrl,
-} from "../lib/wordpress/content";
-import type { RawPost } from "../lib/wordpress/types";
+import { taxonomies } from "../lib/wordpress/taxonomies";
+import { productUrl } from "../lib/wordpress/product-urls";
+import { brandUrl, cityUrl } from "../lib/paths";
+import { allProducts } from "../lib/wordpress/products";
+import { allPages } from "../lib/wordpress/pages";
+import { allCities } from "../lib/wordpress/cities";
+import { allPosts } from "../lib/wordpress/posts";
+import { allWorks } from "../lib/wordpress/works";
+
 function escape(s: string) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 }
@@ -19,11 +20,11 @@ export const Route = createFileRoute("/sitemap.xml")({
           const [tax, products, pages, cities, posts, works] =
             await Promise.all([
               taxonomies(),
-              all<RawPost>("produto"),
-              all<RawPost>("pages"),
-              all<RawPost>("cidade"),
-              all<RawPost>("posts"),
-              all<RawPost>("trabalho"),
+              allProducts(),
+              allPages(),
+              allCities(),
+              allPosts(),
+              allWorks(),
             ]);
           const urls = [
             "/",

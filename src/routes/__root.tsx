@@ -3,55 +3,12 @@ import {
   HeadContent,
   Outlet,
   Scripts,
-  useRouter,
 } from "@tanstack/react-router";
-import { CartProvider } from "../components/cart";
-import { Header, Footer } from "../components/layout";
+import { CartProvider } from "../components/cart/CartProvider";
+import { NotFound } from "../pages/NotFound";
+import { ErrorView } from "../pages/ErrorView";
 import css from "../styles/app.css?url";
-function NotFound() {
-  return (
-    <>
-      <Header />
-      <main id="main" className="wrap py-28">
-        <p className="eyebrow text-red-600">404 / Caminho não encontrado</p>
-        <h1 className="mt-5 text-4xl font-black md:text-6xl">
-          Vamos voltar à estrada.
-        </h1>
-        <p className="my-6 text-neutral-600">
-          A página que você procura não está disponível.
-        </p>
-        <a href="/produtos/" className="btn">
-          Explorar produtos ↗
-        </a>
-        <a href="/" className="ml-6 underline">
-          Ir para o início
-        </a>
-      </main>
-      <Footer />
-    </>
-  );
-}
-function ErrorView() {
-  const router = useRouter();
-  return (
-    <>
-      <Header />
-      <main id="main" className="wrap py-24">
-        <h1 className="text-4xl font-bold">
-          Conteúdo temporariamente indisponível
-        </h1>
-        <p className="my-6">
-          Não conseguimos consultar o catálogo agora. Tente novamente em
-          instantes.
-        </p>
-        <button className="btn" onClick={() => router.invalidate()}>
-          Tentar novamente
-        </button>
-      </main>
-      <Footer />
-    </>
-  );
-}
+
 export const Route = createRootRoute({
   head: () => ({
     meta: [

@@ -83,7 +83,7 @@ Metadados produzidos server-side por rota.
 Descrição curta/meta description pode ser derivada do conteúdo limpo e truncado.
 Sitemap deve refletir conteúdo do CMS sem exigir alteração manual a cada cadastro.
 
-## Estrutura sugerida
+## Estrutura adotada na V1
 src/
   components/
     layout/
@@ -93,17 +93,44 @@ src/
     cart/
     works/
     blog/
-    ui/
+    common/
+  pages/
   routes/
   lib/
     wordpress/
+    site/
     cart/
-    whatsapp/
-    seo/
-  data/
+    whatsapp.ts
+    seo.ts
   styles/
 
 Evitar dependências sem uso concreto e abstrações prematuras.
+
+### Responsabilidades e composição
+
+- `components/layout`: Header, menu mobile, Footer, Wordmark e composição do layout público.
+- `components/home`: HeroSection, BrandSelector, CategorySection, InstitutionalSection, WorksSection, BlogSection e FinalCta, cada seção em arquivo próprio. `pages/Home.tsx` apenas compõe essas seções.
+- `components/products`: cards/grid, galeria com estado, informações, ações de compra/carrinho e produtos relacionados.
+- `components/catalog`: cabeçalho, navegação visual por modelos, filtros com estado dependente marca/modelo, paginação e composição compartilhada dos resultados.
+- `components/cart`: provider de hidratação/persistência, item, resumo e estados do carrinho. O contexto e as operações puras ficam em `lib/cart`.
+- `components/works` e `components/blog`: apresentação dos respectivos domínios; filtros do blog, galeria e produtos associados a trabalhos.
+- `components/common`: mídia responsiva, breadcrumbs, estados vazios, cabeçalho editorial e renderização de dados estruturados.
+- `pages`: composição explícita de Home, catálogo, marca, categoria, pronta entrega, produto, carrinho, trabalhos, trabalho individual, blog, artigo, cidades, cidade, Page nativa, 404 e erro. Categoria/pronta entrega compartilham a apresentação do catálogo sem duplicar filtros ou consultas.
+- `components/site.tsx`: dispatcher pequeno; escolhe a página e delega a composição ao SiteLayout. Não contém implementações de páginas ou seções.
+- `routes`: integração TanStack Start, SSR, metadata, endpoints públicos de sitemap e robots. As URLs históricas continuam atendidas pela rota dinâmica existente.
+- `lib/wordpress`: transporte/cache em `client`, sanitização em `html`, resolução de mídia em `media`, normalização comum em `normalize`, mecânica de consulta em `query`, classificação/URLs de produtos em `product-urls` e acesso a conteúdo nos módulos `products`, `taxonomies`, `cities`, `pages`, `posts`, `works`. Normalização comum recebe a URL definida pelo domínio; não decide qual domínio está consultando.
+- `lib/site`: tipos compartilhados, contexto público resiliente, resolução das URLs e loaders por domínio. `wordpress/site.ts` só expõe a server function que chama o resolvedor. O resolvedor identifica a rota e delega; busca, pronta entrega, relações de produtos e carregamento das seções não ficam nele.
+- `lib/cart`: contexto existente e operações de estado/persistência; sem novo estado global. `lib/whatsapp.ts` mantém tipos de item e mensagens/URLs centralizados.
+
+**Não concentrar múltiplas páginas, seções independentes ou componentes de domínio em arquivos monolíticos. Manter componentes/seções relevantes em arquivos próprios e separar acesso a dados por domínio. Arquivos agregadores devem apenas compor/orquestrar.**
+
+Não criar barrels ou wrappers sem responsabilidade apenas para preencher a árvore. Componentes pequenos podem permanecer juntos quando não representam uma seção independente nem têm comportamento próprio. Não mover um monólito inteiro para outro nome/diretório.
+
+### Proteção contra regressões
+
+`tests/render-regression.test.tsx` compara hashes do HTML estático de 21 cenários com a implementação anterior à refatoração, incluindo Home com/sem conteúdo, catálogos/filtros/paginação, marca, categoria, pronta entrega, produto com/sem mídia, páginas editoriais e listas vazias. Os snapshots preservam markup, classes Tailwind, links e dados estruturados. Não atualizar os snapshots para acomodar uma refatoração estrutural que deveria preservar a apresentação. Os dados sintéticos desses testes nunca são usados no site.
+
+Testes REST/domínio cobrem sanitização, URLs históricas, ACF gratuito, mídia indisponível, cache, paginação, filtros e WhatsApp. `pnpm test:ssr` valida as principais URLs contra um servidor local e o WordPress real; typecheck, lint e build de produção continuam obrigatórios.
 
 ## Variáveis
 Definir conforme implementação. Esperado:

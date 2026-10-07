@@ -1,0 +1,43 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HTML da V1 antes da refatoração > article 1`] = `"e757b3c15bbbda0a8791b353de6b01e56022321442ca9f787276dc0847d74675"`;
+
+exports[`HTML da V1 antes da refatoração > blog 1`] = `"521b687ec7fdfc9ffe572bf82b81707c1f1d48ba81d403e8f297091cda2d74c5"`;
+
+exports[`HTML da V1 antes da refatoração > blog vazio 1`] = `"75fb8cbbe9291efb5340857f128ef196b1ad3c6f1e09d449e1738429480e5dd1"`;
+
+exports[`HTML da V1 antes da refatoração > brand 1`] = `"ed9ec6126152276e7faf8ad3b0f004375aab1c9bbf55889f86f4fd8b70322d0f"`;
+
+exports[`HTML da V1 antes da refatoração > cart 1`] = `"ae2dff39a88da0fede2afd8d0ddfc3819b224472972c5d13897f6728f39f2ea7"`;
+
+exports[`HTML da V1 antes da refatoração > cart vazio 1`] = `"9efcf2c5626ea49e86b040734d575d393583988f8e24fe3591ec44b0c28348db"`;
+
+exports[`HTML da V1 antes da refatoração > catalog 1`] = `"980783f18e5d8780ad67a27be448060746c1d2b196a06954220f9e080fa9b59e"`;
+
+exports[`HTML da V1 antes da refatoração > catalog vazio 1`] = `"ddca12c95ad9dd4ce78e161bf6521ea98ad932e14bf3a68e3f379f6f2fb06673"`;
+
+exports[`HTML da V1 antes da refatoração > category 1`] = `"f8ecb892d9a8325251578c4c0b1b5650fadd60d7499173620f94d3e1b91c847d"`;
+
+exports[`HTML da V1 antes da refatoração > cities 1`] = `"0e9238998c4602d328a8ce5a6d077a9730407f012d016ea40adbdf83e7f6762c"`;
+
+exports[`HTML da V1 antes da refatoração > cities vazio 1`] = `"b373d1aeda77503a5f01f0974cce71b0e65419e791e78d2f91a322827e5428be"`;
+
+exports[`HTML da V1 antes da refatoração > city 1`] = `"2b2b5c5d0afd1c96b26ebd71454420a24d0094dd3b44e005dbd2d5e5f4a6dcd5"`;
+
+exports[`HTML da V1 antes da refatoração > home 1`] = `"c4ff7e698b013c17913e80760219daa3e3caf7f1fabd8802ad005529d49a7309"`;
+
+exports[`HTML da V1 antes da refatoração > home sem conteúdo 1`] = `"ef0ae2e4c59db8274846fad47420a3b8d037ac7072988e402c61d908081af596"`;
+
+exports[`HTML da V1 antes da refatoração > page 1`] = `"aa7470ab69a8323f6480ce9df105f5cd2e940eeb053d9c506b157f1b0cc25799"`;
+
+exports[`HTML da V1 antes da refatoração > product 1`] = `"38017b2207ec08458335afecea6fa7d1f2c4c0f63845952b4ce01711d30bca9d"`;
+
+exports[`HTML da V1 antes da refatoração > produto sem imagens 1`] = `"eab3412bcc045fa08b2825a95bf33c4e71a80f9fed2e687a6b17f4aa4ea64711"`;
+
+exports[`HTML da V1 antes da refatoração > ready 1`] = `"36d49edc7b3dba5e13099091aa05421242f0177bbe4adc84e1d063873ca7ba04"`;
+
+exports[`HTML da V1 antes da refatoração > work 1`] = `"9c58f87e4842cee6e5a256d831bfdb4b091155698510e35d9da0128d8b4a5e25"`;
+
+exports[`HTML da V1 antes da refatoração > works 1`] = `"3892a4244f300789db153dd4ccf07407bea04fe5d5480048e48228c9858c6ab3"`;
+
+exports[`HTML da V1 antes da refatoração > works vazio 1`] = `"37109ca133e7bd0441cbfc082c7f7185d7524b7faba23ac89b8d0de381028d68"`;

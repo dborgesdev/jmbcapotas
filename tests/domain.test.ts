@@ -1,10 +1,6 @@
 import { describe, it, expect } from "vitest";
-import {
-  clean,
-  safeHtml,
-  productUrl,
-  fiberCategory,
-} from "../src/lib/wordpress/content";
+import { clean, safeHtml } from "../src/lib/wordpress/html";
+import { productUrl, fiberCategory } from "../src/lib/wordpress/product-urls";
 import { cartMessage, buyMessage, whatsapp } from "../src/lib/whatsapp";
 import { validateSearch } from "../src/lib/search";
 describe("Filtros na URL", () => {

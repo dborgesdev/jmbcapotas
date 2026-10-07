@@ -33,3 +33,15 @@ Pendências editoriais/assets:
 `pnpm typecheck`, `pnpm lint` e `pnpm build` passaram. `pnpm test`: 12 testes passaram em duas suites. Domínio/REST cobre URLs, hierarquia, segurança HTML, filtros numéricos, WhatsApp, cache/deduplicação, paginação, mídia ausente, galeria ACF e Pages. `pnpm test:ssr`: 17 rotas/status passaram no bundle de produção, além de busca/filtros/vazio, 301, sitemap, robots e favicon; verificados metadata, canonical e único H1. Avaliação visual e funcional no navegador incluiu 375/768/1024/1440 px sem overflow horizontal, menu/teclado, foco visível, galeria e carrinho com quantidade/persistência/remoção e URL do WhatsApp. Console da Home de produção sem erros ou avisos. Captura visual local em `artifacts/screenshots/home-desktop.jpg` (ignorada pelo Git).
 
 Build, execução do bundle no emulador Workers e `wrangler deploy --dry-run` validam o target localmente. Vinculação à conta Cloudflare, domínio e validação na infraestrutura de produção permanecem para a etapa de deploy; não foram publicados nesta entrega.
+# Refatoração estrutural da V1 — 2026-10-07
+
+- Branch: `feat/v1-site`; sem merge ou PR nesta rodada.
+- `components/site.tsx` reduzido a dispatcher/composição; `layout.tsx`, `cart.tsx` e `wordpress/content.ts` substituídos por módulos próprios. `wordpress/site.ts` só expõe a server function.
+- Regra permanente de decomposição adicionada ao `AGENTS.md`, com responsabilidades registradas em `architecture.md`.
+- 46 testes: 21 comparações exatas de HTML com a V1 anterior, 10 cenários de resolução SSR/REST (incluindo Page e artigo), 3 cenários de carrinho e 12 testes existentes de REST/domínio/WhatsApp.
+- Typecheck, lint e build de produção Cloudflare aprovados.
+- Suíte SSR com REST real: 17 URLs/status, busca/filtros, vazio, redirect 301, sitemap, robots e favicon aprovados na execução completa final.
+- Navegador: marca/modelo/busca, troca de foto, adição ao carrinho, quantidade, persistência após reload, remoção, menu mobile/Escape e mensagem/URL de WhatsApp conferidos. Nenhuma mensagem foi enviada pelo WhatsApp.
+- Desktop 1440, tablet 768 e mobile 375 conferidos; sem alteração intencional de markup ou classes e sem overflow horizontal nas telas verificadas. Console da aba de validação sem erros/warnings.
+- Houve respostas intermitentes 503 no sitemap e 500 em categoria durante validações anteriores; ambas voltaram a responder 200, e a suíte completa passou. A causa dessas ocorrências não foi confirmada; transporte/cache não foi alterado nesta refatoração.
+- WordPress consultado ainda sem Pages/posts publicados; seus cenários são cobertos por testes isolados. Assets locais não rastreados existentes foram preservados fora do commit da refatoração.

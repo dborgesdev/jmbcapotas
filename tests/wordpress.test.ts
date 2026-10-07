@@ -1,28 +1,27 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { all, request, CmsError } from "../src/lib/wordpress/client";
-import { normalize, bySlug } from "../src/lib/wordpress/content";
+import { normalizePost } from "../src/lib/wordpress/normalize";
+import { pageBySlug } from "../src/lib/wordpress/pages";
 afterEach(() => vi.unstubAllGlobals());
 describe("REST WordPress", () => {
   it("consulta Pages pelo slug original e preserva a URL pública", async () => {
-    const fetchMock = vi
-      .fn()
-      .mockResolvedValue(
-        new Response(
-          JSON.stringify([
-            {
-              id: 88,
-              slug: "quem-somos-teste",
-              title: { rendered: "Quem somos" },
-              content: { rendered: "<p>Conteúdo nativo.</p>" },
-              featured_media: 0,
-              date: "2026-10-07",
-              modified: "2026-10-07",
-            },
-          ]),
-        ),
-      );
+    const fetchMock = vi.fn().mockResolvedValue(
+      new Response(
+        JSON.stringify([
+          {
+            id: 88,
+            slug: "quem-somos-teste",
+            title: { rendered: "Quem somos" },
+            content: { rendered: "<p>Conteúdo nativo.</p>" },
+            featured_media: 0,
+            date: "2026-10-07",
+            modified: "2026-10-07",
+          },
+        ]),
+      ),
+    );
     vi.stubGlobal("fetch", fetchMock);
-    const page = await bySlug("pages", "quem-somos-teste");
+    const page = await pageBySlug("quem-somos-teste");
     expect(String(fetchMock.mock.calls[0][0])).toContain(
       "pages?per_page=12&slug=quem-somos-teste",
     );
@@ -92,7 +91,7 @@ describe("REST WordPress", () => {
             ),
       ),
     );
-    const post = await normalize(
+    const post = await normalizePost(
       {
         id: 7,
         slug: "galeria",
@@ -110,7 +109,7 @@ describe("REST WordPress", () => {
           },
         },
       },
-      "produto",
+      "/produtos/galeria/",
     );
     expect(post.images).toHaveLength(1);
     expect(post.images[0].id).toBe(701);
