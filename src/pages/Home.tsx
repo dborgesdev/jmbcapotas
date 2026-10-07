@@ -1,3 +1,4 @@
+import { ClientsMarquee } from "../components/home/ClientsMarquee";
 import { FinalCta } from "../components/home/FinalCta";
 import { type SiteData } from "../lib/site/types";
 import { HeroSection } from "../components/home/HeroSection";
@@ -13,8 +14,9 @@ export function Home({ d }: { d: SiteData }) {
     <>
       <HeroSection hero={hero} />
       <BrandSelector brands={d.tax.brands} error={d.error} />
-      <CategorySection categories={d.tax.categories} product={d.post} />
-      <InstitutionalSection institutional={institutional} product={d.post} />
+      <CategorySection categories={d.tax.categories} />
+      <InstitutionalSection institutional={institutional} />
+      <ClientsMarquee clients={d.clients} />
       <WorksSection works={d.works} />
       <BlogSection posts={d.posts} />
       <FinalCta image={hero} />

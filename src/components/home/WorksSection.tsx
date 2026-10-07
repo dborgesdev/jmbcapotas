@@ -1,3 +1,5 @@
+import { headingText } from "../../lib/text";
+import { Eyebrow } from "../common/Eyebrow";
 import { Picture } from "../common/Picture";
 import { type Post } from "../../lib/wordpress/types";
 export function WorksSection({ works }: { works?: Post[] }) {
@@ -6,8 +8,8 @@ export function WorksSection({ works }: { works?: Post[] }) {
       <div className="wrap py-20">
         <div className="mb-12 flex flex-wrap items-end justify-between gap-6">
           <div>
-            <p className="eyebrow text-red-600">04 / Na prática</p>
-            <h2 className="section-title mt-4">Da escolha à estrada.</h2>
+            <Eyebrow className="text-red-600">04 / Na prática</Eyebrow>
+            <h2 className="section-title mt-4">Da escolha à estrada</h2>
           </div>
           <a
             href="/trabalhos/"
@@ -25,7 +27,7 @@ export function WorksSection({ works }: { works?: Post[] }) {
                 className="aspect-[16/10] w-full object-cover"
               />
               <h3 className="mt-5 flex justify-between text-lg font-bold">
-                {p.name}
+                {headingText(p.name)}
                 <span>↗</span>
               </h3>
             </a>

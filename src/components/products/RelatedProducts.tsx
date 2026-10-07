@@ -5,7 +5,7 @@ export function RelatedProducts({ products }: { products?: Post[] }) {
     <>
       {!!products?.length && (
         <section className="border-t border-neutral-200 pt-12">
-          <h2 className="section-title mb-10">Outras possibilidades.</h2>
+          <h2 className="section-title mb-10">Outras possibilidades</h2>
           <ProductGrid posts={products} />
         </section>
       )}

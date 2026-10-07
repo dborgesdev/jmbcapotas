@@ -1,3 +1,5 @@
+import { headingText } from "../../lib/text";
+import { ProductAvailability } from "./ProductAvailability";
 import { type SiteData } from "../../lib/site/types";
 import { type Post } from "../../lib/wordpress/types";
 import { brandUrl } from "../../lib/paths";
@@ -18,8 +20,13 @@ export function ProductInfo({ p, tax }: { p: Post; tax: SiteData["tax"] }) {
         ))}
       </div>
       <h1 className="mt-5 text-3xl font-black leading-tight tracking-tight md:text-4xl">
-        {p.name}
+        {headingText(p.name)}
       </h1>
+      <p className="mt-5 text-sm leading-7 text-neutral-600">
+        {p.introduction ||
+          p.summary ||
+          "Confira os detalhes e converse com a JMB para confirmar a compatibilidade com seu veículo."}
+      </p>
       {p.acf?.codigo_produto && (
         <p className="mt-4 text-sm text-neutral-500">
           Código {p.acf.codigo_produto}
@@ -35,12 +42,8 @@ export function ProductInfo({ p, tax }: { p: Post; tax: SiteData["tax"] }) {
           <span key={m.id}>{m.name}</span>
         ))}
       </div>
-      {p.acf?.pronta_entrega && (
-        <p className="mb-6 text-xs font-bold uppercase tracking-wider">
-          ● Pronta entrega · Consulte disponibilidade
-        </p>
-      )}
-      <p className="text-sm leading-7 text-neutral-600">{p.summary}</p>
+      {p.acf?.pronta_entrega === true && <ProductAvailability />}
+
       <ProductActions p={p} />
     </div>
   );

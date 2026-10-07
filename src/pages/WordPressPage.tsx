@@ -1,3 +1,4 @@
+import { introduction } from "../lib/site/introduction";
 import { Picture } from "../components/common/Picture";
 import { Breadcrumb } from "../components/common/Breadcrumb";
 import { whatsapp } from "../lib/whatsapp";
@@ -9,7 +10,11 @@ export function WordPressPage({ d }: { d: SiteData }) {
   return (
     <article className="wrap pb-20">
       <Breadcrumb title={d.title} />
-      <EditorialHeader title={d.title} eyebrow="JMB Capotas" />
+      <EditorialHeader
+        introduction={introduction(d)}
+        title={d.title}
+        eyebrow="JMB Capotas"
+      />
       <Picture
         image={p.images[0]}
         alt={p.name}

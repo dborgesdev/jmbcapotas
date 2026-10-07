@@ -1,3 +1,4 @@
+import { Eyebrow } from "../components/common/Eyebrow";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 export function NotFound() {
@@ -5,9 +6,9 @@ export function NotFound() {
     <>
       <Header />
       <main id="main" className="wrap py-28">
-        <p className="eyebrow text-red-600">404 / Caminho não encontrado</p>
+        <Eyebrow className="text-red-600">404 / Caminho não encontrado</Eyebrow>
         <h1 className="mt-5 text-4xl font-black md:text-6xl">
-          Vamos voltar à estrada.
+          Vamos voltar à estrada
         </h1>
         <p className="my-6 text-neutral-600">
           A página que você procura não está disponível.

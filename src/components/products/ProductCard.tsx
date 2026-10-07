@@ -1,3 +1,4 @@
+import { headingText } from "../../lib/text";
 import { Picture } from "../common/Picture";
 import { type Post } from "../../lib/wordpress/types";
 export function ProductCard({ post: p }: { post: Post }) {
@@ -16,7 +17,9 @@ export function ProductCard({ post: p }: { post: Post }) {
         )}
       </div>
       <div className="flex justify-between gap-4 pt-5">
-        <h3 className="text-lg font-bold leading-snug">{p.name}</h3>
+        <h3 className="text-lg font-bold leading-snug">
+          {headingText(p.name)}
+        </h3>
         <span aria-hidden="true">↗</span>
       </div>
       {p.acf?.codigo_produto && (

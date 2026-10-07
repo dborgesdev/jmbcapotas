@@ -136,3 +136,11 @@ Páginas estáticas do legado serão cadastradas como Pages com seus slugs origi
 ## Media
 Endpoint: /media/{id}
 Todos os IDs de mídia devem ser resolvidos por esta API ou via _embed quando tecnicamente mais eficiente. Implementação deve tolerar 0, null e string vazia em campos opcionais.
+
+## Clientes
+
+- CPT: `cliente`
+- Endpoint: `/wp-json/wp/v2/cliente`
+- `title`: identificação administrativa/nome.
+- `featured_media`: logo do cliente utilizado na marquee da Home, resolvido pelo módulo de mídia.
+- Não são presumidos campos adicionais nem destinos para links.

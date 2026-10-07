@@ -1,4 +1,4 @@
-import { Wordmark } from "./Wordmark";
+import { Logo } from "./Logo";
 import { CONTACT_LABEL } from "../../lib/config";
 import { whatsapp } from "../../lib/whatsapp";
 import { type Post } from "../../lib/wordpress/types";
@@ -15,10 +15,10 @@ export function Footer({
       <div className="wrap grid gap-12 py-16 md:grid-cols-3 lg:grid-cols-4">
         <div>
           <a href="/" aria-label="JMB Capotas início">
-            <Wordmark />
+            <Logo />
           </a>
           <p className="mt-6 max-w-56 text-sm leading-6 text-neutral-400">
-            Capotas para sua picape.
+            Produtos para seu veículo.
             <br />
             Seu próximo caminho começa aqui.
           </p>
@@ -70,7 +70,17 @@ export function Footer({
       </div>
       <div className="wrap flex flex-wrap justify-between gap-3 border-t border-white/10 py-6 text-xs text-neutral-400">
         <span>© {new Date().getFullYear()} JMB Capotas</span>
-        <span>Feita para acompanhar você.</span>
+        <span>
+          Desenvolvido por Douglas Borges -{" "}
+          <a
+            href="https://smartlocal.com.br"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white"
+          >
+            Smart Local
+          </a>
+        </span>
       </div>
     </footer>
   );

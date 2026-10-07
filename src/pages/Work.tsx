@@ -1,3 +1,4 @@
+import { introduction } from "../lib/site/introduction";
 import { Breadcrumb } from "../components/common/Breadcrumb";
 import { whatsapp } from "../lib/whatsapp";
 import { type SiteData } from "../lib/site/types";
@@ -9,7 +10,11 @@ export function Work({ d }: { d: SiteData }) {
   return (
     <article className="wrap pb-20">
       <Breadcrumb title={d.title} />
-      <EditorialHeader title={d.title} eyebrow="Trabalhos / Galeria" />
+      <EditorialHeader
+        introduction={introduction(d)}
+        title={d.title}
+        eyebrow="Trabalhos / Galeria"
+      />
       <WorkGallery post={p} />
       <div
         className="prose mt-8"

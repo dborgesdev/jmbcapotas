@@ -16,7 +16,7 @@ export function CatalogFilters({ d }: { d: SiteData }) {
           className="field mt-2"
           name="q"
           type="search"
-          placeholder="O que sua picape precisa?"
+          placeholder="O que seu veículo precisa?"
           defaultValue={d.search.q}
         />
       </label>

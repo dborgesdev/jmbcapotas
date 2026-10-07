@@ -1,3 +1,4 @@
+import { PaymentConditions } from "./PaymentConditions";
 import { useCart } from "../../lib/cart/context";
 import { whatsapp, buyMessage } from "../../lib/whatsapp";
 import { type Post } from "../../lib/wordpress/types";
@@ -26,9 +27,7 @@ export function ProductActions({ p }: { p: Post }) {
           </a>
         </p>
       )}
-      <p className="mt-7 text-xs leading-6 text-neutral-500">
-        Parcelamento em até 12x. Consulte condições de pagamento.
-      </p>
+      <PaymentConditions />
     </>
   );
 }

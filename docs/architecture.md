@@ -108,7 +108,7 @@ Evitar dependências sem uso concreto e abstrações prematuras.
 
 ### Responsabilidades e composição
 
-- `components/layout`: Header, menu mobile, Footer, Wordmark e composição do layout público.
+- `components/layout`: Header, menu mobile, Footer, Logo e composição do layout público.
 - `components/home`: HeroSection, BrandSelector, CategorySection, InstitutionalSection, WorksSection, BlogSection e FinalCta, cada seção em arquivo próprio. `pages/Home.tsx` apenas compõe essas seções.
 - `components/products`: cards/grid, galeria com estado, informações, ações de compra/carrinho e produtos relacionados.
 - `components/catalog`: cabeçalho, navegação visual por modelos, filtros com estado dependente marca/modelo, paginação e composição compartilhada dos resultados.
@@ -128,7 +128,7 @@ Não criar barrels ou wrappers sem responsabilidade apenas para preencher a árv
 
 ### Proteção contra regressões
 
-`tests/render-regression.test.tsx` compara hashes do HTML estático de 21 cenários com a implementação anterior à refatoração, incluindo Home com/sem conteúdo, catálogos/filtros/paginação, marca, categoria, pronta entrega, produto com/sem mídia, páginas editoriais e listas vazias. Os snapshots preservam markup, classes Tailwind, links e dados estruturados. Não atualizar os snapshots para acomodar uma refatoração estrutural que deveria preservar a apresentação. Os dados sintéticos desses testes nunca são usados no site.
+`tests/render-regression.test.tsx` compara hashes do HTML estático de 21 cenários com a referência aprovada da V1, incluindo Home com/sem conteúdo, catálogos/filtros/paginação, marca, categoria, pronta entrega, produto com/sem mídia, páginas editoriais e listas vazias. Os snapshots preservam markup, classes Tailwind, links e dados estruturados. Não atualizar os snapshots para acomodar uma refatoração estrutural que deveria preservar a apresentação. Os dados sintéticos desses testes nunca são usados no site.
 
 Testes REST/domínio cobrem sanitização, URLs históricas, ACF gratuito, mídia indisponível, cache, paginação, filtros e WhatsApp. `pnpm test:ssr` valida as principais URLs contra um servidor local e o WordPress real; typecheck, lint e build de produção continuam obrigatórios.
 
@@ -140,3 +140,11 @@ WhatsApp pode ficar em configuração central do projeto enquanto não houver op
 
 ## Deploy
 Validar adapter/runtime TanStack Start para Cloudflare Workers antes de considerar arquitetura concluída. Não criar servidor Node customizado como requisito quando Workers resolverem.
+
+## Refinamento visual da V1
+
+- `home/HeroVideo` verifica reduced motion antes de carregar o vídeo local; o SSR entrega fallback estático. `CategoryCard` usa exclusivamente `acf.imagem`; `catalog/CategoryHero` usa `acf.imagem_fundo`.
+- `home/ClientsMarquee` apresenta logos resolvidos por `wordpress/clients`, sem consultas no componente e sem links presumidos.
+- `products/ProductAvailability` e `PaymentConditions` apresentam os estados comerciais; compatibilidade e seleção de relacionados ficam em `wordpress/related` e `products`.
+- `lib/site/introduction` prioriza descrições nativas, conteúdo editorial normalizado e fallback específico por página.
+- Nesta rodada de mudanças visuais explicitamente solicitadas, os 21 snapshots foram atualizados após testes de comportamento e inspeção visual. Refatorações futuras continuam obrigadas a preservar essa referência sem atualização automática.

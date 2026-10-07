@@ -20,5 +20,9 @@ export function safeHtml(html: string) {
       h1: "h2",
       img: sanitizeHtml.simpleTransform("img", { loading: "lazy" }),
     },
-  });
+  }).replace(
+    /(<h[123]\b[^>]*>)([\s\S]*?)(<\/h[123]>)/gi,
+    (_, opening: string, content: string, closing: string) =>
+      opening + content.replace(/\.(\s*(?:<\/[^>]+>\s*)*)$/, "$1") + closing,
+  );
 }

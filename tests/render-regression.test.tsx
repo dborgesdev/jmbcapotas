@@ -143,7 +143,7 @@ const cases: Record<string, SiteData> = {
     ]),
   ),
 };
-describe("HTML da V1 antes da refatoração", () => {
+describe("HTML da V1 após refinamento visual", () => {
   beforeAll(() => {
     vi.useFakeTimers();
     vi.setSystemTime(new Date("2026-10-07T12:00:00Z"));

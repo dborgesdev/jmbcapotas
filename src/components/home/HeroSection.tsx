@@ -1,29 +1,23 @@
-import { Picture } from "../common/Picture";
+import { Eyebrow } from "../common/Eyebrow";
+import { HeroVideo } from "./HeroVideo";
 import { whatsapp } from "../../lib/whatsapp";
 import { type Media } from "../../lib/wordpress/types";
 export function HeroSection({ hero }: { hero?: Media }) {
   return (
     <section className="relative isolate flex min-h-[760px] items-center overflow-hidden bg-[#25282b] text-white md:min-h-[860px] md:h-[95svh] md:max-h-[1080px]">
-      {hero && (
-        <Picture
-          image={hero}
-          alt="Picape com capota de fibra JMB"
-          eager
-          className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
-        />
-      )}
+      <HeroVideo fallback={hero} />
       <div className="absolute inset-0 -z-10 bg-black/65" />
       <div className="wrap w-full pb-16 pt-36 text-center">
-        <p className="eyebrow mb-7 text-white/80">
+        <Eyebrow className="mb-7 text-white/80">
           JMB Capotas / Feita para sua picape
-        </p>
+        </Eyebrow>
         <h1 className="mx-auto max-w-4xl text-[44px] font-black leading-[1.02] tracking-[-.045em] md:text-[68px]">
           Pronta para o trabalho.
           <br />
-          Feita para o seu caminho.
+          Feita para o seu caminho
         </h1>
         <p className="mx-auto mt-7 max-w-xl text-base leading-7 text-white/85 md:text-lg">
-          Encontre a capota ideal para sua picape.
+          Encontre o produto ideal para seu veículo.
           <br />
           Escolha sua marca. Explore as possibilidades.
         </p>

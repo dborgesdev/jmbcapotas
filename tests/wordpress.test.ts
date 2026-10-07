@@ -2,8 +2,62 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 import { all, request, CmsError } from "../src/lib/wordpress/client";
 import { normalizePost } from "../src/lib/wordpress/normalize";
 import { pageBySlug } from "../src/lib/wordpress/pages";
+import { clients } from "../src/lib/wordpress/clients";
 afterEach(() => vi.unstubAllGlobals());
 describe("REST WordPress", () => {
+  it("consome cliente apenas com title e featured_media e tolera logo ausente", async () => {
+    const fetchMock = vi.fn().mockImplementation(
+      async (url: string) =>
+        new Response(
+          JSON.stringify(
+            url.includes("/media/")
+              ? {
+                  id: 801,
+                  source_url: "https://example.test/logo.webp",
+                  media_details: { width: 500, height: 200 },
+                }
+              : [
+                  {
+                    id: 1,
+                    title: { rendered: "Cliente &amp; nome" },
+                    featured_media: 801,
+                  },
+                  { id: 2, title: { rendered: "Sem logo" }, featured_media: 0 },
+                ],
+          ),
+        ),
+    );
+    vi.stubGlobal("fetch", fetchMock);
+    const entries = await clients();
+    expect(String(fetchMock.mock.calls[0][0])).toContain(
+      "/cliente?per_page=100",
+    );
+    expect(entries[0]).toMatchObject({
+      name: "Cliente & nome",
+      logo: { id: 801 },
+    });
+    expect(entries[1].logo).toBeUndefined();
+  });
+  it("deriva introdução do editor, ignorando parágrafo que contém apenas o nome", async () => {
+    const post = await normalizePost(
+      {
+        id: 8,
+        slug: "introducao",
+        title: { rendered: "JMB" },
+        content: {
+          rendered:
+            "<p>JMB Capotas</p><p>Explore as opções para seu veículo e confira os detalhes. Converse com a equipe.</p>",
+        },
+        date: "2026-10-07",
+        modified: "2026-10-07",
+        featured_media: 0,
+      },
+      "/introducao/",
+    );
+    expect(post.introduction).toBe(
+      "Explore as opções para seu veículo e confira os detalhes.",
+    );
+  });
   it("consulta Pages pelo slug original e preserva a URL pública", async () => {
     const fetchMock = vi.fn().mockResolvedValue(
       new Response(

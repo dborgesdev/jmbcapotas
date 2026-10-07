@@ -2,6 +2,7 @@ import type { Post } from "./wordpress/types";
 import { whatsapp } from "./whatsapp";
 export function navigation(pages: Post[]) {
   return [
+    { name: "Início", url: "/" },
     { name: "Produtos", url: "/produtos/" },
     { name: "Pronta entrega", url: "/pronta-entrega/" },
     {

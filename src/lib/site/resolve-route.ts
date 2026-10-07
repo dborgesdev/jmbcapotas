@@ -20,11 +20,14 @@ export async function resolveRoute(input: {
   try {
     if (path === "/") return await home(context);
     if (path === "/produtos/")
-      return await catalog(context, "Encontre a capota para sua picape");
+      return await catalog(
+        context,
+        "Encontre o produto ideal para seu veículo",
+      );
     if (path === "/pronta-entrega/")
       return await catalog(
         context,
-        "Capotas em pronta entrega",
+        "Produtos em pronta entrega",
         undefined,
         undefined,
         true,
@@ -42,7 +45,7 @@ export async function resolveRoute(input: {
         requireTaxonomies();
         throw notFound();
       }
-      return await catalog(context, "Capotas para " + brand.name, brand.id);
+      return await catalog(context, "Produtos para " + brand.name, brand.id);
     }
     if (/^\/(produtos|capota-para-picape)\/[^/]+\/$/.test(path)) {
       requireTaxonomies();

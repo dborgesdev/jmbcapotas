@@ -1,3 +1,4 @@
+import { Eyebrow } from "../common/Eyebrow";
 import { Picture } from "../common/Picture";
 import { whatsapp } from "../../lib/whatsapp";
 import { type Media } from "../../lib/wordpress/types";
@@ -13,12 +14,12 @@ export function FinalCta({ image }: { image?: Media }) {
       )}
       <div className="absolute inset-0 -z-10 bg-black/70" />
       <div className="wrap py-24 text-center md:py-32">
-        <p className="eyebrow text-neutral-300">
+        <Eyebrow className="text-neutral-300">
           Sua picape. Seu próximo caminho.
-        </p>
+        </Eyebrow>
         <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-black tracking-tight md:text-6xl">
-          Vamos encontrar a<br className="hidden md:block" /> capota certa para
-          você.
+          Vamos encontrar o<br className="hidden md:block" /> produto certo para
+          você
         </h2>
         <a
           className="btn mt-9"

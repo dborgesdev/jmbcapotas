@@ -12,10 +12,10 @@ export function CartView() {
   if (!items.length)
     return (
       <div className="border-y border-neutral-200 py-16">
-        <h2 className="text-2xl font-bold">Seu próximo caminho começa aqui.</h2>
+        <h2 className="text-2xl font-bold">Seu próximo caminho começa aqui</h2>
         <p className="mt-3 text-neutral-600">
           Seu carrinho está vazio. Explore o catálogo e escolha os produtos para
-          sua picape.
+          seu veículo.
         </p>
         <a className="btn mt-8" href="/produtos/">
           Explorar produtos ↗

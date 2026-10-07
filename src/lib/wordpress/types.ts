@@ -46,6 +46,7 @@ export type Post = Omit<RawPost, "title" | "content"> & {
   name: string;
   html: string;
   summary: string;
+  introduction?: string;
   images: Media[];
   url: string;
 };

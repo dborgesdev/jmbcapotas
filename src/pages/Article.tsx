@@ -1,3 +1,4 @@
+import { introduction } from "../lib/site/introduction";
 import { Picture } from "../components/common/Picture";
 import { Breadcrumb } from "../components/common/Breadcrumb";
 import { StructuredData } from "../components/common/StructuredData";
@@ -12,6 +13,7 @@ export function Article({ d }: { d: SiteData }) {
     <article className="wrap pb-20">
       <Breadcrumb title={d.title} />
       <EditorialHeader
+        introduction={introduction(d)}
         title={d.title}
         eyebrow="Blog / Na estrada"
         date={p.date}

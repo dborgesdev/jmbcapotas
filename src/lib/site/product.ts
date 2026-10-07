@@ -19,6 +19,6 @@ export async function product(
     kind: "product",
     title: post.name,
     post,
-    related: await relatedProducts(post, base.tax.categories),
+    related: await relatedProducts(post, base.tax.categories, base.tax.brands),
   };
 }

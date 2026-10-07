@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 const base = process.env.TEST_BASE_URL || "http://localhost:3000";
 const cases = [
   ["/", 200, "Pronta para o trabalho."],
-  ["/produtos/", 200, "Encontre a capota para sua picape"],
+  ["/produtos/", 200, "Encontre o produto ideal para seu veículo"],
   ["/produtos/capota-de-fibra/", 200, "Capota de Fibra"],
   ["/marcas/capota-de-fibra-para-fiat/", 200, "Strada 2020-26"],
   [
@@ -12,6 +12,10 @@ const cases = [
     "CFF-01",
   ],
   ["/pronta-entrega/", 200, "CFF-01"],
+  ["/quem-somos/", 200, "Quem Somos?"],
+  ["/produtos/acessorios/", 200, "Acessórios"],
+  ["/marcas/capota-de-fibra-para-volkswagen/", 200, "Produtos para Volkswagen"],
+  ["/blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition/", 200, "Ram 2500"],
   ["/carrinho/", 200, "Seu carrinho"],
   ["/trabalhos/", 200, "Trabalhos que ganham a estrada"],
   [
@@ -25,7 +29,7 @@ const cases = [
     200,
     "Capota para picape em Curitiba/PR",
   ],
-  ["/blog/", 200, "Em breve"],
+  ["/blog/", 200, "Na estrada com a JMB"],
   ["/caminho-inexistente/", 404, "Vamos voltar"],
   ["/produtos/inexistente/", 404, "Vamos voltar"],
   ["/blog/inexistente/", 404, "Vamos voltar"],

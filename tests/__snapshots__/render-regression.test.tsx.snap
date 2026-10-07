@@ -1,43 +1,43 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`HTML da V1 antes da refatoração > article 1`] = `"e757b3c15bbbda0a8791b353de6b01e56022321442ca9f787276dc0847d74675"`;
+exports[`HTML da V1 após refinamento visual > article 1`] = `"224bd3e84a7d023214b8ad19a1540eae36a57f1a93b18c82e7d4cf1bf9f9e851"`;
 
-exports[`HTML da V1 antes da refatoração > blog 1`] = `"521b687ec7fdfc9ffe572bf82b81707c1f1d48ba81d403e8f297091cda2d74c5"`;
+exports[`HTML da V1 após refinamento visual > blog 1`] = `"57aad2665662eb5f1a64a88a33694c5b3563809465b46339349070b84d81dba4"`;
 
-exports[`HTML da V1 antes da refatoração > blog vazio 1`] = `"75fb8cbbe9291efb5340857f128ef196b1ad3c6f1e09d449e1738429480e5dd1"`;
+exports[`HTML da V1 após refinamento visual > blog vazio 1`] = `"70c6dbc87b1530705113f6e952f67aae289e633a321780c3b655a1e35477bfe3"`;
 
-exports[`HTML da V1 antes da refatoração > brand 1`] = `"ed9ec6126152276e7faf8ad3b0f004375aab1c9bbf55889f86f4fd8b70322d0f"`;
+exports[`HTML da V1 após refinamento visual > brand 1`] = `"81f32e60212768413f4f9802eb7b2d1e0720b01c6849fb179d3d490a6679cf21"`;
 
-exports[`HTML da V1 antes da refatoração > cart 1`] = `"ae2dff39a88da0fede2afd8d0ddfc3819b224472972c5d13897f6728f39f2ea7"`;
+exports[`HTML da V1 após refinamento visual > cart 1`] = `"43f783d0b79e9a7568db0611fed5174bba947a438af68c242ac148a0dc07a095"`;
 
-exports[`HTML da V1 antes da refatoração > cart vazio 1`] = `"9efcf2c5626ea49e86b040734d575d393583988f8e24fe3591ec44b0c28348db"`;
+exports[`HTML da V1 após refinamento visual > cart vazio 1`] = `"3c75aee2bfae78f3adb446edd47fc25d8759890259c301fafae6738f6ef7530b"`;
 
-exports[`HTML da V1 antes da refatoração > catalog 1`] = `"980783f18e5d8780ad67a27be448060746c1d2b196a06954220f9e080fa9b59e"`;
+exports[`HTML da V1 após refinamento visual > catalog 1`] = `"5433f9c9d66eaf0aa69b72c4484137fb4b75c816aaaa6ac18764162eb62dc5b5"`;
 
-exports[`HTML da V1 antes da refatoração > catalog vazio 1`] = `"ddca12c95ad9dd4ce78e161bf6521ea98ad932e14bf3a68e3f379f6f2fb06673"`;
+exports[`HTML da V1 após refinamento visual > catalog vazio 1`] = `"13ea1b9e7946b4d0604a94e38529d0e8367e7e79b86628b6a72584023afc8408"`;
 
-exports[`HTML da V1 antes da refatoração > category 1`] = `"f8ecb892d9a8325251578c4c0b1b5650fadd60d7499173620f94d3e1b91c847d"`;
+exports[`HTML da V1 após refinamento visual > category 1`] = `"c6de5b0630c79fffa1c30221b0ac966a260e29d226194913d2bc9a4e8d0e32e6"`;
 
-exports[`HTML da V1 antes da refatoração > cities 1`] = `"0e9238998c4602d328a8ce5a6d077a9730407f012d016ea40adbdf83e7f6762c"`;
+exports[`HTML da V1 após refinamento visual > cities 1`] = `"f008c4f2689df9396699f5895a302a9005e085ed2c9b81680708af08f57dfd19"`;
 
-exports[`HTML da V1 antes da refatoração > cities vazio 1`] = `"b373d1aeda77503a5f01f0974cce71b0e65419e791e78d2f91a322827e5428be"`;
+exports[`HTML da V1 após refinamento visual > cities vazio 1`] = `"e0b9709e608c8b15f5ca009fe400018950cede5322d7ac2e03f7c135a0adb74a"`;
 
-exports[`HTML da V1 antes da refatoração > city 1`] = `"2b2b5c5d0afd1c96b26ebd71454420a24d0094dd3b44e005dbd2d5e5f4a6dcd5"`;
+exports[`HTML da V1 após refinamento visual > city 1`] = `"49750464e5516162565de449957b52525c23621314127356dee89bfcefe93ab8"`;
 
-exports[`HTML da V1 antes da refatoração > home 1`] = `"c4ff7e698b013c17913e80760219daa3e3caf7f1fabd8802ad005529d49a7309"`;
+exports[`HTML da V1 após refinamento visual > home 1`] = `"e0cc5e94b8691be769e17d0ea36641347c67ec4cfd65603ce560bfb798c84b9e"`;
 
-exports[`HTML da V1 antes da refatoração > home sem conteúdo 1`] = `"ef0ae2e4c59db8274846fad47420a3b8d037ac7072988e402c61d908081af596"`;
+exports[`HTML da V1 após refinamento visual > home sem conteúdo 1`] = `"2ea8aa116b4a040a96459c4aa35a7ff8cdfd2ce141dbf37aec8e7961ff8a64a5"`;
 
-exports[`HTML da V1 antes da refatoração > page 1`] = `"aa7470ab69a8323f6480ce9df105f5cd2e940eeb053d9c506b157f1b0cc25799"`;
+exports[`HTML da V1 após refinamento visual > page 1`] = `"d1edc106bc3d5709f8de7dfbd06e069bbe272cf642968fb9923bf415d44b82b0"`;
 
-exports[`HTML da V1 antes da refatoração > product 1`] = `"38017b2207ec08458335afecea6fa7d1f2c4c0f63845952b4ce01711d30bca9d"`;
+exports[`HTML da V1 após refinamento visual > product 1`] = `"b2e1ea24499fb3f223a7c65b42b1317b280825cd3a23f57025081858f6590c20"`;
 
-exports[`HTML da V1 antes da refatoração > produto sem imagens 1`] = `"eab3412bcc045fa08b2825a95bf33c4e71a80f9fed2e687a6b17f4aa4ea64711"`;
+exports[`HTML da V1 após refinamento visual > produto sem imagens 1`] = `"6bf12493e886097be3f3f79b5605a78a62e8fb4cf0d4ed391a69ea02eb35cf65"`;
 
-exports[`HTML da V1 antes da refatoração > ready 1`] = `"36d49edc7b3dba5e13099091aa05421242f0177bbe4adc84e1d063873ca7ba04"`;
+exports[`HTML da V1 após refinamento visual > ready 1`] = `"e34eb1562869cbf60afa49c7dd070b7dd260b6a1e87ab36c2925b8723c0a3e77"`;
 
-exports[`HTML da V1 antes da refatoração > work 1`] = `"9c58f87e4842cee6e5a256d831bfdb4b091155698510e35d9da0128d8b4a5e25"`;
+exports[`HTML da V1 após refinamento visual > work 1`] = `"a6eb075e37507d6934d0fa1081a5654142e9121848a43199937f7226fc2be77e"`;
 
-exports[`HTML da V1 antes da refatoração > works 1`] = `"3892a4244f300789db153dd4ccf07407bea04fe5d5480048e48228c9858c6ab3"`;
+exports[`HTML da V1 após refinamento visual > works 1`] = `"c44eeb4deac29951a9d51ec05638f05b9f599df7e7cf89854cb14475e00f6c68"`;
 
-exports[`HTML da V1 antes da refatoração > works vazio 1`] = `"37109ca133e7bd0441cbfc082c7f7185d7524b7faba23ac89b8d0de381028d68"`;
+exports[`HTML da V1 após refinamento visual > works vazio 1`] = `"9e09ce91722dde8fdeb98969e6cf1ce74ddcf3e6ae09746e290a7ec9e327e87e"`;

@@ -1,4 +1,5 @@
 import type { Post, Taxonomies, Collection } from "../wordpress/types";
+import type { Client } from "../wordpress/clients";
 export type Search = {
   q?: string;
   categoria?: string;
@@ -18,6 +19,7 @@ export type SiteData = {
   post?: Post;
   works?: Post[];
   posts?: Post[];
+  clients?: Client[];
   related?: Post[];
   blogCategories?: { id: number; name: string }[];
   search: Search;

@@ -4,7 +4,7 @@ export function seo(d: SiteData) {
   const title = `${d.title} | JMB Capotas`;
   const description =
     d.post?.summary ||
-    "Encontre capotas para sua picape. Navegue por marcas, modelos e categorias e fale com a JMB Capotas pelo WhatsApp.";
+    "Encontre produtos para seu veículo. Navegue por marcas, modelos e categorias e fale com a JMB Capotas pelo WhatsApp.";
   const canonical = `${SITE}${d.path}`;
   const image = d.post?.images[0]?.url;
   return {

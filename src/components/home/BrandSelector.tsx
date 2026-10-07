@@ -1,3 +1,4 @@
+import { Eyebrow } from "../common/Eyebrow";
 import { Picture } from "../common/Picture";
 import { type Term } from "../../lib/wordpress/types";
 import { brandUrl } from "../../lib/paths";
@@ -12,8 +13,8 @@ export function BrandSelector({
     <section id="marcas" className="wrap py-16 md:py-20">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
-          <p className="eyebrow text-red-600">01 / Encontre a sua</p>
-          <h2 className="section-title mt-4">Qual é a sua picape?</h2>
+          <Eyebrow className="text-red-600">01 / Encontre a sua</Eyebrow>
+          <h2 className="section-title mt-4">Qual é o seu veículo?</h2>
         </div>
         <p className="max-w-sm text-sm leading-6 text-neutral-500">
           Comece pela marca e encontre os produtos

@@ -1,3 +1,6 @@
+import { headingText } from "../../lib/text";
+import { Eyebrow } from "../common/Eyebrow";
+import { introduction } from "../../lib/site/introduction";
 import { Breadcrumb } from "../common/Breadcrumb";
 import { type SiteData } from "../../lib/site/types";
 export function CatalogHeader({ d }: { d: SiteData }) {
@@ -7,10 +10,13 @@ export function CatalogHeader({ d }: { d: SiteData }) {
         title={d.title}
         parent={{ name: "Produtos", url: "/produtos/" }}
       />
-      <p className="eyebrow text-red-600">
+      <Eyebrow className="text-red-600">
         Catálogo JMB / Encontre sua solução
+      </Eyebrow>
+      <h1 className="section-title mt-5 max-w-3xl">{headingText(d.title)}</h1>
+      <p className="mt-6 max-w-3xl whitespace-pre-line text-base leading-7 text-neutral-600">
+        {introduction(d)}
       </p>
-      <h1 className="section-title mt-5 max-w-3xl">{d.title}</h1>
     </>
   );
 }

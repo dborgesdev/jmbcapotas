@@ -3,6 +3,7 @@ import { collection, type QueryParams } from "./query";
 import { normalizePost } from "./normalize";
 import { productUrl } from "./product-urls";
 import type { RawPost, Term, Collection, Post } from "./types";
+import { selectRelatedProducts } from "./related";
 export const products = (params: QueryParams = {}, categories: Term[] = []) =>
   collection("produto", (p) => productUrl(p, categories), params);
 export const productBySlug = async (slug: string, categories: Term[] = []) =>
@@ -35,14 +36,42 @@ export async function readyProducts(
     pages: Math.ceil(raw.length / 12),
   };
 }
-export async function relatedProducts(post: Post, categories: Term[]) {
-  const related = await products(
-    post.categoria_produto?.[0]
-      ? { categoria_produto: post.categoria_produto[0], per_page: 5 }
-      : { per_page: 5 },
-    categories,
-  ).catch(() => ({ items: [], total: 0, pages: 0 }));
-  return related.items.filter((p) => p.id !== post.id).slice(0, 4);
+export async function relatedProducts(
+  post: Post,
+  categories: Term[],
+  brands: Term[] = [],
+) {
+  const compatible =
+    post.marca?.length && post.modelo?.length
+      ? await products(
+          {
+            marca: post.marca.join(","),
+            modelo: post.modelo.join(","),
+            tax_relation: "AND",
+            exclude: post.id,
+            per_page: 4,
+          },
+          categories,
+        ).catch(() => ({ items: [] }))
+      : { items: [] };
+  const selected = selectRelatedProducts(post, compatible.items);
+  if (selected.length === 4) return selected;
+  // Paginar os genéricos evita perder opções válidas depois de modelos incompatíveis.
+  // Só resolver a mídia dos itens efetivamente apresentados.
+  const rawGeneric = await all<RawPost>(
+    "produto",
+    "&" +
+      new URLSearchParams({
+        marca_exclude: brands.map((b) => b.id).join(","),
+        exclude: String(post.id),
+      }),
+  ).catch(() => []);
+  const generic = await Promise.all(
+    selectRelatedProducts(post, rawGeneric, 4 - selected.length).map((p) =>
+      normalizePost(p, productUrl(p, categories)),
+    ),
+  );
+  return selectRelatedProducts(post, [...selected, ...generic]);
 }
 export async function linkedProducts(post: Post, categories: Term[]) {
   return post.acf?.produto?.length
