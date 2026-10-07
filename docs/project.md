@@ -8,7 +8,7 @@ Especificação consolidada para implementação da V1. Este documento é fonte 
 - WordPress headless: https://painel.jmbcapotas.com.br/
 - REST base: https://painel.jmbcapotas.com.br/wp-json/wp/v2/
 - Repositório: dborgesdev/jmbcapotas
-- WhatsApp: usar o mesmo número atualmente publicado no site antigo; centralizar em configuração e confirmar/obter o valor no legado antes de produção.
+- WhatsApp público confirmado para o site: +55 41 99868-6072. Centralizar em configuração; não duplicar em componentes.
 - Frontend: React + TypeScript + Tailwind CSS + TanStack Start com SSR.
 - Package manager: pnpm.
 - Deploy pretendido para SSR: Cloudflare Workers, salvo incompatibilidade técnica concreta.
@@ -35,22 +35,38 @@ Mensagem base, ajustável no código:
 "Olá, vim do site da JMB Capotas e quero comprar o produto {produto}."
 Carrinho deve listar itens/quantidades. Incluir código do produto e URL quando disponíveis.
 
-## Home
-Direção inspirada no ritmo visual da Walumar informado pelo cliente, sem copiar identidade/layout. Usar imagens e vídeos como fundos quando houver material adequado, conteúdo centralizado e linguagem automotiva/industrial contemporânea.
+## Home e direção de layout
+Referência visual aprovada para direção: site da fábrica Walumar. Usar como referência de ritmo, escala e linguagem do segmento, NÃO como layout a copiar e NÃO mencionar no site que a Walumar é a fábrica/representada da JMB.
+
+Características que devem ser traduzidas para a identidade JMB:
+- seções visualmente amplas, com fotografia/vídeo automotivo em grande escala e, quando adequado, como background;
+- conteúdo centralizado sobre imagem nas seções de impacto;
+- alternância entre blocos escuros e áreas claras para ritmo e legibilidade;
+- composição mais editorial/automotiva que "grade de cards";
+- pouco ruído visual e foco em veículo, produto, categoria e ação;
+- vermelho JMB como assinatura/ação, não como grandes massas de fundo.
 
 Ordem funcional:
-1. Header.
-2. Hero visual de alto impacto.
-3. Seletor de marcas imediatamente após o Hero, com logos.
+1. Header enxuto, sobreposto/transparente no topo do Hero quando a legibilidade permitir; ao navegar, manter acesso claro a Produtos, Empresa, Galeria/Trabalhos, Blog, Contato, busca, carrinho e WhatsApp. Mobile: logo, busca/carrinho e menu compacto.
+2. Hero quase full-screen, preferencialmente com vídeo real de produto/veículo/instalação; quando não houver vídeo adequado, usar fotografia real de alta qualidade. Implementar fallback de imagem. Conteúdo objetivo, centralizado, com H1 forte e CTAs para Produtos e WhatsApp.
+3. Seletor de marcas IMEDIATAMENTE após o Hero, com logos reais vindos da taxonomia Marca. Clique abre a página da marca. Esta é a principal porta de entrada do catálogo na Home.
 4. CTA "Ver todos os produtos" para /produtos/.
-5. Apresentação das principais categorias/linhas.
-6. Bloco institucional.
-7. Trabalhos/galeria.
-8. Conteúdo/blog quando adequado.
-9. CTA final WhatsApp.
-10. Footer.
+5. Categorias/linhas: apresentação editorial e visual das principais categorias cadastradas, usando imagem/imagem_fundo da taxonomia quando disponíveis. Não confundir esta seção com produtos em destaque.
+6. Bloco institucional: apresentar JMB e proposta de valor apenas com fatos suportados pelo conteúdo disponível; fotografia real quando usada.
+7. Trabalhos/galeria: composição visual baseada no CPT Trabalho e somente imagens reais.
+8. Blog/conteúdo: entradas recentes quando houver conteúdo publicado; a ausência de posts não pode quebrar a Home.
+9. CTA final WhatsApp em seção visual de alto impacto, preferencialmente com background real apropriado.
+10. Footer claro e organizado, com navegação de catálogo, institucional, contato e links relevantes.
 
-Produtos individuais NÃO possuem campo de destaque e não devem depender de uma seção "produtos em destaque" na Home.
+Produtos individuais NÃO aparecem na Home como "produtos em destaque". Não existe campo destaque e não deve ser criado.
+
+### Tipografia, composição e movimento
+- Sans-serif contemporânea, forte e legível, adequada ao universo automotivo/industrial.
+- Hero H1 com escala aproximada de 56–72 px no desktop e 38–46 px no mobile, ajustada responsivamente conforme a fonte/composição.
+- Hierarquia tipográfica marcada, bastante espaço negativo e imagens como parte estrutural do layout.
+- Motion moderado: entradas sutis, hover e transições funcionais. Sem parallax pesado ou animações que prejudiquem performance.
+- Respeitar prefers-reduced-motion.
+- Evitar glassmorphism, glow/neon, gradientes decorativos gratuitos, excesso de sombras/cards e estética SaaS/template/IA.
 
 ## Navegação por veículo
 Ao selecionar uma marca, abrir página da marca. Ela deve mostrar os modelos daquela marca com imagem/nome, busca e produtos correspondentes. Selecionar modelo filtra produtos.
