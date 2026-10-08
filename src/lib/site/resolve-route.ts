@@ -19,7 +19,7 @@ export async function resolveRoute(input: {
   const context = await siteContext(path, input.search);
   const { base, requireTaxonomies } = context;
   try {
-    await legacyRedirect(path, base.tax.categories);
+    await legacyRedirect(path, base.tax.categories, base.tax.brands);
     if (path === "/") return await home(context);
     if (path === "/produtos/")
       return await catalog(
