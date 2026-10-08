@@ -8,12 +8,15 @@ import { CatalogFilters } from "./CatalogFilters";
 export function CatalogLayout({
   d,
   children,
+  hero,
 }: {
   d: SiteData;
   children?: ReactNode;
+  hero?: ReactNode;
 }) {
   return (
     <>
+      {hero}
       <div className="wrap pb-16">
         {children}
         <CatalogFilters d={d} />

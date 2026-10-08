@@ -1,13 +1,15 @@
+import { WhatsAppLink } from "../components/common/WhatsAppLink";
+import { useWhatsApp } from "../lib/site/config-context";
 import { introduction } from "../lib/site/introduction";
 import { Picture } from "../components/common/Picture";
 import { Breadcrumb } from "../components/common/Breadcrumb";
 import { StructuredData } from "../components/common/StructuredData";
 import { SITE } from "../lib/config";
-import { whatsapp } from "../lib/whatsapp";
 import { type SiteData } from "../lib/site/types";
 import { EditorialHeader } from "../components/common/EditorialHeader";
 import { WorkProducts } from "../components/works/WorkProducts";
 export function Article({ d }: { d: SiteData }) {
+  const whatsapp = useWhatsApp();
   const p = d.post!;
   return (
     <article className="wrap pb-20">
@@ -28,9 +30,9 @@ export function Article({ d }: { d: SiteData }) {
         dangerouslySetInnerHTML={{ __html: p.html }}
       />
       <WorkProducts products={d.related} />
-      <a href={whatsapp()} className="btn mt-10">
+      <WhatsAppLink href={whatsapp()} className="btn mt-10">
         Fale com a JMB ↗
-      </a>
+      </WhatsAppLink>
       <StructuredData
         data={{
           "@context": "https://schema.org",

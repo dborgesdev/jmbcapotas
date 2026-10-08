@@ -4,6 +4,11 @@ import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
 import { SiteView } from "../src/components/site";
 import type { SiteData } from "../src/lib/site/types";
 import type { Post } from "../src/lib/wordpress/types";
+// These are static markup tests; navigation behavior is checked in browser/brand-search tests.
+vi.mock("@tanstack/react-router", async (importOriginal) => ({
+  ...(await importOriginal<typeof import("@tanstack/react-router")>()),
+  useNavigate: () => vi.fn(),
+}));
 
 // Synthetic data is used only to exercise the existing V1 markup, never as CMS content.
 const post: Post = {
@@ -30,6 +35,18 @@ const post: Post = {
   })),
 };
 const base: SiteData = {
+  config: {
+    hero: post.images[0],
+    finalCta: post.images[1],
+    telephone: "554133334444",
+    whatsapp: "5541998686072",
+    email: "contact@example.test",
+    address: "Endereço sintético",
+    maps: "https://example.test/map",
+    instagram: "https://example.test/instagram",
+    facebook: "https://example.test/facebook",
+    payment: "Parcelamento em até 12x. Consulte condições de pagamento.",
+  },
   kind: "home",
   title: "Título",
   path: "/",
@@ -143,7 +160,7 @@ const cases: Record<string, SiteData> = {
     ]),
   ),
 };
-describe("HTML da V1 após refinamento visual", () => {
+describe("HTML da V1 após configuração CMS e navegação", () => {
   beforeAll(() => {
     vi.useFakeTimers();
     vi.setSystemTime(new Date("2026-10-07T12:00:00Z"));

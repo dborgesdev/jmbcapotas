@@ -1,6 +1,6 @@
+import { useWhatsApp } from "../../lib/site/config-context";
 import type { Post } from "../../lib/wordpress/types";
 import { headingText } from "../../lib/text";
-import { whatsapp } from "../../lib/whatsapp";
 import { Picture } from "../common/Picture";
 import { Eyebrow } from "../common/Eyebrow";
 export function InstitutionalSection({
@@ -8,6 +8,7 @@ export function InstitutionalSection({
 }: {
   institutional?: Post;
 }) {
+  const whatsapp = useWhatsApp();
   return (
     <section
       id="sobre"
@@ -29,9 +30,16 @@ export function InstitutionalSection({
             institutional?.summary ||
             "Explore os produtos para seu veículo e converse com a JMB para conhecer as opções para sua rotina."}
         </p>
-        <a href={institutional?.url || whatsapp()} className="btn mt-8">
-          {institutional ? "Conheça a JMB" : "Converse com a JMB"} ↗
-        </a>
+        {(institutional?.url || whatsapp()) && (
+          <a
+            href={institutional?.url || whatsapp()}
+            target={institutional ? undefined : "_blank"}
+            rel={institutional ? undefined : "noopener noreferrer"}
+            className="btn mt-8"
+          >
+            {institutional ? "Conheça a JMB" : "Converse com a JMB"} ↗
+          </a>
+        )}
       </div>
     </section>
   );

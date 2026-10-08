@@ -1,6 +1,5 @@
+import { FooterContacts } from "./FooterContacts";
 import { Logo } from "./Logo";
-import { CONTACT_LABEL } from "../../lib/config";
-import { whatsapp } from "../../lib/whatsapp";
 import { type Post } from "../../lib/wordpress/types";
 
 export function Footer({
@@ -56,31 +55,11 @@ export function Footer({
             ))}
           </nav>
         </div>
-        <div>
-          <h2 className="eyebrow text-neutral-400">Fale com nossa equipe</h2>
-          <a className="mt-6 block text-xl font-bold" href={whatsapp()}>
-            {CONTACT_LABEL} ↗
-          </a>
-          <p className="mt-5 text-sm leading-6 text-neutral-400">
-            Parcelamento em até 12x.
-            <br />
-            Consulte condições de pagamento.
-          </p>
-        </div>
+        <FooterContacts />
       </div>
-      <div className="wrap flex flex-wrap justify-between gap-3 border-t border-white/10 py-6 text-xs text-neutral-400">
+      <div className="wrap flex flex-col gap-3 border-t border-white/10 py-6 text-xs text-neutral-400 md:flex-row md:justify-between md:pr-24">
         <span>© {new Date().getFullYear()} JMB Capotas</span>
-        <span>
-          Desenvolvido por Douglas Borges -{" "}
-          <a
-            href="https://smartlocal.com.br"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-white"
-          >
-            Smart Local
-          </a>
-        </span>
+        <span>Feita para acompanhar você.</span>
       </div>
     </footer>
   );

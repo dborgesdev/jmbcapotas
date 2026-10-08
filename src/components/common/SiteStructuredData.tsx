@@ -1,5 +1,5 @@
 import { StructuredData } from "./StructuredData";
-import { SITE, WHATSAPP } from "../../lib/config";
+import { SITE } from "../../lib/config";
 import { type SiteData } from "../../lib/site/types";
 export function SiteStructuredData({ d }: { d: SiteData }) {
   return (
@@ -33,7 +33,7 @@ export function SiteStructuredData({ d }: { d: SiteData }) {
             "@type": "Organization",
             name: "JMB Capotas",
             url: SITE,
-            telephone: `+${WHATSAPP}`,
+            telephone: d.config?.telephone ? `+${d.config.telephone}` : undefined,
           }}
         />
       )}

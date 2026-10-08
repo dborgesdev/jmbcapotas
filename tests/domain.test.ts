@@ -92,7 +92,7 @@ describe("Conversão WhatsApp", () => {
     });
     expect(message).toContain("CFF-01");
     expect(message).toContain("https://jmbcapotas.com.br/produtos/capota/");
-    expect(whatsapp(message)).toContain("https://wa.me/5541998686072?text=");
+    expect(whatsapp(message, "41998686072")).toContain("https://wa.me/5541998686072?text=");
   });
   it("serializa quantidades de todos os itens", () => {
     expect(

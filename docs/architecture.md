@@ -40,6 +40,7 @@ Normalizar HTML, mídia, ACF e termos antes de entregar aos componentes.
 /wp-json/wp/v2/pages
 /wp-json/wp/v2/posts
 /wp-json/wp/v2/media
+/wp-json/wp/v2/site-config
 
 Usar parâmetros REST para slug, taxonomia, paginação e busca quando suportados.
 
@@ -136,14 +137,22 @@ Testes REST/domínio cobrem sanitização, URLs históricas, ACF gratuito, mídi
 Definir conforme implementação. Esperado:
 WORDPRESS_API_URL=https://painel.jmbcapotas.com.br/wp-json/wp/v2
 PUBLIC_SITE_URL=https://jmbcapotas.com.br
-WhatsApp pode ficar em configuração central do projeto enquanto não houver opção global no CMS.
+Dados institucionais/comerciais vêm exclusivamente do CPT `site-config` do WordPress.
 
 ## Deploy
 Validar adapter/runtime TanStack Start para Cloudflare Workers antes de considerar arquitetura concluída. Não criar servidor Node customizado como requisito quando Workers resolverem.
 
 ## Refinamento visual da V1
 
-- `home/HeroVideo` verifica reduced motion antes de carregar o vídeo local; o SSR entrega fallback estático. `CategoryCard` usa exclusivamente `acf.imagem`; `catalog/CategoryHero` usa `acf.imagem_fundo`.
+- `home/HeroSection` usa exclusivamente a mídia `site-config.hero`, priorizada no SSR; sem vídeo ou fallback de catálogo. `CategoryCard` usa exclusivamente `acf.imagem`; `catalog/CategoryHero` usa `acf.imagem_fundo`.
+
+## Configuração pública global
+
+`wordpress/site-config` consulta o slug publicado, normaliza contatos, valida URLs e e-mail, resolve IDs de mídia com deduplicação e entrega `SiteConfig`. Usa transporte existente (cache público de 60s, requisições concorrentes deduplicadas, timeout), compatível com SSR/Workers. Falha retorna configuração vazia, com fundos neutros e sem inventar contatos/parcelamento.
+
+`site/context` inclui configuração nos dados das rotas; `PublicConfigContext` distribui dados normalizados e contexto de produto/marca já resolvido. Componentes não consultam ACF. `contacts`, `payment` e `whatsapp` centralizam normalização, condições e mensagens; carrinho mantém sua mensagem própria. `FloatingWhatsApp` não consulta WordPress. Hero e CTA final usam imagens independentes. `ProductsDropdown` usa cinco marcas em ordem alfabética por nome da taxonomia, desempate por ID, sem ranking comercial.
+
+`BrandHero` ocupa a viewport quando há imagem de fundo; sem imagem mantém `CatalogHeader`. Troca de marca usa TanStack Router, preserva busca/categoria válida, preserva apenas modelo compatível e remove paginação.
 - `home/ClientsMarquee` apresenta logos resolvidos por `wordpress/clients`, sem consultas no componente e sem links presumidos.
 - `products/ProductAvailability` e `PaymentConditions` apresentam os estados comerciais; compatibilidade e seleção de relacionados ficam em `wordpress/related` e `products`.
 - `lib/site/introduction` prioriza descrições nativas, conteúdo editorial normalizado e fallback específico por página.

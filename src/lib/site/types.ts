@@ -1,5 +1,6 @@
 import type { Post, Taxonomies, Collection } from "../wordpress/types";
 import type { Client } from "../wordpress/clients";
+import type { SiteConfig } from "../wordpress/site-config";
 export type Search = {
   q?: string;
   categoria?: string;
@@ -9,6 +10,7 @@ export type Search = {
   blogCategoria?: string;
 };
 export type SiteData = {
+  config?: SiteConfig;
   kind: string;
   title: string;
   path: string;

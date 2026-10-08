@@ -1,14 +1,20 @@
+import { WhatsAppLink } from "../common/WhatsAppLink";
+import { useSiteConfig } from "../../lib/site/config-context";
+import { useWhatsApp } from "../../lib/site/config-context";
 import { Eyebrow } from "../common/Eyebrow";
 import { Picture } from "../common/Picture";
-import { whatsapp } from "../../lib/whatsapp";
 import { type Media } from "../../lib/wordpress/types";
 export function FinalCta({ image }: { image?: Media }) {
+  const whatsapp = useWhatsApp();
+  const config = useSiteConfig();
+  image ??= config.finalCta;
   return (
     <section className="relative isolate overflow-hidden bg-[#1b1e21] text-white">
       {image && (
         <Picture
           image={image}
           alt=""
+          sizes="100vw"
           className="absolute inset-0 -z-20 h-full w-full object-cover"
         />
       )}
@@ -21,14 +27,14 @@ export function FinalCta({ image }: { image?: Media }) {
           Vamos encontrar o<br className="hidden md:block" /> produto certo para
           você
         </h2>
-        <a
+        <WhatsAppLink
           className="btn mt-9"
           href={whatsapp()}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Converse com nossa equipe ↗
-        </a>
+        </WhatsAppLink>
       </div>
     </section>
   );

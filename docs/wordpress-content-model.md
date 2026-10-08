@@ -4,6 +4,19 @@ Base REST: https://painel.jmbcapotas.com.br/wp-json/wp/v2/
 
 O projeto usa ACF gratuito. Não exigir Gallery, Repeater, Options Page ou Relationship do ACF Pro. A configuração abaixo reflete as respostas reais fornecidas pelo painel.
 
+## CPT site-config
+
+Endpoint: `/site-config?slug=jmb-capotas&status=publish&per_page=1`, resposta em array. Registro confirmado: ID 874, slug `jmb-capotas`.
+
+ACF gratuito, campos reais:
+- `hero`, `final_cta`: media ID ou null; resolvidos independentemente e deduplicados quando iguais.
+- `telefone`, `whatsapp`: número/string/null, sem máscara; podem ser diferentes.
+- `email`, `instagram`, `facebook`, `endereco`, `maps`: strings opcionais.
+- `parcelamento`: número inteiro; informação omitida quando menor que 2 ou inválida.
+- `sem_juros`: boolean; apenas `true` autoriza afirmar sem juros.
+
+O WordPress é a fonte de verdade dos dados institucionais e comerciais. Não há números, endereços ou condições comerciais duplicados no frontend. Campos vazios/ inválidos são omitidos; falha do endpoint não impede o carregamento das páginas.
+
 ## CPT produto
 Endpoint: /produto
 

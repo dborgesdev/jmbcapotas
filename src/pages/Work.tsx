@@ -1,11 +1,13 @@
+import { WhatsAppLink } from "../components/common/WhatsAppLink";
+import { useWhatsApp } from "../lib/site/config-context";
 import { introduction } from "../lib/site/introduction";
 import { Breadcrumb } from "../components/common/Breadcrumb";
-import { whatsapp } from "../lib/whatsapp";
 import { type SiteData } from "../lib/site/types";
 import { EditorialHeader } from "../components/common/EditorialHeader";
 import { WorkGallery } from "../components/works/WorkGallery";
 import { WorkProducts } from "../components/works/WorkProducts";
 export function Work({ d }: { d: SiteData }) {
+  const whatsapp = useWhatsApp();
   const p = d.post!;
   return (
     <article className="wrap pb-20">
@@ -21,9 +23,9 @@ export function Work({ d }: { d: SiteData }) {
         dangerouslySetInnerHTML={{ __html: p.html }}
       />
       <WorkProducts products={d.related} />
-      <a href={whatsapp()} className="btn mt-10">
+      <WhatsAppLink href={whatsapp()} className="btn mt-10">
         Fale com a JMB ↗
-      </a>
+      </WhatsAppLink>
     </article>
   );
 }

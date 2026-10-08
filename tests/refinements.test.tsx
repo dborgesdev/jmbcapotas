@@ -3,7 +3,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { selectRelatedProducts } from "../src/lib/wordpress/related";
 import { headingText, eyebrowText } from "../src/lib/text";
 import { safeHtml } from "../src/lib/wordpress/html";
-import { HeroVideo } from "../src/components/home/HeroVideo";
+import { HeroSection } from "../src/components/home/HeroSection";
 import { CategoryCard } from "../src/components/home/CategoryCard";
 import { ClientsMarquee } from "../src/components/home/ClientsMarquee";
 import type { Post, Media } from "../src/lib/wordpress/types";
@@ -55,10 +55,11 @@ describe("Refinamentos da V1", () => {
       "<h2>Seu estilo. Sua escolha</h2><p>Texto.</p>",
     );
   });
-  it("entrega fallback estático SSR sem carregar vídeo antes de verificar reduced motion", () => {
-    const html = renderToStaticMarkup(<HeroVideo fallback={image} />);
+  it("entrega imagem priorizada SSR sem vídeo", () => {
+    const html = renderToStaticMarkup(<HeroSection hero={image} />);
     expect(html).toContain(image.url);
     expect(html).not.toContain("<video");
+    expect(html).toContain('fetchPriority="high"');
   });
   it("usa imagem do card e não imagem_fundo no carrossel", () => {
     const html = renderToStaticMarkup(

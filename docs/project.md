@@ -8,7 +8,7 @@ Especificação consolidada para implementação da V1. Este documento é fonte 
 - WordPress headless: https://painel.jmbcapotas.com.br/
 - REST base: https://painel.jmbcapotas.com.br/wp-json/wp/v2/
 - Repositório: dborgesdev/jmbcapotas
-- WhatsApp público confirmado para o site: +55 41 99868-6072. Centralizar em configuração; não duplicar em componentes.
+- Telefone e WhatsApp públicos vêm do CPT `site-config`, slug `jmb-capotas`; não duplicar em componentes.
 - Frontend: React + TypeScript + Tailwind CSS + TanStack Start com SSR.
 - Package manager: pnpm.
 - Deploy pretendido para SSR: Cloudflare Workers, salvo incompatibilidade técnica concreta.
@@ -48,7 +48,7 @@ Características que devem ser traduzidas para a identidade JMB:
 
 Ordem funcional:
 1. Header enxuto, sobreposto/transparente no topo do Hero quando a legibilidade permitir; ao navegar, manter acesso claro a Produtos, Empresa, Galeria/Trabalhos, Blog, Contato, busca, carrinho e WhatsApp. Mobile: logo, busca/carrinho e menu compacto.
-2. Hero quase full-screen, preferencialmente com vídeo real de produto/veículo/instalação; quando não houver vídeo adequado, usar fotografia real de alta qualidade. Implementar fallback de imagem. Conteúdo objetivo, centralizado, com H1 forte e CTAs para Produtos e WhatsApp.
+2. Hero quase full-screen com imagem real de `site-config.hero`, sem vídeo; fundo neutro quando ausente. Conteúdo objetivo, centralizado, com H1 forte e CTAs para Produtos e WhatsApp.
 3. Seletor de marcas IMEDIATAMENTE após o Hero, com logos reais vindos da taxonomia Marca. Clique abre a página da marca. Esta é a principal porta de entrada do catálogo na Home.
 4. CTA "Ver todos os produtos" para /produtos/.
 5. Categorias/linhas: apresentação editorial e visual das principais categorias cadastradas, usando imagem/imagem_fundo da taxonomia quando disponíveis. Não confundir esta seção com produtos em destaque.
@@ -94,7 +94,7 @@ Página individual:
 Descrição curta em cards deve ser derivada no frontend dos primeiros caracteres de content.rendered, removendo HTML. Não existe campo de resumo/excerpt no modelo adotado.
 
 ## Pronta entrega
-Produto possui ACF pronta_entrega boolean. Criar experiência/página de capotas em pronta entrega conforme solicitação do cliente, usando este estado comercial em vez de categoria artificial.
+Produto possui ACF pronta_entrega boolean. Página intitulada “Produtos a pronta entrega”, usando este estado comercial em vez de categoria artificial, sem restringir o catálogo a capotas.
 
 ## Categorias
 Categorias são dinâmicas e hierárquicas. O frontend não pode hardcodar apenas as categorias iniciais. Novas categorias/subcategorias cadastradas no WordPress devem ser suportadas.
@@ -127,7 +127,15 @@ GET /wp-json/wp/v2/pages?slug={slug}
 Usar title.rendered, content.rendered, featured_media e slug. Preservar os slugs públicos históricos das páginas estáticas cadastradas. Páginas esperadas incluem Quem Somos, A Fábrica, Por que a JMB Capotas e Contato, conforme forem cadastradas.
 
 ## Condição comercial
-Remover comunicação antiga de "10x sem juros". Solicitação atual: comunicar parcelamento em até 12x sem afirmar "sem juros". Formulação segura: "Parcelamento em até 12x. Consulte condições de pagamento."
+Condição comercial vem de `site-config.parcelamento` e `sem_juros`. Omitir menos de 2 parcelas ou valores inválidos. Com boolean `true`: “Parcelamento em até {n}x sem juros”; nos demais casos: “Parcelamento em até {n}x. Consulte condições de pagamento.” WordPress é fonte de verdade institucional e comercial.
+
+## Ajustes de navegação e contato
+
+- Produtos: dropdown desktop por clique e teclado; submenu expansível mobile. Cinco marcas por nome/ID da taxonomia e link geral; Galeria mantém `/trabalhos/`.
+- Home: imagens independentes do Hero e CTA final vêm de `site-config`; sem imagens locais/derivadas de trabalhos.
+- Marca: imagem de fundo em toda a largura, descrição nativa e troca de marca pela URL histórica, preservando filtros compatíveis.
+- Footer: contatos, endereço/mapa e redes do CMS; omitir vazios e restaurar “Feita para acompanhar você.”
+- WhatsApp flutuante: contexto já resolvido de produto/marca, com mensagens centralizadas; carrinho mantém mensagem de seleção.
 
 ## Direção visual
 - marca JMB como base;

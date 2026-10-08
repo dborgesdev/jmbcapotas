@@ -1,11 +1,19 @@
+import { WhatsAppLink } from "../common/WhatsAppLink";
+import { useWhatsApp } from "../../lib/site/config-context";
 import { Eyebrow } from "../common/Eyebrow";
-import { HeroVideo } from "./HeroVideo";
-import { whatsapp } from "../../lib/whatsapp";
+import { Picture } from "../common/Picture";
 import { type Media } from "../../lib/wordpress/types";
 export function HeroSection({ hero }: { hero?: Media }) {
+  const whatsapp = useWhatsApp();
   return (
     <section className="relative isolate flex min-h-190 items-center overflow-hidden bg-[#25282b] text-white md:min-h-215 md:h-[95svh] md:max-h-270">
-      <HeroVideo fallback={hero} />
+      <Picture
+        image={hero}
+        eager
+        alt=""
+        sizes="100vw"
+        className="absolute inset-0 -z-20 h-full w-full object-cover object-center md:object-[center_45%]"
+      />
       <div className="absolute inset-0 -z-10 bg-black/65" />
       <div className="wrap w-full pb-16 pt-36 text-center">
         <Eyebrow className="mb-7 text-white/80">
@@ -25,14 +33,14 @@ export function HeroSection({ hero }: { hero?: Media }) {
           <a className="btn" href="/produtos/">
             Explore os produtos ↗
           </a>
-          <a
+          <WhatsAppLink
             className="btn-outline"
             href={whatsapp()}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Fale com a JMB ↗
-          </a>
+          </WhatsAppLink>
         </div>
       </div>
       <div className="absolute bottom-8 left-5 right-5 flex justify-between border-t border-white/25 pt-5 text-[10px] uppercase tracking-[.2em] md:left-16 md:right-16">

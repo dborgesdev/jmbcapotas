@@ -1,6 +1,7 @@
 import { useRouter } from "@tanstack/react-router";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
+import { FloatingWhatsApp } from "../components/common/FloatingWhatsApp";
 export function ErrorView() {
   const router = useRouter();
   return (
@@ -19,6 +20,7 @@ export function ErrorView() {
         </button>
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </>
   );
 }

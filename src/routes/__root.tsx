@@ -8,8 +8,20 @@ import { CartProvider } from "../components/cart/CartProvider";
 import { NotFound } from "../pages/NotFound";
 import { ErrorView } from "../pages/ErrorView";
 import css from "../styles/app.css?url";
+import { loadPublicConfig } from "../lib/wordpress/public-config";
+import { PublicConfigContext } from "../lib/site/config-context";
+
+function PublicOutlet() {
+  const config = Route.useLoaderData();
+  return (
+    <PublicConfigContext.Provider value={{ config: config || {} }}>
+      <Outlet />
+    </PublicConfigContext.Provider>
+  );
+}
 
 export const Route = createRootRoute({
+  loader: () => loadPublicConfig(),
   head: () => ({
     meta: [
       { charSet: "utf-8" },
@@ -31,7 +43,7 @@ export const Route = createRootRoute({
           Pular para o conteúdo
         </a>
         <CartProvider>
-          <Outlet />
+          <PublicOutlet />
         </CartProvider>
         <Scripts />
       </body>

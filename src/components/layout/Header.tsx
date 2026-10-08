@@ -1,20 +1,26 @@
+import { WhatsAppLink } from "../common/WhatsAppLink";
+import { useWhatsApp } from "../../lib/site/config-context";
 import { homeNavigation } from "../../lib/home-navigation";
 import { navigation } from "../../lib/navigation";
 import { useState, useEffect } from "react";
 import { Logo } from "./Logo";
 import { useCart } from "../../lib/cart/context";
-import { whatsapp } from "../../lib/whatsapp";
 import { type Post } from "../../lib/wordpress/types";
 
 import { MobileMenu } from "./MobileMenu";
+import { ProductsDropdown } from "./ProductsDropdown";
+import type { Term } from "../../lib/wordpress/types";
 
 export function Header({
   pages = [],
   home = false,
+  brands = [],
 }: {
   pages?: Post[];
   home?: boolean;
+  brands?: Term[];
 }) {
+  const whatsapp = useWhatsApp();
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const update = () => setScrolled(window.scrollY > 24);
@@ -31,7 +37,7 @@ export function Header({
     return () => document.removeEventListener("keydown", close);
   }, [open]);
   const { items } = useCart();
-  const links = navigation(pages);
+  const links = navigation(pages, whatsapp());
   return (
     <>
       {!home && <div aria-hidden="true" className="h-20 md:h-24" />}
@@ -50,16 +56,26 @@ export function Header({
             aria-label="Principal"
             className="hidden items-center gap-4 text-[13px] font-medium lg:flex"
           >
-            {links.map((l) => (
-              <a
-                className="hover:underline underline-offset-4 decoration-red-500"
-                key={l.url}
-                href={l.url}
-                onClick={homeNavigation}
-              >
-                {l.name}
-              </a>
-            ))}
+            {links.map((l) =>
+              l.url === "/produtos/" ? (
+                <ProductsDropdown key={l.url} brands={brands} />
+              ) : (
+                <a
+                  className="hover:underline underline-offset-4 decoration-red-500"
+                  key={l.url}
+                  href={l.url}
+                  target={l.url.startsWith("https:") ? "_blank" : undefined}
+                  rel={
+                    l.url.startsWith("https:")
+                      ? "noopener noreferrer"
+                      : undefined
+                  }
+                  onClick={homeNavigation}
+                >
+                  {l.name}
+                </a>
+              ),
+            )}
           </nav>
           <div className="flex items-center gap-4">
             <a
@@ -88,12 +104,14 @@ export function Header({
               </svg>
               <span>{items.reduce((n, p) => n + p.quantity, 0)}</span>
             </a>
-            <a
+            <WhatsAppLink
               href={whatsapp()}
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden border border-white/40 px-4 py-2 text-xs xl:block"
             >
               Fale com a JMB ↗
-            </a>
+            </WhatsAppLink>
             <button
               className="p-2 lg:hidden"
               aria-label={open ? "Fechar menu" : "Abrir menu"}
@@ -105,7 +123,13 @@ export function Header({
             </button>
           </div>
         </div>
-        {open && <MobileMenu links={links} onClose={() => setOpen(false)} />}
+        {open && (
+          <MobileMenu
+            links={links}
+            brands={brands}
+            onClose={() => setOpen(false)}
+          />
+        )}
       </header>
     </>
   );

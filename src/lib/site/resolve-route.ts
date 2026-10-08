@@ -29,7 +29,7 @@ export async function resolveRoute(input: {
     if (path === "/pronta-entrega/")
       return await catalog(
         context,
-        "Produtos em pronta entrega",
+        "Produtos a pronta entrega",
         undefined,
         undefined,
         true,

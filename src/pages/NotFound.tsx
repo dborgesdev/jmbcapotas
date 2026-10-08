@@ -1,6 +1,7 @@
 import { Eyebrow } from "../components/common/Eyebrow";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
+import { FloatingWhatsApp } from "../components/common/FloatingWhatsApp";
 export function NotFound() {
   return (
     <>
@@ -21,6 +22,7 @@ export function NotFound() {
         </a>
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </>
   );
 }
