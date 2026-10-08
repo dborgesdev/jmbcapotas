@@ -23,10 +23,21 @@ beforeEach(() => {
 afterEach(() => vi.unstubAllGlobals());
 
 describe("Redirecionamentos históricos", () => {
-  const check = async (path: string) => {
+  const check = async (path: string, brands: Array<{ id: number; slug: string; name: string }> = []) => {
     const { legacyRedirect } = await import("../src/lib/site/legacy-redirects");
-    return legacyRedirect(path, []);
+    return legacyRedirect(path, [], brands as Parameters<typeof legacyRedirect>[2]);
   };
+  it("redireciona página antiga da Dodge para a marca publicada", async () => {
+    await expect(check("/marcas/capota-de-fibra-para-dodge-venda-e-instalacao/", [
+      { id: 1, slug: "dodge", name: "Dodge" },
+    ])).rejects.toMatchObject({
+      status: 301,
+      options: { statusCode: 301, to: "/$/", params: { _splat: "marcas/capota-de-fibra-para-dodge" } },
+    });
+  });
+  it("não redireciona marca antiga sem taxonomia correspondente", async () => {
+    await expect(check("/marcas/capota-de-fibra-para-inexistente-venda-e-instalacao/")).rejects.toMatchObject({ isNotFound: true });
+  });
   it.each(["/tag/antigo/", "/category/venda-de-capota/"])(
     "envia arquivo de taxonomia %s ao catálogo",
     async (path) => {
