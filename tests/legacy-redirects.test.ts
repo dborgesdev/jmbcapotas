@@ -32,7 +32,7 @@ describe("Redirecionamentos históricos", () => {
     async (path) => {
       await expect(check(path)).rejects.toMatchObject({
         status: 301,
-        options: { statusCode: 301, to: "/produtos/" },
+        options: { statusCode: 301, to: "/$/", params: { _splat: "produtos" } },
       });
     },
   );
