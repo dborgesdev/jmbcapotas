@@ -8,7 +8,10 @@ beforeEach(() => {
     const endpoint = parsed.pathname.split("/").pop();
     const slug = parsed.searchParams.get("slug");
     const rows = endpoint === "posts" || endpoint === "produto"
-      ? [{ id: 1, slug: "teste", title: { rendered: "Teste" }, content: { rendered: "" }, featured_media: 0, categoria_produto: [], modelo: [] }]
+      ? [
+          { id: 1, slug: "teste", title: { rendered: "Teste" }, content: { rendered: "" }, featured_media: 0, categoria_produto: [], modelo: [] },
+          { id: 2, slug: "capota-de-fibra-basica-para-ford-ranger", title: { rendered: "Ranger" }, content: { rendered: "" }, featured_media: 0, categoria_produto: [], modelo: [] },
+        ]
       : [];
     const filtered = slug ? rows.filter((row) => row.slug === slug) : rows;
     return new Response(JSON.stringify(filtered), {
@@ -45,10 +48,15 @@ describe("Redirecionamentos históricos", () => {
       options: { statusCode: 301, params: { _splat: "produtos/teste" } },
     });
   });
-  it("envia produto antigo sem correspondência ao catálogo", async () => {
-    await expect(check("/capota-para-picapes/inexistente/")).rejects.toMatchObject({
+  it("redireciona somente um slug legado revisado para o produto real", async () => {
+    await expect(check("/capota-para-picapes/capota-basica-para-ford-ranger/")).rejects.toMatchObject({
       status: 301,
-      options: { statusCode: 301, to: "/produtos/" },
+      options: { statusCode: 301, params: { _splat: "produtos/capota-de-fibra-basica-para-ford-ranger" } },
+    });
+  });
+  it("não redireciona URL antiga sem equivalente para produto genérico", async () => {
+    await expect(check("/capota-para-picapes/inexistente/")).rejects.toMatchObject({
+      isNotFound: true,
     });
   });
 });
