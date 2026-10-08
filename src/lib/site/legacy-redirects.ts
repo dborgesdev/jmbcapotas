@@ -1,6 +1,7 @@
-import { redirect } from "@tanstack/react-router";
+import { notFound, redirect } from "@tanstack/react-router";
 import { postBySlug } from "../wordpress/posts";
 import { productBySlug } from "../wordpress/products";
+import { legacyProductSlugs } from "./legacy-product-map";
 import type { Term } from "../wordpress/types";
 
 /**
@@ -27,7 +28,8 @@ export async function legacyRedirect(path: string, categories: Term[]) {
 
   const oldProduct = path.match(/^\/capota-para-picapes\/([^/]+)\/$/);
   if (oldProduct) {
-    const product = await productBySlug(oldProduct[1], categories);
+    const slug = legacyProductSlugs[oldProduct[1]] ?? oldProduct[1];
+    const product = await productBySlug(slug, categories);
     if (product) {
       throw redirect({
         to: "/$/",
@@ -35,7 +37,7 @@ export async function legacyRedirect(path: string, categories: Term[]) {
         statusCode: 301,
       });
     }
-    // Slugs with a changed name need a reviewed explicit mapping.
-    throw redirect({ to: "/produtos/", statusCode: 301 });
+    // Sem equivalência publicada, devolver 404 real em vez de redirect genérico.
+    throw notFound();
   }
 }
