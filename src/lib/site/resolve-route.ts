@@ -4,6 +4,7 @@ import { pageBySlug } from "../wordpress/pages";
 import { cityBySlug } from "../wordpress/cities";
 import { siteContext } from "./context";
 import { home } from "./home";
+import { legacyRedirect } from "./legacy-redirects";
 import { catalog } from "./catalog";
 import { product } from "./product";
 import { blog, article } from "./blog";
@@ -18,6 +19,7 @@ export async function resolveRoute(input: {
   const context = await siteContext(path, input.search);
   const { base, requireTaxonomies } = context;
   try {
+    await legacyRedirect(path, base.tax.categories, base.tax.brands);
     if (path === "/") return await home(context);
     if (path === "/produtos/")
       return await catalog(
