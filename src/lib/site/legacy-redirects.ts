@@ -16,7 +16,7 @@ export async function legacyRedirect(path: string, categories: Term[], brands: T
 
   // Old WordPress brand landing pages ended in "-venda-e-instalacao".
   // Redirect only when the brand taxonomy actually exists.
-  const oldBrand = path.match(/^\\/marcas\\/capota-de-fibra-para-(.+)-venda-e-instalacao\\/$/);
+  const oldBrand = path.match(/^\/marcas\/capota-de-fibra-para-(.+)-venda-e-instalacao\/$/);
   if (oldBrand) {
     const brand = brands.find((term) => term.slug === oldBrand[1]);
     if (brand) {
