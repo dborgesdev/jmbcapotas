@@ -4,12 +4,15 @@ const fetchMock = vi.fn();
 beforeEach(() => {
   vi.resetModules();
   fetchMock.mockReset().mockImplementation(async (url: string) => {
-    const endpoint = new URL(url).pathname.split("/").pop();
+    const parsed = new URL(url);
+    const endpoint = parsed.pathname.split("/").pop();
+    const slug = parsed.searchParams.get("slug");
     const rows = endpoint === "posts" || endpoint === "produto"
       ? [{ id: 1, slug: "teste", title: { rendered: "Teste" }, content: { rendered: "" }, featured_media: 0, categoria_produto: [], modelo: [] }]
       : [];
-    return new Response(JSON.stringify(rows), {
-      headers: { "x-wp-total": String(rows.length), "x-wp-totalpages": "1" },
+    const filtered = slug ? rows.filter((row) => row.slug === slug) : rows;
+    return new Response(JSON.stringify(filtered), {
+      headers: { "x-wp-total": String(filtered.length), "x-wp-totalpages": "1" },
     });
   });
   vi.stubGlobal("fetch", fetchMock);
