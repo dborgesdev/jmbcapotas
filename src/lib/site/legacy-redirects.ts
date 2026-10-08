@@ -11,7 +11,7 @@ import type { Term } from "../wordpress/types";
 export async function legacyRedirect(path: string, categories: Term[]) {
   // Historical taxonomy archives have no equivalent archive in the new site.
   if (/^\/(tag|tags|category|categoria|categorias)\/(?:[^/]+\/)*$/.test(path)) {
-    throw redirect({ to: "/produtos/", statusCode: 301 });
+    throw redirect({ to: "/$/", params: { _splat: "produtos" }, statusCode: 301 });
   }
 
   const article = path.match(/^\/venda-de-capota\/([^/]+)\/$/);
