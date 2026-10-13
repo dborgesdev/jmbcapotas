@@ -1,18 +1,15 @@
 import { Eyebrow } from "../common/Eyebrow";
-import { Picture } from "../common/Picture";
+import { BrandLogoGrid } from "../catalog/BrandLogoGrid";
 import { type Term } from "../../lib/wordpress/types";
-import { brandUrl } from "../../lib/paths";
 export function BrandSelector({
   brands,
   error,
-  catalog = false,
 }: {
   brands: Term[];
   error?: string;
-  catalog?: boolean;
 }) {
   return (
-    <section id="marcas" className={catalog ? "pb-8" : "wrap py-16 md:py-20"}>
+    <section id="marcas" className="wrap py-16 md:py-20">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
           <Eyebrow className="text-red-600">01 / Encontre a sua</Eyebrow>
@@ -28,34 +25,13 @@ export function BrandSelector({
           {error}
         </p>
       )}
-      <div className="my-10 flex flex-wrap gap-3 border-y border-neutral-200 py-8">
-        {brands.map((b) => (
-          <a
-            key={b.id}
-            href={brandUrl(b)}
-            className="group flex min-h-32 min-w-44 flex-col items-center justify-center gap-3 px-10 transition-colors hover:bg-neutral-100"
-          >
-            {b.image && (
-              <Picture
-                image={b.image}
-                alt={b.name}
-                className="h-16 w-24 object-contain"
-              />
-            )}
-            <span className="text-xs font-bold tracking-widest">
-              {b.name} ↗
-            </span>
-          </a>
-        ))}
-      </div>
-      {!catalog && (
-        <a
-          href="/produtos/"
-          className="inline-flex gap-10 border-b-2 border-red-600 pb-3 text-sm font-bold"
-        >
-          Ver todos os produtos <span>↗</span>
-        </a>
-      )}
+      <BrandLogoGrid brands={brands} />
+      <a
+        href="/produtos/"
+        className="inline-flex gap-10 border-b-2 border-red-600 pb-3 text-sm font-bold"
+      >
+        Ver todos os produtos <span>↗</span>
+      </a>
     </section>
   );
 }

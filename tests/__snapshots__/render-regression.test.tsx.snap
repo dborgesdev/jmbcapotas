@@ -8,9 +8,9 @@ exports[`HTML da V1 após configuração CMS e navegação > blog vazio 1`] = `"
 
 exports[`HTML da V1 após configuração CMS e navegação > brand 1`] = `"10a1bda43125127c7ec7960f9293bc0d579b5ff247ac19fd101da1c6017d6e9a"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > catalog 1`] = `"e7f2cada5baa650445a870d99c39322b5f46805e83ef061af11c7c46ac0b27c9"`;
+exports[`HTML da V1 após configuração CMS e navegação > catalog 1`] = `"9f66657c32b9e69e4c6454039cc20e0a94594b0c586ce1494c0a0b310966a57f"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > catalog vazio 1`] = `"3f1fc6542e30e6ab7834b156ad082ecf90f026886194412a2cb2d8ebcf94a8e8"`;
+exports[`HTML da V1 após configuração CMS e navegação > catalog vazio 1`] = `"d18d10d4d138d37a1000e462c48072bc3c1ce9b93f7de79290fd52b21cd3446e"`;
 
 exports[`HTML da V1 após configuração CMS e navegação > category 1`] = `"ec58f5e9abfbe51e778a3bd60a8b468b9c86e55b341acb8c63a4b0c6af9e6bfb"`;
 

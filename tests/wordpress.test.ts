@@ -3,8 +3,34 @@ import { all, request, CmsError } from "../src/lib/wordpress/client";
 import { normalizePost } from "../src/lib/wordpress/normalize";
 import { pageBySlug } from "../src/lib/wordpress/pages";
 import { clients } from "../src/lib/wordpress/clients";
+import { terms } from "../src/lib/wordpress/taxonomies";
 afterEach(() => vi.unstubAllGlobals());
 describe("REST WordPress", () => {
+  it("carrega categorias vazias sem hide_empty=true", async () => {
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValue(
+        new Response(
+          JSON.stringify([
+            {
+              id: 300,
+              name: "Vazia",
+              slug: "vazia",
+              count: 0,
+              description: "",
+              parent: 0,
+            },
+          ]),
+          { headers: { "x-wp-totalpages": "1" } },
+        ),
+      );
+    vi.stubGlobal("fetch", fetchMock);
+    expect(await terms("categoria_produto")).toEqual([
+      expect.objectContaining({ slug: "vazia", count: 0 }),
+    ]);
+    const url = new URL(String(fetchMock.mock.calls[0][0]));
+    expect(url.searchParams.get("hide_empty")).not.toBe("true");
+  });
   it("consome cliente apenas com title e featured_media e tolera logo ausente", async () => {
     const fetchMock = vi.fn().mockImplementation(
       async (url: string) =>

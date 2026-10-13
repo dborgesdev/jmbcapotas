@@ -35,6 +35,17 @@ export function NavigationDropdown({
     <div
       ref={ref}
       className={mobile ? "border-b border-white/10" : "relative"}
+      onPointerEnter={(event) => {
+        if (
+          !mobile &&
+          event.pointerType === "mouse" &&
+          window.matchMedia("(hover: hover) and (pointer: fine)").matches
+        )
+          setOpen(true);
+      }}
+      onPointerLeave={(event) => {
+        if (!mobile && event.pointerType === "mouse") setOpen(false);
+      }}
       onBlur={(event) => {
         if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
       }}

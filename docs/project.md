@@ -66,7 +66,7 @@ Produtos individuais NÃO aparecem na Home como "produtos em destaque". Não exi
 ## Navegação por veículo
 Ao selecionar uma marca, abrir página da marca. Ela deve mostrar os modelos daquela marca com imagem/nome, busca e produtos correspondentes. Selecionar modelo filtra produtos.
 
-A Home e /produtos/ compartilham BrandSelector, com logos ACF e fallback textual. Na página geral, a ordem é título, seletor de marcas, pesquisa/filtros e listagem.
+A Home e /produtos/ compartilham BrandLogoGrid, com logos ACF e fallback textual. A Home mantém BrandSelector completo; no catálogo aparece somente a grade compacta de logos clicáveis, sem título/descrição nem nomes visíveis quando há logo. Na página geral, a ordem é título, seletor de marcas, pesquisa/filtros e listagem.
 
 A página geral /produtos/ contém:
 - busca;
@@ -127,7 +127,7 @@ Condição comercial vem de `site-config.parcelamento` e `sem_juros`. Omitir men
 
 ## Ajustes de navegação e contato
 
-- Produtos: categorias publicadas com produtos, hierarquia e sem limite artificial; link final para /produtos/. Empresa: Quem Somos (/quem-somos/) e A Fábrica (/a-fabrica/), Pages nativas. Ambos reutilizam o dropdown desktop e submenu expansível mobile; Galeria mantém `/trabalhos/`.
+- Produtos: todas as categorias públicas, inclusive vazias, hierarquia e sem limite artificial; link final para /produtos/. Empresa: Quem Somos (/quem-somos/) e A Fábrica (/a-fabrica/), Pages nativas. Ambos reutilizam o dropdown desktop com hover imediato, clique e teclado, e submenu expansível mobile por toque; Galeria mantém `/trabalhos/`.
 - Home: imagens independentes do Hero e CTA final vêm de `site-config`; sem imagens locais/derivadas de trabalhos.
 - Marca: imagem de fundo em toda a largura, descrição nativa e troca de marca pela URL histórica, preservando filtros compatíveis.
 - Footer: contatos, endereço/mapa e redes do CMS; omitir vazios e restaurar “Feita para acompanhar você.”

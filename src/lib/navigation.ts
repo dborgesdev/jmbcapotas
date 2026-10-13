@@ -20,11 +20,9 @@ export function categoryNavigation(categories: Term[]) {
   function visit(term: Term, depth: number) {
     if (visited.has(term.id)) return;
     visited.add(term.id);
-    const visible = term.count > 0;
-    if (visible)
-      items.push({ name: term.name, url: `/produtos/${term.slug}/`, depth });
+    items.push({ name: term.name, url: `/produtos/${term.slug}/`, depth });
     for (const child of sorted.filter((t) => t.parent === term.id)) {
-      visit(child, depth + (visible ? 1 : 0));
+      visit(child, depth + 1);
     }
   }
   for (const term of sorted.filter(
