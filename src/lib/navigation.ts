@@ -1,3 +1,4 @@
+import { categoryTree } from "./categories";
 import type { Post } from "./wordpress/types";
 import type { Term } from "./wordpress/types";
 
@@ -7,29 +8,10 @@ export const companyNavigation = [
 ];
 
 export function categoryNavigation(categories: Term[]) {
-  const sorted = [...categories].sort(
-    (a, b) => a.name.localeCompare(b.name, "pt-BR") || a.id - b.id,
-  );
-  const visited = new Set<number>();
-  const items: {
-    name: string;
-    url: string;
-    depth?: number;
-    divider?: boolean;
-  }[] = [];
-  function visit(term: Term, depth: number) {
-    if (visited.has(term.id)) return;
-    visited.add(term.id);
-    items.push({ name: term.name, url: `/produtos/${term.slug}/`, depth });
-    for (const child of sorted.filter((t) => t.parent === term.id)) {
-      visit(child, depth + 1);
-    }
-  }
-  for (const term of sorted.filter(
-    (t) => !t.parent || !categories.some((p) => p.id === t.parent),
-  ))
-    visit(term, 0);
-  for (const term of sorted) visit(term, 0);
+  const items: { name: string; url: string; divider?: boolean }[] =
+    categoryTree(categories)
+      .filter(({ term }) => term.parent === 0)
+      .map(({ term }) => ({ name: term.name, url: `/produtos/${term.slug}/` }));
   items.push({
     name: "Ver todos os produtos",
     url: "/produtos/",

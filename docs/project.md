@@ -70,8 +70,9 @@ A Home e /produtos/ compartilham BrandLogoGrid, com logos ACF e fallback textual
 
 A página geral /produtos/ contém:
 - busca;
-- filtros Categoria > Marca > Modelo;
+- filtros Categoria > Marca > Modelo; categorias em árvore com irmãos em ordem pt-BR, vazios e níveis adicionais incluídos;
 - Modelo dependente da Marca;
+- nas páginas de categoria, Buscar navega para a categoria selecionada (ou /produtos/ para Todas), preserva busca/marca/modelo compatível e reinicia paginação; categoria da URL prevalece sobre query;
 - cards de produtos;
 - paginação/consulta server-side; não baixar 500–600 produtos para filtrar no navegador.
 
@@ -127,7 +128,7 @@ Condição comercial vem de `site-config.parcelamento` e `sem_juros`. Omitir men
 
 ## Ajustes de navegação e contato
 
-- Produtos: todas as categorias públicas, inclusive vazias, hierarquia e sem limite artificial; link final para /produtos/. Empresa: Quem Somos (/quem-somos/) e A Fábrica (/a-fabrica/), Pages nativas. Ambos reutilizam o dropdown desktop com hover imediato, clique e teclado, e submenu expansível mobile por toque; Galeria mantém `/trabalhos/`.
+- Produtos: somente categorias principais (parent === 0), inclusive vazias, em ordem alfabética pt-BR e sem limite artificial; link final para /produtos/. Empresa: Quem Somos (/quem-somos/) e A Fábrica (/a-fabrica/), Pages nativas. Ambos reutilizam o dropdown desktop com hover imediato, clique e teclado, e submenu expansível mobile por toque; Galeria mantém `/trabalhos/`.
 - Home: imagens independentes do Hero e CTA final vêm de `site-config`; sem imagens locais/derivadas de trabalhos.
 - Marca: imagem de fundo em toda a largura, descrição nativa e troca de marca pela URL histórica, preservando filtros compatíveis.
 - Footer: contatos, endereço/mapa e redes do CMS; omitir vazios e restaurar “Feita para acompanhar você.”

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "@tanstack/react-router";
 import { brandUrl } from "../../lib/paths";
 import { brandSearch } from "../../lib/site/brand-search";
+import { catalogDestination } from "../../lib/site/catalog-search";
+import { categoryTree } from "../../lib/categories";
 import { type SiteData } from "../../lib/site/types";
 export function CatalogFilters({ d }: { d: SiteData }) {
   const navigate = useNavigate();
@@ -16,6 +18,17 @@ export function CatalogFilters({ d }: { d: SiteData }) {
     <form
       action={d.path}
       method="get"
+      onSubmit={(event) => {
+        event.preventDefault();
+        void navigate(
+          catalogDestination(d, {
+            q: query,
+            categoria: category,
+            marca: brand,
+            modelo: model,
+          }),
+        );
+      }}
       className="my-10 grid items-end gap-4 border-y border-neutral-200 py-7 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_auto]"
     >
       <label className="text-xs font-bold">
@@ -36,13 +49,12 @@ export function CatalogFilters({ d }: { d: SiteData }) {
           name="categoria"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          disabled={!!d.categoryId}
         >
           <option value="">Todas as categorias</option>
-          {d.tax.categories.map((c) => (
-            <option value={c.id} key={c.id}>
-              {c.parent ? "— " : ""}
-              {c.name}
+          {categoryTree(d.tax.categories).map(({ term, depth }) => (
+            <option value={term.id} key={term.id}>
+              {"— ".repeat(depth)}
+              {term.name}
             </option>
           ))}
         </select>
