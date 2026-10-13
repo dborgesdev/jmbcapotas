@@ -144,7 +144,7 @@ const cases: Record<string, SiteData> = {
     ]),
   ),
   ...Object.fromEntries(
-    ["cart", "cities", "blog", "works"].flatMap((kind) => [
+    ["cities", "blog", "works"].flatMap((kind) => [
       [kind, { ...base, kind, path: `/${kind}/`, post: undefined }],
       [
         `${kind} vazio`,

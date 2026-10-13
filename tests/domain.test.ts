@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { clean, safeHtml } from "../src/lib/wordpress/html";
 import { productUrl, fiberCategory } from "../src/lib/wordpress/product-urls";
-import { cartMessage, buyMessage, whatsapp } from "../src/lib/whatsapp";
+import { buyMessage, whatsapp } from "../src/lib/whatsapp";
 import { validateSearch } from "../src/lib/search";
 describe("Filtros na URL", () => {
   it("preserva IDs numéricos interpretados pelo roteador", () => {
@@ -92,20 +92,8 @@ describe("Conversão WhatsApp", () => {
     });
     expect(message).toContain("CFF-01");
     expect(message).toContain("https://jmbcapotas.com.br/produtos/capota/");
-    expect(whatsapp(message, "41998686072")).toContain("https://wa.me/5541998686072?text=");
-  });
-  it("serializa quantidades de todos os itens", () => {
-    expect(
-      cartMessage([
-        {
-          productId: 1,
-          slug: "a",
-          name: "Capota",
-          quantity: 2,
-          codigo: "A1",
-          publicUrl: "https://jmbcapotas.com.br/a/",
-        },
-      ]),
-    ).toContain("2 × Capota (código A1)");
+    expect(whatsapp(message, "41998686072")).toContain(
+      "https://wa.me/5541998686072?text=",
+    );
   });
 });

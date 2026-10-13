@@ -23,17 +23,12 @@ Conversão principal: WhatsApp.
 
 Produto individual:
 - Comprar agora abre WhatsApp com mensagem personalizada contendo nome do produto e identificação suficiente.
-- Adicionar ao carrinho adiciona item a carrinho local.
 
-Carrinho:
-- sem login, pagamento, estoque, frete ou WooCommerce;
-- persistência local;
-- quantidade e remoção;
-- finalizar gera mensagem contendo todos os itens e abre WhatsApp.
+Não há carrinho, persistência local ou checkout. A antiga `/carrinho/` redireciona permanentemente para `/produtos/`.
 
 Mensagem base, ajustável no código:
 "Olá, vim do site da JMB Capotas e quero comprar o produto {produto}."
-Carrinho deve listar itens/quantidades. Incluir código do produto e URL quando disponíveis.
+Incluir código do produto e URL quando disponíveis.
 
 ## Home e direção de layout
 Referência visual aprovada para direção: site da fábrica Walumar. Usar como referência de ritmo, escala e linguagem do segmento, NÃO como layout a copiar e NÃO mencionar no site que a Walumar é a fábrica/representada da JMB.
@@ -47,7 +42,7 @@ Características que devem ser traduzidas para a identidade JMB:
 - vermelho JMB como assinatura/ação, não como grandes massas de fundo.
 
 Ordem funcional:
-1. Header enxuto, sobreposto/transparente no topo do Hero quando a legibilidade permitir; ao navegar, manter acesso claro a Produtos, Empresa, Galeria/Trabalhos, Blog, Contato, busca, carrinho e WhatsApp. Mobile: logo, busca/carrinho e menu compacto.
+1. Header enxuto, sobreposto/transparente no topo do Hero quando a legibilidade permitir; ao navegar, manter acesso claro a Produtos, Empresa, Galeria/Trabalhos, Blog, Contato, busca e WhatsApp. Mobile: logo, busca e menu compacto.
 2. Hero quase full-screen com imagem real de `site-config.hero`, sem vídeo; fundo neutro quando ausente. Conteúdo objetivo, centralizado, com H1 forte e CTAs para Produtos e WhatsApp.
 3. Seletor de marcas IMEDIATAMENTE após o Hero, com logos reais vindos da taxonomia Marca. Clique abre a página da marca. Esta é a principal porta de entrada do catálogo na Home.
 4. CTA "Ver todos os produtos" para /produtos/.
@@ -71,6 +66,8 @@ Produtos individuais NÃO aparecem na Home como "produtos em destaque". Não exi
 ## Navegação por veículo
 Ao selecionar uma marca, abrir página da marca. Ela deve mostrar os modelos daquela marca com imagem/nome, busca e produtos correspondentes. Selecionar modelo filtra produtos.
 
+A Home e /produtos/ compartilham BrandSelector, com logos ACF e fallback textual. Na página geral, a ordem é título, seletor de marcas, pesquisa/filtros e listagem.
+
 A página geral /produtos/ contém:
 - busca;
 - filtros Categoria > Marca > Modelo;
@@ -88,7 +85,6 @@ Página individual:
 - marca/modelo;
 - conteúdo nativo WordPress;
 - Comprar agora;
-- Adicionar ao carrinho;
 - produtos relacionados quando houver regra consistente.
 
 Descrição curta em cards deve ser derivada no frontend dos primeiros caracteres de content.rendered, removendo HTML. Não existe campo de resumo/excerpt no modelo adotado.
@@ -131,11 +127,11 @@ Condição comercial vem de `site-config.parcelamento` e `sem_juros`. Omitir men
 
 ## Ajustes de navegação e contato
 
-- Produtos: dropdown desktop por clique e teclado; submenu expansível mobile. Cinco marcas por nome/ID da taxonomia e link geral; Galeria mantém `/trabalhos/`.
+- Produtos: categorias publicadas com produtos, hierarquia e sem limite artificial; link final para /produtos/. Empresa: Quem Somos (/quem-somos/) e A Fábrica (/a-fabrica/), Pages nativas. Ambos reutilizam o dropdown desktop e submenu expansível mobile; Galeria mantém `/trabalhos/`.
 - Home: imagens independentes do Hero e CTA final vêm de `site-config`; sem imagens locais/derivadas de trabalhos.
 - Marca: imagem de fundo em toda a largura, descrição nativa e troca de marca pela URL histórica, preservando filtros compatíveis.
 - Footer: contatos, endereço/mapa e redes do CMS; omitir vazios e restaurar “Feita para acompanhar você.”
-- WhatsApp flutuante: contexto já resolvido de produto/marca, com mensagens centralizadas; carrinho mantém mensagem de seleção.
+- WhatsApp flutuante: contexto já resolvido de produto/marca, com mensagens centralizadas.
 
 ## Direção visual
 - marca JMB como base;
@@ -166,12 +162,12 @@ Não inventar preço, estoque, review, rating ou oferta.
 Validar pelo menos 375, 768, 1024 e 1440 px, além de comportamento em telas estreitas.
 Sem overflow horizontal.
 Teclado, foco visível, alt, contraste, labels e reduced motion.
-Filtros e carrinho devem funcionar plenamente no mobile.
+Filtros e submenus devem funcionar plenamente no mobile.
 
 ## Fora de escopo V1
 Pagamento online, WooCommerce, frete, estoque transacional, login/conta de cliente, pedidos, área do cliente, gateway, ERP e CRM.
 
 ## Critérios de aceite
-V1 deve permitir navegar Home; marcas/modelos; catálogo; busca/filtros; produto; Comprar Agora; carrinho/WhatsApp; pronta entrega; cidades; páginas estáticas; trabalhos; blog/artigos; 404 real; SSR/metadados; mobile.
+V1 deve permitir navegar Home; marcas/modelos; catálogo; busca/filtros; produto; Comprar Agora; WhatsApp; pronta entrega; cidades; páginas estáticas; trabalhos; blog/artigos; 404 real; SSR/metadados; mobile.
 
 Antes de produção executar e registrar: typecheck, lint, build, testes existentes/relevantes, console, links/CTAs, API, 404, sitemap, robots, canonical, metadados, responsividade, teclado/foco e compatibilidade do deploy.

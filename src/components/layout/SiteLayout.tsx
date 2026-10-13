@@ -22,7 +22,7 @@ export function SiteLayout({
         },
       }}
     >
-      <Header home={d.kind === "home"} pages={d.pages} brands={d.tax.brands} />
+      <Header home={d.kind === "home"} pages={d.pages} categories={d.tax.categories} />
       <main id="main">{children}</main>
       <Footer pages={d.pages} cities={d.cities} />
       <SiteStructuredData d={d} />

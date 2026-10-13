@@ -1,43 +1,39 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`HTML da V1 após configuração CMS e navegação > article 1`] = `"fec3775baa082be6650ea9eec7c8e251ae8152fc95d9a539481a7b4647784c2b"`;
+exports[`HTML da V1 após configuração CMS e navegação > article 1`] = `"c7d7f94a4412a7d7c8874c49863aad860fc1c7224a75bcdddb701c5da0c61a87"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > blog 1`] = `"8ba0a227c2f4f020ff151e0fd0305f110ec86ccdc6b37fc9765fe824b7e0c609"`;
+exports[`HTML da V1 após configuração CMS e navegação > blog 1`] = `"96d0000e5e4ac95c3c79bd214ba2bfc9416ad9b7a1533c5c5d4c91e298834576"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > blog vazio 1`] = `"b3a12eb75ec1e79d20fea87302ca2756912e98d5904986fbaee5cf8b43af9cd6"`;
+exports[`HTML da V1 após configuração CMS e navegação > blog vazio 1`] = `"c5aef2c6f4cffc32736766b24ea792ab6c1a94a864edcc925736f78edf912b1c"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > brand 1`] = `"e1e2d279b9375eac8054ad14e1b02a9d55bf63accb9c0d62a1b6790c1f27743a"`;
+exports[`HTML da V1 após configuração CMS e navegação > brand 1`] = `"10a1bda43125127c7ec7960f9293bc0d579b5ff247ac19fd101da1c6017d6e9a"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > cart 1`] = `"45418c26e13e37ab7cf5ca5d4752df7c18026244fb087f12f8faaea0c5a98017"`;
+exports[`HTML da V1 após configuração CMS e navegação > catalog 1`] = `"e7f2cada5baa650445a870d99c39322b5f46805e83ef061af11c7c46ac0b27c9"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > cart vazio 1`] = `"c4e16c61af62d0d4f0878132f783845b10f0babe90b5ca867a519c9184d378a6"`;
+exports[`HTML da V1 após configuração CMS e navegação > catalog vazio 1`] = `"3f1fc6542e30e6ab7834b156ad082ecf90f026886194412a2cb2d8ebcf94a8e8"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > catalog 1`] = `"02708868d01dfa629a73190a4cff9eb3c5b4c9ae4123d963129bfb13ca1b3aa7"`;
+exports[`HTML da V1 após configuração CMS e navegação > category 1`] = `"ec58f5e9abfbe51e778a3bd60a8b468b9c86e55b341acb8c63a4b0c6af9e6bfb"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > catalog vazio 1`] = `"28a68a57c6c0620876006a5dc2d91921acd6706776d1edcd0fb7e589f8490318"`;
+exports[`HTML da V1 após configuração CMS e navegação > cities 1`] = `"18b9d50c74b30466481fe789d19f8e3da643ace73693ce439ccf4f7ce483557a"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > category 1`] = `"14165aadbfd6f591768eec8684674fcae74779a9c0fbcd48b3c1450a7ec0f459"`;
+exports[`HTML da V1 após configuração CMS e navegação > cities vazio 1`] = `"a96280865a6d070c1eb3d15652f937de7c51535222a33e19b229ce88a85c595b"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > cities 1`] = `"a82f3da4522c25710be42deb8323cd7fa66eeab1b8f6eefd13c1ff7de1dd9899"`;
+exports[`HTML da V1 após configuração CMS e navegação > city 1`] = `"f768e08996cdb5f4b87df75a55aac2ad9d013870b1cfe137de4428c6430676e3"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > cities vazio 1`] = `"9861f44fb9cf94708fbdb9bf665720c638d009721f0c7837617308342b4a9476"`;
+exports[`HTML da V1 após configuração CMS e navegação > home 1`] = `"81d8b9977a400b8587aefb91f5c374659728efe093f9d2cc0d98654169fcb384"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > city 1`] = `"efdc06f52cb34cd4c721ef5af3b6c0659c8c61a15dfd48d25ae5752c790bf07a"`;
+exports[`HTML da V1 após configuração CMS e navegação > home sem conteúdo 1`] = `"1d7d670f79f9b85eb06c56a2030f5cc750c6dffb4fb266ae7cd45166efbb1391"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > home 1`] = `"75ee4415cb9328414e01f59bce071b1feba4679178e88636640a7fd3614c6e05"`;
+exports[`HTML da V1 após configuração CMS e navegação > page 1`] = `"def74f9a81e9a01cd8358432c7651afc80e93f3192eb7eaacda761d0c7b3aef7"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > home sem conteúdo 1`] = `"c77183d0b373e7cc31831fa3b68c190a6ca4ac56b410337a6fd3e2f1979d3f6a"`;
+exports[`HTML da V1 após configuração CMS e navegação > product 1`] = `"8cf3c4cb8ea2462ffb194596093ee057086763663ab4222f983ddd2867650138"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > page 1`] = `"88ea245670c4207eb8e5e92e671238129d60b6ef427cde0d40b4c7b320899142"`;
+exports[`HTML da V1 após configuração CMS e navegação > produto sem imagens 1`] = `"b31b708151619b6d648abb18661f13c3c7a9ee61937a7949b5e236e25dff417a"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > product 1`] = `"cc709ee4ffc9d889b631eeb2e21cdabf8fcee116f78d2c31665624238385c687"`;
+exports[`HTML da V1 após configuração CMS e navegação > ready 1`] = `"35a57ed9db0d32a665649d6bd8e12881ceee61b8627c792dfc95b4c65eec7d72"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > produto sem imagens 1`] = `"ab1632c416112f3cfae068ada823aabd780be4c70d57cc4d612ecaf1e7cb8167"`;
+exports[`HTML da V1 após configuração CMS e navegação > work 1`] = `"825f47ba6d31d5bdcef7f3fa93b69e1794f77bfcea88e2e8403020a22529e4bb"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > ready 1`] = `"47ea65c3e34a3c691c954f2815a0d03a630d9584cb933ca8732022c1774a9a1b"`;
+exports[`HTML da V1 após configuração CMS e navegação > works 1`] = `"6da7f1d57c69f0f0bff84e4a55f2d3ec3e50c0d9e66aaa92aacc64228c6ce8df"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > work 1`] = `"7729cd83b2a58331d4d8dc009c1f4d6bb306204ce9825360072a232eb469484b"`;
-
-exports[`HTML da V1 após configuração CMS e navegação > works 1`] = `"89a4db6e85b88db2a2e0c0346fe6c68fbb553bd7a15d71c6a064c4f65215e280"`;
-
-exports[`HTML da V1 após configuração CMS e navegação > works vazio 1`] = `"af3b951a744bdf4de107b1e9fa32841bb45344e9867f34a989f8e2df91c3e24b"`;
+exports[`HTML da V1 após configuração CMS e navegação > works vazio 1`] = `"35a23b51056387529d75a09ae0bc824827bac3656dde356313b84d8009374cef"`;

@@ -32,7 +32,6 @@ export function Footer({
             <a href="/pronta-entrega/">Pronta entrega</a>
             <a href="/trabalhos/">Trabalhos / Galeria</a>
             <a href="/blog/">Blog</a>
-            <a href="/carrinho/">Carrinho</a>
           </nav>
         </div>
         <div>

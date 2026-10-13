@@ -1,15 +1,16 @@
-import { useEffect, useRef, useState } from "react";
-import { brandUrl } from "../../lib/paths";
-import type { Term } from "../../lib/wordpress/types";
-export function ProductsDropdown({
-  brands,
+import { useEffect, useId, useRef, useState } from "react";
+export function NavigationDropdown({
+  label,
+  items,
   mobile = false,
   onSelect,
 }: {
-  brands: Term[];
+  label: string;
+  items: { name: string; url: string; depth?: number; divider?: boolean }[];
   mobile?: boolean;
   onSelect?: () => void;
 }) {
+  const id = useId();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const button = useRef<HTMLButtonElement>(null);
@@ -30,9 +31,6 @@ export function ProductsDropdown({
       document.removeEventListener("keydown", escape);
     };
   }, [open]);
-  const selected = [...brands]
-    .sort((a, b) => a.name.localeCompare(b.name, "pt-BR") || a.id - b.id)
-    .slice(0, 5);
   return (
     <div
       ref={ref}
@@ -45,7 +43,7 @@ export function ProductsDropdown({
         ref={button}
         type="button"
         aria-expanded={open}
-        aria-controls={mobile ? "products-mobile" : "products-desktop"}
+        aria-controls={id}
         onClick={() => setOpen(!open)}
         className={
           mobile
@@ -53,40 +51,33 @@ export function ProductsDropdown({
             : "py-2 hover:underline underline-offset-4"
         }
       >
-        Produtos <span aria-hidden="true">⌄</span>
+        {label} <span aria-hidden="true">⌄</span>
       </button>
       {open && (
         <div
-          id={mobile ? "products-mobile" : "products-desktop"}
+          id={id}
           className={
             mobile
               ? "pb-4 pl-4"
-              : "absolute left-0 top-full w-64 bg-[#151719] p-3 shadow-lg"
+              : "absolute left-0 top-full max-h-[70dvh] overflow-y-auto w-64 bg-[#151719] p-3 shadow-lg"
           }
         >
-          {selected.map((brand) => (
+          {items.map((item) => (
             <a
-              key={brand.id}
-              href={brandUrl(brand)}
-              className="block px-3 py-3 hover:bg-white/10 focus-visible:bg-white/10"
+              key={item.url}
+              href={item.url}
+              className={`block px-3 py-3 hover:bg-white/10 focus-visible:bg-white/10 ${item.divider ? "border-t border-white/20" : ""}`}
+              style={{
+                paddingLeft: `${0.75 + Math.min(item.depth || 0, 3) * 0.75}rem`,
+              }}
               onClick={() => {
                 setOpen(false);
                 onSelect?.();
               }}
             >
-              {brand.name}
+              {item.name}
             </a>
           ))}
-          <a
-            href="/produtos/"
-            className="block border-t border-white/20 px-3 py-3 hover:bg-white/10"
-            onClick={() => {
-              setOpen(false);
-              onSelect?.();
-            }}
-          >
-            Ver todos os produtos
-          </a>
         </div>
       )}
     </div>

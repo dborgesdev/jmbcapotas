@@ -4,7 +4,6 @@ import {
   Outlet,
   Scripts,
 } from "@tanstack/react-router";
-import { CartProvider } from "../components/cart/CartProvider";
 import { NotFound } from "../pages/NotFound";
 import { ErrorView } from "../pages/ErrorView";
 import css from "../styles/app.css?url";
@@ -42,9 +41,7 @@ export const Route = createRootRoute({
         <a className="skip" href="#main">
           Pular para o conteúdo
         </a>
-        <CartProvider>
-          <PublicOutlet />
-        </CartProvider>
+        <PublicOutlet />
         <Scripts />
       </body>
     </html>

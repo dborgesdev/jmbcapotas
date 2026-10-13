@@ -34,8 +34,6 @@ export async function resolveRoute(input: {
         undefined,
         true,
       );
-    if (path === "/carrinho/")
-      return { ...base, kind: "cart", title: "Seu carrinho" };
     if (path === "/cidades/")
       return { ...base, kind: "cities", title: "JMB na sua cidade" };
     if (/^\/marcas\/capota-de-fibra-para-[^/]+\/$/.test(path)) {

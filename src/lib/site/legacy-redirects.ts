@@ -8,15 +8,33 @@ import type { Term } from "../wordpress/types";
  * Legacy routes from the former WordPress installation.
  * Keep rules centralized and only redirect to verified canonical entities.
  */
-export async function legacyRedirect(path: string, categories: Term[], brands: Term[] = []) {
+export async function legacyRedirect(
+  path: string,
+  categories: Term[],
+  brands: Term[] = [],
+) {
+  if (path === "/carrinho/") {
+    throw redirect({
+      to: "/$/",
+      params: { _splat: "produtos" },
+      statusCode: 301,
+    });
+  }
+
   // Historical taxonomy archives have no equivalent archive in the new site.
   if (/^\/(tag|tags|category|categoria|categorias)\/(?:[^/]+\/)*$/.test(path)) {
-    throw redirect({ to: "/$/", params: { _splat: "produtos" }, statusCode: 301 });
+    throw redirect({
+      to: "/$/",
+      params: { _splat: "produtos" },
+      statusCode: 301,
+    });
   }
 
   // Old WordPress brand landing pages ended in "-venda-e-instalacao".
   // Redirect only when the brand taxonomy actually exists.
-  const oldBrand = path.match(/^\/marcas\/capota-de-fibra-para-(.+)-venda-e-instalacao\/$/);
+  const oldBrand = path.match(
+    /^\/marcas\/capota-de-fibra-para-(.+)-venda-e-instalacao\/$/,
+  );
   if (oldBrand) {
     const brand = brands.find((term) => term.slug === oldBrand[1]);
     if (brand) {

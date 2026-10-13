@@ -2,23 +2,23 @@ import { WhatsAppLink } from "../common/WhatsAppLink";
 import { useWhatsApp } from "../../lib/site/config-context";
 import { homeNavigation } from "../../lib/home-navigation";
 import { navigation } from "../../lib/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Logo } from "./Logo";
-import { useCart } from "../../lib/cart/context";
 import { type Post } from "../../lib/wordpress/types";
 
 import { MobileMenu } from "./MobileMenu";
-import { ProductsDropdown } from "./ProductsDropdown";
+import { categoryNavigation, companyNavigation } from "../../lib/navigation";
+import { NavigationDropdown } from "./NavigationDropdown";
 import type { Term } from "../../lib/wordpress/types";
 
 export function Header({
   pages = [],
   home = false,
-  brands = [],
+  categories = [],
 }: {
   pages?: Post[];
   home?: boolean;
-  brands?: Term[];
+  categories?: Term[];
 }) {
   const whatsapp = useWhatsApp();
   const [scrolled, setScrolled] = useState(false);
@@ -29,14 +29,20 @@ export function Header({
     return () => window.removeEventListener("scroll", update);
   }, []);
   const [open, setOpen] = useState(false);
+  const menuButton = useRef<HTMLButtonElement>(null);
   useEffect(() => {
     const close = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setOpen(false);
+      if (
+        event.key === "Escape" &&
+        !document.querySelector('#mobile-menu button[aria-expanded="true"]')
+      ) {
+        setOpen(false);
+        menuButton.current?.focus();
+      }
     };
     if (open) document.addEventListener("keydown", close);
     return () => document.removeEventListener("keydown", close);
   }, [open]);
-  const { items } = useCart();
   const links = navigation(pages, whatsapp());
   return (
     <>
@@ -57,8 +63,16 @@ export function Header({
             className="hidden items-center gap-4 text-[13px] font-medium lg:flex"
           >
             {links.map((l) =>
-              l.url === "/produtos/" ? (
-                <ProductsDropdown key={l.url} brands={brands} />
+              l.name === "Produtos" || l.name === "Empresa" ? (
+                <NavigationDropdown
+                  key={l.url}
+                  label={l.name}
+                  items={
+                    l.name === "Produtos"
+                      ? categoryNavigation(categories)
+                      : companyNavigation
+                  }
+                />
               ) : (
                 <a
                   className="hover:underline underline-offset-4 decoration-red-500"
@@ -85,25 +99,6 @@ export function Header({
             >
               ⌕
             </a>
-            <a
-              href="/carrinho/"
-              className="flex items-center gap-2 text-sm"
-              aria-label={`Carrinho com ${items.reduce((n, p) => n + p.quantity, 0)} itens`}
-            >
-              <svg
-                width="21"
-                height="23"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path d="M5 8h14l2 13H3L5 8Z" />
-                <path d="M8 9V6a4 4 0 0 1 8 0v3" />
-              </svg>
-              <span>{items.reduce((n, p) => n + p.quantity, 0)}</span>
-            </a>
             <WhatsAppLink
               href={whatsapp()}
               target="_blank"
@@ -113,6 +108,7 @@ export function Header({
               Fale com a JMB ↗
             </WhatsAppLink>
             <button
+              ref={menuButton}
               className="p-2 lg:hidden"
               aria-label={open ? "Fechar menu" : "Abrir menu"}
               aria-expanded={open}
@@ -126,7 +122,7 @@ export function Header({
         {open && (
           <MobileMenu
             links={links}
-            brands={brands}
+            categories={categories}
             onClose={() => setOpen(false)}
           />
         )}

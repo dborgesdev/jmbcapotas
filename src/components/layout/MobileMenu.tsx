@@ -1,14 +1,15 @@
 import { homeNavigation } from "../../lib/home-navigation";
-import { ProductsDropdown } from "./ProductsDropdown";
+import { categoryNavigation, companyNavigation } from "../../lib/navigation";
+import { NavigationDropdown } from "./NavigationDropdown";
 import type { Term } from "../../lib/wordpress/types";
 export function MobileMenu({
   links,
   onClose,
-  brands = [],
+  categories = [],
 }: {
   links: { name: string; url: string }[];
   onClose: () => void;
-  brands?: Term[];
+  categories?: Term[];
 }) {
   return (
     <nav
@@ -17,10 +18,15 @@ export function MobileMenu({
       className="max-h-[calc(100dvh-6rem)] overflow-y-auto bg-[#151719] px-6 pb-7 text-white lg:hidden"
     >
       {links.map((l) =>
-        l.url === "/produtos/" ? (
-          <ProductsDropdown
+        l.name === "Produtos" || l.name === "Empresa" ? (
+          <NavigationDropdown
             key={l.url}
-            brands={brands}
+            label={l.name}
+            items={
+              l.name === "Produtos"
+                ? categoryNavigation(categories)
+                : companyNavigation
+            }
             mobile
             onSelect={onClose}
           />

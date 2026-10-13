@@ -13,10 +13,10 @@ const cases = [
   ],
   ["/pronta-entrega/", 200, "CFF-01"],
   ["/quem-somos/", 200, "Quem Somos?"],
+  ["/a-fabrica/", 200, "A Fábrica"],
   ["/produtos/acessorios/", 200, "Acessórios"],
   ["/marcas/capota-de-fibra-para-volkswagen/", 200, "Produtos para Volkswagen"],
   ["/blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition/", 200, "Ram 2500"],
-  ["/carrinho/", 200, "Seu carrinho"],
   ["/trabalhos/", 200, "Trabalhos que ganham a estrada"],
   [
     "/trabalhos/instalacao-capota-de-fibra-empresa-xyz/",
@@ -40,6 +40,10 @@ for (const [path, status, text] of cases) {
   const response = await fetch(base + path);
   const html = await response.text();
   assert.equal(response.status, status, path);
+  assert.ok(
+    !html.includes("Adicionar ao carrinho") &&
+      !html.includes('href="/carrinho/"'),
+  );
   assert.ok(html.includes(text), `${path}: conteúdo SSR`);
   if (status === 200) {
     assert.ok(
@@ -62,12 +66,28 @@ assert.ok(
   (await empty.text()).includes("Nenhum produto encontrado"),
   "Busca vazia",
 );
+const nextPage = await fetch(base + "/produtos/?pagina=2");
+assert.equal(nextPage.status, 200, "Paginação do catálogo real");
+assert.ok((await nextPage.text()).includes("Anterior"));
 const redirect = await fetch(
   base + "/produtos/capota-de-fibra-com-portas-laterais-para-fiat-strada/",
   { redirect: "manual" },
 );
 assert.equal(redirect.status, 301, "Alias de produto deve redirecionar");
 assert.ok(redirect.headers.get("location").includes("/capota-para-picape/"));
+for (const path of ["/carrinho/"]) {
+  const response = await fetch(base + path, { redirect: "manual" });
+  assert.equal(response.status, 301);
+  assert.ok(response.headers.get("location").endsWith("/produtos/"));
+}
+const normalizedCart = await fetch(base + "/carrinho", { redirect: "manual" });
+assert.equal(
+  normalizedCart.status,
+  307,
+  "Preserva normalização global de barra",
+);
+assert.ok(normalizedCart.headers.get("location").endsWith("/carrinho/"));
+assert.ok((await fetch(base + "/carrinho")).url.endsWith("/produtos/"));
 const sitemap = await fetch(base + "/sitemap.xml");
 assert.equal(sitemap.status, 200);
 const xml = await sitemap.text();

@@ -30,8 +30,7 @@ export function seo(d: SiteData) {
             { name: "twitter:image", content: image },
           ]
         : []),
-      ...(d.kind === "cart" ||
-      Object.entries(d.search).some(([key, value]) =>
+      ...(Object.entries(d.search).some(([key, value]) =>
         key === "pagina" ? Number(value) > 1 : Boolean(value),
       )
         ? [{ name: "robots", content: "noindex,follow" }]

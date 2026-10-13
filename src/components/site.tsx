@@ -11,7 +11,6 @@ import { Work } from "../pages/Work";
 import { City } from "../pages/City";
 import { WordPressPage } from "../pages/WordPressPage";
 import { Cities } from "../pages/Cities";
-import { Cart } from "../pages/Cart";
 import { Blog } from "../pages/Blog";
 import { Works } from "../pages/Works";
 import { SiteLayout } from "./layout/SiteLayout";
@@ -39,8 +38,6 @@ function PageView({ d }: { d: SiteData }) {
       return <City d={d} />;
     case "page":
       return <WordPressPage d={d} />;
-    case "cart":
-      return <Cart d={d} />;
     case "cities":
       return <Cities d={d} />;
     case "blog":

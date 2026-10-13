@@ -5,12 +5,14 @@ import { brandUrl } from "../../lib/paths";
 export function BrandSelector({
   brands,
   error,
+  catalog = false,
 }: {
   brands: Term[];
   error?: string;
+  catalog?: boolean;
 }) {
   return (
-    <section id="marcas" className="wrap py-16 md:py-20">
+    <section id="marcas" className={catalog ? "pb-8" : "wrap py-16 md:py-20"}>
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
           <Eyebrow className="text-red-600">01 / Encontre a sua</Eyebrow>
@@ -46,12 +48,14 @@ export function BrandSelector({
           </a>
         ))}
       </div>
-      <a
-        href="/produtos/"
-        className="inline-flex gap-10 border-b-2 border-red-600 pb-3 text-sm font-bold"
-      >
-        Ver todos os produtos <span>↗</span>
-      </a>
+      {!catalog && (
+        <a
+          href="/produtos/"
+          className="inline-flex gap-10 border-b-2 border-red-600 pb-3 text-sm font-bold"
+        >
+          Ver todos os produtos <span>↗</span>
+        </a>
+      )}
     </section>
   );
 }
