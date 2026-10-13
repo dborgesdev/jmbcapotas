@@ -24,3 +24,5 @@ Regras:
 15. Não concentrar múltiplas páginas, seções independentes ou componentes de domínio em arquivos monolíticos. Manter componentes/seções relevantes em arquivos próprios e separar acesso a dados por domínio. Arquivos agregadores devem apenas compor/orquestrar.
 
 16. Produtos apresenta apenas categorias principais (parent === 0), em ordem pt-BR; filtros usam a árvore completa; Empresa apresenta Quem Somos e A Fábrica. Home e /produtos/ compartilham BrandLogoGrid; BrandSelector mantém a seção editorial somente na Home. Categorias vazias também aparecem no menu; desktop suporta hover e mobile clique.
+
+17. Pronta entrega é primeira opção de Produtos; Conserto de Capotas é link independente após Produtos. Apenas Home e Page conserto-de-capotas-de-fibra compartilham WorksSection com trabalhos recentes do CMS.

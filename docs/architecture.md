@@ -151,3 +151,9 @@ Validar adapter/runtime TanStack Start para Cloudflare Workers antes de consider
 - `products/ProductAvailability` e `PaymentConditions` apresentam os estados comerciais; compatibilidade e seleção de relacionados ficam em `wordpress/related` e `products`.
 - `lib/site/introduction` prioriza descrições nativas, conteúdo editorial normalizado e fallback específico por página.
 - Nesta rodada de mudanças visuais explicitamente solicitadas, os 19 snapshots foram atualizados após testes de comportamento e inspeção visual. Refatorações futuras continuam obrigadas a preservar essa referência sem atualização automática.
+
+## Navegação e Page de conserto
+
+`categoryNavigation` adiciona Pronta entrega antes das categorias principais, com divisores na primeira categoria e no link geral final. Conserto de Capotas é link independente na navegação compartilhada desktop/mobile; Empresa conserva suas opções e mecanismo de dropdown.
+
+`site/pages` carrega a Page por slug, reutilizando o conteúdo já normalizado no contexto quando disponível e consultando por slug como fallback. Somente conserto-de-capotas-de-fibra carrega `site/works.recentWorks`, também usado pela Home: consulta paginada de três trabalhos com transporte/cache existentes; falha retorna lista vazia. `WordPressPage` compõe WorksSection fora do article/wrap, antes do Footer, exclusivamente para esse slug. O componente e estilos da seção da Home permanecem iguais.

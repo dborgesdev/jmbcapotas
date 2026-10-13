@@ -3,6 +3,13 @@ import { works as getWorks, workBySlug } from "../wordpress/works";
 import { linkedProducts } from "../wordpress/products";
 
 import type { SiteData } from "./types";
+export async function recentWorks() {
+  try {
+    return (await getWorks({ per_page: 3 })).items;
+  } catch {
+    return [];
+  }
+}
 export async function works(base: SiteData) {
   const s = base.search;
   return {

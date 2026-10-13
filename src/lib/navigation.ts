@@ -11,7 +11,12 @@ export function categoryNavigation(categories: Term[]) {
   const items: { name: string; url: string; divider?: boolean }[] =
     categoryTree(categories)
       .filter(({ term }) => term.parent === 0)
-      .map(({ term }) => ({ name: term.name, url: `/produtos/${term.slug}/` }));
+      .map(({ term }, index) => ({
+        name: term.name,
+        url: `/produtos/${term.slug}/`,
+        divider: index === 0,
+      }));
+  items.unshift({ name: "Pronta entrega", url: "/pronta-entrega/" });
   items.push({
     name: "Ver todos os produtos",
     url: "/produtos/",
@@ -24,7 +29,7 @@ export function navigation(pages: Post[], contact?: string) {
   return [
     { name: "Início", url: "/" },
     { name: "Produtos", url: "/produtos/" },
-    { name: "Pronta entrega", url: "/pronta-entrega/" },
+    { name: "Conserto de Capotas", url: "/conserto-de-capotas-de-fibra/" },
     {
       name: "Empresa",
       url: "/quem-somos/",

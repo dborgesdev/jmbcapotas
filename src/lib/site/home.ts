@@ -1,11 +1,11 @@
 import { products } from "../wordpress/products";
 import { posts } from "../wordpress/posts";
-import { works } from "../wordpress/works";
+import { recentWorks } from "./works";
 import { clients } from "../wordpress/clients";
 import type { SiteContext } from "./context";
 export async function home({ base, taxUnavailable }: SiteContext) {
   const results = await Promise.allSettled([
-    works({ per_page: 3 }),
+    recentWorks(),
     posts({ per_page: 3 }),
     products({ per_page: 1 }, base.tax.categories),
     clients(),
@@ -14,7 +14,7 @@ export async function home({ base, taxUnavailable }: SiteContext) {
     ...base,
     kind: "home",
     title: "Produtos para acompanhar seu caminho",
-    works: results[0].status === "fulfilled" ? results[0].value.items : [],
+    works: results[0].status === "fulfilled" ? results[0].value : [],
     posts: results[1].status === "fulfilled" ? results[1].value.items : [],
     clients: results[3].status === "fulfilled" ? results[3].value : [],
     post:

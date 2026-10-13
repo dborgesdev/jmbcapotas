@@ -118,6 +118,8 @@ Consumir Posts nativos do WordPress:
 Resumos de cards derivados do conteúdo quando necessários.
 
 ## Páginas estáticas
+A Page de slug conserto-de-capotas-de-fibra mantém conteúdo nativo e acrescenta WorksSection da Home ao final, antes do Footer. Trabalhos recentes vêm do CPT trabalho, até três; seção omitida quando vazia ou indisponível. Demais Pages não recebem essa seção.
+
 Consumir Pages nativas do WordPress por slug original:
 GET /wp-json/wp/v2/pages?slug={slug}
 
@@ -127,6 +129,8 @@ Usar title.rendered, content.rendered, featured_media e slug. Preservar os slugs
 Condição comercial vem de `site-config.parcelamento` e `sem_juros`. Omitir menos de 2 parcelas ou valores inválidos. Com boolean `true`: “Parcelamento em até {n}x sem juros”; nos demais casos: “Parcelamento em até {n}x. Consulte condições de pagamento.” WordPress é fonte de verdade institucional e comercial.
 
 ## Ajustes de navegação e contato
+
+- Ordem principal: Início, Produtos, Conserto de Capotas (/conserto-de-capotas-de-fibra/), Empresa, Galeria, Blog, Contato. Pronta entrega é primeira opção do dropdown Produtos, seguida por separador, categorias principais, separador e Ver todos os produtos. Fale com a JMB conserva sua posição.
 
 - Produtos: somente categorias principais (parent === 0), inclusive vazias, em ordem alfabética pt-BR e sem limite artificial; link final para /produtos/. Empresa: Quem Somos (/quem-somos/) e A Fábrica (/a-fabrica/), Pages nativas. Ambos reutilizam o dropdown desktop com hover imediato, clique e teclado, e submenu expansível mobile por toque; Galeria mantém `/trabalhos/`.
 - Home: imagens independentes do Hero e CTA final vêm de `site-config`; sem imagens locais/derivadas de trabalhos.

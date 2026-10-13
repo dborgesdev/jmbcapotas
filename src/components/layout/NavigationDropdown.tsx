@@ -15,7 +15,7 @@ export function NavigationDropdown({
   const ref = useRef<HTMLDivElement>(null);
   const button = useRef<HTMLButtonElement>(null);
   useEffect(() => {
-    const outside = (event: PointerEvent) => {
+    const outside = (event: Event) => {
       if (!ref.current?.contains(event.target as Node)) setOpen(false);
     };
     const escape = (event: KeyboardEvent) => {
@@ -24,13 +24,15 @@ export function NavigationDropdown({
         button.current?.focus();
       }
     };
-    document.addEventListener("pointerdown", outside);
+    // Mobile disclosures shift links when collapsed; close after the click lands.
+    const outsideEvent = mobile ? "click" : "pointerdown";
+    document.addEventListener(outsideEvent, outside);
     document.addEventListener("keydown", escape);
     return () => {
-      document.removeEventListener("pointerdown", outside);
+      document.removeEventListener(outsideEvent, outside);
       document.removeEventListener("keydown", escape);
     };
-  }, [open]);
+  }, [open, mobile]);
   return (
     <div
       ref={ref}
@@ -47,6 +49,12 @@ export function NavigationDropdown({
         if (!mobile && event.pointerType === "mouse") setOpen(false);
       }}
       onBlur={(event) => {
+        if (
+          mobile &&
+          event.relatedTarget instanceof Element &&
+          event.relatedTarget.closest("#mobile-menu")
+        )
+          return;
         if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
       }}
     >

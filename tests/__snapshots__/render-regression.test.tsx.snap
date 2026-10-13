@@ -1,39 +1,39 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`HTML da V1 após configuração CMS e navegação > article 1`] = `"c7d7f94a4412a7d7c8874c49863aad860fc1c7224a75bcdddb701c5da0c61a87"`;
+exports[`HTML da V1 após configuração CMS e navegação > article 1`] = `"fc4f599783fd49470a05dc85793d981ffb34cb07ac97367e47269f59520ae2ea"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > blog 1`] = `"96d0000e5e4ac95c3c79bd214ba2bfc9416ad9b7a1533c5c5d4c91e298834576"`;
+exports[`HTML da V1 após configuração CMS e navegação > blog 1`] = `"0f5be837fd822cae4d2597df0c2365b85a957775d04271bf36602472b88d5b35"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > blog vazio 1`] = `"c5aef2c6f4cffc32736766b24ea792ab6c1a94a864edcc925736f78edf912b1c"`;
+exports[`HTML da V1 após configuração CMS e navegação > blog vazio 1`] = `"c5a133f7c77c5d41ac4794eea05ec9865787457ab42ed74176fce0e7028c8166"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > brand 1`] = `"10a1bda43125127c7ec7960f9293bc0d579b5ff247ac19fd101da1c6017d6e9a"`;
+exports[`HTML da V1 após configuração CMS e navegação > brand 1`] = `"644c72a7143e707ac1435d084222e0438012e350d15856f8beb4603c9e48e1ee"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > catalog 1`] = `"9f66657c32b9e69e4c6454039cc20e0a94594b0c586ce1494c0a0b310966a57f"`;
+exports[`HTML da V1 após configuração CMS e navegação > catalog 1`] = `"60f72ac1877829918cd621772c23b7d1dd922784b2ece16d870040302469685d"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > catalog vazio 1`] = `"d18d10d4d138d37a1000e462c48072bc3c1ce9b93f7de79290fd52b21cd3446e"`;
+exports[`HTML da V1 após configuração CMS e navegação > catalog vazio 1`] = `"b1747ce799ae67b4ba07902901d9be88c71ac8557488ecff5ad57d1a68ceb99f"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > category 1`] = `"589d7b60accbfdb9d39c88ea2b1f87657171d8a4378400975059b686432c0426"`;
+exports[`HTML da V1 após configuração CMS e navegação > category 1`] = `"b5edd40456f4c9f224d3415b4d30ad735a879ec6a482ea91c33b22a8998fb044"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > cities 1`] = `"18b9d50c74b30466481fe789d19f8e3da643ace73693ce439ccf4f7ce483557a"`;
+exports[`HTML da V1 após configuração CMS e navegação > cities 1`] = `"d58414e5b57c0627e2fe655451e8be014b0dfc29b8d6b623aa1df4a60b711a6c"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > cities vazio 1`] = `"a96280865a6d070c1eb3d15652f937de7c51535222a33e19b229ce88a85c595b"`;
+exports[`HTML da V1 após configuração CMS e navegação > cities vazio 1`] = `"539d3863dd1f4db8a542ab0266337122a303d44e6b326f7e62b8d41ef55543fb"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > city 1`] = `"f768e08996cdb5f4b87df75a55aac2ad9d013870b1cfe137de4428c6430676e3"`;
+exports[`HTML da V1 após configuração CMS e navegação > city 1`] = `"6996c778f4290d2513fe22f6ae11cd5b2ed9aa3455e4dadd43201a4fbaa79103"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > home 1`] = `"81d8b9977a400b8587aefb91f5c374659728efe093f9d2cc0d98654169fcb384"`;
+exports[`HTML da V1 após configuração CMS e navegação > home 1`] = `"217c1dad2da9bc6d24c50e801da0a61cd2c868f48944a36820bb5ee75096d305"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > home sem conteúdo 1`] = `"1d7d670f79f9b85eb06c56a2030f5cc750c6dffb4fb266ae7cd45166efbb1391"`;
+exports[`HTML da V1 após configuração CMS e navegação > home sem conteúdo 1`] = `"c3a52b36e530ca99cfa2aadae34070edf9a84cb08c9665e4ae2069c22c444a8e"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > page 1`] = `"def74f9a81e9a01cd8358432c7651afc80e93f3192eb7eaacda761d0c7b3aef7"`;
+exports[`HTML da V1 após configuração CMS e navegação > page 1`] = `"90310c3483eeca42495e225b30bc9b56e8e70890f7a6a9fafedbde2c65d31ffb"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > product 1`] = `"8cf3c4cb8ea2462ffb194596093ee057086763663ab4222f983ddd2867650138"`;
+exports[`HTML da V1 após configuração CMS e navegação > product 1`] = `"eeddd2fb1d036f00d7f0f51db4473bdea877acb74965b89b2a0f7972123173d8"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > produto sem imagens 1`] = `"b31b708151619b6d648abb18661f13c3c7a9ee61937a7949b5e236e25dff417a"`;
+exports[`HTML da V1 após configuração CMS e navegação > produto sem imagens 1`] = `"b1ce5edebb33dc1efb1af9432178e641c0fe8b4a03a0c01f927434deb3df710c"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > ready 1`] = `"35a57ed9db0d32a665649d6bd8e12881ceee61b8627c792dfc95b4c65eec7d72"`;
+exports[`HTML da V1 após configuração CMS e navegação > ready 1`] = `"a6b39eb3899e4401c5119a6ce0a22ef31ed9f47132ea8f3630751996c7682e68"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > work 1`] = `"825f47ba6d31d5bdcef7f3fa93b69e1794f77bfcea88e2e8403020a22529e4bb"`;
+exports[`HTML da V1 após configuração CMS e navegação > work 1`] = `"3cda3ef7da75f6da00ee8270a29875c29f00fa79a343029500d8acb74bb33774"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > works 1`] = `"6da7f1d57c69f0f0bff84e4a55f2d3ec3e50c0d9e66aaa92aacc64228c6ce8df"`;
+exports[`HTML da V1 após configuração CMS e navegação > works 1`] = `"56adc4e1b0e5243aad816796fb72071a4167acbdbb0f61bfb60dd4740b764d9b"`;
 
-exports[`HTML da V1 após configuração CMS e navegação > works vazio 1`] = `"35a23b51056387529d75a09ae0bc824827bac3656dde356313b84d8009374cef"`;
+exports[`HTML da V1 após configuração CMS e navegação > works vazio 1`] = `"805a222321033c3f34cdba3c6368c2a38dab8b1d5b9f360843c9fc702f564c23"`;

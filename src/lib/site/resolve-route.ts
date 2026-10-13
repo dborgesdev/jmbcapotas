@@ -1,6 +1,6 @@
 import { notFound } from "@tanstack/react-router";
 import { CmsError } from "../wordpress/client";
-import { pageBySlug } from "../wordpress/pages";
+import { page } from "./pages";
 import { cityBySlug } from "../wordpress/cities";
 import { siteContext } from "./context";
 import { home } from "./home";
@@ -80,10 +80,8 @@ export async function resolveRoute(input: {
         post,
       };
     }
-    if (path.split("/").length === 3) {
-      const post = await pageBySlug(path.slice(1, -1));
-      if (post) return { ...base, kind: "page", title: post.name, post };
-    }
+    if (path.split("/").length === 3)
+      return await page(base, path.slice(1, -1));
     throw notFound();
   } catch (error) {
     if (

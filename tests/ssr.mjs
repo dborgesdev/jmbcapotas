@@ -14,6 +14,7 @@ const cases = [
   ["/pronta-entrega/", 200, "CFF-01"],
   ["/quem-somos/", 200, "Quem Somos?"],
   ["/a-fabrica/", 200, "A Fábrica"],
+  ["/conserto-de-capotas-de-fibra/", 200, "Da escolha à estrada"],
   ["/produtos/acessorios/", 200, "Acessórios"],
   ["/marcas/capota-de-fibra-para-volkswagen/", 200, "Produtos para Volkswagen"],
   ["/blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition/", 200, "Ram 2500"],

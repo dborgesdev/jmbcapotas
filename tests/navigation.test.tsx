@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { renderToStaticMarkup } from "react-dom/server";
-import { categoryNavigation, companyNavigation } from "../src/lib/navigation";
+import {
+  categoryNavigation,
+  companyNavigation,
+  navigation,
+} from "../src/lib/navigation";
 import { BrandSelector } from "../src/components/home/BrandSelector";
 import { BrandLogoGrid } from "../src/components/catalog/BrandLogoGrid";
 import type { Term } from "../src/lib/wordpress/types";
@@ -14,6 +18,19 @@ const term = (id: number, parent = 0, count = 1): Term => ({
   description: "",
 });
 describe("Navegação comercial", () => {
+  it("ordena navegação principal com Conserto e sem Pronta entrega", () => {
+    const links = navigation([], "https://wa.me/123");
+    expect(links.map((l) => l.name)).toEqual([
+      "Início",
+      "Produtos",
+      "Conserto de Capotas",
+      "Empresa",
+      "Galeria",
+      "Blog",
+      "Contato",
+    ]);
+    expect(links[2].url).toBe("/conserto-de-capotas-de-fibra/");
+  });
   it("Header inclui mais de cinco categorias principais, inclusive vazias", () => {
     const items = categoryNavigation([
       term(2, 1),
@@ -25,9 +42,14 @@ describe("Navegação comercial", () => {
       term(7),
       term(8),
     ]);
-    expect(items).toHaveLength(8);
+    expect(items).toHaveLength(9);
     expect(items.some((i) => i.url.includes("categoria-2"))).toBe(false);
     expect(items.some((i) => i.url.includes("categoria-3"))).toBe(true);
+    expect(items[0]).toMatchObject({
+      name: "Pronta entrega",
+      url: "/pronta-entrega/",
+    });
+    expect(items[1].divider).toBe(true);
     expect(items.at(-1)?.url).toBe("/produtos/");
   });
   it("Header exclui filhos, ciclos e termos sem pai válido", () => {
@@ -39,6 +61,7 @@ describe("Navegação comercial", () => {
       term(5, 4),
     ]);
     expect(items.map((i) => i.url)).toEqual([
+      "/pronta-entrega/",
       "/produtos/categoria-4/",
       "/produtos/",
     ]);
