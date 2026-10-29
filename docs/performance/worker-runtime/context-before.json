@@ -1,0 +1,4701 @@
+{
+  "variant": "context-before",
+  "localOnly": true,
+  "simulatedRestDelayMs": 5,
+  "productionMeteredCpuMs": null,
+  "results": [
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "concurrent-cold",
+      "status": 200,
+      "statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "requests": 4,
+      "redirects": [],
+      "wallMs": 5006.02,
+      "sampledNonIdleMs": 4902.45,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 936.07
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 548.89
+        },
+        {
+          "frame": "safeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 442.85
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 287.24
+        },
+        {
+          "frame": "(anonymous) (node-internal:internal_querystring)",
+          "ms": 231.19
+        },
+        {
+          "frame": "read (native)",
+          "ms": 164.33
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 137.51
+        },
+        {
+          "frame": "ReadableStream (native)",
+          "ms": 127.2
+        },
+        {
+          "frame": "(anonymous) (native)",
+          "ms": 123.98
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 112.97
+        },
+        {
+          "frame": "URLSearchParams (native)",
+          "ms": 111.24
+        },
+        {
+          "frame": "externalUrl (assets/site-config-B_PAp8Nm.js)",
+          "ms": 91.8
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 156367,
+      "restWaitSumMs": 269.85,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5527172,
+        "totalSize": 7761920,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8990096,
+        "totalSize": 17199104,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1469104
+      },
+      "calls": [
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 18.168300000000272
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 30.413300000000163
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 30.493099999999686
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 31.79739999999947
+        },
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 33.41910000000007
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 34.515300000000025
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 18.07259999999951
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 9.957100000000537
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 11.552599999999984
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 12.356600000000071
+        },
+        {
+          "endpoint": "trabalho",
+          "query": "?per_page=3&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 9.16439999999966
+        },
+        {
+          "endpoint": "posts",
+          "query": "?per_page=3&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 25157,
+          "waitMs": 9.555999999999585
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 10.020100000000639
+        },
+        {
+          "endpoint": "cliente",
+          "query": "?per_page=100&_embed=wp:featuredmedia",
+          "status": 200,
+          "bytes": 39536,
+          "waitMs": 10.364300000000185
+        }
+      ],
+      "profile": "context-before-0-concurrent-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "concurrent-warm",
+      "status": 200,
+      "statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "requests": 4,
+      "redirects": [],
+      "wallMs": 100.32,
+      "sampledNonIdleMs": 86.04,
+      "sampledHotspots": [
+        {
+          "frame": "Timeout (node-internal:internal_timers)",
+          "ms": 26.18
+        },
+        {
+          "frame": "createLoaderTask (assets/Match-DD9GVDeI.js)",
+          "ms": 8.62
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 7.89
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 4.66
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 3.77
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 3.52
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 3.13
+        },
+        {
+          "frame": "finishedSegment (index.js)",
+          "ms": 1.86
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 1.82
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.79
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.78
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.75
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 8990096,
+        "totalSize": 17199104,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1469104
+      },
+      "memoryAfter": {
+        "usedSize": 11927992,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1544326
+      },
+      "calls": [],
+      "profile": "context-before-1-concurrent-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 68.78,
+      "sampledNonIdleMs": 63.61,
+      "sampledHotspots": [
+        {
+          "frame": "resolvedMedia (assets/site-config-B_PAp8Nm.js)",
+          "ms": 29.81
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 15.91
+        },
+        {
+          "frame": "HydrationScriptsOwner (index.js)",
+          "ms": 4.54
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.99
+        },
+        {
+          "frame": "StructuredData (assets/site-BrS6JoM9.js)",
+          "ms": 1.85
+        },
+        {
+          "frame": "normalizePost (assets/site-P86MekIu.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "executeRouter (index.js)",
+          "ms": 1.61
+        },
+        {
+          "frame": "startWork (index.js)",
+          "ms": 1.59
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.58
+        },
+        {
+          "frame": "(anonymous) (native)",
+          "ms": 1.45
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 0.99
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 0.6
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 11927992,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1544326
+      },
+      "memoryAfter": {
+        "usedSize": 10165260,
+        "totalSize": 18509824,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1170141
+      },
+      "calls": [],
+      "profile": "context-before-2-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 23.48,
+      "sampledNonIdleMs": 16.83,
+      "sampledHotspots": [
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.24
+        },
+        {
+          "frame": "run (native)",
+          "ms": 2.97
+        },
+        {
+          "frame": "createWorkInProgressHook (index.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "(anonymous) (native)",
+          "ms": 1.62
+        },
+        {
+          "frame": "write (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.61
+        },
+        {
+          "frame": "setTimeout (native)",
+          "ms": 1.4
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.36
+        },
+        {
+          "frame": "useWhatsApp (assets/site-E4bjLfU9.js)",
+          "ms": 1.2
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 10165260,
+        "totalSize": 18509824,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1170141
+      },
+      "memoryAfter": {
+        "usedSize": 11829648,
+        "totalSize": 18509824,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1376050
+      },
+      "calls": [],
+      "profile": "context-before-3-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 26.61,
+      "sampledNonIdleMs": 24,
+      "sampledHotspots": [
+        {
+          "frame": "acceptAppRead (index.js)",
+          "ms": 6.55
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 4.97
+        },
+        {
+          "frame": "serialize$1 (index.js)",
+          "ms": 1.76
+        },
+        {
+          "frame": "flushSubtree (index.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "isAttributeNameSafe (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.36
+        },
+        {
+          "frame": "ensureResponse (index.js)",
+          "ms": 1.26
+        },
+        {
+          "frame": "(anonymous) (assets/site-BrS6JoM9.js)",
+          "ms": 1.26
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 11829648,
+        "totalSize": 18509824,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1376050
+      },
+      "memoryAfter": {
+        "usedSize": 9883464,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1170185
+      },
+      "calls": [],
+      "profile": "context-before-4-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 21.49,
+      "sampledNonIdleMs": 13,
+      "sampledHotspots": [
+        {
+          "frame": "URLSearchParams (native)",
+          "ms": 2.93
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.88
+        },
+        {
+          "frame": "pushAllNext (index.js)",
+          "ms": 1.78
+        },
+        {
+          "frame": "collection (assets/site-P86MekIu.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "parsePlugin (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.35
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 9883464,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1170185
+      },
+      "memoryAfter": {
+        "usedSize": 11486120,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1376094
+      },
+      "calls": [],
+      "profile": "context-before-5-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 20.36,
+      "sampledNonIdleMs": 12.57,
+      "sampledHotspots": [
+        {
+          "frame": "collection (assets/site-P86MekIu.js)",
+          "ms": 4.77
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.08
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "removeEventListener (native)",
+          "ms": 1.68
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.24
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 11486120,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1376094
+      },
+      "memoryAfter": {
+        "usedSize": 9568052,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1132662
+      },
+      "calls": [],
+      "profile": "context-before-6-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 17.92,
+      "sampledNonIdleMs": 12.04,
+      "sampledHotspots": [
+        {
+          "frame": "cityLinks (assets/site-P86MekIu.js)",
+          "ms": 2.92
+        },
+        {
+          "frame": "read (native)",
+          "ms": 1.72
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.63
+        },
+        {
+          "frame": "pushLinkImpl (index.js)",
+          "ms": 1.45
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 1.44
+        },
+        {
+          "frame": "pushAttribute (index.js)",
+          "ms": 1.25
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 9568052,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1132662
+      },
+      "memoryAfter": {
+        "usedSize": 11149548,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1338571
+      },
+      "calls": [],
+      "profile": "context-before-7-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 26.59,
+      "sampledNonIdleMs": 21.87,
+      "sampledHotspots": [
+        {
+          "frame": "read (native)",
+          "ms": 5.07
+        },
+        {
+          "frame": "URLSearchParams (native)",
+          "ms": 4.77
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 3.41
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.83
+        },
+        {
+          "frame": "pushSelfClosing (index.js)",
+          "ms": 1.42
+        },
+        {
+          "frame": "sanitizeURL (index.js)",
+          "ms": 1.4
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.33
+        },
+        {
+          "frame": "isValidIdentifier (index.js)",
+          "ms": 1.33
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 1.3
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 11149548,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1338571
+      },
+      "memoryAfter": {
+        "usedSize": 12717408,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1544480
+      },
+      "calls": [],
+      "profile": "context-before-8-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 25.75,
+      "sampledNonIdleMs": 19.27,
+      "sampledHotspots": [
+        {
+          "frame": "pull (index.js)",
+          "ms": 3.42
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.3
+        },
+        {
+          "frame": "media (assets/site-config-B_PAp8Nm.js)",
+          "ms": 2.9
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.77
+        },
+        {
+          "frame": "renderChildrenArray (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.63
+        },
+        {
+          "frame": "pushTreeContext (index.js)",
+          "ms": 1.45
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.29
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 12717408,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1544480
+      },
+      "memoryAfter": {
+        "usedSize": 10542040,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1170295
+      },
+      "calls": [],
+      "profile": "context-before-9-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 20.66,
+      "sampledNonIdleMs": 9.48,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-P86MekIu.js)",
+          "ms": 4.67
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "serialize$1 (index.js)",
+          "ms": 1.61
+        },
+        {
+          "frame": "getRequestAssets (index.js)",
+          "ms": 1.47
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 10542040,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1170295
+      },
+      "memoryAfter": {
+        "usedSize": 12103044,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1376204
+      },
+      "calls": [],
+      "profile": "context-before-10-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 44.13,
+      "sampledNonIdleMs": 36.12,
+      "sampledHotspots": [
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 25.91
+        },
+        {
+          "frame": "URLSearchParams (native)",
+          "ms": 3.34
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.77
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.67
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 12103044,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1376204
+      },
+      "memoryAfter": {
+        "usedSize": 9868164,
+        "totalSize": 19296256,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1132772
+      },
+      "calls": [],
+      "profile": "context-before-11-sequential-warm"
+    },
+    {
+      "variant": "context-before",
+      "cache": "after-sequence",
+      "memory": {
+        "usedSize": 9868164,
+        "totalSize": 19296256,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1132772
+      }
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "slow-rest",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 425.13,
+      "sampledNonIdleMs": 421.86,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 166.04
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 25.22
+        },
+        {
+          "frame": "clean (assets/site-config-B_PAp8Nm.js)",
+          "ms": 24.54
+        },
+        {
+          "frame": "decodeDelta (assets/site-config-B_PAp8Nm.js)",
+          "ms": 14.91
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-B4kmujwT.js)",
+          "ms": 11.21
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 9.83
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 8.48
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 8.33
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 6.96
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 5.92
+        },
+        {
+          "frame": "escapeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 5.12
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 5.07
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 156367,
+      "restWaitSumMs": 823.83,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5154196,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8816288,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1169965
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 56.043900000000576
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 58.44290000000001
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 59.650000000001455
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 61.614700000000084
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 62.60049999999865
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 63.35499999999956
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 55.40869999999995
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 57.98790000000008
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 59.56840000000011
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 64.49989999999889
+        },
+        {
+          "endpoint": "trabalho",
+          "query": "?per_page=3&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 55.19889999999941
+        },
+        {
+          "endpoint": "posts",
+          "query": "?per_page=3&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 25157,
+          "waitMs": 55.73700000000099
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 56.52850000000035
+        },
+        {
+          "endpoint": "cliente",
+          "query": "?per_page=100&_embed=wp:featuredmedia",
+          "status": 200,
+          "bytes": 39536,
+          "waitMs": 57.19760000000133
+        }
+      ],
+      "profile": "context-before-13-slow-rest"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "partial-failure",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 228.08,
+      "sampledNonIdleMs": 200.68,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 25.6
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 21.73
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 11.03
+        },
+        {
+          "frame": "clean (assets/site-config-B_PAp8Nm.js)",
+          "ms": 8.84
+        },
+        {
+          "frame": "setRenderFinished (index.js)",
+          "ms": 6.82
+        },
+        {
+          "frame": "server (assets/createServerFn-B4kmujwT.js)",
+          "ms": 6.75
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 5.17
+        },
+        {
+          "frame": "Footer (assets/site-E4bjLfU9.js)",
+          "ms": 5.03
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 4.32
+        },
+        {
+          "frame": "onopentag (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.65
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-B4kmujwT.js)",
+          "ms": 3.47
+        },
+        {
+          "frame": "head (assets/router-Dx_W6_2e.js)",
+          "ms": 3.42
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 131212,
+      "restWaitSumMs": 132.05,
+      "htmlBytes": 65854,
+      "inlineScriptBytes": 30860,
+      "visibleHash": "d34e0d53206a86c850c921484493c77c42b5ea59d42d1bf3a0f535fbffaf5f75",
+      "mainHash": "22df41895844c9ad942e146314a97b3b8258728a19bc41a530be7d40da5931cd",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5416324,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8095272,
+        "totalSize": 10907648,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1138822
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 6.378899999999703
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 7.127599999999802
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 7.65480000000025
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 8.071099999999205
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 8.510800000000017
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 9.35570000000007
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 9.051300000000992
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 9.63760000000002
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 11.244900000001508
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 13.84820000000036
+        },
+        {
+          "endpoint": "trabalho",
+          "query": "?per_page=3&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 9.245500000000902
+        },
+        {
+          "endpoint": "posts",
+          "query": "?per_page=3&_embed=wp%3Afeaturedmedia",
+          "status": 503,
+          "bytes": 2,
+          "waitMs": 9.983399999999165
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 10.635400000001027
+        },
+        {
+          "endpoint": "cliente",
+          "query": "?per_page=100&_embed=wp:featuredmedia",
+          "status": 200,
+          "bytes": 39536,
+          "waitMs": 11.305199999998877
+        }
+      ],
+      "profile": "context-before-14-partial-failure"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-furgao-com-porta-traseira-horizontal-vw-saveiro/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 300.72,
+      "sampledNonIdleMs": 292.81,
+      "sampledHotspots": [
+        {
+          "frame": "loggerFor (assets/site-config-B_PAp8Nm.js)",
+          "ms": 39.72
+        },
+        {
+          "frame": "(anonymous) (assets/site-P86MekIu.js)",
+          "ms": 35.74
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 30.55
+        },
+        {
+          "frame": "fetchSiteConfig (assets/site-config-B_PAp8Nm.js)",
+          "ms": 17.95
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 12.33
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 11.92
+        },
+        {
+          "frame": "relatedProducts (assets/site-P86MekIu.js)",
+          "ms": 10.24
+        },
+        {
+          "frame": "decodePath (assets/__23tanstack-start-server-fn-resolver-Bl5bPQO9.js)",
+          "ms": 6.99
+        },
+        {
+          "frame": "decodeTrieDict (assets/site-config-B_PAp8Nm.js)",
+          "ms": 5.35
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 5.16
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 5.15
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 3.56
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 141116,
+      "restWaitSumMs": 178.9,
+      "htmlBytes": 71802,
+      "inlineScriptBytes": 47323,
+      "visibleHash": "2372423c7de958172b7d59b9ae0aeb42718dc7f3185323583aa95d43b67fa966",
+      "mainHash": "c7b9eba4622a57307694c9306f9906401ceb2d62623aa43ab68767a02f1c61c7",
+      "footerStableHash": "f656aea96439c246f8db759299d593f2dff100437bf5e0585666b822c23e8916",
+      "memoryBefore": {
+        "usedSize": 5265044,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8273128,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1143298
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 12.633899999998903
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 13.253300000000309
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 13.795500000000175
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 14.207399999999325
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 14.617700000000696
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 15.190300000000207
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 4.707999999998719
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 9.762699999999313
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 10.610900000001493
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 11.909200000000055
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-furgao-com-porta-traseira-horizontal-vw-saveiro&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 7078,
+          "waitMs": 11.528299999999945
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=716%2C717%2C718%2C719&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8551,
+          "waitMs": 14.489999999999782
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=7&modelo=20&tax_relation=AND&exclude=269&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 25467,
+          "waitMs": 17.025299999999334
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=371%2C372%2C373%2C698%2C699%2C731%2C732%2C733%2C734%2C746%2C747%2C748%2C749%2C750%2C751&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 23954,
+          "waitMs": 15.168800000001283
+        }
+      ],
+      "profile": "context-before-15-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-land-rover-defender/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 134.74,
+      "sampledNonIdleMs": 129.88,
+      "sampledHotspots": [
+        {
+          "frame": "sanitizeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 41.96
+        },
+        {
+          "frame": "relatedProducts (assets/site-P86MekIu.js)",
+          "ms": 24.48
+        },
+        {
+          "frame": "parse (assets/site-config-B_PAp8Nm.js)",
+          "ms": 17.74
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 17.66
+        },
+        {
+          "frame": "(anonymous) (assets/Match-DD9GVDeI.js)",
+          "ms": 4.86
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "serializeArray (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "Response (native)",
+          "ms": 1.72
+        },
+        {
+          "frame": "appendUniqueUserTags (assets/Match-DD9GVDeI.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.7
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "Breadcrumb (assets/site-BrS6JoM9.js)",
+          "ms": 1.56
+        }
+      ],
+      "subrequests": 5,
+      "jsonBytes": 16560,
+      "restWaitSumMs": 65.69,
+      "htmlBytes": 47635,
+      "inlineScriptBytes": 31668,
+      "visibleHash": "fa00f013f8af5b6224bcf59c1b64bc0d425ccfde8be4765a90aeaf962adfd366",
+      "mainHash": "70a09b5f8bb2ba753b24a1aac4c92dfb44b481defdcdb5f9fe6b62f802081b05",
+      "footerStableHash": "86544ec9093bdcf90296a31c33f94e9a0a114466e0d2c0214e961bef881f491b",
+      "memoryBefore": {
+        "usedSize": 8273128,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1143298
+      },
+      "memoryAfter": {
+        "usedSize": 9759448,
+        "totalSize": 12742656,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1266094
+      },
+      "calls": [
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-de-fibra-basica-para-land-rover-defender&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5110,
+          "waitMs": 12.836299999999028
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=424%2C425%2C426&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 3188,
+          "waitMs": 13.380999999999403
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=17&modelo=30&tax_relation=AND&exclude=279&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 8.51130000000012
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=100&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&exclude=279",
+          "status": 200,
+          "bytes": 2268,
+          "waitMs": 18.26470000000154
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=593%2C798%2C799%2C800&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 5992,
+          "waitMs": 12.701600000000326
+        }
+      ],
+      "profile": "context-before-16-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 117.88,
+      "sampledNonIdleMs": 111.53,
+      "sampledHotspots": [
+        {
+          "frame": "Frame (assets/site-config-B_PAp8Nm.js)",
+          "ms": 76.84
+        },
+        {
+          "frame": "RouterCore.update (assets/Match-DD9GVDeI.js)",
+          "ms": 5.39
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 3.6
+        },
+        {
+          "frame": "clean (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.44
+        },
+        {
+          "frame": "pushAttribute (index.js)",
+          "ms": 1.85
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.75
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "createObjectNode (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "pushSource (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "get (assets/Match-DD9GVDeI.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "replaceSuspenseComponentStackWithSuspenseFallbackStack (index.js)",
+          "ms": 1.63
+        }
+      ],
+      "subrequests": 4,
+      "jsonBytes": 11989,
+      "restWaitSumMs": 58.48,
+      "htmlBytes": 49575,
+      "inlineScriptBytes": 32187,
+      "visibleHash": "a0785797dd16f7ff8fb485e1e14b33716d41f64a8712d17bacc5c097eea38c80",
+      "mainHash": "e106743c8d1e357b4f54a59cc438b20a99f3cfba3dfbc6ae085658ae5ec43d5f",
+      "footerStableHash": "0151d3c1dc9db55326f0baf8ee4460e881be8e2bfda7f43fda02e513028b4af5",
+      "memoryBefore": {
+        "usedSize": 9759448,
+        "totalSize": 12742656,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1266094
+      },
+      "memoryAfter": {
+        "usedSize": 8614996,
+        "totalSize": 14577664,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092808
+      },
+      "calls": [
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-de-fibra-com-portas-laterais-para-fiat-strada&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5885,
+          "waitMs": 19.79199999999946
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=579%2C580%2C581&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 3834,
+          "waitMs": 13.736199999999371
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=4&modelo=5&tax_relation=AND&exclude=44&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 11.510499999998501
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=100&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&exclude=44",
+          "status": 200,
+          "bytes": 2268,
+          "waitMs": 13.438099999999395
+        }
+      ],
+      "profile": "context-before-17-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-toyota-hilux/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 98.07,
+      "sampledNonIdleMs": 91.68,
+      "sampledHotspots": [
+        {
+          "frame": "clean (assets/site-config-B_PAp8Nm.js)",
+          "ms": 36.06
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 18.12
+        },
+        {
+          "frame": "json (native)",
+          "ms": 8.26
+        },
+        {
+          "frame": "set (assets/Match-DD9GVDeI.js)",
+          "ms": 4.87
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 4.57
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 3.44
+        },
+        {
+          "frame": "parsePlainObject (index.js)",
+          "ms": 1.83
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "collection (assets/site-P86MekIu.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "serializeProperties (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "popElement (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "ProductCard (assets/site-BrS6JoM9.js)",
+          "ms": 1.49
+        }
+      ],
+      "subrequests": 4,
+      "jsonBytes": 34612,
+      "restWaitSumMs": 44.61,
+      "htmlBytes": 56486,
+      "inlineScriptBytes": 37297,
+      "visibleHash": "9d35170c6e9d64cd2a69898328eade0fbdaae9dc4dae8792ef950d1587cbd5f5",
+      "mainHash": "e241ddab221f3fcbe73cd2101236ee7fd428f17dc2b956aa85f9e1f9bda98a32",
+      "footerStableHash": "fd78916b83e62b38a1a84862ad59c02ab3dffe4aa4d400e3e8ad571d9ddabc41",
+      "memoryBefore": {
+        "usedSize": 8614996,
+        "totalSize": 14577664,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092808
+      },
+      "memoryAfter": {
+        "usedSize": 10323808,
+        "totalSize": 15888384,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1232376
+      },
+      "calls": [
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-de-fibra-basica-para-toyota-hilux&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 6118,
+          "waitMs": 5.535799999999654
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=438%2C439&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2289,
+          "waitMs": 13.583300000000236
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=15&modelo=25&tax_relation=AND&exclude=239&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 19390,
+          "waitMs": 11.363799999999173
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=387%2C621%2C622%2C828%2C829&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 6815,
+          "waitMs": 14.130699999999706
+        }
+      ],
+      "profile": "context-before-18-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-tampao-para-dodge-dakota/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 77.68,
+      "sampledNonIdleMs": 57.93,
+      "sampledHotspots": [
+        {
+          "frame": "Frame (assets/site-config-B_PAp8Nm.js)",
+          "ms": 15.12
+        },
+        {
+          "frame": "parse (assets/site-config-B_PAp8Nm.js)",
+          "ms": 11.32
+        },
+        {
+          "frame": "RouterCore.parseLocation (assets/Match-DD9GVDeI.js)",
+          "ms": 6.94
+        },
+        {
+          "frame": "pushStartGenericElement (index.js)",
+          "ms": 4.11
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "setResponse (index.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "close (native)",
+          "ms": 1.74
+        },
+        {
+          "frame": "renderRouterToStream (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "(anonymous) (assets/site-P86MekIu.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.69
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 1.68
+        }
+      ],
+      "subrequests": 3,
+      "jsonBytes": 18113,
+      "restWaitSumMs": 27.04,
+      "htmlBytes": 49527,
+      "inlineScriptBytes": 33698,
+      "visibleHash": "b13f3f0b5546d2c07a60980bb048fadb610bff1115a4d878621dd47bf9a836c5",
+      "mainHash": "0a6bce980ba0f9957242d5722d7fc473fb8de98941c1c7548470f58bc7e4080e",
+      "footerStableHash": "0e1d91f098d1a65bacc94fccb562cb183657c50aca1ecc86f4bef6422b0811aa",
+      "memoryBefore": {
+        "usedSize": 10323808,
+        "totalSize": 15888384,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1232376
+      },
+      "memoryAfter": {
+        "usedSize": 9185220,
+        "totalSize": 16674816,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092937
+      },
+      "calls": [
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-de-fibra-tampao-para-dodge-dakota&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 7.064100000001417
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=10&modelo=32&tax_relation=AND&exclude=235&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 10517,
+          "waitMs": 10.002000000000407
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=100&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&exclude=235",
+          "status": 200,
+          "bytes": 2268,
+          "waitMs": 9.970699999999852
+        }
+      ],
+      "profile": "context-before-19-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/produtos/especificacoes-tecnicas/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 80.46,
+      "sampledNonIdleMs": 75.36,
+      "sampledHotspots": [
+        {
+          "frame": "stateInTagName (assets/site-config-B_PAp8Nm.js)",
+          "ms": 41.54
+        },
+        {
+          "frame": "isValidIdentifier (index.js)",
+          "ms": 15.08
+        },
+        {
+          "frame": "findMatch (assets/Match-DD9GVDeI.js)",
+          "ms": 4.67
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 3.33
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 2.89
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "renderNodeDestructive (index.js)",
+          "ms": 1.42
+        },
+        {
+          "frame": "isSsrResponse (index.js)",
+          "ms": 1.11
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.08
+        },
+        {
+          "frame": "pushStringAttribute (index.js)",
+          "ms": 0.62
+        },
+        {
+          "frame": "pushComponentStack (index.js)",
+          "ms": 0.15
+        }
+      ],
+      "subrequests": 3,
+      "jsonBytes": 10321,
+      "restWaitSumMs": 43.77,
+      "htmlBytes": 43953,
+      "inlineScriptBytes": 28850,
+      "visibleHash": "8698f5b4c36a5268be9219c7204ce6fb64a921c9268f7f5edfc1ca7a6ab0db39",
+      "mainHash": "2ff44589496a8378b4c9de350985ef22e9a12743ad33db1fe5be4536dd184bf4",
+      "footerStableHash": "6ee3956817e1f7630d133c45522032cf763ef9ff7d5782862138c6598f6e2066",
+      "memoryBefore": {
+        "usedSize": 9185220,
+        "totalSize": 16674816,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092937
+      },
+      "memoryAfter": {
+        "usedSize": 10445496,
+        "totalSize": 16674816,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1204066
+      },
+      "calls": [
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=especificacoes-tecnicas&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5976,
+          "waitMs": 18.853399999999965
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=593%2C799%2C800&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 4343,
+          "waitMs": 14.45560000000114
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=100&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&exclude=334",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 10.462299999999232
+        }
+      ],
+      "profile": "context-before-20-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-furgao-com-porta-traseira-horizontal-vw-saveiro/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 104.65,
+      "sampledNonIdleMs": 97.08,
+      "sampledHotspots": [
+        {
+          "frame": "StructuredData (assets/site-BrS6JoM9.js)",
+          "ms": 72.91
+        },
+        {
+          "frame": "RouterCore.update (assets/Match-DD9GVDeI.js)",
+          "ms": 4.72
+        },
+        {
+          "frame": "clean (assets/site-config-B_PAp8Nm.js)",
+          "ms": 2.47
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.84
+        },
+        {
+          "frame": "addEventListener (native)",
+          "ms": 1.76
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.63
+        },
+        {
+          "frame": "ProductGrid (assets/site-BrS6JoM9.js)",
+          "ms": 1.62
+        },
+        {
+          "frame": "renderScripts (assets/router-Dx_W6_2e.js)",
+          "ms": 1.49
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.35
+        },
+        {
+          "frame": "getObjectFlag (index.js)",
+          "ms": 1.31
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 71802,
+      "inlineScriptBytes": 47323,
+      "visibleHash": "2372423c7de958172b7d59b9ae0aeb42718dc7f3185323583aa95d43b67fa966",
+      "mainHash": "c7b9eba4622a57307694c9306f9906401ceb2d62623aa43ab68767a02f1c61c7",
+      "footerStableHash": "f656aea96439c246f8db759299d593f2dff100437bf5e0585666b822c23e8916",
+      "memoryBefore": {
+        "usedSize": 10445496,
+        "totalSize": 16674816,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1204066
+      },
+      "memoryAfter": {
+        "usedSize": 8616328,
+        "totalSize": 17199104,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1116193
+      },
+      "calls": [],
+      "profile": "context-before-21-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-land-rover-defender/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 24,
+      "sampledNonIdleMs": 19.18,
+      "sampledHotspots": [
+        {
+          "frame": "userNext (assets/createServerFn-B4kmujwT.js)",
+          "ms": 4.87
+        },
+        {
+          "frame": "(anonymous) (native)",
+          "ms": 3.4
+        },
+        {
+          "frame": "jsxProd (assets/__23tanstack-start-server-fn-resolver-Bl5bPQO9.js)",
+          "ms": 2.81
+        },
+        {
+          "frame": "end (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.52
+        },
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 1.43
+        },
+        {
+          "frame": "ReadableStream (native)",
+          "ms": 1.35
+        },
+        {
+          "frame": "pushSelfClosing (index.js)",
+          "ms": 1.2
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 0.68
+        },
+        {
+          "frame": "createIndexForValue (index.js)",
+          "ms": 0.25
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 47635,
+      "inlineScriptBytes": 31668,
+      "visibleHash": "fa00f013f8af5b6224bcf59c1b64bc0d425ccfde8be4765a90aeaf962adfd366",
+      "mainHash": "70a09b5f8bb2ba753b24a1aac4c92dfb44b481defdcdb5f9fe6b62f802081b05",
+      "footerStableHash": "86544ec9093bdcf90296a31c33f94e9a0a114466e0d2c0214e961bef881f491b",
+      "memoryBefore": {
+        "usedSize": 8616328,
+        "totalSize": 17199104,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1116193
+      },
+      "memoryAfter": {
+        "usedSize": 9818840,
+        "totalSize": 17199104,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1238989
+      },
+      "calls": [],
+      "profile": "context-before-22-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 29.76,
+      "sampledNonIdleMs": 20.18,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 4.86
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 2.85
+        },
+        {
+          "frame": "request (assets/contacts-9xmIDGOI.js)",
+          "ms": 1.77
+        },
+        {
+          "frame": "exports.createElement (assets/__23tanstack-start-server-fn-resolver-Bl5bPQO9.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "onParse (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "batch (assets/router-Dx_W6_2e.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "renderNodeDestructive (index.js)",
+          "ms": 1.48
+        },
+        {
+          "frame": "escapeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.4
+        },
+        {
+          "frame": "flushSegment (index.js)",
+          "ms": 1.38
+        },
+        {
+          "frame": "(anonymous) (assets/site-P86MekIu.js)",
+          "ms": 1.37
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 49575,
+      "inlineScriptBytes": 32187,
+      "visibleHash": "a0785797dd16f7ff8fb485e1e14b33716d41f64a8712d17bacc5c097eea38c80",
+      "mainHash": "e106743c8d1e357b4f54a59cc438b20a99f3cfba3dfbc6ae085658ae5ec43d5f",
+      "footerStableHash": "0151d3c1dc9db55326f0baf8ee4460e881be8e2bfda7f43fda02e513028b4af5",
+      "memoryBefore": {
+        "usedSize": 9818840,
+        "totalSize": 17199104,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1238989
+      },
+      "memoryAfter": {
+        "usedSize": 11320460,
+        "totalSize": 17461248,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1367731
+      },
+      "calls": [],
+      "profile": "context-before-23-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-toyota-hilux/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 34.2,
+      "sampledNonIdleMs": 28.13,
+      "sampledHotspots": [
+        {
+          "frame": "matchRoutesLightweight (assets/Match-DD9GVDeI.js)",
+          "ms": 4.84
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 4.28
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 3.48
+        },
+        {
+          "frame": "each (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.88
+        },
+        {
+          "frame": "(anonymous) (assets/router-Dx_W6_2e.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.73
+        },
+        {
+          "frame": "parsePlainObject (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "userNext (assets/createServerFn-B4kmujwT.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "pushStartGenericElement (index.js)",
+          "ms": 1.52
+        },
+        {
+          "frame": "parsePluginStream (index.js)",
+          "ms": 1.48
+        },
+        {
+          "frame": "Timeout (node-internal:internal_timers)",
+          "ms": 1.35
+        },
+        {
+          "frame": "createFunction (index.js)",
+          "ms": 1.24
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 56486,
+      "inlineScriptBytes": 37297,
+      "visibleHash": "9d35170c6e9d64cd2a69898328eade0fbdaae9dc4dae8792ef950d1587cbd5f5",
+      "mainHash": "e241ddab221f3fcbe73cd2101236ee7fd428f17dc2b956aa85f9e1f9bda98a32",
+      "footerStableHash": "fd78916b83e62b38a1a84862ad59c02ab3dffe4aa4d400e3e8ad571d9ddabc41",
+      "memoryBefore": {
+        "usedSize": 11320460,
+        "totalSize": 17461248,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1367731
+      },
+      "memoryAfter": {
+        "usedSize": 9083600,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1082033
+      },
+      "calls": [],
+      "profile": "context-before-24-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-tampao-para-dodge-dakota/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 30.12,
+      "sampledNonIdleMs": 21.98,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/createServerFn-B4kmujwT.js)",
+          "ms": 5.21
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 2.95
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 2.73
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.98
+        },
+        {
+          "frame": "(anonymous) (assets/site-P86MekIu.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "clean (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "parsePluginStream (index.js)",
+          "ms": 1.54
+        },
+        {
+          "frame": "FooterContacts (assets/site-E4bjLfU9.js)",
+          "ms": 1.53
+        },
+        {
+          "frame": "createFunction (index.js)",
+          "ms": 1.37
+        },
+        {
+          "frame": "NavigationDropdown (assets/site-E4bjLfU9.js)",
+          "ms": 0.98
+        },
+        {
+          "frame": "listenForAbort (index.js)",
+          "ms": 0.28
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 49527,
+      "inlineScriptBytes": 33698,
+      "visibleHash": "b13f3f0b5546d2c07a60980bb048fadb610bff1115a4d878621dd47bf9a836c5",
+      "mainHash": "0a6bce980ba0f9957242d5722d7fc473fb8de98941c1c7548470f58bc7e4080e",
+      "footerStableHash": "0e1d91f098d1a65bacc94fccb562cb183657c50aca1ecc86f4bef6422b0811aa",
+      "memoryBefore": {
+        "usedSize": 9083600,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1082033
+      },
+      "memoryAfter": {
+        "usedSize": 10356948,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1210860
+      },
+      "calls": [],
+      "profile": "context-before-25-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/produtos/especificacoes-tecnicas/",
+      "cache": "product-navigation",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 22,
+      "sampledNonIdleMs": 15.42,
+      "sampledHotspots": [
+        {
+          "frame": "sanitizeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 4.68
+        },
+        {
+          "frame": "createFunction (index.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "useWhatsApp (assets/site-E4bjLfU9.js)",
+          "ms": 1.43
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.42
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.36
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.33
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 43953,
+      "inlineScriptBytes": 28850,
+      "visibleHash": "8698f5b4c36a5268be9219c7204ce6fb64a921c9268f7f5edfc1ca7a6ab0db39",
+      "mainHash": "2ff44589496a8378b4c9de350985ef22e9a12743ad33db1fe5be4536dd184bf4",
+      "footerStableHash": "6ee3956817e1f7630d133c45522032cf763ef9ff7d5782862138c6598f6e2066",
+      "memoryBefore": {
+        "usedSize": 10356948,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1210860
+      },
+      "memoryAfter": {
+        "usedSize": 11483808,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1321989
+      },
+      "calls": [],
+      "profile": "context-before-26-product-navigation"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 275.04,
+      "sampledNonIdleMs": 270.34,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 36.49
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 23.32
+        },
+        {
+          "frame": "fetchSiteConfig (assets/site-config-B_PAp8Nm.js)",
+          "ms": 22.59
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 9.53
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 8.4
+        },
+        {
+          "frame": "parse (assets/site-config-B_PAp8Nm.js)",
+          "ms": 7.41
+        },
+        {
+          "frame": "write (assets/site-config-B_PAp8Nm.js)",
+          "ms": 7.07
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-B4kmujwT.js)",
+          "ms": 6.76
+        },
+        {
+          "frame": "cleanup (index.js)",
+          "ms": 6.75
+        },
+        {
+          "frame": "stateInTagName (assets/site-config-B_PAp8Nm.js)",
+          "ms": 5
+        },
+        {
+          "frame": "getNormalizedURL (index.js)",
+          "ms": 4.82
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 4.82
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 156367,
+      "restWaitSumMs": 182.98,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5416324,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8869084,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1169965
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 12.97360000000117
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 13.506599999996979
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 14.053899999998976
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 14.496200000001409
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 15.05619999999908
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 15.689399999999296
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 11.22689999999784
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 11.022600000000239
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 12.067399999999907
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 13.493800000000192
+        },
+        {
+          "endpoint": "trabalho",
+          "query": "?per_page=3&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 11.009099999999307
+        },
+        {
+          "endpoint": "posts",
+          "query": "?per_page=3&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 25157,
+          "waitMs": 12.034899999998743
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 12.766700000000128
+        },
+        {
+          "endpoint": "cliente",
+          "query": "?per_page=100&_embed=wp:featuredmedia",
+          "status": 200,
+          "bytes": 39536,
+          "waitMs": 13.580399999998917
+        }
+      ],
+      "profile": "context-before-27-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 58.44,
+      "sampledNonIdleMs": 46.89,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 4.67
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 3.27
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 2.73
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.98
+        },
+        {
+          "frame": "renderNodeDestructive (index.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "ReactElement (assets/__23tanstack-start-server-fn-resolver-Bl5bPQO9.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "isValidIdentifier (index.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "executeServerLane (assets/Match-DD9GVDeI.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.72
+        },
+        {
+          "frame": "URLSearchParams (native)",
+          "ms": 1.68
+        },
+        {
+          "frame": "end (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.67
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 8869084,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1169965
+      },
+      "memoryAfter": {
+        "usedSize": 7573096,
+        "totalSize": 14577664,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1132420
+      },
+      "calls": [],
+      "profile": "context-before-28-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/produtos/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 242.44,
+      "sampledNonIdleMs": 230.2,
+      "sampledHotspots": [
+        {
+          "frame": "URLSearchParams (native)",
+          "ms": 33.17
+        },
+        {
+          "frame": "fetchSiteConfig (assets/site-config-B_PAp8Nm.js)",
+          "ms": 21.67
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 19.97
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 16.64
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 16.58
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 9.78
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 8.54
+        },
+        {
+          "frame": "clean (assets/site-config-B_PAp8Nm.js)",
+          "ms": 6.82
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 5.1
+        },
+        {
+          "frame": "normalizeSiteConfig (assets/site-config-B_PAp8Nm.js)",
+          "ms": 5.04
+        },
+        {
+          "frame": "safeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 4.98
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 3.37
+        }
+      ],
+      "subrequests": 12,
+      "jsonBytes": 195848,
+      "restWaitSumMs": 165.47,
+      "htmlBytes": 96012,
+      "inlineScriptBytes": 62559,
+      "visibleHash": "1796aee4aa9ff067b0a5657c6a70a207e402062b071153f908618dffe9fcb383",
+      "mainHash": "305f3bffd359e7157fb9e91201e9f42e76badaf3c45be2054f6feeb7bac35b9e",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5154236,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8956780,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1198239
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 15.292700000001787
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 15.913199999999051
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 16.543799999999464
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 17.23619999999937
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 18.20050000000265
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 19.322399999997288
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 8.726599999998143
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 9.935599999997066
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 10.11739999999918
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 8.248999999999796
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 71573,
+          "waitMs": 12.645300000000134
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=390%2C421%2C422%2C438%2C439%2C446%2C447%2C448%2C449%2C450%2C507%2C508%2C509%2C510%2C511%2C598%2C599%2C600%2C612%2C613%2C614%2C615%2C616%2C617%2C618%2C619%2C624%2C625%2C626%2C627%2C644%2C645%2C646%2C647&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 48209,
+          "waitMs": 13.28859999999986
+        }
+      ],
+      "profile": "context-before-29-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/produtos/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 39.86,
+      "sampledNonIdleMs": 33.03,
+      "sampledHotspots": [
+        {
+          "frame": "createRouterStores (assets/Match-DD9GVDeI.js)",
+          "ms": 3.85
+        },
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 1.82
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "appendUniqueUserTags (assets/Match-DD9GVDeI.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.73
+        },
+        {
+          "frame": "Parser (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "read (native)",
+          "ms": 1.72
+        },
+        {
+          "frame": "getNodeForIndexedValue (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "parsePlainObject (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "each (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.66
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 96012,
+      "inlineScriptBytes": 62559,
+      "visibleHash": "1796aee4aa9ff067b0a5657c6a70a207e402062b071153f908618dffe9fcb383",
+      "mainHash": "305f3bffd359e7157fb9e91201e9f42e76badaf3c45be2054f6feeb7bac35b9e",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 8956780,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1198239
+      },
+      "memoryAfter": {
+        "usedSize": 8317660,
+        "totalSize": 15101952,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1198261
+      },
+      "calls": [],
+      "profile": "context-before-30-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-furgao-com-porta-traseira-horizontal-vw-saveiro/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 210.12,
+      "sampledNonIdleMs": 202.51,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 35.02
+        },
+        {
+          "frame": "escapeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 18.13
+        },
+        {
+          "frame": "(anonymous) (assets/contacts-9xmIDGOI.js)",
+          "ms": 18.11
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 16.65
+        },
+        {
+          "frame": "readTagName (assets/site-config-B_PAp8Nm.js)",
+          "ms": 15
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 13.6
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 5.21
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 5.2
+        },
+        {
+          "frame": "legacyRedirect (assets/site-P86MekIu.js)",
+          "ms": 5
+        },
+        {
+          "frame": "onopentagname (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.48
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 3.41
+        },
+        {
+          "frame": "performWork (index.js)",
+          "ms": 3.41
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 141116,
+      "restWaitSumMs": 175.12,
+      "htmlBytes": 71802,
+      "inlineScriptBytes": 47323,
+      "visibleHash": "2372423c7de958172b7d59b9ae0aeb42718dc7f3185323583aa95d43b67fa966",
+      "mainHash": "c7b9eba4622a57307694c9306f9906401ceb2d62623aa43ab68767a02f1c61c7",
+      "footerStableHash": "f656aea96439c246f8db759299d593f2dff100437bf5e0585666b822c23e8916",
+      "memoryBefore": {
+        "usedSize": 5527172,
+        "totalSize": 7761920,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8215872,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1143298
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 10.149199999999837
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 10.51810000000114
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 11.03440000000046
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 11.657800000000861
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 12.220600000000559
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 12.811200000000099
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.79149999999936
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 16.361899999999878
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 17.43419999999969
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 19.590700000000652
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-furgao-com-porta-traseira-horizontal-vw-saveiro&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 7078,
+          "waitMs": 5.76759999999922
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=716%2C717%2C718%2C719&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8551,
+          "waitMs": 14.233399999997346
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=7&modelo=20&tax_relation=AND&exclude=269&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 25467,
+          "waitMs": 11.114599999997154
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=371%2C372%2C373%2C698%2C699%2C731%2C732%2C733%2C734%2C746%2C747%2C748%2C749%2C750%2C751&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 23954,
+          "waitMs": 11.434399999998277
+        }
+      ],
+      "profile": "context-before-31-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-furgao-com-porta-traseira-horizontal-vw-saveiro/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 31.18,
+      "sampledNonIdleMs": 25.58,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (native)",
+          "ms": 3.27
+        },
+        {
+          "frame": "addEventListener (native)",
+          "ms": 3.07
+        },
+        {
+          "frame": "parsePluginStream (index.js)",
+          "ms": 1.77
+        },
+        {
+          "frame": "getComponentNameFromType (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "flushCompletedQueues (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "Parser (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "test (index.js)",
+          "ms": 1.52
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.39
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 71802,
+      "inlineScriptBytes": 47323,
+      "visibleHash": "2372423c7de958172b7d59b9ae0aeb42718dc7f3185323583aa95d43b67fa966",
+      "mainHash": "c7b9eba4622a57307694c9306f9906401ceb2d62623aa43ab68767a02f1c61c7",
+      "footerStableHash": "f656aea96439c246f8db759299d593f2dff100437bf5e0585666b822c23e8916",
+      "memoryBefore": {
+        "usedSize": 8215872,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1143298
+      },
+      "memoryAfter": {
+        "usedSize": 9934864,
+        "totalSize": 13266944,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1322574
+      },
+      "calls": [],
+      "profile": "context-before-32-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-land-rover-defender/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 261.61,
+      "sampledNonIdleMs": 252,
+      "sampledHotspots": [
+        {
+          "frame": "parseItems (index.js)",
+          "ms": 39.09
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 29.88
+        },
+        {
+          "frame": "timeout (native)",
+          "ms": 19.86
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 18.13
+        },
+        {
+          "frame": "escapeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 17.01
+        },
+        {
+          "frame": "toString (native)",
+          "ms": 16.54
+        },
+        {
+          "frame": "relatedProducts (assets/site-P86MekIu.js)",
+          "ms": 16.5
+        },
+        {
+          "frame": "productBySlug (assets/site-P86MekIu.js)",
+          "ms": 8.29
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 6.45
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 4.84
+        },
+        {
+          "frame": "parse (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.38
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 3.38
+        }
+      ],
+      "subrequests": 15,
+      "jsonBytes": 92626,
+      "restWaitSumMs": 170.11,
+      "htmlBytes": 47635,
+      "inlineScriptBytes": 31668,
+      "visibleHash": "fa00f013f8af5b6224bcf59c1b64bc0d425ccfde8be4765a90aeaf962adfd366",
+      "mainHash": "70a09b5f8bb2ba753b24a1aac4c92dfb44b481defdcdb5f9fe6b62f802081b05",
+      "footerStableHash": "86544ec9093bdcf90296a31c33f94e9a0a114466e0d2c0214e961bef881f491b",
+      "memoryBefore": {
+        "usedSize": 5026860,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7539624,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1086818
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 7.032899999998335
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 7.943400000000111
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 8.394599999999627
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 8.799300000002404
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 9.463199999998324
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 10.052600000002712
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.560100000002421
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 11.379000000000815
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 12.838700000000244
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 15.484300000000076
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-de-fibra-basica-para-land-rover-defender&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5110,
+          "waitMs": 17.340400000000955
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=424%2C425%2C426&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 3188,
+          "waitMs": 13.329699999998411
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=17&modelo=30&tax_relation=AND&exclude=279&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 9.359499999998661
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=100&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&exclude=279",
+          "status": 200,
+          "bytes": 2268,
+          "waitMs": 13.32050000000163
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=593%2C798%2C799%2C800&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 5992,
+          "waitMs": 14.814900000001217
+        }
+      ],
+      "profile": "context-before-33-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-land-rover-defender/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 37.5,
+      "sampledNonIdleMs": 32.87,
+      "sampledHotspots": [
+        {
+          "frame": "startRequestResolver (index.js)",
+          "ms": 3.98
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 2.19
+        },
+        {
+          "frame": "pushComponentStack (index.js)",
+          "ms": 1.9
+        },
+        {
+          "frame": "isIndexedValueInStack (index.js)",
+          "ms": 1.77
+        },
+        {
+          "frame": "flushCompletedQueues (index.js)",
+          "ms": 1.76
+        },
+        {
+          "frame": "isValidKey (index.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "buildTagsFromMatches (assets/router-Dx_W6_2e.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "loggerFor (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "createIndexForValue (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "collection (assets/site-P86MekIu.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "releaseReader (index.js)",
+          "ms": 1.67
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 47635,
+      "inlineScriptBytes": 31668,
+      "visibleHash": "fa00f013f8af5b6224bcf59c1b64bc0d425ccfde8be4765a90aeaf962adfd366",
+      "mainHash": "70a09b5f8bb2ba753b24a1aac4c92dfb44b481defdcdb5f9fe6b62f802081b05",
+      "footerStableHash": "86544ec9093bdcf90296a31c33f94e9a0a114466e0d2c0214e961bef881f491b",
+      "memoryBefore": {
+        "usedSize": 7539624,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1086818
+      },
+      "memoryAfter": {
+        "usedSize": 8926392,
+        "totalSize": 11956224,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1209614
+      },
+      "calls": [],
+      "profile": "context-before-34-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 260.72,
+      "sampledNonIdleMs": 250.6,
+      "sampledHotspots": [
+        {
+          "frame": "selectRelatedProducts (assets/site-P86MekIu.js)",
+          "ms": 30.82
+        },
+        {
+          "frame": "fetchSiteConfig (assets/site-config-B_PAp8Nm.js)",
+          "ms": 21.22
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 19.74
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 17.53
+        },
+        {
+          "frame": "json (native)",
+          "ms": 16.4
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-B_PAp8Nm.js)",
+          "ms": 16.15
+        },
+        {
+          "frame": "resolveRoute (assets/site-P86MekIu.js)",
+          "ms": 14.77
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 10.49
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 10.03
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-B4kmujwT.js)",
+          "ms": 5.33
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 5.16
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 4.94
+        }
+      ],
+      "subrequests": 15,
+      "jsonBytes": 94047,
+      "restWaitSumMs": 206.29,
+      "htmlBytes": 49575,
+      "inlineScriptBytes": 32187,
+      "visibleHash": "a0785797dd16f7ff8fb485e1e14b33716d41f64a8712d17bacc5c097eea38c80",
+      "mainHash": "e106743c8d1e357b4f54a59cc438b20a99f3cfba3dfbc6ae085658ae5ec43d5f",
+      "footerStableHash": "0151d3c1dc9db55326f0baf8ee4460e881be8e2bfda7f43fda02e513028b4af5",
+      "memoryBefore": {
+        "usedSize": 5265044,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7479896,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092764
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 9.31460000000152
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 10.313300000001618
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 11.803100000000995
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 12.528699999998935
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 13.265800000001036
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 14.21440000000075
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 4.910899999998946
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 22.062799999999697
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 22.8012000000017
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 24.04989999999816
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-de-fibra-com-portas-laterais-para-fiat-strada&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5885,
+          "waitMs": 7.269000000000233
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=579%2C580%2C581&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 3834,
+          "waitMs": 13.329400000002352
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=4&modelo=5&tax_relation=AND&exclude=44&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 11.890200000001641
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=100&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&exclude=44",
+          "status": 200,
+          "bytes": 2268,
+          "waitMs": 14.517200000002049
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=593%2C798%2C799%2C800&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 5992,
+          "waitMs": 14.019000000000233
+        }
+      ],
+      "profile": "context-before-35-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 30.52,
+      "sampledNonIdleMs": 24.96,
+      "sampledHotspots": [
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 3.49
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 3.35
+        },
+        {
+          "frame": "buildTagsFromMatches (assets/router-Dx_W6_2e.js)",
+          "ms": 1.79
+        },
+        {
+          "frame": "startFlowing (index.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "ReadableStream (native)",
+          "ms": 1.7
+        },
+        {
+          "frame": "media (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.69
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.63
+        },
+        {
+          "frame": "whatsapp (assets/site-E4bjLfU9.js)",
+          "ms": 1.48
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 49575,
+      "inlineScriptBytes": 32187,
+      "visibleHash": "a0785797dd16f7ff8fb485e1e14b33716d41f64a8712d17bacc5c097eea38c80",
+      "mainHash": "e106743c8d1e357b4f54a59cc438b20a99f3cfba3dfbc6ae085658ae5ec43d5f",
+      "footerStableHash": "0151d3c1dc9db55326f0baf8ee4460e881be8e2bfda7f43fda02e513028b4af5",
+      "memoryBefore": {
+        "usedSize": 7479896,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092764
+      },
+      "memoryAfter": {
+        "usedSize": 8894624,
+        "totalSize": 12218368,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1221506
+      },
+      "calls": [],
+      "profile": "context-before-36-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-toyota-hilux/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 244.67,
+      "sampledNonIdleMs": 219.19,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 26.55
+        },
+        {
+          "frame": "Frame.updateParentNodeMediaChildren (assets/site-config-B_PAp8Nm.js)",
+          "ms": 26.55
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 24.13
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 18.19
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 8.46
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 6.29
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 5.02
+        },
+        {
+          "frame": "flushCompletedQueues (index.js)",
+          "ms": 3.6
+        },
+        {
+          "frame": "executeRouter (index.js)",
+          "ms": 3.42
+        },
+        {
+          "frame": "userNext (assets/createServerFn-B4kmujwT.js)",
+          "ms": 3.4
+        },
+        {
+          "frame": "onopentag (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.34
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-B4kmujwT.js)",
+          "ms": 3.29
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 110678,
+      "restWaitSumMs": 153.02,
+      "htmlBytes": 56486,
+      "inlineScriptBytes": 37297,
+      "visibleHash": "9d35170c6e9d64cd2a69898328eade0fbdaae9dc4dae8792ef950d1587cbd5f5",
+      "mainHash": "e241ddab221f3fcbe73cd2101236ee7fd428f17dc2b956aa85f9e1f9bda98a32",
+      "footerStableHash": "fd78916b83e62b38a1a84862ad59c02ab3dffe4aa4d400e3e8ad571d9ddabc41",
+      "memoryBefore": {
+        "usedSize": 5527172,
+        "totalSize": 7761920,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7923328,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1103590
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 8.937699999998586
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 9.299199999997654
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 9.551900000002206
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 9.802100000000792
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 10.1320999999989
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 10.474699999998847
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 12.211199999997916
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 12.242000000002008
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 13.157900000001973
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 14.078799999999319
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-de-fibra-basica-para-toyota-hilux&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 6118,
+          "waitMs": 6.162000000000262
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=438%2C439&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2289,
+          "waitMs": 13.358899999999267
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=15&modelo=25&tax_relation=AND&exclude=239&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 19390,
+          "waitMs": 11.382900000000518
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=387%2C621%2C622%2C828%2C829&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 6815,
+          "waitMs": 12.226000000002387
+        }
+      ],
+      "profile": "context-before-37-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-toyota-hilux/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 47.95,
+      "sampledNonIdleMs": 36.49,
+      "sampledHotspots": [
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.29
+        },
+        {
+          "frame": "read (native)",
+          "ms": 3.18
+        },
+        {
+          "frame": "executeMiddleware (index.js)",
+          "ms": 1.99
+        },
+        {
+          "frame": "pushAttribute (index.js)",
+          "ms": 1.94
+        },
+        {
+          "frame": "serializeProperties (index.js)",
+          "ms": 1.89
+        },
+        {
+          "frame": "mediaId (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.82
+        },
+        {
+          "frame": "Tokenizer (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.78
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "parsePlainObject (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.72
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 56486,
+      "inlineScriptBytes": 37297,
+      "visibleHash": "9d35170c6e9d64cd2a69898328eade0fbdaae9dc4dae8792ef950d1587cbd5f5",
+      "mainHash": "e241ddab221f3fcbe73cd2101236ee7fd428f17dc2b956aa85f9e1f9bda98a32",
+      "footerStableHash": "fd78916b83e62b38a1a84862ad59c02ab3dffe4aa4d400e3e8ad571d9ddabc41",
+      "memoryBefore": {
+        "usedSize": 7923328,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1103590
+      },
+      "memoryAfter": {
+        "usedSize": 9398152,
+        "totalSize": 13004800,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1243158
+      },
+      "calls": [],
+      "profile": "context-before-38-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-tampao-para-dodge-dakota/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 212.68,
+      "sampledNonIdleMs": 209.08,
+      "sampledHotspots": [
+        {
+          "frame": "relatedProducts (assets/site-P86MekIu.js)",
+          "ms": 31.41
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 27.34
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-B_PAp8Nm.js)",
+          "ms": 25
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 16.9
+        },
+        {
+          "frame": "normalizePost (assets/site-P86MekIu.js)",
+          "ms": 16.76
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 6.62
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-B_PAp8Nm.js)",
+          "ms": 5.1
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 4.78
+        },
+        {
+          "frame": "fetch (index.js)",
+          "ms": 3.54
+        },
+        {
+          "frame": "media (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.34
+        },
+        {
+          "frame": "removeEventListener (native)",
+          "ms": 3.31
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 2.99
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 100171,
+      "restWaitSumMs": 229.73,
+      "htmlBytes": 49527,
+      "inlineScriptBytes": 33698,
+      "visibleHash": "b13f3f0b5546d2c07a60980bb048fadb610bff1115a4d878621dd47bf9a836c5",
+      "mainHash": "0a6bce980ba0f9957242d5722d7fc473fb8de98941c1c7548470f58bc7e4080e",
+      "footerStableHash": "0e1d91f098d1a65bacc94fccb562cb183657c50aca1ecc86f4bef6422b0811aa",
+      "memoryBefore": {
+        "usedSize": 5265044,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7765028,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092849
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 18.07760000000053
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 18.93670000000202
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 20.1862000000001
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 21.08729999999923
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 21.68840000000273
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 22.05319999999847
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 11.169300000001385
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 11.522600000000239
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 12.337200000001758
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 13.847100000002683
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=capota-de-fibra-tampao-para-dodge-dakota&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 19.413699999997334
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=4&marca=10&modelo=32&tax_relation=AND&exclude=235&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 10517,
+          "waitMs": 12.338199999998324
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=100&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&exclude=235",
+          "status": 200,
+          "bytes": 2268,
+          "waitMs": 13.279100000003382
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=593%2C798%2C799%2C800&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 5992,
+          "waitMs": 13.793099999998958
+        }
+      ],
+      "profile": "context-before-39-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/capota-para-picape/capota-de-fibra-tampao-para-dodge-dakota/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 26.21,
+      "sampledNonIdleMs": 17.39,
+      "sampledHotspots": [
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "Logo (assets/site-E4bjLfU9.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "stringToPrecomputedChunk (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "createObjectNode (index.js)",
+          "ms": 1.62
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.6
+        },
+        {
+          "frame": "siteContext (assets/site-P86MekIu.js)",
+          "ms": 1.6
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.53
+        },
+        {
+          "frame": "flushSegment (index.js)",
+          "ms": 1.52
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 1.43
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.3
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 49527,
+      "inlineScriptBytes": 33698,
+      "visibleHash": "b13f3f0b5546d2c07a60980bb048fadb610bff1115a4d878621dd47bf9a836c5",
+      "mainHash": "0a6bce980ba0f9957242d5722d7fc473fb8de98941c1c7548470f58bc7e4080e",
+      "footerStableHash": "0e1d91f098d1a65bacc94fccb562cb183657c50aca1ecc86f4bef6422b0811aa",
+      "memoryBefore": {
+        "usedSize": 7765028,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092849
+      },
+      "memoryAfter": {
+        "usedSize": 9152704,
+        "totalSize": 12218368,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1221676
+      },
+      "calls": [],
+      "profile": "context-before-40-warm"
+    },
+    {
+      "variant": "context-before",
+      "path": "/produtos/especificacoes-tecnicas/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 173.92,
+      "sampledNonIdleMs": 152.76,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 19.76
+        },
+        {
+          "frame": "stateSpecialStartSequence (assets/site-config-B_PAp8Nm.js)",
+          "ms": 18.41
+        },
+        {
+          "frame": "(anonymous) (assets/site-E4bjLfU9.js)",
+          "ms": 17.15
+        },
+        {
+          "frame": "(anonymous) (assets/site-BrS6JoM9.js)",
+          "ms": 13.01
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 6.43
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 5.27
+        },
+        {
+          "frame": "loadServerRoute (assets/Match-DD9GVDeI.js)",
+          "ms": 3.44
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 3.43
+        },
+        {
+          "frame": "setTimeout (native)",
+          "ms": 3.38
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.35
+        },
+        {
+          "frame": "write (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.35
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 3.3
+        }
+      ],
+      "subrequests": 13,
+      "jsonBytes": 86387,
+      "restWaitSumMs": 158.65,
+      "htmlBytes": 43953,
+      "inlineScriptBytes": 28850,
+      "visibleHash": "8698f5b4c36a5268be9219c7204ce6fb64a921c9268f7f5edfc1ca7a6ab0db39",
+      "mainHash": "2ff44589496a8378b4c9de350985ef22e9a12743ad33db1fe5be4536dd184bf4",
+      "footerStableHash": "6ee3956817e1f7630d133c45522032cf763ef9ff7d5782862138c6598f6e2066",
+      "memoryBefore": {
+        "usedSize": 5154196,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7390772,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1075143
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "query": "?slug=jmb-capotas&status=publish&per_page=1",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 10.565199999997276
+        },
+        {
+          "endpoint": "marca",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 11.131799999999203
+        },
+        {
+          "endpoint": "modelo",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 11.52049999999872
+        },
+        {
+          "endpoint": "categoria_produto",
+          "query": "?per_page=100",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 11.784200000001874
+        },
+        {
+          "endpoint": "pages",
+          "query": "?per_page=100&page=1&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 12.087999999999738
+        },
+        {
+          "endpoint": "cidade",
+          "query": "?per_page=4&page=1&_fields=id%2Cslug%2Ctitle%2Cacf",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 12.355400000000373
+        },
+        {
+          "endpoint": "media/{id}",
+          "query": "",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 13.357599999999366
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 13.244800000000396
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=51%2C69&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 15.095000000001164
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=817%2C818%2C896%2C897%2C915%2C916&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 16.880699999997887
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=12&slug=especificacoes-tecnicas&_embed=wp%3Afeaturedmedia",
+          "status": 200,
+          "bytes": 5976,
+          "waitMs": 6.5310000000026776
+        },
+        {
+          "endpoint": "media",
+          "query": "?include=593%2C799%2C800&per_page=100&_fields=id%2Csource_url%2Calt_text%2Cmedia_details",
+          "status": 200,
+          "bytes": 4343,
+          "waitMs": 14.302800000001298
+        },
+        {
+          "endpoint": "produto",
+          "query": "?per_page=100&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&exclude=334",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 9.792399999998452
+        }
+      ],
+      "profile": "context-before-41-cold"
+    },
+    {
+      "variant": "context-before",
+      "path": "/produtos/especificacoes-tecnicas/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 29.73,
+      "sampledNonIdleMs": 21.17,
+      "sampledHotspots": [
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.13
+        },
+        {
+          "frame": "parseHref (assets/Match-DD9GVDeI.js)",
+          "ms": 2.94
+        },
+        {
+          "frame": "exports.createElement (assets/__23tanstack-start-server-fn-resolver-Bl5bPQO9.js)",
+          "ms": 1.83
+        },
+        {
+          "frame": "loggerFor (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "stringToPrecomputedChunk (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "runRouteLifecycle (assets/Match-DD9GVDeI.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "Parser (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-B_PAp8Nm.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "createObjectNode (index.js)",
+          "ms": 1.39
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 43953,
+      "inlineScriptBytes": 28850,
+      "visibleHash": "8698f5b4c36a5268be9219c7204ce6fb64a921c9268f7f5edfc1ca7a6ab0db39",
+      "mainHash": "2ff44589496a8378b4c9de350985ef22e9a12743ad33db1fe5be4536dd184bf4",
+      "footerStableHash": "6ee3956817e1f7630d133c45522032cf763ef9ff7d5782862138c6598f6e2066",
+      "memoryBefore": {
+        "usedSize": 7390772,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1075143
+      },
+      "memoryAfter": {
+        "usedSize": 8677264,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1186272
+      },
+      "calls": [],
+      "profile": "context-before-42-warm"
+    }
+  ]
+}

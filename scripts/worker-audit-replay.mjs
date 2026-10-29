@@ -27,6 +27,7 @@ export function createReplay({
     const started = performance.now();
     const event = {
       endpoint: single ? "media/{id}" : endpoint,
+      query: url.search,
       status: null,
       bytes: 0,
       waitMs: 0,

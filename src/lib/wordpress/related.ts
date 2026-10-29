@@ -1,29 +1,24 @@
 import type { Post } from "./types";
 type Compatibility = Pick<Post, "id" | "marca" | "modelo">;
 export function selectRelatedProducts<T extends Compatibility>(
-  current: Post,
+  current: Compatibility,
   candidates: T[],
   limit = 4,
 ) {
-  const shares = (a: number[] = [], b: number[] = []) =>
-    a.some((id) => b.includes(id));
-  const score = (p: Compatibility) => {
-    if (shares(current.marca, p.marca) && shares(current.modelo, p.modelo))
-      return 0;
+  if (limit <= 0) return [];
+  if (!current.marca?.length || !current.modelo?.length) return [];
+  const selected: T[] = [];
+  const seen = new Set<number>([current.id]);
+  for (const candidate of candidates) {
     if (
-      !p.marca?.length &&
-      (!p.modelo?.length || shares(current.modelo, p.modelo))
-    )
-      return 1;
-    return 2;
-  };
-  return candidates
-    .filter(
-      (p, index) =>
-        p.id !== current.id &&
-        candidates.findIndex((other) => other.id === p.id) === index &&
-        score(p) < 2,
-    )
-    .sort((a, b) => score(a) - score(b))
-    .slice(0, limit);
+      !seen.has(candidate.id) &&
+      current.marca.some((id) => candidate.marca?.includes(id)) &&
+      current.modelo.some((id) => candidate.modelo?.includes(id))
+    ) {
+      seen.add(candidate.id);
+      selected.push(candidate);
+      if (selected.length >= Math.min(4, limit)) break;
+    }
+  }
+  return selected;
 }

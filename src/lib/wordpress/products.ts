@@ -37,48 +37,19 @@ export async function readyProducts(
     pages: Math.ceil(raw.length / 12),
   };
 }
-export async function relatedProducts(
-  post: Post,
-  categories: Term[],
-  brands: Term[] = [],
-) {
-  const compatible =
-    post.marca?.length && post.modelo?.length
-      ? await products(
-          {
-            marca: post.marca.join(","),
-            modelo: post.modelo.join(","),
-            tax_relation: "AND",
-            exclude: post.id,
-            per_page: 4,
-          },
-          categories,
-        ).catch(() => ({ items: [] }))
-      : { items: [] };
-  const selected = selectRelatedProducts(post, compatible.items);
-  if (selected.length === 4) return selected;
-  // Paginar os genéricos evita perder opções válidas depois de modelos incompatíveis.
-  // Só resolver a mídia dos itens efetivamente apresentados.
-  const rawGeneric = await all<RawPost>(
-    "produto",
-    "&" +
-      new URLSearchParams({
-        marca_exclude: brands.map((b) => b.id).join(","),
-        exclude: String(post.id),
-      }),
-  ).catch(() => []);
-  const visibleGeneric = selectRelatedProducts(
-    post,
-    rawGeneric,
-    4 - selected.length,
-  );
-  const images = await mediaBatch(visibleGeneric.flatMap(postMediaReferences));
-  const generic = await Promise.all(
-    visibleGeneric.map((p) =>
-      normalizePost(p, productUrl(p, categories), images),
-    ),
-  );
-  return selectRelatedProducts(post, [...selected, ...generic]);
+export async function relatedProducts(post: Post, categories: Term[]) {
+  if (!post.marca?.length || !post.modelo?.length) return [];
+  const compatible = await products(
+    {
+      marca: post.marca.join(","),
+      modelo: post.modelo.join(","),
+      tax_relation: "AND",
+      exclude: post.id,
+      per_page: 4,
+    },
+    categories,
+  ).catch(() => ({ items: [] }));
+  return selectRelatedProducts(post, compatible.items);
 }
 export async function linkedProducts(post: Post, categories: Term[]) {
   return post.acf?.produto?.length
