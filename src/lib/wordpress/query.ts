@@ -1,5 +1,6 @@
 import { request } from "./client";
-import { normalizePost } from "./normalize";
+import { normalizePost, postMediaReferences } from "./normalize";
+import { mediaBatch } from "./media";
 import type { Collection, Post, RawPost } from "./types";
 export type QueryParams = Record<string, string | number>;
 export async function collection(
@@ -14,11 +15,14 @@ export async function collection(
         .filter(([, v]) => v !== "")
         .map(([k, v]) => [k, String(v)]),
     ),
+    _embed: "wp:featuredmedia",
   });
   const result = await request<RawPost[]>(`${endpoint}?${query}`);
+  const visible = result.data;
+  const images = await mediaBatch(visible.flatMap(postMediaReferences));
   return {
     items: await Promise.all(
-      result.data.map((p) => normalizePost(p, publicUrl(p))),
+      visible.map((p) => normalizePost(p, publicUrl(p), images)),
     ),
     total: result.total,
     pages: result.pages,

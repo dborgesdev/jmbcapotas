@@ -4,7 +4,7 @@ import { page } from "./pages";
 import { cityBySlug } from "../wordpress/cities";
 import { siteContext } from "./context";
 import { home } from "./home";
-import { legacyRedirect } from "./legacy-redirects";
+import { legacyRedirect, staticLegacyRedirect } from "./legacy-redirects";
 import { catalog } from "./catalog";
 import { product } from "./product";
 import { blog, article } from "./blog";
@@ -16,6 +16,9 @@ export async function resolveRoute(input: {
 }): Promise<SiteData> {
   const slugPath = input.path.replace(/^\/+|\/+$/g, "");
   const path = "/" + slugPath + (slugPath ? "/" : "");
+  staticLegacyRedirect(path);
+  // All remaining supported public and legacy routes have at most two segments.
+  if (slugPath.split("/").length > 2) throw notFound();
   const context = await siteContext(path, input.search);
   const { base, requireTaxonomies } = context;
   try {

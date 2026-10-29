@@ -1,0 +1,6249 @@
+{
+  "variant": "final",
+  "localOnly": true,
+  "simulatedRestDelayMs": 5,
+  "productionMeteredCpuMs": null,
+  "results": [
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "concurrent-cold",
+      "status": 200,
+      "statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "requests": 4,
+      "redirects": [],
+      "wallMs": 341.77,
+      "sampledNonIdleMs": 323.44,
+      "sampledHotspots": [
+        {
+          "frame": "fetch (index.js)",
+          "ms": 24.45
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 23.41
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 18.7
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 18.4
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 16.75
+        },
+        {
+          "frame": "stateText (assets/site-config-JVqKAYbu.js)",
+          "ms": 15.99
+        },
+        {
+          "frame": "callNextMiddleware (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 13.41
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 8.58
+        },
+        {
+          "frame": "write (assets/site-config-JVqKAYbu.js)",
+          "ms": 8.2
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 7.98
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 6.74
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 6.26
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 156367,
+      "restWaitSumMs": 226.66,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5064204,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8506928,
+        "totalSize": 16936960,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1469104
+      },
+      "calls": [
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 8.745300000000043
+        },
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 23.71309999999994
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 24.348199999999906
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 25.491100000000188
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 26.658500000000004
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 28.448199999999815
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 8.896700000000237
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 10.313700000000154
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 12.739700000000084
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 15.04090000000042
+        },
+        {
+          "endpoint": "trabalho",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 9.494000000000142
+        },
+        {
+          "endpoint": "posts",
+          "status": 200,
+          "bytes": 25157,
+          "waitMs": 10.336099999999988
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 10.960900000000038
+        },
+        {
+          "endpoint": "cliente",
+          "status": 200,
+          "bytes": 39536,
+          "waitMs": 11.4692
+        }
+      ],
+      "profile": "final-0-concurrent-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "concurrent-warm",
+      "status": 200,
+      "statuses": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "requests": 4,
+      "redirects": [],
+      "wallMs": 117.55,
+      "sampledNonIdleMs": 101.27,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 16.16
+        },
+        {
+          "frame": "matchRoutesInternal (assets/Match-DreM-6bY.js)",
+          "ms": 11.47
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 6.37
+        },
+        {
+          "frame": "cleanup (index.js)",
+          "ms": 4.97
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 3.8
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 3.55
+        },
+        {
+          "frame": "ReadableStream (native)",
+          "ms": 3.48
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 3.42
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.4
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 3.38
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 3.31
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.3
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 8506928,
+        "totalSize": 16936960,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1469104
+      },
+      "memoryAfter": {
+        "usedSize": 12059260,
+        "totalSize": 17723392,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1544326
+      },
+      "calls": [],
+      "profile": "final-1-concurrent-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 38.12,
+      "sampledNonIdleMs": 23.21,
+      "sampledHotspots": [
+        {
+          "frame": "request (assets/contacts-9xmIDGOI.js)",
+          "ms": 6.45
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 2.98
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 2.05
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.83
+        },
+        {
+          "frame": "FooterContacts (assets/site-umeg1d0r.js)",
+          "ms": 1.82
+        },
+        {
+          "frame": "normalizePost (assets/site-eUnpNn_v.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "parseArray (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "Route.useLoaderData (assets/site-umeg1d0r.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "onSerialize (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "ReadableStream (native)",
+          "ms": 1.34
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 12059260,
+        "totalSize": 17723392,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1544326
+      },
+      "memoryAfter": {
+        "usedSize": 10147664,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1170141
+      },
+      "calls": [],
+      "profile": "final-2-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 33.61,
+      "sampledNonIdleMs": 20,
+      "sampledHotspots": [
+        {
+          "frame": "terms (assets/site-eUnpNn_v.js)",
+          "ms": 4.76
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.91
+        },
+        {
+          "frame": "attachAbortSignal (index.js)",
+          "ms": 1.79
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "(anonymous) (assets/Match-DreM-6bY.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "renderRouterToStream (index.js)",
+          "ms": 1.4
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.38
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 10147664,
+        "totalSize": 17985536,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1170141
+      },
+      "memoryAfter": {
+        "usedSize": 11808684,
+        "totalSize": 18247680,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1376050
+      },
+      "calls": [],
+      "profile": "final-3-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.28,
+      "sampledNonIdleMs": 18.5,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 3.55
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 3.04
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.89
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.65
+        },
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 1.37
+        },
+        {
+          "frame": "flushCompletedQueues (index.js)",
+          "ms": 1.24
+        },
+        {
+          "frame": "createFunction (index.js)",
+          "ms": 1.23
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.15
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 11808684,
+        "totalSize": 18247680,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1376050
+      },
+      "memoryAfter": {
+        "usedSize": 9541656,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1132618
+      },
+      "calls": [],
+      "profile": "final-4-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 25.93,
+      "sampledNonIdleMs": 21.53,
+      "sampledHotspots": [
+        {
+          "frame": "read (native)",
+          "ms": 6.5
+        },
+        {
+          "frame": "request (assets/contacts-9xmIDGOI.js)",
+          "ms": 4.9
+        },
+        {
+          "frame": "(anonymous) (assets/Match-DreM-6bY.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.73
+        },
+        {
+          "frame": "Headers (native)",
+          "ms": 1.72
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "removeEventListener (native)",
+          "ms": 1.64
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.51
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 9541656,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1132618
+      },
+      "memoryAfter": {
+        "usedSize": 11123544,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1338527
+      },
+      "calls": [],
+      "profile": "final-5-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 30.63,
+      "sampledNonIdleMs": 25.63,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 10.46
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.11
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 2.62
+        },
+        {
+          "frame": "clients (assets/site-eUnpNn_v.js)",
+          "ms": 1.93
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "read (native)",
+          "ms": 1.67
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.49
+        },
+        {
+          "frame": "createFunction (index.js)",
+          "ms": 1.4
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.24
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 11123544,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1338527
+      },
+      "memoryAfter": {
+        "usedSize": 12702620,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1544436
+      },
+      "calls": [],
+      "profile": "final-6-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.12,
+      "sampledNonIdleMs": 17.32,
+      "sampledHotspots": [
+        {
+          "frame": "mediaBatch (assets/site-config-JVqKAYbu.js)",
+          "ms": 5.26
+        },
+        {
+          "frame": "parsePlainObject (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "startWork (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.4
+        },
+        {
+          "frame": "pushTextInstance (index.js)",
+          "ms": 1.39
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.37
+        },
+        {
+          "frame": "isAttributeNameSafe (index.js)",
+          "ms": 1.18
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 0.87
+        },
+        {
+          "frame": "pushLinkImpl (index.js)",
+          "ms": 0.82
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 12702620,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1544436
+      },
+      "memoryAfter": {
+        "usedSize": 10497760,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1170251
+      },
+      "calls": [],
+      "profile": "final-7-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 24.91,
+      "sampledNonIdleMs": 17,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 2.93
+        },
+        {
+          "frame": "startRequestResolver (index.js)",
+          "ms": 2.92
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "Asset (assets/router-gIRgi23D.js)",
+          "ms": 1.76
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "escapeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.63
+        },
+        {
+          "frame": "InstitutionalSection (assets/site-CfwiDVFD.js)",
+          "ms": 1.59
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.37
+        },
+        {
+          "frame": "flushSubtree (index.js)",
+          "ms": 1.26
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 10497760,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1170251
+      },
+      "memoryAfter": {
+        "usedSize": 12072148,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1376160
+      },
+      "calls": [],
+      "profile": "final-8-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.95,
+      "sampledNonIdleMs": 17.63,
+      "sampledHotspots": [
+        {
+          "frame": "addEventListener (native)",
+          "ms": 5.26
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 4.31
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 3.33
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "read (native)",
+          "ms": 1.31
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 12072148,
+        "totalSize": 18771968,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1376160
+      },
+      "memoryAfter": {
+        "usedSize": 9864672,
+        "totalSize": 19034112,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1132728
+      },
+      "calls": [],
+      "profile": "final-9-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 23.94,
+      "sampledNonIdleMs": 14.77,
+      "sampledHotspots": [
+        {
+          "frame": "collection (assets/site-eUnpNn_v.js)",
+          "ms": 2.91
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.78
+        },
+        {
+          "frame": "pushAttribute (index.js)",
+          "ms": 1.6
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.57
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 1.49
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.4
+        },
+        {
+          "frame": "serializeProperties (index.js)",
+          "ms": 1.38
+        },
+        {
+          "frame": "buildTagsFromMatches (assets/router-gIRgi23D.js)",
+          "ms": 1.36
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.27
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 9864672,
+        "totalSize": 19034112,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1132728
+      },
+      "memoryAfter": {
+        "usedSize": 11436184,
+        "totalSize": 19034112,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1338637
+      },
+      "calls": [],
+      "profile": "final-10-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "sequential-warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.3,
+      "sampledNonIdleMs": 18.9,
+      "sampledHotspots": [
+        {
+          "frame": "mediaBatch (assets/site-config-JVqKAYbu.js)",
+          "ms": 5.15
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.79
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.67
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "serializeProperties (index.js)",
+          "ms": 1.56
+        },
+        {
+          "frame": "Timeout (node-internal:internal_timers)",
+          "ms": 1.46
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.39
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 1.35
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.18
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 11436184,
+        "totalSize": 19034112,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1338637
+      },
+      "memoryAfter": {
+        "usedSize": 13009388,
+        "totalSize": 19034112,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1544546
+      },
+      "calls": [],
+      "profile": "final-11-sequential-warm"
+    },
+    {
+      "variant": "final",
+      "cache": "after-sequence",
+      "memory": {
+        "usedSize": 13009388,
+        "totalSize": 19034112,
+        "embedderHeapUsedSize": 644840,
+        "backingStorageSize": 1544546
+      }
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "slow-rest",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 328.26,
+      "sampledNonIdleMs": 316.89,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/contacts-9xmIDGOI.js)",
+          "ms": 66.95
+        },
+        {
+          "frame": "ontext (assets/site-config-JVqKAYbu.js)",
+          "ms": 57.67
+        },
+        {
+          "frame": "normalizeSiteConfig (assets/site-config-JVqKAYbu.js)",
+          "ms": 49.34
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 20.1
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 8.41
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 6.38
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 6.2
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 5.63
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 4.94
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 4.89
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 3.77
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.48
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 156367,
+      "restWaitSumMs": 823.16,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8764560,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1169965
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 59.303499999999985
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 60.01050000000032
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 60.44340000000011
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 60.76060000000052
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 61.10350000000017
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 61.525000000000546
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 60.68469999999979
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 60.105499999999665
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 61.29560000000038
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 62.98999999999978
+        },
+        {
+          "endpoint": "trabalho",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 52.38889999999992
+        },
+        {
+          "endpoint": "posts",
+          "status": 200,
+          "bytes": 25157,
+          "waitMs": 53.25750000000062
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 54.231300000000374
+        },
+        {
+          "endpoint": "cliente",
+          "status": 200,
+          "bytes": 39536,
+          "waitMs": 55.059799999999996
+        }
+      ],
+      "profile": "final-13-slow-rest"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "partial-failure",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 176.89,
+      "sampledNonIdleMs": 172.25,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 26.28
+        },
+        {
+          "frame": "loggerFor (assets/site-config-JVqKAYbu.js)",
+          "ms": 20.14
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 15.42
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 6.83
+        },
+        {
+          "frame": "(anonymous) (assets/site-eUnpNn_v.js)",
+          "ms": 6.62
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 6.43
+        },
+        {
+          "frame": "ontext (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.56
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.42
+        },
+        {
+          "frame": "disarm (index.js)",
+          "ms": 3.3
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 3.26
+        },
+        {
+          "frame": "pushStartSingletonElement (index.js)",
+          "ms": 1.86
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.86
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 131212,
+      "restWaitSumMs": 197.21,
+      "htmlBytes": 65854,
+      "inlineScriptBytes": 30860,
+      "visibleHash": "d34e0d53206a86c850c921484493c77c42b5ea59d42d1bf3a0f535fbffaf5f75",
+      "mainHash": "22df41895844c9ad942e146314a97b3b8258728a19bc41a530be7d40da5931cd",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5031148,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7989516,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1138822
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 12.735200000000077
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 13.707800000000134
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 14.632300000000214
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 15.339699999999539
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 15.933399999999892
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 16.369800000000396
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 9.711500000000342
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 8.879899999999907
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 9.73779999999988
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 11.3753999999999
+        },
+        {
+          "endpoint": "trabalho",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 16.444399999999405
+        },
+        {
+          "endpoint": "posts",
+          "status": 503,
+          "bytes": 2,
+          "waitMs": 17.02559999999994
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 17.344099999999344
+        },
+        {
+          "endpoint": "cliente",
+          "status": 200,
+          "bytes": 39536,
+          "waitMs": 17.971800000000258
+        }
+      ],
+      "profile": "final-14-partial-failure"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 167.91,
+      "sampledNonIdleMs": 162.98,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 22.5
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 15.4
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 11.35
+        },
+        {
+          "frame": "normalizePost (assets/site-eUnpNn_v.js)",
+          "ms": 8.27
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 5.13
+        },
+        {
+          "frame": "executeServerLane (assets/Match-DreM-6bY.js)",
+          "ms": 4.99
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 4.21
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 3.43
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 3.42
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 3.39
+        },
+        {
+          "frame": "terminate (index.js)",
+          "ms": 3.38
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 3.36
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 156367,
+      "restWaitSumMs": 138.61,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5038544,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8453248,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1169965
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 8.956000000000131
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 9.690799999999399
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 9.988199999999779
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 10.33640000000014
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 10.67069999999967
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 10.994900000000598
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 11.840399999999136
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 13.135699999999815
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 14.380199999999604
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 16.269999999999527
+        },
+        {
+          "endpoint": "trabalho",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 4.9122000000006665
+        },
+        {
+          "endpoint": "posts",
+          "status": 200,
+          "bytes": 25157,
+          "waitMs": 5.343399999999747
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 5328,
+          "waitMs": 5.751900000000205
+        },
+        {
+          "endpoint": "cliente",
+          "status": 200,
+          "bytes": 39536,
+          "waitMs": 6.3442000000004555
+        }
+      ],
+      "profile": "final-15-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.28,
+      "sampledNonIdleMs": 20.62,
+      "sampledHotspots": [
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 4.62
+        },
+        {
+          "frame": "run (native)",
+          "ms": 2.93
+        },
+        {
+          "frame": "isValidIdentifier (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "createStringNode (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "setResponse (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "appendUniqueUserTags (assets/Match-DreM-6bY.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "products (assets/site-eUnpNn_v.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "collection (assets/site-eUnpNn_v.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "pushAttribute (index.js)",
+          "ms": 1.38
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 81078,
+      "inlineScriptBytes": 41922,
+      "visibleHash": "ffe4a416d3ba6ec7cf99a8197650f0924b21e9e6a53ad465eff60297e70973ba",
+      "mainHash": "82a6e662bf5c143ee94a758f60f423e8934e844b5ccfe9bf64642009f899ec62",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 8453248,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1169965
+      },
+      "memoryAfter": {
+        "usedSize": 10197092,
+        "totalSize": 13266944,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1375874
+      },
+      "calls": [],
+      "profile": "final-16-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/produtos/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 170.87,
+      "sampledNonIdleMs": 167.6,
+      "sampledHotspots": [
+        {
+          "frame": "normalizePost (assets/site-eUnpNn_v.js)",
+          "ms": 18.6
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 17.18
+        },
+        {
+          "frame": "fetchSiteConfig (assets/site-config-JVqKAYbu.js)",
+          "ms": 13.53
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 11.79
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 6.78
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 5.26
+        },
+        {
+          "frame": "finalizeSsrStream (index.js)",
+          "ms": 4.98
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 4.92
+        },
+        {
+          "frame": "(anonymous) (assets/contacts-9xmIDGOI.js)",
+          "ms": 4.59
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 3.54
+        },
+        {
+          "frame": "normalizeSiteConfig (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.44
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.35
+        }
+      ],
+      "subrequests": 12,
+      "jsonBytes": 195848,
+      "restWaitSumMs": 114.62,
+      "htmlBytes": 96012,
+      "inlineScriptBytes": 62559,
+      "visibleHash": "1796aee4aa9ff067b0a5657c6a70a207e402062b071153f908618dffe9fcb383",
+      "mainHash": "305f3bffd359e7157fb9e91201e9f42e76badaf3c45be2054f6feeb7bac35b9e",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5266728,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 9099888,
+        "totalSize": 11956224,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1198239
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 5.832000000000335
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 6.380800000000818
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 7.099299999999857
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 7.683399999999892
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 8.291699999999764
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 8.722199999999248
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 12.158300000000054
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 12.321999999999207
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 13.029700000000048
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 14.202299999999923
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 71573,
+          "waitMs": 4.75669999999991
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 48209,
+          "waitMs": 14.138699999999517
+        }
+      ],
+      "profile": "final-17-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/produtos/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 44.45,
+      "sampledNonIdleMs": 31.92,
+      "sampledHotspots": [
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 5.06
+        },
+        {
+          "frame": "callNextMiddleware (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 4.64
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 2.98
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.77
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "isValidIdentifier (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "Parser (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.63
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 1.52
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.51
+        },
+        {
+          "frame": "brazilianPhone (assets/contacts-9xmIDGOI.js)",
+          "ms": 1.5
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 96012,
+      "inlineScriptBytes": 62559,
+      "visibleHash": "1796aee4aa9ff067b0a5657c6a70a207e402062b071153f908618dffe9fcb383",
+      "mainHash": "305f3bffd359e7157fb9e91201e9f42e76badaf3c45be2054f6feeb7bac35b9e",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 9099888,
+        "totalSize": 11956224,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1198239
+      },
+      "memoryAfter": {
+        "usedSize": 8230036,
+        "totalSize": 15101952,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1198261
+      },
+      "calls": [],
+      "profile": "final-18-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/produtos/capota-de-fibra/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 191.79,
+      "sampledNonIdleMs": 185.19,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 29.17
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 26.21
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 17.03
+        },
+        {
+          "frame": "(anonymous) (assets/site-eUnpNn_v.js)",
+          "ms": 16.58
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 6.61
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 5.21
+        },
+        {
+          "frame": "liftBarrier (index.js)",
+          "ms": 5.17
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.37
+        },
+        {
+          "frame": "shouldContinue (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.32
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 3.01
+        },
+        {
+          "frame": "safeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 2.35
+        },
+        {
+          "frame": "resolveRoute (assets/site-eUnpNn_v.js)",
+          "ms": 1.78
+        }
+      ],
+      "subrequests": 12,
+      "jsonBytes": 191435,
+      "restWaitSumMs": 197.79,
+      "htmlBytes": 90303,
+      "inlineScriptBytes": 61270,
+      "visibleHash": "da87430cc1fd6d8ec94e658b0fb7b275b6a5fb7599697458855debe4c6d20ff5",
+      "mainHash": "52c58c402965a98a75648f1a4c8bc9e40aed44eb486009a42f71510ffb4b5f72",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5031148,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8861208,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1185010
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 16.89350000000013
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 17.474600000001374
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 17.82840000000033
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 18.287900000001173
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 18.890199999999822
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 19.284699999998338
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 13.231999999999971
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 12.42280000000028
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 13.53440000000046
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 15.02809999999954
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 71540,
+          "waitMs": 21.171299999999974
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 43829,
+          "waitMs": 13.746999999999389
+        }
+      ],
+      "profile": "final-19-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/produtos/capota-de-fibra/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 41.69,
+      "sampledNonIdleMs": 33.59,
+      "sampledHotspots": [
+        {
+          "frame": "getRoute (assets/Match-DreM-6bY.js)",
+          "ms": 3.74
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 3.3
+        },
+        {
+          "frame": "enqueue (native)",
+          "ms": 3.25
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.86
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.83
+        },
+        {
+          "frame": "isSequence (index.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "(anonymous) (native)",
+          "ms": 1.63
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 90303,
+      "inlineScriptBytes": 61270,
+      "visibleHash": "da87430cc1fd6d8ec94e658b0fb7b275b6a5fb7599697458855debe4c6d20ff5",
+      "mainHash": "52c58c402965a98a75648f1a4c8bc9e40aed44eb486009a42f71510ffb4b5f72",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 8861208,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1185010
+      },
+      "memoryAfter": {
+        "usedSize": 7686080,
+        "totalSize": 15364096,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1155749
+      },
+      "calls": [],
+      "profile": "final-20-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/marcas/capota-de-fibra-para-fiat/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 172.86,
+      "sampledNonIdleMs": 165.68,
+      "sampledHotspots": [
+        {
+          "frame": "fetchSiteConfig (assets/site-config-JVqKAYbu.js)",
+          "ms": 21.66
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 18.6
+        },
+        {
+          "frame": "productUrl (assets/paths-84BzuXzg.js)",
+          "ms": 18.28
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 13.55
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 10.07
+        },
+        {
+          "frame": "postMediaReferences (assets/site-eUnpNn_v.js)",
+          "ms": 5.04
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 5
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 4.89
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 3.56
+        },
+        {
+          "frame": "dehydrate (index.js)",
+          "ms": 3.41
+        },
+        {
+          "frame": "safeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.41
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.38
+        }
+      ],
+      "subrequests": 12,
+      "jsonBytes": 199164,
+      "restWaitSumMs": 164.9,
+      "htmlBytes": 94716,
+      "inlineScriptBytes": 65084,
+      "visibleHash": "7f6a12b9829904a990d3a411cdd9c0451e47dc1c8997670754514e4151c4cad8",
+      "mainHash": "75a9df13fa279644dd0b3d094035e4d1964df2238abdb219fd42c5c4e358baa6",
+      "footerStableHash": "f309c2a9e012ec372aac5b77b07114daf6c40ba741e9550896f34f2a3dfb1012",
+      "memoryBefore": {
+        "usedSize": 5237980,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8970500,
+        "totalSize": 12218368,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1193202
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 14.5632999999998
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 15.095600000000559
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 15.399500000001353
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 15.694099999998798
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 16.02140000000145
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 16.324499999998807
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 12.034099999998944
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 12.421899999999368
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 13.583199999999124
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 14.98320000000058
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 66093,
+          "waitMs": 4.647800000000643
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 57005,
+          "waitMs": 14.135099999999511
+        }
+      ],
+      "profile": "final-21-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/marcas/capota-de-fibra-para-fiat/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 42.32,
+      "sampledNonIdleMs": 34.44,
+      "sampledHotspots": [
+        {
+          "frame": "validateSearch (assets/router-gIRgi23D.js)",
+          "ms": 3.83
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.04
+        },
+        {
+          "frame": "serialize$1 (index.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.79
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.74
+        },
+        {
+          "frame": "collection (assets/site-eUnpNn_v.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "parsePluginStream (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.66
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.64
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 94716,
+      "inlineScriptBytes": 65084,
+      "visibleHash": "7f6a12b9829904a990d3a411cdd9c0451e47dc1c8997670754514e4151c4cad8",
+      "mainHash": "75a9df13fa279644dd0b3d094035e4d1964df2238abdb219fd42c5c4e358baa6",
+      "footerStableHash": "f309c2a9e012ec372aac5b77b07114daf6c40ba741e9550896f34f2a3dfb1012",
+      "memoryBefore": {
+        "usedSize": 8970500,
+        "totalSize": 12218368,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1193202
+      },
+      "memoryAfter": {
+        "usedSize": 8146264,
+        "totalSize": 14839808,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1193224
+      },
+      "calls": [],
+      "profile": "final-22-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 216.66,
+      "sampledNonIdleMs": 212.36,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 42.87
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 23.1
+        },
+        {
+          "frame": "onopentag (assets/site-config-JVqKAYbu.js)",
+          "ms": 18.13
+        },
+        {
+          "frame": "(anonymous) (assets/contacts-9xmIDGOI.js)",
+          "ms": 16.26
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 15.3
+        },
+        {
+          "frame": "relatedProducts (assets/site-eUnpNn_v.js)",
+          "ms": 14.79
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 5.1
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 5.06
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 4.95
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 4.65
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 3.47
+        },
+        {
+          "frame": "onclosetag (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.44
+        }
+      ],
+      "subrequests": 15,
+      "jsonBytes": 94047,
+      "restWaitSumMs": 203.47,
+      "htmlBytes": 49575,
+      "inlineScriptBytes": 32187,
+      "visibleHash": "a0785797dd16f7ff8fb485e1e14b33716d41f64a8712d17bacc5c097eea38c80",
+      "mainHash": "e106743c8d1e357b4f54a59cc438b20a99f3cfba3dfbc6ae085658ae5ec43d5f",
+      "footerStableHash": "0151d3c1dc9db55326f0baf8ee4460e881be8e2bfda7f43fda02e513028b4af5",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7470388,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092764
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 11.70589999999902
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 12.10779999999977
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 12.578300000001036
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 12.987999999999374
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 13.373499999999694
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 13.963200000000143
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.935699999999997
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 11.932499999998981
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 13.65729999999894
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 16.152000000000044
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 5885,
+          "waitMs": 19.525700000000143
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 3834,
+          "waitMs": 14.988800000000992
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 11.822299999999814
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 2268,
+          "waitMs": 14.22110000000066
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 5992,
+          "waitMs": 13.514299999998912
+        }
+      ],
+      "profile": "final-23-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 25.89,
+      "sampledNonIdleMs": 19.3,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.85
+        },
+        {
+          "frame": "notifyAndClearListeners (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "stringToPrecomputedChunk (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "client (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "write (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "cityLinks (assets/site-eUnpNn_v.js)",
+          "ms": 1.62
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.61
+        },
+        {
+          "frame": "renderNodeDestructive (index.js)",
+          "ms": 1.42
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.41
+        },
+        {
+          "frame": "pushComponentStack (index.js)",
+          "ms": 1.31
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 49575,
+      "inlineScriptBytes": 32187,
+      "visibleHash": "a0785797dd16f7ff8fb485e1e14b33716d41f64a8712d17bacc5c097eea38c80",
+      "mainHash": "e106743c8d1e357b4f54a59cc438b20a99f3cfba3dfbc6ae085658ae5ec43d5f",
+      "footerStableHash": "0151d3c1dc9db55326f0baf8ee4460e881be8e2bfda7f43fda02e513028b4af5",
+      "memoryBefore": {
+        "usedSize": 7470388,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1092764
+      },
+      "memoryAfter": {
+        "usedSize": 8890756,
+        "totalSize": 11956224,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1221506
+      },
+      "calls": [],
+      "profile": "final-24-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/capota-para-picape/capota-furgao-com-porta-traseira-horizontal-vw-saveiro/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 233.05,
+      "sampledNonIdleMs": 211.99,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 23.69
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 18.79
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 17.95
+        },
+        {
+          "frame": "escapeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 16.47
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 13.3
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 8.01
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 5.71
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 5.19
+        },
+        {
+          "frame": "server (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 4.98
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 4.41
+        },
+        {
+          "frame": "jsxProd (assets/__23tanstack-start-server-fn-resolver-BP_CBjoy.js)",
+          "ms": 3.57
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.54
+        }
+      ],
+      "subrequests": 14,
+      "jsonBytes": 141116,
+      "restWaitSumMs": 176.13,
+      "htmlBytes": 71802,
+      "inlineScriptBytes": 47323,
+      "visibleHash": "2372423c7de958172b7d59b9ae0aeb42718dc7f3185323583aa95d43b67fa966",
+      "mainHash": "c7b9eba4622a57307694c9306f9906401ceb2d62623aa43ab68767a02f1c61c7",
+      "footerStableHash": "f656aea96439c246f8db759299d593f2dff100437bf5e0585666b822c23e8916",
+      "memoryBefore": {
+        "usedSize": 5004600,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8112900,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1143298
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 12.950800000000527
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 13.452000000001135
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 13.905500000000757
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 14.334500000000844
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 14.877599999999802
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 15.72609999999986
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.470799999999144
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 9.971999999999753
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 10.915500000000975
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 12.267100000000937
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 7078,
+          "waitMs": 10.576000000000931
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8551,
+          "waitMs": 12.633299999999508
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 25467,
+          "waitMs": 9.462199999999939
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 23954,
+          "waitMs": 14.589900000000853
+        }
+      ],
+      "profile": "final-25-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/capota-para-picape/capota-furgao-com-porta-traseira-horizontal-vw-saveiro/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.15,
+      "sampledNonIdleMs": 20.06,
+      "sampledHotspots": [
+        {
+          "frame": "terminal (index.js)",
+          "ms": 3.13
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.94
+        },
+        {
+          "frame": "ProductInfo (assets/site-CfwiDVFD.js)",
+          "ms": 1.82
+        },
+        {
+          "frame": "serializeProperties (index.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "(anonymous) (assets/router-gIRgi23D.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "executeMiddleware (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "normalizePost (assets/site-eUnpNn_v.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "flushSubtree (index.js)",
+          "ms": 1.22
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 71802,
+      "inlineScriptBytes": 47323,
+      "visibleHash": "2372423c7de958172b7d59b9ae0aeb42718dc7f3185323583aa95d43b67fa966",
+      "mainHash": "c7b9eba4622a57307694c9306f9906401ceb2d62623aa43ab68767a02f1c61c7",
+      "footerStableHash": "f656aea96439c246f8db759299d593f2dff100437bf5e0585666b822c23e8916",
+      "memoryBefore": {
+        "usedSize": 8112900,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1143298
+      },
+      "memoryAfter": {
+        "usedSize": 9821100,
+        "totalSize": 12742656,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1322574
+      },
+      "calls": [],
+      "profile": "final-26-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-land-rover-defender/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 225.26,
+      "sampledNonIdleMs": 218.6,
+      "sampledHotspots": [
+        {
+          "frame": "onclosetag (assets/site-config-JVqKAYbu.js)",
+          "ms": 33.81
+        },
+        {
+          "frame": "loggerFor (assets/site-config-JVqKAYbu.js)",
+          "ms": 27.75
+        },
+        {
+          "frame": "(anonymous) (assets/contacts-9xmIDGOI.js)",
+          "ms": 26.23
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 17.17
+        },
+        {
+          "frame": "URLSearchParams (native)",
+          "ms": 16.16
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 4.75
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 3.58
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 3.4
+        },
+        {
+          "frame": "createSerovalNode (index.js)",
+          "ms": 3.33
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 3.28
+        },
+        {
+          "frame": "(anonymous) (assets/site-eUnpNn_v.js)",
+          "ms": 3.27
+        },
+        {
+          "frame": "handleTrailingData (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.25
+        }
+      ],
+      "subrequests": 15,
+      "jsonBytes": 92626,
+      "restWaitSumMs": 212.8,
+      "htmlBytes": 47635,
+      "inlineScriptBytes": 31668,
+      "visibleHash": "fa00f013f8af5b6224bcf59c1b64bc0d425ccfde8be4765a90aeaf962adfd366",
+      "mainHash": "70a09b5f8bb2ba753b24a1aac4c92dfb44b481defdcdb5f9fe6b62f802081b05",
+      "footerStableHash": "86544ec9093bdcf90296a31c33f94e9a0a114466e0d2c0214e961bef881f491b",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7469136,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1086818
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 15.999700000000303
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 16.989299999999275
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 17.34009999999944
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 17.761499999998705
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 18.101399999999558
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 18.441499999998996
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.724099999999453
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 10.987200000001394
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 11.983700000000681
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 13.33810000000085
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 5110,
+          "waitMs": 7.157000000001062
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 3188,
+          "waitMs": 14.558700000001409
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 11.445700000000215
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 2268,
+          "waitMs": 14.176100000000588
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 5992,
+          "waitMs": 13.798300000000381
+        }
+      ],
+      "profile": "final-27-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/capota-para-picape/capota-de-fibra-basica-para-land-rover-defender/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.55,
+      "sampledNonIdleMs": 24.07,
+      "sampledHotspots": [
+        {
+          "frame": "setRoutes (assets/Match-DreM-6bY.js)",
+          "ms": 3.53
+        },
+        {
+          "frame": "component (assets/router-gIRgi23D.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "read (native)",
+          "ms": 1.76
+        },
+        {
+          "frame": "relatedProducts (assets/site-eUnpNn_v.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "request (assets/contacts-9xmIDGOI.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "jsxProd (assets/__23tanstack-start-server-fn-resolver-BP_CBjoy.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "isValidIdentifier (index.js)",
+          "ms": 1.62
+        },
+        {
+          "frame": "pushComponentStack (index.js)",
+          "ms": 1.5
+        },
+        {
+          "frame": "renderChildrenArray (index.js)",
+          "ms": 1.43
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 1.33
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 47635,
+      "inlineScriptBytes": 31668,
+      "visibleHash": "fa00f013f8af5b6224bcf59c1b64bc0d425ccfde8be4765a90aeaf962adfd366",
+      "mainHash": "70a09b5f8bb2ba753b24a1aac4c92dfb44b481defdcdb5f9fe6b62f802081b05",
+      "footerStableHash": "86544ec9093bdcf90296a31c33f94e9a0a114466e0d2c0214e961bef881f491b",
+      "memoryBefore": {
+        "usedSize": 7469136,
+        "totalSize": 11431936,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1086818
+      },
+      "memoryAfter": {
+        "usedSize": 8874632,
+        "totalSize": 12480512,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1209614
+      },
+      "calls": [],
+      "profile": "final-28-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/pronta-entrega/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 181.15,
+      "sampledNonIdleMs": 175.54,
+      "sampledHotspots": [
+        {
+          "frame": "fetch (native)",
+          "ms": 24.55
+        },
+        {
+          "frame": "executeServerLane (assets/Match-DreM-6bY.js)",
+          "ms": 19.66
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 18.51
+        },
+        {
+          "frame": "postMediaReferences (assets/site-eUnpNn_v.js)",
+          "ms": 13.56
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 13.38
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 8.54
+        },
+        {
+          "frame": "clearTimeoutImpl (node-internal:internal_timers)",
+          "ms": 3.45
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 3.44
+        },
+        {
+          "frame": "(anonymous) (assets/Match-DreM-6bY.js)",
+          "ms": 3.4
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.38
+        },
+        {
+          "frame": "(anonymous) (assets/site-eUnpNn_v.js)",
+          "ms": 3.35
+        },
+        {
+          "frame": "userNext (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 3.32
+        }
+      ],
+      "subrequests": 13,
+      "jsonBytes": 361519,
+      "restWaitSumMs": 164.34,
+      "htmlBytes": 45848,
+      "inlineScriptBytes": 31058,
+      "visibleHash": "ef70a6ba8d2272eaa12d39deb45421dc84b16b95da4f539b9161ec9db966edad",
+      "mainHash": "1c46eaa62f2e9b50b8f8b998e5b4bd7aa63c6bb6ae1c1f6310ad0d0873ecae81",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5022144,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7997276,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1080514
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 13.547300000000178
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 14.01089999999931
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 14.643299999999726
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 14.992599999999584
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 15.446899999999005
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 15.78440000000046
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.975400000001173
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 9.962500000001455
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 11.07049999999981
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 12.292299999999159
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 240682,
+          "waitMs": 6.072299999999814
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 33611,
+          "waitMs": 10.835599999998522
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 11160,
+          "waitMs": 14.706700000000637
+        }
+      ],
+      "profile": "final-29-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/pronta-entrega/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 25.84,
+      "sampledNonIdleMs": 20.8,
+      "sampledHotspots": [
+        {
+          "frame": "startRequestResolver (index.js)",
+          "ms": 3.24
+        },
+        {
+          "frame": "isEligibleForOutlining (index.js)",
+          "ms": 1.83
+        },
+        {
+          "frame": "buildTagsFromMatches (assets/router-gIRgi23D.js)",
+          "ms": 1.79
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "Parser (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "createObjectNode (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "serialize$1 (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "loggerFor (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.63
+        },
+        {
+          "frame": "Footer (assets/site-umeg1d0r.js)",
+          "ms": 1.55
+        },
+        {
+          "frame": "renderChildrenArray (index.js)",
+          "ms": 1.41
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.33
+        },
+        {
+          "frame": "flushCompletedQueues (index.js)",
+          "ms": 1.22
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 45848,
+      "inlineScriptBytes": 31058,
+      "visibleHash": "ef70a6ba8d2272eaa12d39deb45421dc84b16b95da4f539b9161ec9db966edad",
+      "mainHash": "1c46eaa62f2e9b50b8f8b998e5b4bd7aa63c6bb6ae1c1f6310ad0d0873ecae81",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 7997276,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1080514
+      },
+      "memoryAfter": {
+        "usedSize": 9402564,
+        "totalSize": 12742656,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1196942
+      },
+      "calls": [],
+      "profile": "final-30-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/trabalhos/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 150.92,
+      "sampledNonIdleMs": 146.25,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 43.12
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 15.38
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.45
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 3.4
+        },
+        {
+          "frame": "handler (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 3.4
+        },
+        {
+          "frame": "ontext (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.38
+        },
+        {
+          "frame": "notifyAndClearListeners (index.js)",
+          "ms": 3.28
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.27
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 3.27
+        },
+        {
+          "frame": "fetch (index.js)",
+          "ms": 3
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 2.94
+        },
+        {
+          "frame": "onclosetag (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.81
+        }
+      ],
+      "subrequests": 11,
+      "jsonBytes": 86346,
+      "restWaitSumMs": 114.06,
+      "htmlBytes": 37434,
+      "inlineScriptBytes": 26888,
+      "visibleHash": "a1c81ec297baf7b37dd3363cd14373ef398eaa1d094610a2fe8bf600c5311244",
+      "mainHash": "be92f095efc431bdd86fb3bfb2252fdd9970c4d52dc42e4b9b2e6c3aa6f07100",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5266728,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7384576,
+        "totalSize": 10907648,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1060778
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 6.718800000000556
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 7.453899999998612
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 7.817300000000614
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 8.157099999998536
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 8.52009999999973
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 8.83430000000044
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 11.633700000000317
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 10.700999999999112
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 11.568900000000212
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 12.492099999999482
+        },
+        {
+          "endpoint": "trabalho",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 20.16150000000016
+        }
+      ],
+      "profile": "final-31-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/trabalhos/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 26.65,
+      "sampledNonIdleMs": 20.31,
+      "sampledHotspots": [
+        {
+          "frame": "encode (assets/Match-DreM-6bY.js)",
+          "ms": 3.35
+        },
+        {
+          "frame": "isValidKey (index.js)",
+          "ms": 1.79
+        },
+        {
+          "frame": "dehydrateMatch (index.js)",
+          "ms": 1.78
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "Parser (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "whatsapp (assets/site-umeg1d0r.js)",
+          "ms": 1.47
+        },
+        {
+          "frame": "renderNode (index.js)",
+          "ms": 1.44
+        },
+        {
+          "frame": "defaultPendingComponent (assets/router-gIRgi23D.js)",
+          "ms": 1.4
+        },
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 1.36
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.34
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.21
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 37434,
+      "inlineScriptBytes": 26888,
+      "visibleHash": "a1c81ec297baf7b37dd3363cd14373ef398eaa1d094610a2fe8bf600c5311244",
+      "mainHash": "be92f095efc431bdd86fb3bfb2252fdd9970c4d52dc42e4b9b2e6c3aa6f07100",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 7384576,
+        "totalSize": 10907648,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1060778
+      },
+      "memoryAfter": {
+        "usedSize": 8701736,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1157552
+      },
+      "calls": [],
+      "profile": "final-32-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/trabalhos/instalacao-capota-de-fibra-empresa-xyz/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 241.09,
+      "sampledNonIdleMs": 236.06,
+      "sampledHotspots": [
+        {
+          "frame": "shouldContinue (assets/site-config-JVqKAYbu.js)",
+          "ms": 32.8
+        },
+        {
+          "frame": "(anonymous) (assets/site-eUnpNn_v.js)",
+          "ms": 27.85
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 22.22
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 16.72
+        },
+        {
+          "frame": "stateText (assets/site-config-JVqKAYbu.js)",
+          "ms": 16.2
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 8.28
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 8.13
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 6.86
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 5.23
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 5.03
+        },
+        {
+          "frame": "__toESM (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 4.75
+        },
+        {
+          "frame": "pushStartInstance (index.js)",
+          "ms": 4.67
+        }
+      ],
+      "subrequests": 13,
+      "jsonBytes": 91000,
+      "restWaitSumMs": 188.68,
+      "htmlBytes": 40449,
+      "inlineScriptBytes": 29016,
+      "visibleHash": "0c5cde4bcee643d247566f280e35308b1aded3fcb8e41a3a991be202348b6f83",
+      "mainHash": "2ccfb37ae5213fa11d6a8e3e420687b2c5487da9ad3049d3b1332f1b348a1ea1",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5237980,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7097312,
+        "totalSize": 11956224,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1063712
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 15.17029999999977
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 15.849599999999555
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 16.432199999999284
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 17.04860000000008
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 17.60740000000078
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 18.50959999999941
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 9.706500000000233
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 11.057000000000698
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 12.751599999999598
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 20.97559999999976
+        },
+        {
+          "endpoint": "trabalho",
+          "status": 200,
+          "bytes": 5215,
+          "waitMs": 9.809199999999691
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 5885,
+          "waitMs": 10.996399999999994
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 3834,
+          "waitMs": 12.766999999999825
+        }
+      ],
+      "profile": "final-33-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/trabalhos/instalacao-capota-de-fibra-empresa-xyz/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.63,
+      "sampledNonIdleMs": 24.57,
+      "sampledHotspots": [
+        {
+          "frame": "executeServerLane (assets/Match-DreM-6bY.js)",
+          "ms": 4.79
+        },
+        {
+          "frame": "onParse (index.js)",
+          "ms": 1.82
+        },
+        {
+          "frame": "appendUniqueUserTags (assets/Match-DreM-6bY.js)",
+          "ms": 1.77
+        },
+        {
+          "frame": "head (assets/router-gIRgi23D.js)",
+          "ms": 1.76
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.74
+        },
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "(anonymous) (native)",
+          "ms": 1.7
+        },
+        {
+          "frame": "tagAllowed (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 1.57
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.38
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 40449,
+      "inlineScriptBytes": 29016,
+      "visibleHash": "0c5cde4bcee643d247566f280e35308b1aded3fcb8e41a3a991be202348b6f83",
+      "mainHash": "2ccfb37ae5213fa11d6a8e3e420687b2c5487da9ad3049d3b1332f1b348a1ea1",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 7097312,
+        "totalSize": 11956224,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1063712
+      },
+      "memoryAfter": {
+        "usedSize": 8377644,
+        "totalSize": 11956224,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1163384
+      },
+      "calls": [],
+      "profile": "final-34-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/blog/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 220.17,
+      "sampledNonIdleMs": 215.78,
+      "sampledHotspots": [
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 24.83
+        },
+        {
+          "frame": "fetchSiteConfig (assets/site-config-JVqKAYbu.js)",
+          "ms": 23.13
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 18.15
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 13.63
+        },
+        {
+          "frame": "executeServerLane (assets/Match-DreM-6bY.js)",
+          "ms": 8.26
+        },
+        {
+          "frame": "renderWithHooks (index.js)",
+          "ms": 7.05
+        },
+        {
+          "frame": "write (assets/site-config-JVqKAYbu.js)",
+          "ms": 6.71
+        },
+        {
+          "frame": "terminate (index.js)",
+          "ms": 6.68
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 6.17
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 5.49
+        },
+        {
+          "frame": "clean (assets/site-config-JVqKAYbu.js)",
+          "ms": 5.09
+        },
+        {
+          "frame": "cityUrl (assets/paths-84BzuXzg.js)",
+          "ms": 3.46
+        }
+      ],
+      "subrequests": 12,
+      "jsonBytes": 176692,
+      "restWaitSumMs": 190.3,
+      "htmlBytes": 98372,
+      "inlineScriptBytes": 75204,
+      "visibleHash": "881ffee6ffcf47d4c0bdeea898f4ccb77ee93bf094ce048495976856043d69d9",
+      "mainHash": "a2f302cc70da6b15580b85b4a634ed6b3716bdd0d09c389fb21b49838f9bbb16",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 9947868,
+        "totalSize": 13090816,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1194044
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 16.866900000000896
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 17.307999999999083
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 17.66320000000087
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 17.952500000001237
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 18.263200000001234
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 18.571899999999005
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 12.804700000000594
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 18.01589999999851
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 17.881100000000515
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 18.682600000000093
+        },
+        {
+          "endpoint": "posts",
+          "status": 200,
+          "bytes": 99960,
+          "waitMs": 10.943299999998999
+        },
+        {
+          "endpoint": "categories",
+          "status": 200,
+          "bytes": 666,
+          "waitMs": 5.348399999998946
+        }
+      ],
+      "profile": "final-35-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/blog/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 37.43,
+      "sampledNonIdleMs": 27.82,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/Match-DreM-6bY.js)",
+          "ms": 4.83
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 3.44
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 3.32
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 3.02
+        },
+        {
+          "frame": "flushSubtree (index.js)",
+          "ms": 1.79
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "onParse (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.7
+        },
+        {
+          "frame": "pushSelfClosing (index.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "parseSOS (index.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "addEventListener (native)",
+          "ms": 1.21
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 98372,
+      "inlineScriptBytes": 75204,
+      "visibleHash": "881ffee6ffcf47d4c0bdeea898f4ccb77ee93bf094ce048495976856043d69d9",
+      "mainHash": "a2f302cc70da6b15580b85b4a634ed6b3716bdd0d09c389fb21b49838f9bbb16",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 9947868,
+        "totalSize": 13090816,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1194044
+      },
+      "memoryAfter": {
+        "usedSize": 8464452,
+        "totalSize": 15773696,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1169680
+      },
+      "calls": [],
+      "profile": "final-36-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 208.53,
+      "sampledNonIdleMs": 203.44,
+      "sampledHotspots": [
+        {
+          "frame": "request (assets/contacts-9xmIDGOI.js)",
+          "ms": 30.88
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 17.29
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 15.73
+        },
+        {
+          "frame": "EditorialHeader (assets/site-CfwiDVFD.js)",
+          "ms": 15.67
+        },
+        {
+          "frame": "resolveRoute (assets/site-eUnpNn_v.js)",
+          "ms": 10.1
+        },
+        {
+          "frame": "getEntries (index.js)",
+          "ms": 5.23
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 5.22
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-JVqKAYbu.js)",
+          "ms": 4.95
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 4.6
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 3.53
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 3.35
+        },
+        {
+          "frame": "normalizeSiteConfig (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.32
+        }
+      ],
+      "subrequests": 11,
+      "jsonBytes": 85111,
+      "restWaitSumMs": 196.88,
+      "htmlBytes": 40885,
+      "inlineScriptBytes": 28799,
+      "visibleHash": "c406bb38c471d1c06479899fe49ba7f8955354d6a7f8522dc192b5a72787b2b4",
+      "mainHash": "5d96f009ea1cf47e4a0ed488eeac29b28e74745b90ea072601c957ccefe8295f",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5237980,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7398528,
+        "totalSize": 10907648,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1068456
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 21.09059999999954
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 21.90940000000046
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 22.408299999999144
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 22.84100000000035
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 23.331600000001345
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 24.08469999999943
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.972099999999045
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 12.38169999999991
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 13.26339999999982
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 12.41359999999986
+        },
+        {
+          "endpoint": "posts",
+          "status": 200,
+          "bytes": 9045,
+          "waitMs": 12.179000000000087
+        }
+      ],
+      "profile": "final-37-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 21.61,
+      "sampledNonIdleMs": 17.54,
+      "sampledHotspots": [
+        {
+          "frame": "contextualize (assets/Match-DreM-6bY.js)",
+          "ms": 3.1
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.76
+        },
+        {
+          "frame": "onSerialize (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "head (assets/router-gIRgi23D.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "createHoistableState (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "write (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "StructuredData (assets/site-CfwiDVFD.js)",
+          "ms": 1.5
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.38
+        },
+        {
+          "frame": "serializeProperties (index.js)",
+          "ms": 1.33
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 40885,
+      "inlineScriptBytes": 28799,
+      "visibleHash": "c406bb38c471d1c06479899fe49ba7f8955354d6a7f8522dc192b5a72787b2b4",
+      "mainHash": "5d96f009ea1cf47e4a0ed488eeac29b28e74745b90ea072601c957ccefe8295f",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 7398528,
+        "totalSize": 10907648,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1068456
+      },
+      "memoryAfter": {
+        "usedSize": 8600140,
+        "totalSize": 12218368,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1172886
+      },
+      "calls": [],
+      "profile": "final-38-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/quem-somos/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 195.78,
+      "sampledNonIdleMs": 192.22,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 27.79
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 22.98
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 20.46
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 8.47
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 5.05
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 4.38
+        },
+        {
+          "frame": "executeServerLane (assets/Match-DreM-6bY.js)",
+          "ms": 3.51
+        },
+        {
+          "frame": "(anonymous) (assets/contacts-9xmIDGOI.js)",
+          "ms": 3.45
+        },
+        {
+          "frame": "loadServerRoute (assets/Match-DreM-6bY.js)",
+          "ms": 3.42
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.39
+        },
+        {
+          "frame": "notifyAndClearListeners (index.js)",
+          "ms": 3.37
+        },
+        {
+          "frame": "startChunkForTag (index.js)",
+          "ms": 1.97
+        }
+      ],
+      "subrequests": 10,
+      "jsonBytes": 76066,
+      "restWaitSumMs": 137.92,
+      "htmlBytes": 35044,
+      "inlineScriptBytes": 24822,
+      "visibleHash": "03b6c5b532ab06ae43255e17857c3d98dfe31e0bd765f54f135dd54fd539c07b",
+      "mainHash": "745039ead3a7c64fd0a606af32d40f455366acfa2002bded73c197fc4895e26a",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5022144,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 6908452,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1054453
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 10.058999999999287
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 11.876000000000204
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 12.592599999999948
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 13.187700000000405
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 13.742600000001403
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 14.45429999999942
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.093399999999747
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 14.070999999999913
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 17.3161999999993
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 20.52520000000004
+        }
+      ],
+      "profile": "final-39-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/quem-somos/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.12,
+      "sampledNonIdleMs": 21.99,
+      "sampledHotspots": [
+        {
+          "frame": "validateSearch (assets/router-gIRgi23D.js)",
+          "ms": 4.75
+        },
+        {
+          "frame": "(anonymous) (assets/site-eUnpNn_v.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "projectLane (assets/Match-DreM-6bY.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "createNumberNode (index.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "exports.createElement (assets/__23tanstack-start-server-fn-resolver-BP_CBjoy.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "pushSelfClosing (index.js)",
+          "ms": 1.55
+        },
+        {
+          "frame": "serializeProperty (index.js)",
+          "ms": 1.45
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.37
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.35
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.32
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 35044,
+      "inlineScriptBytes": 24822,
+      "visibleHash": "03b6c5b532ab06ae43255e17857c3d98dfe31e0bd765f54f135dd54fd539c07b",
+      "mainHash": "745039ead3a7c64fd0a606af32d40f455366acfa2002bded73c197fc4895e26a",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 6908452,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1054453
+      },
+      "memoryAfter": {
+        "usedSize": 8058784,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1144892
+      },
+      "calls": [],
+      "profile": "final-40-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/conserto-de-capotas-de-fibra/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 181.26,
+      "sampledNonIdleMs": 175.25,
+      "sampledHotspots": [
+        {
+          "frame": "fetch (native)",
+          "ms": 24.93
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 16.78
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 12.82
+        },
+        {
+          "frame": "addEventListener (native)",
+          "ms": 8.34
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 5.18
+        },
+        {
+          "frame": "brazilianPhone (assets/contacts-9xmIDGOI.js)",
+          "ms": 4.9
+        },
+        {
+          "frame": "sanitizeURL (index.js)",
+          "ms": 3.45
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 3.43
+        },
+        {
+          "frame": "pages (assets/site-eUnpNn_v.js)",
+          "ms": 3.35
+        },
+        {
+          "frame": "disarm (index.js)",
+          "ms": 3.34
+        },
+        {
+          "frame": "ontext (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.33
+        },
+        {
+          "frame": "executeServerLane (assets/Match-DreM-6bY.js)",
+          "ms": 3.32
+        }
+      ],
+      "subrequests": 11,
+      "jsonBytes": 86346,
+      "restWaitSumMs": 172.32,
+      "htmlBytes": 40058,
+      "inlineScriptBytes": 26915,
+      "visibleHash": "45c1cc67e0c0a83ae0fb1e7b34bd2a6bcaa9ba879d07b09e83367f17d5ed558f",
+      "mainHash": "9aa1fa5bc1909359f4c7ffed81b4e3c542a3666e669b203fa5de9dfecba9cdfb",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7077684,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1067401
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 17.601000000002387
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 17.717500000002474
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 17.80029999999897
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 17.964399999997113
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 18.22739999999976
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 18.534899999998743
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 13.641700000000128
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 13.182799999998679
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 14.559799999999086
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 16.0612000000001
+        },
+        {
+          "endpoint": "trabalho",
+          "status": 200,
+          "bytes": 10280,
+          "waitMs": 7.0319000000017695
+        }
+      ],
+      "profile": "final-41-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/conserto-de-capotas-de-fibra/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 28.53,
+      "sampledNonIdleMs": 22.52,
+      "sampledHotspots": [
+        {
+          "frame": "(program) (native)",
+          "ms": 3.68
+        },
+        {
+          "frame": "getRouter (index.js)",
+          "ms": 3.54
+        },
+        {
+          "frame": "serialize$1 (index.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "buildTagsFromMatches (assets/router-gIRgi23D.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "parseProperties (index.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "escapeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.44
+        },
+        {
+          "frame": "onParse (index.js)",
+          "ms": 1.44
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.43
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.4
+        },
+        {
+          "frame": "(anonymous) (assets/Match-DreM-6bY.js)",
+          "ms": 1.15
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 40058,
+      "inlineScriptBytes": 26915,
+      "visibleHash": "45c1cc67e0c0a83ae0fb1e7b34bd2a6bcaa9ba879d07b09e83367f17d5ed558f",
+      "mainHash": "9aa1fa5bc1909359f4c7ffed81b4e3c542a3666e669b203fa5de9dfecba9cdfb",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 7077684,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1067401
+      },
+      "memoryAfter": {
+        "usedSize": 8318776,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1170762
+      },
+      "calls": [],
+      "profile": "final-42-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/cidades/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 139.55,
+      "sampledNonIdleMs": 136.8,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 19.65
+        },
+        {
+          "frame": "fetchSiteConfig (assets/site-config-JVqKAYbu.js)",
+          "ms": 14.83
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 9.89
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 8.16
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 3.8
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.46
+        },
+        {
+          "frame": "legacyRedirect (assets/site-eUnpNn_v.js)",
+          "ms": 3.37
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 3.3
+        },
+        {
+          "frame": "mediaBatch (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.27
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 3.15
+        },
+        {
+          "frame": "RegExp: &(?![a-zA-Z0-9#]{1,20};) (native)",
+          "ms": 1.9
+        },
+        {
+          "frame": "isBot (index.js)",
+          "ms": 1.76
+        }
+      ],
+      "subrequests": 11,
+      "jsonBytes": 85526,
+      "restWaitSumMs": 107.56,
+      "htmlBytes": 66274,
+      "inlineScriptBytes": 38816,
+      "visibleHash": "4efe7dec95a2f9e65a335a62de11efdba6df69d717b6c9c41459bd7b363bf282",
+      "mainHash": "71e4bbd8bc511091209dbe99e018b1f39cdfda85dd0009526828088d1de5aeca",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5259712,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 8083044,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1129804
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 8.313199999996868
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 8.815600000001723
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 9.357299999999668
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 9.83599999999933
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 10.232200000002194
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 9149,
+          "waitMs": 10.919099999999162
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 10.917900000000373
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 9.815899999997782
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 10.483099999997648
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 11.338599999999133
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 642,
+          "waitMs": 7.53269999999975
+        }
+      ],
+      "profile": "final-43-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/cidades/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 29.07,
+      "sampledNonIdleMs": 22.19,
+      "sampledHotspots": [
+        {
+          "frame": "startRequestResolver (index.js)",
+          "ms": 3.13
+        },
+        {
+          "frame": "serializeChar (index.js)",
+          "ms": 2.12
+        },
+        {
+          "frame": "exports.createElement (assets/__23tanstack-start-server-fn-resolver-BP_CBjoy.js)",
+          "ms": 1.81
+        },
+        {
+          "frame": "serializeProperties (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "cityLinks (assets/site-eUnpNn_v.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "URLSearchParams (native)",
+          "ms": 1.69
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.67
+        },
+        {
+          "frame": "Tokenizer (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "_getRenderedMatches (assets/Match-DreM-6bY.js)",
+          "ms": 1.63
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.54
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.31
+        },
+        {
+          "frame": "takeInitialHydrationScriptTags (index.js)",
+          "ms": 1.27
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 66274,
+      "inlineScriptBytes": 38816,
+      "visibleHash": "4efe7dec95a2f9e65a335a62de11efdba6df69d717b6c9c41459bd7b363bf282",
+      "mainHash": "71e4bbd8bc511091209dbe99e018b1f39cdfda85dd0009526828088d1de5aeca",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 8083044,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1129804
+      },
+      "memoryAfter": {
+        "usedSize": 7122456,
+        "totalSize": 14315520,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1104564
+      },
+      "calls": [],
+      "profile": "final-44-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/venda-de-capota-para-picape-em-curitiba/",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 149.65,
+      "sampledNonIdleMs": 142.53,
+      "sampledHotspots": [
+        {
+          "frame": "resolveRoute (assets/site-eUnpNn_v.js)",
+          "ms": 19.69
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 18.42
+        },
+        {
+          "frame": "normalizePost (assets/site-eUnpNn_v.js)",
+          "ms": 13.23
+        },
+        {
+          "frame": "normalizeSiteConfig (assets/site-config-JVqKAYbu.js)",
+          "ms": 11.78
+        },
+        {
+          "frame": "(anonymous) (assets/Match-DreM-6bY.js)",
+          "ms": 6.77
+        },
+        {
+          "frame": "serializeString (index.js)",
+          "ms": 3.58
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 3.45
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.41
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 3.32
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.82
+        },
+        {
+          "frame": "RouterCore.update (assets/Match-DreM-6bY.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "Breadcrumb (assets/site-CfwiDVFD.js)",
+          "ms": 1.76
+        }
+      ],
+      "subrequests": 11,
+      "jsonBytes": 82320,
+      "restWaitSumMs": 114.13,
+      "htmlBytes": 38160,
+      "inlineScriptBytes": 27265,
+      "visibleHash": "98a7be545a9631e31b908bcbf2517f0664b9ecd04fddc425bba12566c9d8ef05",
+      "mainHash": "5daa7c295b705e68414c4a8538ce99497f61ebc9312622a999be73bf75650871",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7057452,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1061665
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 4.908599999998842
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 5.3814000000020314
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 5.615200000000186
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 5.891100000000733
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 6.258499999999913
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 6.678500000001804
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 12.830399999998917
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 18.27440000000206
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 18.42569999999978
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 19.112599999996746
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 6254,
+          "waitMs": 10.750299999999697
+        }
+      ],
+      "profile": "final-45-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/venda-de-capota-para-picape-em-curitiba/",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 21.3,
+      "sampledNonIdleMs": 18.23,
+      "sampledHotspots": [
+        {
+          "frame": "RouterCore.getMatchedRoutes (assets/Match-DreM-6bY.js)",
+          "ms": 3.38
+        },
+        {
+          "frame": "end (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.79
+        },
+        {
+          "frame": "isValidIdentifier (index.js)",
+          "ms": 1.76
+        },
+        {
+          "frame": "parseSOS (index.js)",
+          "ms": 1.72
+        },
+        {
+          "frame": "brazilianPhone (assets/contacts-9xmIDGOI.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "(anonymous) (native)",
+          "ms": 1.66
+        },
+        {
+          "frame": "(anonymous) (assets/site-eUnpNn_v.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "escapeTextForBrowser (index.js)",
+          "ms": 1.44
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.34
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 38160,
+      "inlineScriptBytes": 27265,
+      "visibleHash": "98a7be545a9631e31b908bcbf2517f0664b9ecd04fddc425bba12566c9d8ef05",
+      "mainHash": "5daa7c295b705e68414c4a8538ce99497f61ebc9312622a999be73bf75650871",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 7057452,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1061665
+      },
+      "memoryAfter": {
+        "usedSize": 8262520,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1159316
+      },
+      "calls": [],
+      "profile": "final-46-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/produtos/?marca=4&modelo=5&q=Strada",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [
+        {
+          "status": 307,
+          "location": "/produtos/?marca=%224%22&modelo=%225%22&q=Strada"
+        }
+      ],
+      "wallMs": 276.66,
+      "sampledNonIdleMs": 266.26,
+      "sampledHotspots": [
+        {
+          "frame": "collection (assets/site-eUnpNn_v.js)",
+          "ms": 34.67
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 30.78
+        },
+        {
+          "frame": "(anonymous) (assets/site-umeg1d0r.js)",
+          "ms": 26.21
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 15.11
+        },
+        {
+          "frame": "startRequestResolver (index.js)",
+          "ms": 8.71
+        },
+        {
+          "frame": "json (native)",
+          "ms": 6.76
+        },
+        {
+          "frame": "getRouter (assets/router-gIRgi23D.js)",
+          "ms": 6.53
+        },
+        {
+          "frame": "(anonymous) (assets/site-eUnpNn_v.js)",
+          "ms": 6.47
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 6.38
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 3.69
+        },
+        {
+          "frame": "request (assets/contacts-9xmIDGOI.js)",
+          "ms": 3.55
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 3.48
+        }
+      ],
+      "subrequests": 12,
+      "jsonBytes": 85785,
+      "restWaitSumMs": 185.16,
+      "htmlBytes": 47263,
+      "inlineScriptBytes": 27953,
+      "visibleHash": "6f7f4b5c919357de7674b502a2272efb262675bd506db2a8706aa0414a62f70a",
+      "mainHash": "4d879091b2cc412d3ea326906687ed1ad876670c99742d9fba310f4db101dc02",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 7196540,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1085336
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 10.870600000002014
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 11.756199999999808
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 12.703400000002148
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 13.570599999999104
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 14.550899999998364
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 15.445400000000518
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 6.377599999999802
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 23.482199999998556
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 23.51429999999891
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 25.624100000000908
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 5885,
+          "waitMs": 11.771399999997811
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 3834,
+          "waitMs": 15.495200000001205
+        }
+      ],
+      "profile": "final-47-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/produtos/?marca=4&modelo=5&q=Strada",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [
+        {
+          "status": 307,
+          "location": "/produtos/?marca=%224%22&modelo=%225%22&q=Strada"
+        }
+      ],
+      "wallMs": 65.34,
+      "sampledNonIdleMs": 67.14,
+      "sampledHotspots": [
+        {
+          "frame": "RouterCore (assets/Match-DreM-6bY.js)",
+          "ms": 16.05
+        },
+        {
+          "frame": "addEventListener (native)",
+          "ms": 13.79
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 4.87
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.37
+        },
+        {
+          "frame": "pumpPassThrough (index.js)",
+          "ms": 2.1
+        },
+        {
+          "frame": "getComponentNameFromType (index.js)",
+          "ms": 2.03
+        },
+        {
+          "frame": "isIndexedValueInStack (index.js)",
+          "ms": 1.98
+        },
+        {
+          "frame": "executeRouter (index.js)",
+          "ms": 1.77
+        },
+        {
+          "frame": "flattenMiddlewares (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "createSerovalNode (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "postMediaReferences (assets/site-eUnpNn_v.js)",
+          "ms": 1.7
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.69
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 47263,
+      "inlineScriptBytes": 27953,
+      "visibleHash": "6f7f4b5c919357de7674b502a2272efb262675bd506db2a8706aa0414a62f70a",
+      "mainHash": "4d879091b2cc412d3ea326906687ed1ad876670c99742d9fba310f4db101dc02",
+      "footerStableHash": "0e6247f0de77a5c33a1968d119995fff5766f2c61484fe82d803f579b57eb052",
+      "memoryBefore": {
+        "usedSize": 7196540,
+        "totalSize": 11694080,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1085336
+      },
+      "memoryAfter": {
+        "usedSize": 8660944,
+        "totalSize": 12480512,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1206586
+      },
+      "calls": [],
+      "profile": "final-48-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/caminho-inexistente/",
+      "cache": "cold",
+      "status": 404,
+      "statuses": [
+        404
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 117.48,
+      "sampledNonIdleMs": 113.24,
+      "sampledHotspots": [
+        {
+          "frame": "terms (assets/site-eUnpNn_v.js)",
+          "ms": 23.78
+        },
+        {
+          "frame": "executeServerLane (assets/Match-DreM-6bY.js)",
+          "ms": 11.5
+        },
+        {
+          "frame": "__toESM (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 5.09
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 4.99
+        },
+        {
+          "frame": "brazilianPhone (assets/contacts-9xmIDGOI.js)",
+          "ms": 4.96
+        },
+        {
+          "frame": "(anonymous) (assets/site-config-JVqKAYbu.js)",
+          "ms": 4.92
+        },
+        {
+          "frame": "parse (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.42
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 3.32
+        },
+        {
+          "frame": "loadServerRoute (assets/Match-DreM-6bY.js)",
+          "ms": 3.31
+        },
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 3.29
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.25
+        },
+        {
+          "frame": "renderElement (index.js)",
+          "ms": 1.81
+        }
+      ],
+      "subrequests": 11,
+      "jsonBytes": 76068,
+      "restWaitSumMs": 173.28,
+      "htmlBytes": 9474,
+      "inlineScriptBytes": 1845,
+      "visibleHash": "7ea3910ea0d303a9afdacb86cecacdfb03f14e362aa328f11dc84b7b9ae5d821",
+      "mainHash": "4c77ea6f1dea7a9b16c2d9b10cff4252dbf1c93d13c66bdd9e66458608a5f46b",
+      "footerStableHash": "6f10045f895b6aff94676e1a283ebe75f6ea3637473488737bd12389456f4176",
+      "memoryBefore": {
+        "usedSize": 5021748,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 6566428,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 988594
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 17.136999999998807
+        },
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 10087,
+          "waitMs": 17.5695999999989
+        },
+        {
+          "endpoint": "modelo",
+          "status": 200,
+          "bytes": 17117,
+          "waitMs": 17.844600000000355
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 4822,
+          "waitMs": 18.047999999998865
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 20207,
+          "waitMs": 18.354000000002998
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 331,
+          "waitMs": 18.61750000000029
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 14.184900000000198
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 7144,
+          "waitMs": 13.548399999999674
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 2112,
+          "waitMs": 14.492599999997765
+        },
+        {
+          "endpoint": "media",
+          "status": 200,
+          "bytes": 8745,
+          "waitMs": 15.62039999999979
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 2,
+          "waitMs": 7.860599999999977
+        }
+      ],
+      "profile": "final-49-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/caminho-inexistente/",
+      "cache": "warm",
+      "status": 404,
+      "statuses": [
+        404
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 14.28,
+      "sampledNonIdleMs": 10.74,
+      "sampledHotspots": [
+        {
+          "frame": "waitForReason (assets/Match-DreM-6bY.js)",
+          "ms": 2.95
+        },
+        {
+          "frame": "sanitizeHtml (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "appendUniqueUserTags (assets/Match-DreM-6bY.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "stringToChunk (index.js)",
+          "ms": 1.45
+        },
+        {
+          "frame": "flushSubtree (index.js)",
+          "ms": 1.31
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 9474,
+      "inlineScriptBytes": 1845,
+      "visibleHash": "7ea3910ea0d303a9afdacb86cecacdfb03f14e362aa328f11dc84b7b9ae5d821",
+      "mainHash": "4c77ea6f1dea7a9b16c2d9b10cff4252dbf1c93d13c66bdd9e66458608a5f46b",
+      "footerStableHash": "6f10045f895b6aff94676e1a283ebe75f6ea3637473488737bd12389456f4176",
+      "memoryBefore": {
+        "usedSize": 6566428,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 988594
+      },
+      "memoryAfter": {
+        "usedSize": 7347600,
+        "totalSize": 11169792,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1025142
+      },
+      "calls": [],
+      "profile": "final-50-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/nao/existe/aqui/",
+      "cache": "cold",
+      "status": 404,
+      "statuses": [
+        404
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 85.69,
+      "sampledNonIdleMs": 81.37,
+      "sampledHotspots": [
+        {
+          "frame": "resolvedMedia (assets/site-config-JVqKAYbu.js)",
+          "ms": 14.89
+        },
+        {
+          "frame": "fetch (native)",
+          "ms": 9.96
+        },
+        {
+          "frame": "handler (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 4.82
+        },
+        {
+          "frame": "decodeTrieDict (assets/site-config-JVqKAYbu.js)",
+          "ms": 3.31
+        },
+        {
+          "frame": "useTags (assets/router-gIRgi23D.js)",
+          "ms": 1.8
+        },
+        {
+          "frame": "Footer (assets/site-umeg1d0r.js)",
+          "ms": 1.77
+        },
+        {
+          "frame": "retryNode (index.js)",
+          "ms": 1.75
+        },
+        {
+          "frame": "handleServerRoutes (index.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "BaseRoute.init (assets/site-umeg1d0r.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "flushSubtree (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "Header (assets/site-umeg1d0r.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 1.72
+        }
+      ],
+      "subrequests": 2,
+      "jsonBytes": 5501,
+      "restWaitSumMs": 19.01,
+      "htmlBytes": 9462,
+      "inlineScriptBytes": 1841,
+      "visibleHash": "7ea3910ea0d303a9afdacb86cecacdfb03f14e362aa328f11dc84b7b9ae5d821",
+      "mainHash": "4c77ea6f1dea7a9b16c2d9b10cff4252dbf1c93d13c66bdd9e66458608a5f46b",
+      "footerStableHash": "6f10045f895b6aff94676e1a283ebe75f6ea3637473488737bd12389456f4176",
+      "memoryBefore": {
+        "usedSize": 5237980,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 6536304,
+        "totalSize": 9072640,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1000670
+      },
+      "calls": [
+        {
+          "endpoint": "site-config",
+          "status": 200,
+          "bytes": 1339,
+          "waitMs": 6.344600000000355
+        },
+        {
+          "endpoint": "media/{id}",
+          "status": 200,
+          "bytes": 4162,
+          "waitMs": 12.668300000001182
+        }
+      ],
+      "profile": "final-51-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/nao/existe/aqui/",
+      "cache": "warm",
+      "status": 404,
+      "statuses": [
+        404
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 11.67,
+      "sampledNonIdleMs": 8.21,
+      "sampledHotspots": [
+        {
+          "frame": "build (assets/Match-DreM-6bY.js)",
+          "ms": 3.5
+        },
+        {
+          "frame": "encode (native)",
+          "ms": 1.69
+        },
+        {
+          "frame": "AbortController (native)",
+          "ms": 1.63
+        },
+        {
+          "frame": "writeChunk (index.js)",
+          "ms": 1.38
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 9462,
+      "inlineScriptBytes": 1841,
+      "visibleHash": "7ea3910ea0d303a9afdacb86cecacdfb03f14e362aa328f11dc84b7b9ae5d821",
+      "mainHash": "4c77ea6f1dea7a9b16c2d9b10cff4252dbf1c93d13c66bdd9e66458608a5f46b",
+      "footerStableHash": "6f10045f895b6aff94676e1a283ebe75f6ea3637473488737bd12389456f4176",
+      "memoryBefore": {
+        "usedSize": 6536304,
+        "totalSize": 9072640,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1000670
+      },
+      "memoryAfter": {
+        "usedSize": 6841916,
+        "totalSize": 9334784,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 1037206
+      },
+      "calls": [],
+      "profile": "final-52-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/carrinho/",
+      "cache": "cold",
+      "status": 301,
+      "statuses": [
+        301
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 77.62,
+      "sampledNonIdleMs": 32.41,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 4.88
+        },
+        {
+          "frame": "RouterCore (assets/Match-DreM-6bY.js)",
+          "ms": 4.81
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 3.21
+        },
+        {
+          "frame": "decodeTrieDict (assets/site-config-JVqKAYbu.js)",
+          "ms": 3
+        },
+        {
+          "frame": "RouterCore.update (assets/Match-DreM-6bY.js)",
+          "ms": 1.74
+        },
+        {
+          "frame": "__toESM (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "RouterCore.getMatchedRoutes (assets/Match-DreM-6bY.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "finalizeResponse (index.js)",
+          "ms": 1.65
+        },
+        {
+          "frame": "executeMiddleware (assets/createServerFn-CIoh-0sg.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "(garbage collector) (native)",
+          "ms": 1.64
+        },
+        {
+          "frame": "executeRouter (index.js)",
+          "ms": 1.64
+        },
+        {
+          "frame": "loadServerRoute (assets/Match-DreM-6bY.js)",
+          "ms": 1.63
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 0,
+      "inlineScriptBytes": 0,
+      "visibleHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mainHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "footerStableHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "memoryBefore": {
+        "usedSize": 5151168,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 5527984,
+        "totalSize": 9072640,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 964221
+      },
+      "calls": [],
+      "profile": "final-53-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/carrinho/",
+      "cache": "warm",
+      "status": 301,
+      "statuses": [
+        301
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 6.12,
+      "sampledNonIdleMs": 3.11,
+      "sampledHotspots": [
+        {
+          "frame": "addEventListener (native)",
+          "ms": 3.11
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 0,
+      "inlineScriptBytes": 0,
+      "visibleHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mainHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "footerStableHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "memoryBefore": {
+        "usedSize": 5527984,
+        "totalSize": 9072640,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 964221
+      },
+      "memoryAfter": {
+        "usedSize": 5585156,
+        "totalSize": 9072640,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 963771
+      },
+      "calls": [],
+      "profile": "final-54-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/sitemap.xml",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 58.48,
+      "sampledNonIdleMs": 54.59,
+      "sampledHotspots": [
+        {
+          "frame": "sitemapUrls (assets/router-gIRgi23D.js)",
+          "ms": 40.99
+        },
+        {
+          "frame": "(program) (native)",
+          "ms": 3.52
+        },
+        {
+          "frame": "startRequestResolver (index.js)",
+          "ms": 3.35
+        },
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 1.71
+        },
+        {
+          "frame": "parse (assets/Match-DreM-6bY.js)",
+          "ms": 1.69
+        },
+        {
+          "frame": "processRouteTree (assets/Match-DreM-6bY.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "GET (assets/router-gIRgi23D.js)",
+          "ms": 1.65
+        }
+      ],
+      "subrequests": 9,
+      "jsonBytes": 18567,
+      "restWaitSumMs": 157.5,
+      "htmlBytes": 27957,
+      "inlineScriptBytes": 0,
+      "visibleHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mainHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "footerStableHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseHash": "c2c35291371f070c7367bb3446d340ea4a3397885f396c8395eb6a1160213af0",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 5210304,
+        "totalSize": 8810496,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "calls": [
+        {
+          "endpoint": "marca",
+          "status": 200,
+          "bytes": 349,
+          "waitMs": 17.37329999999929
+        },
+        {
+          "endpoint": "categoria_produto",
+          "status": 200,
+          "bytes": 277,
+          "waitMs": 18.10440000000017
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 10892,
+          "waitMs": 18.785400000000664
+        },
+        {
+          "endpoint": "pages",
+          "status": 200,
+          "bytes": 111,
+          "waitMs": 19.09269999999742
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 3297,
+          "waitMs": 19.45339999999851
+        },
+        {
+          "endpoint": "posts",
+          "status": 200,
+          "bytes": 1814,
+          "waitMs": 19.714500000001863
+        },
+        {
+          "endpoint": "trabalho",
+          "status": 200,
+          "bytes": 105,
+          "waitMs": 19.916199999999662
+        },
+        {
+          "endpoint": "produto",
+          "status": 200,
+          "bytes": 1490,
+          "waitMs": 12.46270000000004
+        },
+        {
+          "endpoint": "cidade",
+          "status": 200,
+          "bytes": 232,
+          "waitMs": 12.601800000000367
+        }
+      ],
+      "profile": "final-55-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/sitemap.xml",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 7.68,
+      "sampledNonIdleMs": 4.71,
+      "sampledHotspots": [
+        {
+          "frame": "URL (native)",
+          "ms": 3.06
+        },
+        {
+          "frame": "hasResponseBody (index.js)",
+          "ms": 1.65
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 27957,
+      "inlineScriptBytes": 0,
+      "visibleHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mainHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "footerStableHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseHash": "c2c35291371f070c7367bb3446d340ea4a3397885f396c8395eb6a1160213af0",
+      "memoryBefore": {
+        "usedSize": 5210304,
+        "totalSize": 8810496,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 5432688,
+        "totalSize": 9072640,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830314
+      },
+      "calls": [],
+      "profile": "final-56-warm"
+    },
+    {
+      "variant": "final",
+      "path": "/robots.txt",
+      "cache": "cold",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 10.99,
+      "sampledNonIdleMs": 9.64,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 2.94
+        },
+        {
+          "frame": "toResponse (index.js)",
+          "ms": 1.73
+        },
+        {
+          "frame": "(anonymous) (assets/router-gIRgi23D.js)",
+          "ms": 1.68
+        },
+        {
+          "frame": "processRouteTree (assets/Match-DreM-6bY.js)",
+          "ms": 1.66
+        },
+        {
+          "frame": "RouterCore.update (assets/Match-DreM-6bY.js)",
+          "ms": 1.64
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 70,
+      "inlineScriptBytes": 0,
+      "visibleHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mainHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "footerStableHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseHash": "0c3595a201e7ceb57dd0a045c6f0e7d51adb5d816c29a909a2ff8b76817c765e",
+      "memoryBefore": {
+        "usedSize": 5151032,
+        "totalSize": 7237632,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 5617600,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "calls": [],
+      "profile": "final-57-cold"
+    },
+    {
+      "variant": "final",
+      "path": "/robots.txt",
+      "cache": "warm",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "requests": 1,
+      "redirects": [],
+      "wallMs": 4.97,
+      "sampledNonIdleMs": 2.93,
+      "sampledHotspots": [
+        {
+          "frame": "(anonymous) (index.js)",
+          "ms": 2.93
+        }
+      ],
+      "subrequests": 0,
+      "jsonBytes": 0,
+      "restWaitSumMs": 0,
+      "htmlBytes": 70,
+      "inlineScriptBytes": 0,
+      "visibleHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mainHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "footerStableHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseHash": "0c3595a201e7ceb57dd0a045c6f0e7d51adb5d816c29a909a2ff8b76817c765e",
+      "memoryBefore": {
+        "usedSize": 5617600,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "memoryAfter": {
+        "usedSize": 5630516,
+        "totalSize": 7499776,
+        "embedderHeapUsedSize": 515872,
+        "backingStorageSize": 830626
+      },
+      "calls": [],
+      "profile": "final-58-warm"
+    }
+  ]
+}

@@ -1,0 +1,1347 @@
+[
+  {
+    "path": "",
+    "cache": "cold",
+    "kind": "home",
+    "contentFingerprint": "f60324687cac3d56757716efe0b0d39e4db5015574051a710142f8175567f248",
+    "htmlFingerprint": "dfc0672a8e5f7a5b1538cdd7d7d04dfadadb17e8cd1a172cd58b7ff90838bf09",
+    "ms": 558,
+    "componentSsrMs": 39.72,
+    "http": 14,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 378731,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 242,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 208,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 214,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 229,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 239,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 132,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 100,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 316,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 91,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 88,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/trabalho?_embed=wp%3Afeaturedmedia&per_page=3",
+        "ms": 68,
+        "status": 200,
+        "bytes": 8394
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?_embed=wp%3Afeaturedmedia&per_page=1",
+        "ms": 72,
+        "status": 200,
+        "bytes": 4921
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/posts?_embed=wp%3Afeaturedmedia&per_page=3",
+        "ms": 75,
+        "status": 200,
+        "bytes": 23184
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cliente?_embed=wp%3Afeaturedmedia&per_page=100",
+        "ms": 86,
+        "status": 200,
+        "bytes": 32488
+      }
+    ]
+  },
+  {
+    "path": "",
+    "cache": "warm",
+    "kind": "home",
+    "contentFingerprint": "f60324687cac3d56757716efe0b0d39e4db5015574051a710142f8175567f248",
+    "htmlFingerprint": "dfc0672a8e5f7a5b1538cdd7d7d04dfadadb17e8cd1a172cd58b7ff90838bf09",
+    "ms": 55,
+    "componentSsrMs": 9.64,
+    "http": 0,
+    "hits": 12,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "produtos",
+    "cache": "cold",
+    "kind": "catalog",
+    "contentFingerprint": "f421cb0001ffc08af742664ac68c5f97873977789b9fb6d147f9292f80bc1509",
+    "htmlFingerprint": "7dd42df8a36dd435f0b893bbfa016df142a3b080ba8d828c42780133a5a2e23b",
+    "ms": 347,
+    "componentSsrMs": 12.62,
+    "http": 12,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 406723,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 65,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 66,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 74,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 76,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 92,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 92,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 73,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 85,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 81,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 85,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?_embed=wp%3Afeaturedmedia&page=1&per_page=12",
+        "ms": 86,
+        "status": 200,
+        "bytes": 57922
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=390%2C415%2C416%2C438%2C439%2C507%2C508%2C509%2C510%2C511%2C624%2C625%2C626%2C627%2C676%2C677%2C701%2C702%2C703%2C704%2C731%2C732%2C733%2C734&per_page=100",
+        "ms": 79,
+        "status": 200,
+        "bytes": 39057
+      }
+    ]
+  },
+  {
+    "path": "produtos",
+    "cache": "warm",
+    "kind": "catalog",
+    "contentFingerprint": "f421cb0001ffc08af742664ac68c5f97873977789b9fb6d147f9292f80bc1509",
+    "htmlFingerprint": "7dd42df8a36dd435f0b893bbfa016df142a3b080ba8d828c42780133a5a2e23b",
+    "ms": 42,
+    "componentSsrMs": 8.68,
+    "http": 0,
+    "hits": 10,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "produtos/capota-de-fibra",
+    "cache": "cold",
+    "kind": "catalog",
+    "contentFingerprint": "c4abe18b37367315f5d387d49e6db20b63d685a0f3dedc48a0b75e2521d3eef6",
+    "htmlFingerprint": "a2f7a2401e3cebd63aeb9abd46922029a8cedd5e9fdb6353969747b37629efa5",
+    "ms": 369,
+    "componentSsrMs": 9.6,
+    "http": 12,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 420764,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 79,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 83,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 88,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 93,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 96,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 140,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 70,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 79,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 90,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 74,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?_embed=wp%3Afeaturedmedia&categoria_produto=3&page=1&per_page=12",
+        "ms": 83,
+        "status": 200,
+        "bytes": 59376
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=390%2C421%2C422%2C438%2C439%2C446%2C447%2C448%2C449%2C450%2C612%2C613%2C614%2C615%2C616%2C617%2C618%2C619%2C644%2C645%2C646%2C647%2C701%2C702%2C703%2C704%2C731%2C732%2C733%2C734&per_page=100",
+        "ms": 67,
+        "status": 200,
+        "bytes": 51644
+      }
+    ]
+  },
+  {
+    "path": "produtos/capota-de-fibra",
+    "cache": "warm",
+    "kind": "catalog",
+    "contentFingerprint": "c4abe18b37367315f5d387d49e6db20b63d685a0f3dedc48a0b75e2521d3eef6",
+    "htmlFingerprint": "a2f7a2401e3cebd63aeb9abd46922029a8cedd5e9fdb6353969747b37629efa5",
+    "ms": 41,
+    "componentSsrMs": 9.97,
+    "http": 0,
+    "hits": 10,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "marcas/capota-de-fibra-para-fiat",
+    "cache": "cold",
+    "kind": "catalog",
+    "contentFingerprint": "c74953c23dc5798af24b1bb35de54df1eda045390f4ac6ee5d26b23113ccf24a",
+    "htmlFingerprint": "2333dc58891d0a926e72f462780796c10d109c7c644ef06ea27a99ef470da3b4",
+    "ms": 303,
+    "componentSsrMs": 9.71,
+    "http": 12,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 422923,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 67,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 69,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 71,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 71,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 72,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 80,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 64,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 62,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 64,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 76,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?_embed=wp%3Afeaturedmedia&marca=4&page=1&per_page=12",
+        "ms": 70,
+        "status": 200,
+        "bytes": 55751
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=452%2C453%2C454%2C463%2C464%2C465%2C466%2C467%2C469%2C470%2C471%2C480%2C481%2C482%2C483%2C484%2C485%2C486%2C488%2C489%2C490%2C531%2C609%2C610%2C629%2C658%2C659%2C660%2C661%2C662%2C672%2C673%2C679%2C680%2C681%2C822%2C823&per_page=100",
+        "ms": 82,
+        "status": 200,
+        "bytes": 57428
+      }
+    ]
+  },
+  {
+    "path": "marcas/capota-de-fibra-para-fiat",
+    "cache": "warm",
+    "kind": "catalog",
+    "contentFingerprint": "c74953c23dc5798af24b1bb35de54df1eda045390f4ac6ee5d26b23113ccf24a",
+    "htmlFingerprint": "2333dc58891d0a926e72f462780796c10d109c7c644ef06ea27a99ef470da3b4",
+    "ms": 41,
+    "componentSsrMs": 8.49,
+    "http": 0,
+    "hits": 10,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada",
+    "cache": "cold",
+    "kind": "product",
+    "contentFingerprint": "b7a6e0fde9a6c8da5aa548337c014fb9d01aae44f62c26cf1c059fbad564ee7b",
+    "htmlFingerprint": "b4dd6da8455d487db40de3670837c63d70def3bbf157e5ade7b889e9b2e428d3",
+    "ms": 615,
+    "componentSsrMs": 6.96,
+    "http": 15,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 327097,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 79,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 80,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 94,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 132,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 133,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 61,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 82,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 63,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 71,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?_embed=wp%3Afeaturedmedia&per_page=12&slug=capota-de-fibra-com-portas-laterais-para-fiat-strada",
+        "ms": 90,
+        "status": 200,
+        "bytes": 4784
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=579%2C580%2C581&per_page=100",
+        "ms": 66,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?_embed=wp%3Afeaturedmedia&exclude=44&marca=4&modelo=5&per_page=4&tax_relation=AND",
+        "ms": 106,
+        "status": 200,
+        "bytes": 2
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?exclude=44&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&per_page=100",
+        "ms": 86,
+        "status": 200,
+        "bytes": 2398
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=593%2C798%2C799%2C800&per_page=100",
+        "ms": 60,
+        "status": 200,
+        "bytes": 6228
+      }
+    ]
+  },
+  {
+    "path": "capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada",
+    "cache": "warm",
+    "kind": "product",
+    "contentFingerprint": "b7a6e0fde9a6c8da5aa548337c014fb9d01aae44f62c26cf1c059fbad564ee7b",
+    "htmlFingerprint": "b4dd6da8455d487db40de3670837c63d70def3bbf157e5ade7b889e9b2e428d3",
+    "ms": 34,
+    "componentSsrMs": 5.99,
+    "http": 0,
+    "hits": 13,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "pronta-entrega",
+    "cache": "cold",
+    "kind": "catalog",
+    "contentFingerprint": "410f6b2dbf3b9d8ab9fde908f2cdaaa3369bb56497c11d46c8aabcc6e386a13b",
+    "htmlFingerprint": "ed85cf16ae978117e5b8abb35906ca2788a25a24418ec51ac0e3d6bb56c998b6",
+    "ms": 465,
+    "componentSsrMs": 7.12,
+    "http": 13,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 608244,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 79,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 79,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 86,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 88,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 99,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 111,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 94,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 88,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 97,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 81,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?per_page=100&search=",
+        "ms": 104,
+        "status": 200,
+        "bytes": 251895
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?page=2&per_page=100&search=",
+        "ms": 78,
+        "status": 200,
+        "bytes": 35124
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=578%2C579%2C580%2C581%2C623%2C624%2C625%2C626%2C627&per_page=100",
+        "ms": 97,
+        "status": 200,
+        "bytes": 11481
+      }
+    ]
+  },
+  {
+    "path": "pronta-entrega",
+    "cache": "warm",
+    "kind": "catalog",
+    "contentFingerprint": "410f6b2dbf3b9d8ab9fde908f2cdaaa3369bb56497c11d46c8aabcc6e386a13b",
+    "htmlFingerprint": "ed85cf16ae978117e5b8abb35906ca2788a25a24418ec51ac0e3d6bb56c998b6",
+    "ms": 38,
+    "componentSsrMs": 8.7,
+    "http": 0,
+    "hits": 11,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "trabalhos",
+    "cache": "cold",
+    "kind": "works",
+    "contentFingerprint": "1b2722b1961776539b7270305b66e691f1c5a99001c935c42ebff1217b7e871a",
+    "htmlFingerprint": "1a88d579add332e065cff4f664440a6a0be9cf1977b678a37f3ec5fa22129cfe",
+    "ms": 261,
+    "componentSsrMs": 5.05,
+    "http": 11,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 318138,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 76,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 84,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 85,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 97,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 110,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 111,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 72,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 69,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 88,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 78,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/trabalho?_embed=wp%3Afeaturedmedia&page=1&per_page=12",
+        "ms": 71,
+        "status": 200,
+        "bytes": 8394
+      }
+    ]
+  },
+  {
+    "path": "trabalhos",
+    "cache": "warm",
+    "kind": "works",
+    "contentFingerprint": "1b2722b1961776539b7270305b66e691f1c5a99001c935c42ebff1217b7e871a",
+    "htmlFingerprint": "1a88d579add332e065cff4f664440a6a0be9cf1977b678a37f3ec5fa22129cfe",
+    "ms": 40,
+    "componentSsrMs": 4.14,
+    "http": 0,
+    "hits": 9,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "trabalhos/instalacao-capota-de-fibra-empresa-xyz",
+    "cache": "cold",
+    "kind": "work",
+    "contentFingerprint": "d7e089fbde3168c4775beca1db334875e0b6e738fc863d9773336237e08e6ae7",
+    "htmlFingerprint": "f968064235dd341654a13ecb1e5088caa7e81e2c4cfe2bbd9ca61cb91b82ea17",
+    "ms": 494,
+    "componentSsrMs": 6.78,
+    "http": 13,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 322736,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 70,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 72,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 74,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 106,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 80,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 83,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 81,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 82,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/trabalho?_embed=wp%3Afeaturedmedia&per_page=12&slug=instalacao-capota-de-fibra-empresa-xyz",
+        "ms": 142,
+        "status": 200,
+        "bytes": 4267
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?_embed=wp%3Afeaturedmedia&include=44&per_page=12",
+        "ms": 117,
+        "status": 200,
+        "bytes": 4784
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=579%2C580%2C581&per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 3941
+      }
+    ]
+  },
+  {
+    "path": "trabalhos/instalacao-capota-de-fibra-empresa-xyz",
+    "cache": "warm",
+    "kind": "work",
+    "contentFingerprint": "d7e089fbde3168c4775beca1db334875e0b6e738fc863d9773336237e08e6ae7",
+    "htmlFingerprint": "f968064235dd341654a13ecb1e5088caa7e81e2c4cfe2bbd9ca61cb91b82ea17",
+    "ms": 36,
+    "componentSsrMs": 5.89,
+    "http": 0,
+    "hits": 11,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "blog",
+    "cache": "cold",
+    "kind": "blog",
+    "contentFingerprint": "45178b55dc6f2b6f2cfd55674113432c4c993dbb15281010514fc2db04855a35",
+    "htmlFingerprint": "5bd1535177865cd07c8bb6cdc68978eb54bdaf26467a16c1fe9bdcf59760a235",
+    "ms": 307,
+    "componentSsrMs": 9.44,
+    "http": 12,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 407766,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 70,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 74,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 77,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 79,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 100,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 70,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 76,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 73,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/posts?_embed=wp%3Afeaturedmedia&page=1&per_page=12",
+        "ms": 77,
+        "status": 200,
+        "bytes": 97322
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categories?per_page=100",
+        "ms": 63,
+        "status": 200,
+        "bytes": 700
+      }
+    ]
+  },
+  {
+    "path": "blog",
+    "cache": "warm",
+    "kind": "blog",
+    "contentFingerprint": "45178b55dc6f2b6f2cfd55674113432c4c993dbb15281010514fc2db04855a35",
+    "htmlFingerprint": "5bd1535177865cd07c8bb6cdc68978eb54bdaf26467a16c1fe9bdcf59760a235",
+    "ms": 48,
+    "componentSsrMs": 7.78,
+    "http": 0,
+    "hits": 10,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition",
+    "cache": "cold",
+    "kind": "article",
+    "contentFingerprint": "48895fb0700223d71151271ca7c723c2b92536caa2e78b35117f03d4544958c5",
+    "htmlFingerprint": "9cf51149ceb7fc16e9e11a9f366bf26382a4abf4d93eabb63fa45a932317f00c",
+    "ms": 353,
+    "componentSsrMs": 11.53,
+    "http": 11,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 318216,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 125,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 153,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 154,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 156,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 198,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 198,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 104,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 91,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 84,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 85,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/posts?_embed=wp%3Afeaturedmedia&per_page=12&slug=jmb-capotas-apresenta-nova-ram-2500-rodeo-edition",
+        "ms": 67,
+        "status": 200,
+        "bytes": 8472
+      }
+    ]
+  },
+  {
+    "path": "blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition",
+    "cache": "warm",
+    "kind": "article",
+    "contentFingerprint": "48895fb0700223d71151271ca7c723c2b92536caa2e78b35117f03d4544958c5",
+    "htmlFingerprint": "9cf51149ceb7fc16e9e11a9f366bf26382a4abf4d93eabb63fa45a932317f00c",
+    "ms": 38,
+    "componentSsrMs": 4.96,
+    "http": 0,
+    "hits": 9,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "quem-somos",
+    "cache": "cold",
+    "kind": "page",
+    "contentFingerprint": "ed334186dba9bc2fcf8f1861bba98b7a60d6d5fdea17b91980e29bc9f070995d",
+    "htmlFingerprint": "6d42d285ce022045f472df88bc240c35d9eda38531517a69c83c0fa745645449",
+    "ms": 169,
+    "componentSsrMs": 5.23,
+    "http": 10,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 309744,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 69,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 79,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 96,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 97,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 126,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 98,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 92,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 71,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 71,
+        "status": 200,
+        "bytes": 4313
+      }
+    ]
+  },
+  {
+    "path": "quem-somos",
+    "cache": "warm",
+    "kind": "page",
+    "contentFingerprint": "ed334186dba9bc2fcf8f1861bba98b7a60d6d5fdea17b91980e29bc9f070995d",
+    "htmlFingerprint": "6d42d285ce022045f472df88bc240c35d9eda38531517a69c83c0fa745645449",
+    "ms": 39,
+    "componentSsrMs": 4.19,
+    "http": 0,
+    "hits": 8,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "conserto-de-capotas-de-fibra",
+    "cache": "cold",
+    "kind": "page",
+    "contentFingerprint": "526303077e5d6615522b496a00e9b9855f63399231ad09d79a30278c449619f3",
+    "htmlFingerprint": "53c32607fc08c59d318926b114688c5bc43fb36fd7f306a7e936a910252fb56d",
+    "ms": 213,
+    "componentSsrMs": 6.06,
+    "http": 11,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 318138,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 68,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 70,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 73,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 73,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 74,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 89,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 64,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 61,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 64,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 64,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/trabalho?_embed=wp%3Afeaturedmedia&per_page=3",
+        "ms": 73,
+        "status": 200,
+        "bytes": 8394
+      }
+    ]
+  },
+  {
+    "path": "conserto-de-capotas-de-fibra",
+    "cache": "warm",
+    "kind": "page",
+    "contentFingerprint": "526303077e5d6615522b496a00e9b9855f63399231ad09d79a30278c449619f3",
+    "htmlFingerprint": "53c32607fc08c59d318926b114688c5bc43fb36fd7f306a7e936a910252fb56d",
+    "ms": 34,
+    "componentSsrMs": 4.57,
+    "http": 0,
+    "hits": 9,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "cidades",
+    "cache": "cold",
+    "kind": "cities",
+    "contentFingerprint": "357c5a3c15b22faf68a48e54186dc532181b49fd649dabc6ec3aa11bb030fee9",
+    "htmlFingerprint": "8d3f7842592784786dfc467b64f7e7fcb63351b5e855cdfffbf7aaa4bcb06fe6",
+    "ms": 273,
+    "componentSsrMs": 10.3,
+    "http": 11,
+    "hits": 0,
+    "deduplications": 0,
+    "media": 1,
+    "bytes": 329134,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 74,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 93,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 95,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 108,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 133,
+        "status": 200,
+        "bytes": 17469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=1&per_page=100",
+        "ms": 146,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=51%2C69&per_page=100",
+        "ms": 117,
+        "status": 200,
+        "bytes": 2178
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=817%2C818%2C896%2C897%2C915%2C916&per_page=100",
+        "ms": 98,
+        "status": 200,
+        "bytes": 8975
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 84,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media?_fields=id%2Csource_url%2Calt_text%2Cmedia_details&include=52%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C854%2C855&per_page=100",
+        "ms": 98,
+        "status": 200,
+        "bytes": 7318
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?_embed=wp%3Afeaturedmedia&page=2&per_page=100",
+        "ms": 81,
+        "status": 200,
+        "bytes": 19390
+      }
+    ]
+  },
+  {
+    "path": "cidades",
+    "cache": "warm",
+    "kind": "cities",
+    "contentFingerprint": "357c5a3c15b22faf68a48e54186dc532181b49fd649dabc6ec3aa11bb030fee9",
+    "htmlFingerprint": "8d3f7842592784786dfc467b64f7e7fcb63351b5e855cdfffbf7aaa4bcb06fe6",
+    "ms": 41,
+    "componentSsrMs": 10.93,
+    "http": 0,
+    "hits": 9,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  }
+]

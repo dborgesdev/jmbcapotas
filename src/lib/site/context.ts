@@ -1,6 +1,6 @@
 import { taxonomies } from "../wordpress/taxonomies";
 import { pages } from "../wordpress/pages";
-import { cities } from "../wordpress/cities";
+import { cityLinks, footerCities } from "../wordpress/cities";
 import { siteConfig } from "../wordpress/site-config";
 import type { Search, SiteData } from "./types";
 
@@ -19,7 +19,9 @@ export async function siteContext(path: string, search: Search) {
     await Promise.allSettled([
       taxonomies(),
       allPublished((page) => pages({ per_page: 100, page })),
-      allPublished((page) => cities({ per_page: 100, page })),
+      path === "/cidades/"
+        ? allPublished((page) => cityLinks({ per_page: 100, page }))
+        : footerCities(),
       siteConfig(),
     ]);
   const base: SiteData = {

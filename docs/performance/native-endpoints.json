@@ -1,0 +1,3352 @@
+[
+  {
+    "mode": "plain",
+    "endpoint": "produto",
+    "ms": 439,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:09 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "x-wp-cached-call": [
+        "served-cache"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, Content-Type"
+      ],
+      "x-wp-total": [
+        "114"
+      ],
+      "x-wp-totalpages": [
+        "114"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/produto?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=38,cfOrigin;dur=38"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=W9kTOlkyFhovtiVur5fFHVI1%2F25yxPU97sS6xYmWfz02uKw0XL44dubBV3nY9MuSD8vMk4hUjZE3zhB3mjmTgPnH%2BflvFdqDQx%2FSh2td5xy3sHvYrrj%2FITCl7bYrUWR3O95jQq%2FLBKFlrtSeS9qWJ4ll8Z%2Bm1TU%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1dedffd1b1c-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 254,
+      "featured_media": 596,
+      "acf": {
+        "galeria": {
+          "imagem_2": "",
+          "imagem_3": "",
+          "imagem_4": "",
+          "imagem_5": ""
+        }
+      }
+    },
+    "bytes": 2544
+  },
+  {
+    "mode": "standard",
+    "endpoint": "produto",
+    "ms": 333,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:10 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "114"
+      ],
+      "x-wp-totalpages": [
+        "114"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/produto?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=9,cfOrigin;dur=231"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XvVHEcCs14JNqNR1SGP8Fl10MvK2Y3qxV06Deomew79S180tR8pypnU0fgio0L%2BEfkoTmK2cnsAPw3Lv5lO6kWpfaBRcqqopjG40yuhKWOI7ofhf9%2FoYzE0htxhSpaFSdNVxcIIAxDNv9FqwG4sFpllK%2FyKha00%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1e05950add3-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 254,
+      "featured_media": 596,
+      "acf": {
+        "galeria": {
+          "imagem_2": false,
+          "imagem_3": false,
+          "imagem_4": false,
+          "imagem_5": false
+        }
+      }
+    },
+    "bytes": 2571
+  },
+  {
+    "mode": "embed",
+    "endpoint": "produto",
+    "ms": 139,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:10 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "x-wp-cached-call": [
+        "served-cache"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, Content-Type"
+      ],
+      "x-wp-total": [
+        "114"
+      ],
+      "x-wp-totalpages": [
+        "114"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/produto?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=21,cfOrigin;dur=28"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rxo27lgCQojp1nCsheDfbwSHz3qLwJ3MDWpWq80hBGO0Oo7p6TBAbIsS5hs%2F2rNFyfkabeUdifE987FkjWOBCQjtDIxNfqlzDs8bKWdBz1%2FbXpIYGLU0kmq%2FRBaF5Kgd2mzSnz6DhLS6b7BdekZ4bz%2Fcz4oGzf0%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1e26bb30ad0-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 254,
+      "featured_media": 596,
+      "acf": {
+        "galeria": {
+          "imagem_2": "",
+          "imagem_3": "",
+          "imagem_4": "",
+          "imagem_5": ""
+        }
+      },
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 596,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 1080,
+              "height": 1080,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 300,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg-300x300.webp"
+                },
+                "large": {
+                  "width": 1024,
+                  "height": 1024,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg-1024x1024.webp"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg-150x150.webp"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 768,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg-768x768.webp"
+                },
+                "full": {
+                  "width": 1080,
+                  "height": 1080,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg.webp"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg.webp"
+          }
+        ]
+      }
+    },
+    "bytes": 4921
+  },
+  {
+    "mode": "combined",
+    "endpoint": "produto",
+    "ms": 195,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:10 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "114"
+      ],
+      "x-wp-totalpages": [
+        "114"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/produto?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=15,cfOrigin;dur=84"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HjLcHtPszfmyt%2F9g1P7D%2BbIfteqV%2Flse3w82TaYD0G3wiXqFgcEo9vwgi7GpaZC4Mpup7u2nJCX5PoEsXccn1IbhfyVX%2FlO3hiFHMRVCBty8a%2F5Mnt9gJAsW7Ks5aV6t5fW%2FNcQNY1RB4vEkhX9EzpFY7oSdpVg%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1e3487ead4a-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 254,
+      "featured_media": 596,
+      "acf": {
+        "galeria": {
+          "imagem_2": false,
+          "imagem_3": false,
+          "imagem_4": false,
+          "imagem_5": false
+        }
+      },
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 596,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 1080,
+              "height": 1080,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 300,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg-300x300.webp"
+                },
+                "large": {
+                  "width": 1024,
+                  "height": 1024,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg-1024x1024.webp"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg-150x150.webp"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 768,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg-768x768.webp"
+                },
+                "full": {
+                  "width": 1080,
+                  "height": 1080,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg.webp"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/pagina_09-jpg.webp"
+          }
+        ]
+      }
+    },
+    "bytes": 4948
+  },
+  {
+    "mode": "plain",
+    "endpoint": "trabalho",
+    "ms": 148,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:10 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "2"
+      ],
+      "x-wp-totalpages": [
+        "2"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/trabalho?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=7,cfOrigin;dur=54"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=P8C37KowRV%2BCqbIdk9BUuZEY0qTBJXbuXIoRJ2h3UhWyrK%2F02ogcw7xtqutBf1ynUR8y2G13kslCRKa1RHLhhBXc9Vac4s1c1ySnot6Qry7EZCP%2F1nSP8bOBjP8HNjzmgXElRTE39kL24BNpPXOvoDDJhii3C9A%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1e47f43f1b1-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 99,
+      "featured_media": 100,
+      "acf": {
+        "galeria": {
+          "imagem_2": "",
+          "imagem_3": "",
+          "imagem_4": "",
+          "imagem_5": ""
+        }
+      }
+    },
+    "bytes": 1786
+  },
+  {
+    "mode": "standard",
+    "endpoint": "trabalho",
+    "ms": 177,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:11 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "2"
+      ],
+      "x-wp-totalpages": [
+        "2"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/trabalho?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=28,cfOrigin;dur=68"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TyCiwNza4Yyi%2Bv9mopi5NudIbanqK0M%2FtkmtLVdw7F3WeCo8Wk22g2QJ9uhI4uObpwbDpW%2FzMM%2Bp6Az3zHoinFvVu8Qo4EvfXDI8VpTK%2FWGQjPbd1gAfmzx9F3%2B1qH659FzUTrTxEvAEYlgU0fGO906plUWLUfE%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1e569730323-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 99,
+      "featured_media": 100,
+      "acf": {
+        "galeria": {
+          "imagem_2": false,
+          "imagem_3": false,
+          "imagem_4": false,
+          "imagem_5": false
+        }
+      }
+    },
+    "bytes": 2945
+  },
+  {
+    "mode": "embed",
+    "endpoint": "trabalho",
+    "ms": 214,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:11 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "2"
+      ],
+      "x-wp-totalpages": [
+        "2"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/trabalho?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=37,cfOrigin;dur=70"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=UBGwHiLSuWUL3ugv%2FF3PaAcszWOqtqsycv%2BCvVEDBusFrM6ZpHmk%2FJ42XctDAq7SQ58RUJHMnzqJJmccYGRqQjZW3BMiDaG0Frg3Q6ZauMS0CoY6oQ66qYlUWBMhvtFJy5AJTeAz0ccvOHxjXrrrD7ahiq9HFtc%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1e69c9caeed-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 99,
+      "featured_media": 100,
+      "acf": {
+        "galeria": {
+          "imagem_2": "",
+          "imagem_3": "",
+          "imagem_4": "",
+          "imagem_5": ""
+        }
+      },
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 100,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 960,
+              "height": 540,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 169,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog-300x169.png"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog-150x150.png"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 432,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog-768x432.png"
+                },
+                "full": {
+                  "width": 960,
+                  "height": 540,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog.png"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog.png"
+          }
+        ]
+      }
+    },
+    "bytes": 4128
+  },
+  {
+    "mode": "combined",
+    "endpoint": "trabalho",
+    "ms": 177,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:11 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "2"
+      ],
+      "x-wp-totalpages": [
+        "2"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/trabalho?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=6,cfOrigin;dur=62"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=X36XkBFRQOzBang%2F1IJZ5yKbMhE1CbylmrSL4Ry%2FmmsAem99BQBziJjdTV%2FujaPXrTEPXXSBF8EOXBKO5%2FVmSg3t3zhuCeNEcRZApLaezEUHBff%2FkWPeNfzKdHlSAtyvh23bfLWYbjpe%2F7io4%2FP1EeaNCM49MEY%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1e7fffcb27c-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 99,
+      "featured_media": 100,
+      "acf": {
+        "galeria": {
+          "imagem_2": false,
+          "imagem_3": false,
+          "imagem_4": false,
+          "imagem_5": false
+        }
+      },
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 100,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 960,
+              "height": 540,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 169,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog-300x169.png"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog-150x150.png"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 432,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog-768x432.png"
+                },
+                "full": {
+                  "width": 960,
+                  "height": 540,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog.png"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capa-blog.png"
+          }
+        ]
+      }
+    },
+    "bytes": 5287
+  },
+  {
+    "mode": "plain",
+    "endpoint": "cliente",
+    "ms": 168,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:11 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "11"
+      ],
+      "x-wp-totalpages": [
+        "11"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/cliente?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=8,cfOrigin;dur=58"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xSqa1T6f2jKl%2F7DGXYPftiJWK0xmp%2F6b87j4GfxMvs%2FZujEZ6ZA4djiKiC9QsE8LhykRxlJDdfsFCOwUbwWVDLJokQalXj3MqY6j1lAgcZNnpacOeUF6%2Fz8BQKHCQYoUjYS9fsdDZo5vJLkN7vvWnoDoH00vo%2FM%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1e918bf1a8e-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 92,
+      "featured_media": 93,
+      "acf": []
+    },
+    "bytes": 1099
+  },
+  {
+    "mode": "standard",
+    "endpoint": "cliente",
+    "ms": 155,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:11 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "11"
+      ],
+      "x-wp-totalpages": [
+        "11"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/cliente?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=4,cfOrigin;dur=54"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=EfNtoYJ8QUzk3r2LGJ3%2FFPWtNZXNjmT6SBLBzK2yZQ%2FYbBGmlKwVnIdCuMVkeIvOhuI5c3IsQX8c3nzdVWCbmL3NjmuveETHM2zHSUm72r09utNKJLCgcozL2AyRJwP4cS3MPHj3sZkfSFYf0jN8xNG1fvEzj%2F0%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1ea2de736ec-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 92,
+      "featured_media": 93,
+      "acf": []
+    },
+    "bytes": 1099
+  },
+  {
+    "mode": "embed",
+    "endpoint": "cliente",
+    "ms": 175,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:11 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "11"
+      ],
+      "x-wp-totalpages": [
+        "11"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/cliente?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=23,cfOrigin;dur=65"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bqmaAMsqK%2Fl5cdo9tctYhMINoU4EOR3HbDdOkcvt5hmJFpkHy6F7pExHzhL9MMAgB%2B8Pf4Qw39yapEuXOlEIQ0q8sgPzDpAYDejd0EExpzSqIAnaDCddInKkYAKHDxtbNem3nYYo0ezLT7%2BcRF5IdxMroXt7CeQ%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1eb0f2f5efb-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 92,
+      "featured_media": 93,
+      "acf": [],
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 93,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 259,
+              "height": 155,
+              "sizes": {
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/jsl-150x150.png"
+                },
+                "full": {
+                  "width": 259,
+                  "height": 155,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/jsl.png"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/jsl.png"
+          }
+        ]
+      }
+    },
+    "bytes": 2924
+  },
+  {
+    "mode": "combined",
+    "endpoint": "cliente",
+    "ms": 146,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:12 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "11"
+      ],
+      "x-wp-totalpages": [
+        "11"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/cliente?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=6,cfOrigin;dur=53"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HSL1%2BN4cKwExzK98Tm4a8v9sNCI6WtOq7IYbMhUmGp6Rv8awd4OrUnfggyYzex2hiL9f6aifSKFtdj7bSdYPDcaD2%2FFNKdj9o0E2wAOh0AkdL2Qso7EFkIoS5nN3vM5DyXibJCT1swuG7YY4QSxaATS2YVeY7yA%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1ec18b41047-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 92,
+      "featured_media": 93,
+      "acf": [],
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 93,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 259,
+              "height": 155,
+              "sizes": {
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/jsl-150x150.png"
+                },
+                "full": {
+                  "width": 259,
+                  "height": 155,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/jsl.png"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/jsl.png"
+          }
+        ]
+      }
+    },
+    "bytes": 2924
+  },
+  {
+    "mode": "plain",
+    "endpoint": "marca",
+    "ms": 159,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:12 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "13"
+      ],
+      "x-wp-totalpages": [
+        "13"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/marca?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=7,cfOrigin;dur=54"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=OUsIqG2l0AQSmI%2FTNunnlEAJxKDUo%2B9QfAF%2BTuIU0h%2FfbZQ3AfVoTgd%2FKxhpzVzDctLQUhNH5P8GfQ69YS4SRkwKIQaIkNt7kjbNn%2B%2Btxt4hyPHhHULaLUGl1Sb%2BfgyYsN%2FUQRSMRsi76IV9y7Tqdj%2F02MYThvE%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1ed2e56b707-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 37,
+      "acf": {
+        "logo": 854,
+        "imagem_fundo": ""
+      }
+    },
+    "bytes": 1131
+  },
+  {
+    "mode": "standard",
+    "endpoint": "marca",
+    "ms": 178,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:12 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "13"
+      ],
+      "x-wp-totalpages": [
+        "13"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/marca?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=32,cfOrigin;dur=62"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=emycg2%2B%2BkR1aTberyaDd6Ia32so2dT4DEosiP5JxkAQ3VLQ38%2BTQ5Z6UpkctIdArqzyo5KJTcB9eqDgEZGN9QxSwsDvgL9Y5b1k1Zssv3EgJGdwKGhlJdhSZclEjn6nHYqFKe%2FN%2ByvKdI3b3AiCnatxg6aA44ws%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1ee091c031a-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 37,
+      "acf": {
+        "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/agrale.png",
+        "imagem_fundo": false
+      }
+    },
+    "bytes": 1210
+  },
+  {
+    "mode": "embed",
+    "endpoint": "marca",
+    "ms": 154,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:12 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "13"
+      ],
+      "x-wp-totalpages": [
+        "13"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/marca?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=8,cfOrigin;dur=61"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6lqb34ipglErKw%2FH52JMi6MLPYlXh3mqV4VqV1JxUT136PEKJ6agbWzmB%2FMObZhCOfmVHISFBlQAK3j3pM9vT7Bff8wJkwFYszVh1YYQKeob4tTMGgATDF6pFPAkAVYw%2F7%2FUCKp5KqvqFLKhKRYnU2zvBXVciwQ%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1ef29ed346c-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 37,
+      "acf": {
+        "logo": 854,
+        "imagem_fundo": ""
+      }
+    },
+    "bytes": 1131
+  },
+  {
+    "mode": "combined",
+    "endpoint": "marca",
+    "ms": 173,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:12 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "13"
+      ],
+      "x-wp-totalpages": [
+        "13"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/marca?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=18,cfOrigin;dur=56"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4RwN24j6jVK29DIPAhsOsMzDUYWjCNCZkm0QLeMCe%2FSQR8woPWhuqYsmL%2BzEe773rGprkhZcP1pDO0i8cqw3p9T3xaeCdI9MUvsF%2Fnb95PjAQ5Ja6wy2jmVVhtVC%2FV0t5sEgB84gXyBDLaWlILCkcPzgExZfzaw%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f04c6b2db5-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 37,
+      "acf": {
+        "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/agrale.png",
+        "imagem_fundo": false
+      }
+    },
+    "bytes": 1210
+  },
+  {
+    "mode": "plain",
+    "endpoint": "modelo",
+    "ms": 164,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:12 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "21"
+      ],
+      "x-wp-totalpages": [
+        "21"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/modelo?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=7,cfOrigin;dur=53"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gRJcKT9JD%2BAbaKL5jArD9GUIiNJ1VxOYUovdn2LsOovOuau04jCXSCCp03Ol%2BklOKMtvWsK8hIsGGTfe0mTWoOZTOp%2FsVjs9A47uxemh91c70EXBboxu21NXd97vtZY19%2B1g3wBmRayAadpPwKDibSaAUFNPZgI%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f16aad5417-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 24,
+      "acf": {
+        "imagem": null
+      }
+    },
+    "bytes": 883
+  },
+  {
+    "mode": "standard",
+    "endpoint": "modelo",
+    "ms": 173,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:13 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "21"
+      ],
+      "x-wp-totalpages": [
+        "21"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/modelo?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=21,cfOrigin;dur=60"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=C8pUr29i%2BO253MeK7M2LqFEQHPGAYr2%2FrtBUyTkg1Kz1pcKobXvnCYxl%2BixKWjH2aNnF07oA4sYLujz7pm6OJTxTMnpUjuhmAmYOyel0K8tJ1P8aAsA6up%2BxMdNzz4FSRvkRrvG6flMmZzEbai9Sme8jlAXYz90%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f259cbf214-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 24,
+      "acf": {
+        "imagem": false
+      }
+    },
+    "bytes": 1045
+  },
+  {
+    "mode": "embed",
+    "endpoint": "modelo",
+    "ms": 183,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:13 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "21"
+      ],
+      "x-wp-totalpages": [
+        "21"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/modelo?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=33,cfOrigin;dur=63"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rw8A5PCXHSx8eDogzQKbh1EhRLo6FbNFWUUWuD91v8So6lgzaQfrMxP4eFBnMW4tiiRmDMI3rpRZ4Z%2FrZ9QTiCYvHYHlR3Wz%2FhFA%2BEvOr2b%2FstrcVqQED0scBoLU6XIsvXauBg7OlPo9krWdcK5d7yG0OoEPlyY%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f35fd777cc-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 24,
+      "acf": {
+        "imagem": null
+      }
+    },
+    "bytes": 883
+  },
+  {
+    "mode": "combined",
+    "endpoint": "modelo",
+    "ms": 169,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:13 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "21"
+      ],
+      "x-wp-totalpages": [
+        "21"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/modelo?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=5,cfOrigin;dur=55"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3Dp6rLiayXZHb%2BCbFYqI%2Bf3%2FW96jDfKem9n5nMxExYfDxFUNoIJo%2Fq35ew2dC8fXde6QTYkE%2B0gGMz2VQTK8o2MSRbP6I8aio0mVCIRJzA%2FJDfL4YJEBs%2B5BKInK7WinqnXNJzTg7U%2BpLoGd877rOOuhpOxzY%2Fw%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f4aa49c727-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 24,
+      "acf": {
+        "imagem": false
+      }
+    },
+    "bytes": 1045
+  },
+  {
+    "mode": "plain",
+    "endpoint": "categoria_produto",
+    "ms": 189,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:13 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "6"
+      ],
+      "x-wp-totalpages": [
+        "6"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/categoria_produto?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=44,cfOrigin;dur=52"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0woFV8U58rIS5gfYLXCOcdfAkt5KSXujANhLtawuHYVwQFOLAoMMSyRf%2Fj0JKaLZZqnO4z1mCchHkv%2Fmw0oHcvyu3hW1RhOBj3sZq3QCcUVY2GJc03Yp71x%2FTY%2BWin7pM%2FtZox0rworpYBpbkGalvXrOGORQ5Ws%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f59fa4014e-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 6,
+      "acf": {
+        "imagem": 915,
+        "imagem_fundo": 915
+      }
+    },
+    "bytes": 776
+  },
+  {
+    "mode": "standard",
+    "endpoint": "categoria_produto",
+    "ms": 171,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:13 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "6"
+      ],
+      "x-wp-totalpages": [
+        "6"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/categoria_produto?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=33,cfOrigin;dur=52"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tSFRViuznUjbJetAFmlTOZxXaYAV0hFPD1Ke9PBPCu8g%2Fow5pDD3Qmr3dPW%2BgL3E99zIoRhKSpt9F%2FrYPKgnlqEGLwV75Z1ohKu309cyphVbkIoYH6a1ZV7bsRIHzs1YDHljA0e6qKr4nrAOtEk0hjt01UZFFg8%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f6cff6a51a-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 6,
+      "acf": {
+        "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capota-Camper-Site-JMB-Capotas.jpg",
+        "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capota-Camper-Site-JMB-Capotas.jpg"
+      }
+    },
+    "bytes": 976
+  },
+  {
+    "mode": "embed",
+    "endpoint": "categoria_produto",
+    "ms": 167,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:13 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "6"
+      ],
+      "x-wp-totalpages": [
+        "6"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/categoria_produto?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=5,cfOrigin;dur=64"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0rPbEShjOIGxNiU8BfQ1Ykc%2BbSJoAEXcviqSB3VbHNgzLET5kPp0ix3itiHrSWAUcNuvQj1grzME8gcH4xGpSS4uZJoT5C2dc%2BtsJweCeMk6TzVj19mljCFZrjffJmRn5r1wPcj350GrYzSGUFWfan31%2BYYxtVY%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f7eb3b0bc1-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 6,
+      "acf": {
+        "imagem": 915,
+        "imagem_fundo": 915
+      }
+    },
+    "bytes": 776
+  },
+  {
+    "mode": "combined",
+    "endpoint": "categoria_produto",
+    "ms": 183,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:14 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "6"
+      ],
+      "x-wp-totalpages": [
+        "6"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/categoria_produto?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=26,cfOrigin;dur=57"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3u8vCOR2KyGkXOE00M2iKiu0Ro%2FdXzLPfzkfS9FkVWstxBG5QiZrIGN1mF3nURuku0BAP6cfdjKon76vm5ugrnBcKlWByvsMLX5BhivtULYRARThLquEklqltHpJ32eaQwsFQCknPtnpML%2Ffmf49fRMzkQbh%2B1I%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1f8f820f21f-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 6,
+      "acf": {
+        "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capota-Camper-Site-JMB-Capotas.jpg",
+        "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capota-Camper-Site-JMB-Capotas.jpg"
+      }
+    },
+    "bytes": 976
+  },
+  {
+    "mode": "plain",
+    "endpoint": "site-config",
+    "ms": 181,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:14 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/>; rel=\"https://api.w.org/\""
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "1"
+      ],
+      "x-wp-totalpages": [
+        "1"
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=28,cfOrigin;dur=50"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=mR01ey2Pe%2Fm4zg7aPwP6QLeVyjjomI3idV%2F63jHpu9EGR26tML4YASxoywtkP0En81z1DcIBUeQqvFmkmiCfbzCA8UdPoHs%2FLpfFNA1BIkfRzRiGvaRHUX3%2FpSfs3pO31EvyOLk%2FaVUPzkTgvfZp1IDkAX67O0U%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1fa181a3522-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 874,
+      "acf": {
+        "hero": 917,
+        "final_cta": 917
+      }
+    },
+    "bytes": 1396
+  },
+  {
+    "mode": "standard",
+    "endpoint": "site-config",
+    "ms": 146,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:14 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/>; rel=\"https://api.w.org/\""
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "1"
+      ],
+      "x-wp-totalpages": [
+        "1"
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=5,cfOrigin;dur=59"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Rf%2B3oEiYALo8HYIpA02wDwNBbb0N1Y0xgjleAmvHz2M3pTBUjsmP8LQQbEex3h18H646seA7CL9wGM14hyMFBLT3kiGAcdObBVbXykFfxy2rafuwDea3vgoCA9%2F8CYfFVum9j6wSBu7tb8uklPO9tHPw9qeHGpQ%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1fb2f24f20f-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 874,
+      "acf": {
+        "hero": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Fiat-Strada-CD-Site-JMB-Capotas-2.jpg",
+        "final_cta": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Fiat-Strada-CD-Site-JMB-Capotas-2.jpg"
+      }
+    },
+    "bytes": 1608
+  },
+  {
+    "mode": "embed",
+    "endpoint": "site-config",
+    "ms": 145,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:14 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/>; rel=\"https://api.w.org/\""
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "1"
+      ],
+      "x-wp-totalpages": [
+        "1"
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=11,cfOrigin;dur=55"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RNHEdd1HNKgXZfUY5f0AH8qs3FgZa9dookWYpPLhiUkwN9byEtQ0t%2FZfDwWd8aZxgLMaVGLA%2FCnM5x6cz9x9iIJd0ar0hdq%2FX0buPJjL3q4ace31y7%2FH%2F1J1lsZh522mtEZ%2BsGjInt%2F60vFf67xflj9olR5SXqw%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1fc08bd147b-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 874,
+      "acf": {
+        "hero": 917,
+        "final_cta": 917
+      }
+    },
+    "bytes": 1396
+  },
+  {
+    "mode": "combined",
+    "endpoint": "site-config",
+    "ms": 177,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:14 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/>; rel=\"https://api.w.org/\""
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "1"
+      ],
+      "x-wp-totalpages": [
+        "1"
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=24,cfOrigin;dur=59"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ACuSJvlHgC27h0T3wWjlXXv9ag%2BbtQHlhCW5WuODXtOvotlm5LMA0zq2qgWA5eykwf2vUfbEWOZmNKFtqmihoR3Jmxh5UmveWlIJXyJkvMVvuiGqdFaxa7yKx90NarnI3q11lwttdyVC%2BWEFRzD7u%2BziZzwGTBc%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1fd1eca01b3-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 874,
+      "acf": {
+        "hero": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Fiat-Strada-CD-Site-JMB-Capotas-2.jpg",
+        "final_cta": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Fiat-Strada-CD-Site-JMB-Capotas-2.jpg"
+      }
+    },
+    "bytes": 1608
+  },
+  {
+    "mode": "plain",
+    "endpoint": "pages",
+    "ms": 166,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:14 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "3"
+      ],
+      "x-wp-totalpages": [
+        "3"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/pages?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=29,cfOrigin;dur=58"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qCPTK%2B3qVEVWrvEpfaTMG%2BUifA2ihTQS0O9kZA%2BGMDaXnZ26sCmntoWQzzRMjuciZR2%2F8eZ3ZKY9XbXYLp3chAI%2FbuVLbGdjAIdEoaBWfWbucEXZ8dhqWhCcT6hVKhw7T1VHJzTf7wR1o0%2BGA5r7f17izNRS%2Fis%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1fe1dfca4b1-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 898,
+      "featured_media": 899,
+      "acf": []
+    },
+    "bytes": 3902
+  },
+  {
+    "mode": "standard",
+    "endpoint": "pages",
+    "ms": 150,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:15 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "3"
+      ],
+      "x-wp-totalpages": [
+        "3"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/pages?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=3,cfOrigin;dur=56"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bu5Naci90QVMr6eOrA2GJnTrwBFtCFA1pPolwbplX%2BfiIj2aRvS2fREEAMiDNbL4GcTPhzhmZx9sdXYRNytaNVD1X6L6BKoasvYqQQzvoyca8o%2BaY0fHfWOuaVSE7GzxlH1FLeauF0aB%2BQidU9kc9nfW93oK9EQ%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e1ff3847cef0-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 898,
+      "featured_media": 899,
+      "acf": []
+    },
+    "bytes": 3902
+  },
+  {
+    "mode": "embed",
+    "endpoint": "pages",
+    "ms": 200,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:15 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "3"
+      ],
+      "x-wp-totalpages": [
+        "3"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/pages?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=16,cfOrigin;dur=62"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hTxJ2%2Br1tS90ABWx9JbedQ2oBeZN7jyGXoS051mvMt1YZwsbGuc%2FgjWqQKBBos6u4kgzjNVVK1Wd09BPGYkDYgv3OlL35GDf4gUaS%2Fwaugod8HF5cvtj7igxGytK%2Fi9ToBomMVRCuqGfF9BaSa8MCSp8fjgp93E%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2003dac6eac-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 898,
+      "featured_media": 899,
+      "acf": [],
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 899,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 1672,
+              "height": 941,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 169,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-300x169.png"
+                },
+                "large": {
+                  "width": 1024,
+                  "height": 576,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-1024x576.png"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-150x150.png"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 432,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-768x432.png"
+                },
+                "1536x1536": {
+                  "width": 1536,
+                  "height": 864,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-1536x864.png"
+                },
+                "full": {
+                  "width": 1672,
+                  "height": 941,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra.png"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra.png"
+          }
+        ]
+      }
+    },
+    "bytes": 6875
+  },
+  {
+    "mode": "combined",
+    "endpoint": "pages",
+    "ms": 150,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:15 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "3"
+      ],
+      "x-wp-totalpages": [
+        "3"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/pages?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=7,cfOrigin;dur=57"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LxYVlBp9d7MxKBK6aSfS6gbJpmfuoLyBf6GqyiHgufSfOOsp7N2bSEdkukOemyk5wfwle88BoD%2FNmLojHWsrajUJFG6D3uqehk28oyPxBZTGs7cotC5U8P4tx2tbzuFNnwZFq4TAjpswJB2KM30Qe39ZahDIdbQ%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2016fdfb559-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 898,
+      "featured_media": 899,
+      "acf": [],
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 899,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 1672,
+              "height": 941,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 169,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-300x169.png"
+                },
+                "large": {
+                  "width": 1024,
+                  "height": 576,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-1024x576.png"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-150x150.png"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 432,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-768x432.png"
+                },
+                "1536x1536": {
+                  "width": 1536,
+                  "height": 864,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra-1536x864.png"
+                },
+                "full": {
+                  "width": 1672,
+                  "height": 941,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra.png"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/conserto-capota-fibra.png"
+          }
+        ]
+      }
+    },
+    "bytes": 6875
+  },
+  {
+    "mode": "plain",
+    "endpoint": "posts",
+    "ms": 163,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:15 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "23"
+      ],
+      "x-wp-totalpages": [
+        "23"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/posts?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=13,cfOrigin;dur=53"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=o3EgiSHgDMHcoobkMzosReFtvlD5CQ0NIBbsdA2zv5mZNF2ywvwsgaeTZt1VMgc2OpThOmzNPOnjbKm0JW70fJJMtPQvSkRh2LhPSx8fVE8bDO3EU1vdzcMux6GKAgSxTKabXf6Joyx3yKQtuZNeLWtvH1kaX20%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2025e5faed5-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 343,
+      "featured_media": 840,
+      "acf": []
+    },
+    "bytes": 5563
+  },
+  {
+    "mode": "standard",
+    "endpoint": "posts",
+    "ms": 156,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:15 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "23"
+      ],
+      "x-wp-totalpages": [
+        "23"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/posts?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=15,cfOrigin;dur=59"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=n3X2EfN%2FFxnhLLKu%2BmbR5jhmuaklqnzNLLUFEz5sJqUk3bmDKOQfcS4Ddofyxs7dh%2B5b711o2IK4vLaOgzjxB%2FoZQrpxHyfmwyKVA2pcF8%2Bm%2FB6Ygj4DrCQJmk6UGRxBQWRQCvObMtD3IlpnK8s12lH1L6x8cIA%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2035fa8f219-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 343,
+      "featured_media": 840,
+      "acf": []
+    },
+    "bytes": 5563
+  },
+  {
+    "mode": "embed",
+    "endpoint": "posts",
+    "ms": 141,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:15 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "23"
+      ],
+      "x-wp-totalpages": [
+        "23"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/posts?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=5,cfOrigin;dur=55"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=K5C3jcEzB90%2FHbq1%2BsCUPheL6vsh4oO8FYQEG%2BiMXCT0Uji3V%2F4moNyviVARMmX724%2FXcmZRGnA3hcaQeu2JOGZFMVmrZkeRGyblBwid89eqyi7FN7ijnvDlQPzkTcQiPyndUDAlRGwbz8ps0cuAXsRs9fsO4%2Bc%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2044c37721c-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 343,
+      "featured_media": 840,
+      "acf": [],
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 840,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 870,
+              "height": 435,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg-300x150.webp"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg-150x150.webp"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 384,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg-768x384.webp"
+                },
+                "full": {
+                  "width": 870,
+                  "height": 435,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg.webp"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg.webp"
+          }
+        ]
+      }
+    },
+    "bytes": 7802
+  },
+  {
+    "mode": "combined",
+    "endpoint": "posts",
+    "ms": 155,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:16 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "23"
+      ],
+      "x-wp-totalpages": [
+        "23"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/posts?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=5,cfOrigin;dur=55"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=iDyTGpiABDpqGmb42S9TwRyygnSDIl97%2BrR9hDMYoU4RWDk%2Fld%2B%2BrL6gNVZhcxP%2BWtodc6%2Fq%2BeoVtIYH5Yk%2BwwQCnl1MCm%2Bx4FLD%2B9WC6cwSbqDoYePYjMIZ%2F7XBHhgNcYJ6CmPpCrK79GyaSxtPxn4mj2y%2BkbU%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2054a573f20-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 343,
+      "featured_media": 840,
+      "acf": [],
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 840,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 870,
+              "height": 435,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg-300x150.webp"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg-150x150.webp"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 384,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg-768x384.webp"
+                },
+                "full": {
+                  "width": 870,
+                  "height": 435,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg.webp"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/02/Capa-artigo-Blog-jpg.webp"
+          }
+        ]
+      }
+    },
+    "bytes": 7802
+  },
+  {
+    "mode": "plain",
+    "endpoint": "cidade",
+    "ms": 181,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:16 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "107"
+      ],
+      "x-wp-totalpages": [
+        "107"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/cidade?per_page=1&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=40,cfOrigin;dur=54"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XVQIN69I0cxCxW%2Bg62gFBaGXH6CvKIqMYV3SIBkSkdE9ZaqkN7M6o5bJH8G0kaEt1PwcRJ7uzCBCS3fyIPhvizWXxFh3NFvbV1Q28KwRfBmuTqqF2k%2FKE78g6e03vPTMmzbDQRbYw9wyvmrBk3Uu1Xaz2Yf8GhU%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2062bcaaecc-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 120,
+      "featured_media": 0,
+      "acf": {}
+    },
+    "bytes": 2349
+  },
+  {
+    "mode": "standard",
+    "endpoint": "cidade",
+    "ms": 157,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:16 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "107"
+      ],
+      "x-wp-totalpages": [
+        "107"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/cidade?per_page=1&acf_format=standard&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=6,cfOrigin;dur=55"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=EEKLsSnGoNfPMy5wy5wD80VuHEvNeja9S0JdzmAKn5EviUHlova4SMTkUNQKkTk59kgTHmn6zNqj9URw%2FOWcyiXRcE2bk8O2UzfryBEHSIEW9HiWQueO81Bm3dbMupshomIyEc%2FtDITxD639fXAFyubMLmioHOo%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2076daaffb4-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 120,
+      "featured_media": 0,
+      "acf": {}
+    },
+    "bytes": 2349
+  },
+  {
+    "mode": "embed",
+    "endpoint": "cidade",
+    "ms": 153,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:16 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "107"
+      ],
+      "x-wp-totalpages": [
+        "107"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/cidade?per_page=1&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=8,cfOrigin;dur=55"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=flqgzTUEKoXGAIFyMDGNm39Pr79du%2Bzfh08S5h9c9JA%2Bbdi8vp4xpxy4tSSB0iM%2FSW5AOP2wkhjYZ0kaWbprJZriIZI7m2qvJsiAhU38F4C7r3%2BFuOlI69DPImJwRJBLKQjwUix7uNkSwhvje2%2BYY%2BHr2iWVpyU%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2085c5d1b26-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 120,
+      "featured_media": 0,
+      "acf": {}
+    },
+    "bytes": 2349
+  },
+  {
+    "mode": "combined",
+    "endpoint": "cidade",
+    "ms": 147,
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 14:31:16 GMT"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "Access-Control-Expose-Headers": [
+        "X-WP-Total, X-WP-TotalPages, Link"
+      ],
+      "Access-Control-Allow-Headers": [
+        "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+      ],
+      "x-wp-total": [
+        "107"
+      ],
+      "x-wp-totalpages": [
+        "107"
+      ],
+      "Link": [
+        "<https://painel.jmbcapotas.com.br/wp-json/wp/v2/cidade?per_page=1&acf_format=standard&_embed=wp%3Afeaturedmedia&page=2>; rel=\"next\""
+      ],
+      "Vary": [
+        "Origin",
+        "Accept-Encoding"
+      ],
+      "Server": [
+        "cloudflare"
+      ],
+      "cf-cache-status": [
+        "DYNAMIC"
+      ],
+      "Nel": [
+        "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      ],
+      "Server-Timing": [
+        "cfCacheStatus;desc=\"DYNAMIC\"",
+        "cfEdge;dur=6,cfOrigin;dur=57"
+      ],
+      "Report-To": [
+        "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sJ%2B9RcV1fnxZ5IBlSE7wdsgCrfx8VERyaEhOXFwpczlLwXXJ7l7O%2BRuiVk2xLEoSkT7aNBsa9NuckS%2FQZEr4vPiYCm2T19KkNwicWUCamaVzNEP80mg6T1jgyRTyPBviWyNNdn2dge2NPwGJDPODXQ7d9a2AcD0%3D\"}]}"
+      ],
+      "CF-RAY": [
+        "a522e2094fdbe1ab-GRU"
+      ],
+      "Alt-Svc": [
+        "h3=\":443\""
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Allow": [
+        "GET"
+      ]
+    },
+    "data": {
+      "id": 120,
+      "featured_media": 0,
+      "acf": {}
+    },
+    "bytes": 2349
+  }
+]

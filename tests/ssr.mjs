@@ -11,6 +11,8 @@ const cases = [
     200,
     "CFF-01",
   ],
+  ["/capota-para-picape/capota-furgao-com-porta-traseira-horizontal-vw-saveiro/", 200, "Saveiro"],
+  ["/capota-para-picape/capota-de-fibra-basica-para-land-rover-defender/", 200, "Defender"],
   ["/pronta-entrega/", 200, "CFF-01"],
   ["/quem-somos/", 200, "Quem Somos?"],
   ["/a-fabrica/", 200, "A Fábrica"],
@@ -46,6 +48,70 @@ for (const [path, status, text] of cases) {
       !html.includes('href="/carrinho/"'),
   );
   assert.ok(html.includes(text), `${path}: conteúdo SSR`);
+  const head = html.match(/<head[^>]*>([\s\S]*?)<\/head>/)?.[1] || "";
+  for (const property of [
+    "og:title",
+    "og:description",
+    "og:type",
+    "og:url",
+    "og:image",
+  ]) {
+    assert.equal(
+      (head.match(new RegExp(`property="${property}"`, "g")) || []).length,
+      1,
+      `${path}: único ${property} no SSR`,
+    );
+  }
+  assert.equal(
+    (head.match(/name="twitter:image"/g) || []).length,
+    1,
+    `${path}: Twitter image SSR`,
+  );
+  assert.ok(
+    head.includes('content="summary_large_image"'),
+    `${path}: Twitter large image`,
+  );
+  assert.equal(
+    (head.match(/rel="icon"/g) || []).length,
+    1,
+    `${path}: favicon único`,
+  );
+  assert.ok(head.includes('href="/favicon.ico"'), `${path}: favicon oficial`);
+  assert.ok(
+    /property="og:image" content="https:\/\//.test(head),
+    `${path}: imagem absoluta`,
+  );
+  assert.equal(
+    (head.match(/rel="canonical"/g) || []).length,
+    1,
+    `${path}: canonical único`,
+  );
+  assert.ok(
+    head.includes(`href="https://jmbcapotas.com.br${path.split("?")[0]}"`),
+    `${path}: canonical da rota`,
+  );
+  if (
+    path.includes("/capota-para-picape/") ||
+    path.includes("/blog/jmb-capotas-") ||
+    path.includes("/trabalhos/instalacao-")
+  ) {
+    assert.ok(
+      !head.includes(
+        'property="og:image" content="https://jmbcapotas.com.br/og-image.webp"',
+      ),
+      `${path}: preserva imagem individual`,
+    );
+  }
+  if (["/", "/produtos/", "/caminho-inexistente/"].includes(path))
+    assert.ok(
+      head.includes('content="https://jmbcapotas.com.br/og-image.webp"'),
+      `${path}: imagem padrão`,
+    );
+  if (status === 404)
+    assert.ok(
+      head.includes('content="noindex,follow"'),
+      `${path}: 404 não indexável`,
+    );
   if (status === 200) {
     assert.ok(
       html.includes(`https://jmbcapotas.com.br${path}`),
@@ -96,5 +162,6 @@ assert.ok(xml.includes("/capota-para-picape/"));
 assert.ok(xml.includes("/venda-de-capota-para-picape-em-curitiba/"));
 assert.ok(!xml.includes("/carrinho/"));
 assert.equal((await fetch(base + "/robots.txt")).status, 200);
-assert.equal((await fetch(base + "/favicon.svg")).status, 200);
+assert.equal((await fetch(base + "/favicon.ico")).status, 200);
+assert.equal((await fetch(base + "/og-image.webp")).status, 200);
 console.log("Busca, filtros, vazio, 301, sitemap, robots e favicon — OK");

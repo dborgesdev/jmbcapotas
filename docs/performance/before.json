@@ -1,0 +1,4179 @@
+[
+  {
+    "path": "",
+    "cache": "cold",
+    "kind": "home",
+    "contentFingerprint": "f60324687cac3d56757716efe0b0d39e4db5015574051a710142f8175567f248",
+    "htmlFingerprint": "dfc0672a8e5f7a5b1538cdd7d7d04dfadadb17e8cd1a172cd58b7ff90838bf09",
+    "ms": 946,
+    "componentSsrMs": 43.23,
+    "http": 54,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 43,
+    "bytes": 455407,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 287,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 247,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 250,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 262,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 290,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 96,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 99,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 99,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 108,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 320,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 236,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 199,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 200,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 265,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 253,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 283,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 187,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 264,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 259,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 253,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 243,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 264,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 285,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 278,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 81,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 288,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 345,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 349,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 296,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 294,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 301,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 70,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 63,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/trabalho?per_page=3",
+        "ms": 63,
+        "status": 200,
+        "bytes": 3637
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cliente?per_page=100",
+        "ms": 66,
+        "status": 200,
+        "bytes": 12162
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/posts?per_page=3",
+        "ms": 71,
+        "status": 200,
+        "bytes": 16407
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?per_page=1",
+        "ms": 93,
+        "status": 200,
+        "bytes": 2544
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/46",
+        "ms": 71,
+        "status": 200,
+        "bytes": 3543
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/841",
+        "ms": 69,
+        "status": 200,
+        "bytes": 3395
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/91",
+        "ms": 83,
+        "status": 200,
+        "bytes": 2620
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/75",
+        "ms": 82,
+        "status": 200,
+        "bytes": 2606
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/77",
+        "ms": 82,
+        "status": 200,
+        "bytes": 2620
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/100",
+        "ms": 97,
+        "status": 200,
+        "bytes": 3444
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/81",
+        "ms": 121,
+        "status": 200,
+        "bytes": 2578
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/93",
+        "ms": 122,
+        "status": 200,
+        "bytes": 2564
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/852",
+        "ms": 124,
+        "status": 200,
+        "bytes": 3465
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/79",
+        "ms": 131,
+        "status": 200,
+        "bytes": 2606
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/85",
+        "ms": 133,
+        "status": 200,
+        "bytes": 2564
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/89",
+        "ms": 141,
+        "status": 200,
+        "bytes": 2592
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/83",
+        "ms": 141,
+        "status": 200,
+        "bytes": 2649
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/73",
+        "ms": 141,
+        "status": 200,
+        "bytes": 2592
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/596",
+        "ms": 117,
+        "status": 200,
+        "bytes": 3719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/87",
+        "ms": 144,
+        "status": 200,
+        "bytes": 2564
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/840",
+        "ms": 139,
+        "status": 200,
+        "bytes": 3394
+      }
+    ]
+  },
+  {
+    "path": "",
+    "cache": "warm",
+    "kind": "home",
+    "contentFingerprint": "f60324687cac3d56757716efe0b0d39e4db5015574051a710142f8175567f248",
+    "htmlFingerprint": "dfc0672a8e5f7a5b1538cdd7d7d04dfadadb17e8cd1a172cd58b7ff90838bf09",
+    "ms": 63,
+    "componentSsrMs": 14.8,
+    "http": 0,
+    "hits": 59,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "produtos",
+    "cache": "cold",
+    "kind": "catalog",
+    "contentFingerprint": "f421cb0001ffc08af742664ac68c5f97873977789b9fb6d147f9292f80bc1509",
+    "htmlFingerprint": "7dd42df8a36dd435f0b893bbfa016df142a3b080ba8d828c42780133a5a2e23b",
+    "ms": 881,
+    "componentSsrMs": 10.74,
+    "http": 70,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 62,
+    "bytes": 543703,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 74,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 75,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 76,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 78,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 81,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 86,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 70,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 71,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 70,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 77,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 81,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 86,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 85,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 88,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 97,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 101,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 108,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 109,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 113,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 122,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 120,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 127,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 133,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 155,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 155,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 100,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 159,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 90,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 82,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 162,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 163,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 192,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 62,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?page=1&per_page=12",
+        "ms": 79,
+        "status": 200,
+        "bytes": 30393
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/731",
+        "ms": 198,
+        "status": 200,
+        "bytes": 5530
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/730",
+        "ms": 199,
+        "status": 200,
+        "bytes": 4823
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/506",
+        "ms": 211,
+        "status": 200,
+        "bytes": 3542
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/734",
+        "ms": 220,
+        "status": 200,
+        "bytes": 5105
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/623",
+        "ms": 224,
+        "status": 200,
+        "bytes": 3742
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/732",
+        "ms": 240,
+        "status": 200,
+        "bytes": 5145
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/389",
+        "ms": 244,
+        "status": 200,
+        "bytes": 3911
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/507",
+        "ms": 255,
+        "status": 200,
+        "bytes": 4005
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/596",
+        "ms": 250,
+        "status": 200,
+        "bytes": 3719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/626",
+        "ms": 252,
+        "status": 200,
+        "bytes": 3343
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/511",
+        "ms": 273,
+        "status": 200,
+        "bytes": 4007
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/733",
+        "ms": 278,
+        "status": 200,
+        "bytes": 5531
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/508",
+        "ms": 291,
+        "status": 200,
+        "bytes": 4007
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/701",
+        "ms": 283,
+        "status": 200,
+        "bytes": 5033
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/624",
+        "ms": 290,
+        "status": 200,
+        "bytes": 3343
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/703",
+        "ms": 290,
+        "status": 200,
+        "bytes": 5085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/702",
+        "ms": 300,
+        "status": 200,
+        "bytes": 4906
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/510",
+        "ms": 311,
+        "status": 200,
+        "bytes": 4007
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/704",
+        "ms": 316,
+        "status": 200,
+        "bytes": 4905
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/676",
+        "ms": 310,
+        "status": 200,
+        "bytes": 3686
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/625",
+        "ms": 343,
+        "status": 200,
+        "bytes": 3343
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/390",
+        "ms": 348,
+        "status": 200,
+        "bytes": 4209
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/677",
+        "ms": 322,
+        "status": 200,
+        "bytes": 3708
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/700",
+        "ms": 345,
+        "status": 200,
+        "bytes": 3575
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/438",
+        "ms": 310,
+        "status": 200,
+        "bytes": 3218
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/509",
+        "ms": 357,
+        "status": 200,
+        "bytes": 4005
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/415",
+        "ms": 343,
+        "status": 200,
+        "bytes": 3313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/414",
+        "ms": 351,
+        "status": 200,
+        "bytes": 3037
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/439",
+        "ms": 322,
+        "status": 200,
+        "bytes": 3525
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/627",
+        "ms": 365,
+        "status": 200,
+        "bytes": 3343
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/675",
+        "ms": 352,
+        "status": 200,
+        "bytes": 3432
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/413",
+        "ms": 340,
+        "status": 200,
+        "bytes": 2935
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/437",
+        "ms": 337,
+        "status": 200,
+        "bytes": 3863
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/388",
+        "ms": 351,
+        "status": 200,
+        "bytes": 2935
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/416",
+        "ms": 372,
+        "status": 200,
+        "bytes": 3314
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/674",
+        "ms": 488,
+        "status": 200,
+        "bytes": 3038
+      }
+    ]
+  },
+  {
+    "path": "produtos",
+    "cache": "warm",
+    "kind": "catalog",
+    "contentFingerprint": "f421cb0001ffc08af742664ac68c5f97873977789b9fb6d147f9292f80bc1509",
+    "htmlFingerprint": "7dd42df8a36dd435f0b893bbfa016df142a3b080ba8d828c42780133a5a2e23b",
+    "ms": 50,
+    "componentSsrMs": 8.37,
+    "http": 0,
+    "hits": 75,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "produtos/capota-de-fibra",
+    "cache": "cold",
+    "kind": "catalog",
+    "contentFingerprint": "c4abe18b37367315f5d387d49e6db20b63d685a0f3dedc48a0b75e2521d3eef6",
+    "htmlFingerprint": "a2f7a2401e3cebd63aeb9abd46922029a8cedd5e9fdb6353969747b37629efa5",
+    "ms": 1540,
+    "componentSsrMs": 9.69,
+    "http": 76,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 68,
+    "bytes": 575556,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 63,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 66,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 88,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 87,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 89,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 92,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 71,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 74,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 73,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 73,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 80,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 79,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 78,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 80,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 86,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 86,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 456,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 484,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 460,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 486,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 465,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 465,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 495,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 471,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 474,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 499,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 516,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 490,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 450,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 496,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 59,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 67,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 64,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?categoria_produto=3&page=1&per_page=12",
+        "ms": 64,
+        "status": 200,
+        "bytes": 30317
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/647",
+        "ms": 67,
+        "status": 200,
+        "bytes": 3213
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/731",
+        "ms": 71,
+        "status": 200,
+        "bytes": 5530
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/646",
+        "ms": 74,
+        "status": 200,
+        "bytes": 3214
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/445",
+        "ms": 79,
+        "status": 200,
+        "bytes": 3722
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/674",
+        "ms": 84,
+        "status": 200,
+        "bytes": 3038
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/448",
+        "ms": 84,
+        "status": 200,
+        "bytes": 4142
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/643",
+        "ms": 86,
+        "status": 200,
+        "bytes": 4002
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/389",
+        "ms": 99,
+        "status": 200,
+        "bytes": 3911
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/700",
+        "ms": 106,
+        "status": 200,
+        "bytes": 3575
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/733",
+        "ms": 129,
+        "status": 200,
+        "bytes": 5531
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/734",
+        "ms": 135,
+        "status": 200,
+        "bytes": 5105
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/447",
+        "ms": 137,
+        "status": 200,
+        "bytes": 4142
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/732",
+        "ms": 138,
+        "status": 200,
+        "bytes": 5145
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/645",
+        "ms": 142,
+        "status": 200,
+        "bytes": 3214
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/704",
+        "ms": 139,
+        "status": 200,
+        "bytes": 4905
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/413",
+        "ms": 143,
+        "status": 200,
+        "bytes": 2935
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/439",
+        "ms": 141,
+        "status": 200,
+        "bytes": 3525
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/449",
+        "ms": 156,
+        "status": 200,
+        "bytes": 4142
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/613",
+        "ms": 159,
+        "status": 200,
+        "bytes": 3881
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/612",
+        "ms": 162,
+        "status": 200,
+        "bytes": 4753
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/701",
+        "ms": 163,
+        "status": 200,
+        "bytes": 5033
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/702",
+        "ms": 167,
+        "status": 200,
+        "bytes": 4906
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/614",
+        "ms": 173,
+        "status": 200,
+        "bytes": 3151
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/644",
+        "ms": 178,
+        "status": 200,
+        "bytes": 3213
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/446",
+        "ms": 181,
+        "status": 200,
+        "bytes": 4142
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/438",
+        "ms": 186,
+        "status": 200,
+        "bytes": 3218
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/437",
+        "ms": 194,
+        "status": 200,
+        "bytes": 3863
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/388",
+        "ms": 202,
+        "status": 200,
+        "bytes": 2935
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/422",
+        "ms": 204,
+        "status": 200,
+        "bytes": 3264
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/616",
+        "ms": 204,
+        "status": 200,
+        "bytes": 4922
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/618",
+        "ms": 202,
+        "status": 200,
+        "bytes": 5047
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/420",
+        "ms": 211,
+        "status": 200,
+        "bytes": 4022
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/450",
+        "ms": 216,
+        "status": 200,
+        "bytes": 4142
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/730",
+        "ms": 216,
+        "status": 200,
+        "bytes": 4823
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/611",
+        "ms": 216,
+        "status": 200,
+        "bytes": 4463
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/390",
+        "ms": 218,
+        "status": 200,
+        "bytes": 4209
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/617",
+        "ms": 214,
+        "status": 200,
+        "bytes": 5000
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/703",
+        "ms": 816,
+        "status": 200,
+        "bytes": 5085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/619",
+        "ms": 811,
+        "status": 200,
+        "bytes": 5051
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/421",
+        "ms": 819,
+        "status": 200,
+        "bytes": 3264
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/596",
+        "ms": 815,
+        "status": 200,
+        "bytes": 3719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/615",
+        "ms": 821,
+        "status": 200,
+        "bytes": 5000
+      }
+    ]
+  },
+  {
+    "path": "produtos/capota-de-fibra",
+    "cache": "warm",
+    "kind": "catalog",
+    "contentFingerprint": "c4abe18b37367315f5d387d49e6db20b63d685a0f3dedc48a0b75e2521d3eef6",
+    "htmlFingerprint": "a2f7a2401e3cebd63aeb9abd46922029a8cedd5e9fdb6353969747b37629efa5",
+    "ms": 47,
+    "componentSsrMs": 8.71,
+    "http": 0,
+    "hits": 81,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "marcas/capota-de-fibra-para-fiat",
+    "cache": "cold",
+    "kind": "catalog",
+    "contentFingerprint": "c74953c23dc5798af24b1bb35de54df1eda045390f4ac6ee5d26b23113ccf24a",
+    "htmlFingerprint": "2333dc58891d0a926e72f462780796c10d109c7c644ef06ea27a99ef470da3b4",
+    "ms": 964,
+    "componentSsrMs": 11.89,
+    "http": 83,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 75,
+    "bytes": 588778,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 71,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 73,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 76,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 83,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 126,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 127,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 90,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 90,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 88,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 96,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 100,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 99,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 101,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 114,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 114,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 127,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 132,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 133,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 132,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 140,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 141,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 98,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 150,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 159,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 159,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 164,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 164,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 119,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 124,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 126,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 61,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 59,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 64,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?marca=4&page=1&per_page=12",
+        "ms": 64,
+        "status": 200,
+        "bytes": 30196
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/609",
+        "ms": 103,
+        "status": 200,
+        "bytes": 3530
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/671",
+        "ms": 105,
+        "status": 200,
+        "bytes": 3502
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/481",
+        "ms": 103,
+        "status": 200,
+        "bytes": 4469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/480",
+        "ms": 103,
+        "status": 200,
+        "bytes": 4879
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/482",
+        "ms": 103,
+        "status": 200,
+        "bytes": 4515
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/483",
+        "ms": 105,
+        "status": 200,
+        "bytes": 4469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/657",
+        "ms": 105,
+        "status": 200,
+        "bytes": 3302
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/661",
+        "ms": 104,
+        "status": 200,
+        "bytes": 3167
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/672",
+        "ms": 112,
+        "status": 200,
+        "bytes": 3888
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/486",
+        "ms": 117,
+        "status": 200,
+        "bytes": 4469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/489",
+        "ms": 467,
+        "status": 200,
+        "bytes": 4855
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/467",
+        "ms": 463,
+        "status": 200,
+        "bytes": 4012
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/484",
+        "ms": 467,
+        "status": 200,
+        "bytes": 4473
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/488",
+        "ms": 474,
+        "status": 200,
+        "bytes": 4759
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/680",
+        "ms": 468,
+        "status": 200,
+        "bytes": 4082
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/660",
+        "ms": 472,
+        "status": 200,
+        "bytes": 3485
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/673",
+        "ms": 480,
+        "status": 200,
+        "bytes": 3891
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/658",
+        "ms": 478,
+        "status": 200,
+        "bytes": 3488
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/662",
+        "ms": 486,
+        "status": 200,
+        "bytes": 3166
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/610",
+        "ms": 494,
+        "status": 200,
+        "bytes": 3190
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/466",
+        "ms": 493,
+        "status": 200,
+        "bytes": 4010
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/487",
+        "ms": 498,
+        "status": 200,
+        "bytes": 3637
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/479",
+        "ms": 505,
+        "status": 200,
+        "bytes": 3795
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/490",
+        "ms": 509,
+        "status": 200,
+        "bytes": 4855
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/629",
+        "ms": 507,
+        "status": 200,
+        "bytes": 4445
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/454",
+        "ms": 517,
+        "status": 200,
+        "bytes": 3968
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/679",
+        "ms": 523,
+        "status": 200,
+        "bytes": 4082
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/452",
+        "ms": 524,
+        "status": 200,
+        "bytes": 3325
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/531",
+        "ms": 526,
+        "status": 200,
+        "bytes": 4422
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/463",
+        "ms": 539,
+        "status": 200,
+        "bytes": 4009
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/681",
+        "ms": 538,
+        "status": 200,
+        "bytes": 4083
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/451",
+        "ms": 540,
+        "status": 200,
+        "bytes": 2748
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/464",
+        "ms": 541,
+        "status": 200,
+        "bytes": 4010
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/822",
+        "ms": 541,
+        "status": 200,
+        "bytes": 3654
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/608",
+        "ms": 552,
+        "status": 200,
+        "bytes": 3762
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/678",
+        "ms": 546,
+        "status": 200,
+        "bytes": 3062
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/628",
+        "ms": 551,
+        "status": 200,
+        "bytes": 3042
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/485",
+        "ms": 553,
+        "status": 200,
+        "bytes": 4469
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/453",
+        "ms": 555,
+        "status": 200,
+        "bytes": 3325
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/469",
+        "ms": 551,
+        "status": 200,
+        "bytes": 4071
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/465",
+        "ms": 559,
+        "status": 200,
+        "bytes": 4010
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/530",
+        "ms": 559,
+        "status": 200,
+        "bytes": 2765
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/659",
+        "ms": 564,
+        "status": 200,
+        "bytes": 3485
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/471",
+        "ms": 553,
+        "status": 200,
+        "bytes": 3875
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/462",
+        "ms": 567,
+        "status": 200,
+        "bytes": 3042
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/468",
+        "ms": 560,
+        "status": 200,
+        "bytes": 3042
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/821",
+        "ms": 567,
+        "status": 200,
+        "bytes": 3361
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/823",
+        "ms": 569,
+        "status": 200,
+        "bytes": 3654
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/470",
+        "ms": 568,
+        "status": 200,
+        "bytes": 3841
+      }
+    ]
+  },
+  {
+    "path": "marcas/capota-de-fibra-para-fiat",
+    "cache": "warm",
+    "kind": "catalog",
+    "contentFingerprint": "c74953c23dc5798af24b1bb35de54df1eda045390f4ac6ee5d26b23113ccf24a",
+    "htmlFingerprint": "2333dc58891d0a926e72f462780796c10d109c7c644ef06ea27a99ef470da3b4",
+    "ms": 53,
+    "componentSsrMs": 13.53,
+    "http": 0,
+    "hits": 88,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada",
+    "cache": "cold",
+    "kind": "product",
+    "contentFingerprint": "b7a6e0fde9a6c8da5aa548337c014fb9d01aae44f62c26cf1c059fbad564ee7b",
+    "htmlFingerprint": "b4dd6da8455d487db40de3670837c63d70def3bbf157e5ade7b889e9b2e428d3",
+    "ms": 1188,
+    "componentSsrMs": 7.73,
+    "http": 44,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 34,
+    "bytes": 405952,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 62,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 64,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 65,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 67,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 72,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 108,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 78,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 86,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 85,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 86,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 85,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 85,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 81,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 92,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 97,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 102,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 106,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 103,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 112,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 109,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 117,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 122,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 115,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 122,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 662,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 666,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 667,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 672,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 677,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 580,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 617,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 60,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 59,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?per_page=12&slug=capota-de-fibra-com-portas-laterais-para-fiat-strada",
+        "ms": 58,
+        "status": 200,
+        "bytes": 2406
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/578",
+        "ms": 66,
+        "status": 200,
+        "bytes": 3642
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/581",
+        "ms": 65,
+        "status": 200,
+        "bytes": 3650
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/580",
+        "ms": 66,
+        "status": 200,
+        "bytes": 3700
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/579",
+        "ms": 82,
+        "status": 200,
+        "bytes": 3699
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?exclude=44&marca=4&modelo=5&per_page=4&tax_relation=AND",
+        "ms": 97,
+        "status": 200,
+        "bytes": 2
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?exclude=44&marca_exclude=37%2C9%2C10%2C4%2C8%2C17%2C16%2C11%2C12%2C13%2C14%2C15%2C7&per_page=100",
+        "ms": 59,
+        "status": 200,
+        "bytes": 2398
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/799",
+        "ms": 64,
+        "status": 200,
+        "bytes": 3272
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/593",
+        "ms": 65,
+        "status": 200,
+        "bytes": 4129
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/798",
+        "ms": 66,
+        "status": 200,
+        "bytes": 3826
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/800",
+        "ms": 67,
+        "status": 200,
+        "bytes": 4086
+      }
+    ]
+  },
+  {
+    "path": "capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada",
+    "cache": "warm",
+    "kind": "product",
+    "contentFingerprint": "b7a6e0fde9a6c8da5aa548337c014fb9d01aae44f62c26cf1c059fbad564ee7b",
+    "htmlFingerprint": "b4dd6da8455d487db40de3670837c63d70def3bbf157e5ade7b889e9b2e428d3",
+    "ms": 41,
+    "componentSsrMs": 7.07,
+    "http": 0,
+    "hits": 49,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "pronta-entrega",
+    "cache": "cold",
+    "kind": "catalog",
+    "contentFingerprint": "410f6b2dbf3b9d8ab9fde908f2cdaaa3369bb56497c11d46c8aabcc6e386a13b",
+    "htmlFingerprint": "ed85cf16ae978117e5b8abb35906ca2788a25a24418ec51ac0e3d6bb56c998b6",
+    "ms": 570,
+    "componentSsrMs": 8.35,
+    "http": 44,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 35,
+    "bytes": 689966,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 62,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 64,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 66,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 67,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 69,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 89,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 72,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 78,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 79,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 86,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 79,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 88,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 99,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 101,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 101,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 103,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 105,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 115,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 111,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 122,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 120,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 120,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 122,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 123,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 125,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 132,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 131,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 136,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 137,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 87,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 64,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 62,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 76,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?per_page=100&search=",
+        "ms": 116,
+        "status": 200,
+        "bytes": 251895
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?page=2&per_page=100&search=",
+        "ms": 66,
+        "status": 200,
+        "bytes": 35124
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/624",
+        "ms": 61,
+        "status": 200,
+        "bytes": 3343
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/623",
+        "ms": 62,
+        "status": 200,
+        "bytes": 3742
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/625",
+        "ms": 65,
+        "status": 200,
+        "bytes": 3343
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/627",
+        "ms": 65,
+        "status": 200,
+        "bytes": 3343
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/581",
+        "ms": 69,
+        "status": 200,
+        "bytes": 3650
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/580",
+        "ms": 70,
+        "status": 200,
+        "bytes": 3700
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/626",
+        "ms": 77,
+        "status": 200,
+        "bytes": 3343
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/579",
+        "ms": 77,
+        "status": 200,
+        "bytes": 3699
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/578",
+        "ms": 88,
+        "status": 200,
+        "bytes": 3642
+      }
+    ]
+  },
+  {
+    "path": "pronta-entrega",
+    "cache": "warm",
+    "kind": "catalog",
+    "contentFingerprint": "410f6b2dbf3b9d8ab9fde908f2cdaaa3369bb56497c11d46c8aabcc6e386a13b",
+    "htmlFingerprint": "ed85cf16ae978117e5b8abb35906ca2788a25a24418ec51ac0e3d6bb56c998b6",
+    "ms": 50,
+    "componentSsrMs": 16.94,
+    "http": 0,
+    "hits": 49,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "trabalhos",
+    "cache": "cold",
+    "kind": "works",
+    "contentFingerprint": "1b2722b1961776539b7270305b66e691f1c5a99001c935c42ebff1217b7e871a",
+    "htmlFingerprint": "1a88d579add332e065cff4f664440a6a0be9cf1977b678a37f3ec5fa22129cfe",
+    "ms": 423,
+    "componentSsrMs": 5.68,
+    "http": 36,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 28,
+    "bytes": 381766,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 63,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 66,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 67,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 77,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 80,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 125,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 67,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 68,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 67,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 67,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 69,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 76,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 75,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 76,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 76,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 84,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 87,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 91,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 98,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 99,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 92,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 103,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 108,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 67,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 70,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 72,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 73,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 69,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 91,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 93,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 172,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 79,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 59,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/trabalho?page=1&per_page=12",
+        "ms": 62,
+        "status": 200,
+        "bytes": 3637
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/46",
+        "ms": 82,
+        "status": 200,
+        "bytes": 3543
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/100",
+        "ms": 83,
+        "status": 200,
+        "bytes": 3444
+      }
+    ]
+  },
+  {
+    "path": "trabalhos",
+    "cache": "warm",
+    "kind": "works",
+    "contentFingerprint": "1b2722b1961776539b7270305b66e691f1c5a99001c935c42ebff1217b7e871a",
+    "htmlFingerprint": "1a88d579add332e065cff4f664440a6a0be9cf1977b678a37f3ec5fa22129cfe",
+    "ms": 40,
+    "componentSsrMs": 4.72,
+    "http": 0,
+    "hits": 41,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "trabalhos/instalacao-capota-de-fibra-empresa-xyz",
+    "cache": "cold",
+    "kind": "work",
+    "contentFingerprint": "d7e089fbde3168c4775beca1db334875e0b6e738fc863d9773336237e08e6ae7",
+    "htmlFingerprint": "f968064235dd341654a13ecb1e5088caa7e81e2c4cfe2bbd9ca61cb91b82ea17",
+    "ms": 580,
+    "componentSsrMs": 5.96,
+    "http": 40,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 31,
+    "bytes": 393634,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 61,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 63,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 65,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 68,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 81,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 120,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 122,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 125,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 122,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 128,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 122,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 125,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 126,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 125,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 126,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 117,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 124,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 126,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 128,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 134,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 134,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 132,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 134,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 140,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 133,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 143,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 153,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 153,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 104,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 66,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 64,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 108,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/trabalho?per_page=12&slug=instalacao-capota-de-fibra-empresa-xyz",
+        "ms": 68,
+        "status": 200,
+        "bytes": 1852
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/46",
+        "ms": 60,
+        "status": 200,
+        "bytes": 3543
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/produto?include=44&per_page=12",
+        "ms": 59,
+        "status": 200,
+        "bytes": 2406
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/578",
+        "ms": 60,
+        "status": 200,
+        "bytes": 3642
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/579",
+        "ms": 61,
+        "status": 200,
+        "bytes": 3699
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/581",
+        "ms": 61,
+        "status": 200,
+        "bytes": 3650
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/580",
+        "ms": 90,
+        "status": 200,
+        "bytes": 3700
+      }
+    ]
+  },
+  {
+    "path": "trabalhos/instalacao-capota-de-fibra-empresa-xyz",
+    "cache": "warm",
+    "kind": "work",
+    "contentFingerprint": "d7e089fbde3168c4775beca1db334875e0b6e738fc863d9773336237e08e6ae7",
+    "htmlFingerprint": "f968064235dd341654a13ecb1e5088caa7e81e2c4cfe2bbd9ca61cb91b82ea17",
+    "ms": 39,
+    "componentSsrMs": 5.54,
+    "http": 0,
+    "hits": 45,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "blog",
+    "cache": "cold",
+    "kind": "blog",
+    "contentFingerprint": "45178b55dc6f2b6f2cfd55674113432c4c993dbb15281010514fc2db04855a35",
+    "htmlFingerprint": "5bd1535177865cd07c8bb6cdc68978eb54bdaf26467a16c1fe9bdcf59760a235",
+    "ms": 677,
+    "componentSsrMs": 9.62,
+    "http": 45,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 36,
+    "bytes": 480652,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 65,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 67,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 72,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 76,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 77,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 82,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 73,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 69,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 79,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 78,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 90,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 102,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 103,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 98,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 104,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 107,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 114,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 128,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 140,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 145,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 141,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 146,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 147,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 148,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 146,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 145,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 144,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 171,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 173,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 114,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 74,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 78,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 203,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/posts?page=1&per_page=12",
+        "ms": 67,
+        "status": 200,
+        "bytes": 74969
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/852",
+        "ms": 65,
+        "status": 200,
+        "bytes": 3465
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/846",
+        "ms": 66,
+        "status": 200,
+        "bytes": 3329
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/848",
+        "ms": 69,
+        "status": 200,
+        "bytes": 3309
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/840",
+        "ms": 69,
+        "status": 200,
+        "bytes": 3394
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/847",
+        "ms": 72,
+        "status": 200,
+        "bytes": 3388
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/845",
+        "ms": 74,
+        "status": 200,
+        "bytes": 3349
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/841",
+        "ms": 74,
+        "status": 200,
+        "bytes": 3395
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/843",
+        "ms": 79,
+        "status": 200,
+        "bytes": 3395
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/842",
+        "ms": 92,
+        "status": 200,
+        "bytes": 3395
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/849",
+        "ms": 96,
+        "status": 200,
+        "bytes": 3422
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categories?per_page=100",
+        "ms": 59,
+        "status": 200,
+        "bytes": 700
+      }
+    ]
+  },
+  {
+    "path": "blog",
+    "cache": "warm",
+    "kind": "blog",
+    "contentFingerprint": "45178b55dc6f2b6f2cfd55674113432c4c993dbb15281010514fc2db04855a35",
+    "htmlFingerprint": "5bd1535177865cd07c8bb6cdc68978eb54bdaf26467a16c1fe9bdcf59760a235",
+    "ms": 50,
+    "componentSsrMs": 9.02,
+    "http": 0,
+    "hits": 50,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition",
+    "cache": "cold",
+    "kind": "article",
+    "contentFingerprint": "48895fb0700223d71151271ca7c723c2b92536caa2e78b35117f03d4544958c5",
+    "htmlFingerprint": "9cf51149ceb7fc16e9e11a9f366bf26382a4abf4d93eabb63fa45a932317f00c",
+    "ms": 451,
+    "componentSsrMs": 13.14,
+    "http": 35,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 27,
+    "bytes": 380661,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 63,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 65,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 72,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 77,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 79,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 77,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 76,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 90,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 90,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 99,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 99,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 103,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 108,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 118,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 130,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 129,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 92,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 135,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 141,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 147,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 154,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 146,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 163,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 167,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 162,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 173,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 162,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 174,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 171,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 96,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 95,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 77,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/posts?per_page=12&slug=jmb-capotas-apresenta-nova-ram-2500-rodeo-edition",
+        "ms": 69,
+        "status": 200,
+        "bytes": 6214
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/109",
+        "ms": 69,
+        "status": 200,
+        "bytes": 3305
+      }
+    ]
+  },
+  {
+    "path": "blog/jmb-capotas-apresenta-nova-ram-2500-rodeo-edition",
+    "cache": "warm",
+    "kind": "article",
+    "contentFingerprint": "48895fb0700223d71151271ca7c723c2b92536caa2e78b35117f03d4544958c5",
+    "htmlFingerprint": "9cf51149ceb7fc16e9e11a9f366bf26382a4abf4d93eabb63fa45a932317f00c",
+    "ms": 43,
+    "componentSsrMs": 4.23,
+    "http": 0,
+    "hits": 40,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "quem-somos",
+    "cache": "cold",
+    "kind": "page",
+    "contentFingerprint": "ed334186dba9bc2fcf8f1861bba98b7a60d6d5fdea17b91980e29bc9f070995d",
+    "htmlFingerprint": "6d42d285ce022045f472df88bc240c35d9eda38531517a69c83c0fa745645449",
+    "ms": 318,
+    "componentSsrMs": 5.5,
+    "http": 33,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 26,
+    "bytes": 371142,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 68,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 71,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 72,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 75,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 81,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 128,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 76,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 77,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 99,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 101,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 103,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 112,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 111,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 122,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 125,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 131,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 133,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 131,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 137,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 135,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 144,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 143,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 144,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 148,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 158,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 104,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 161,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 161,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 164,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 126,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 73,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 65,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 65,
+        "status": 200,
+        "bytes": 4132
+      }
+    ]
+  },
+  {
+    "path": "quem-somos",
+    "cache": "warm",
+    "kind": "page",
+    "contentFingerprint": "ed334186dba9bc2fcf8f1861bba98b7a60d6d5fdea17b91980e29bc9f070995d",
+    "htmlFingerprint": "6d42d285ce022045f472df88bc240c35d9eda38531517a69c83c0fa745645449",
+    "ms": 41,
+    "componentSsrMs": 4.41,
+    "http": 0,
+    "hits": 38,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "conserto-de-capotas-de-fibra",
+    "cache": "cold",
+    "kind": "page",
+    "contentFingerprint": "526303077e5d6615522b496a00e9b9855f63399231ad09d79a30278c449619f3",
+    "htmlFingerprint": "53c32607fc08c59d318926b114688c5bc43fb36fd7f306a7e936a910252fb56d",
+    "ms": 835,
+    "componentSsrMs": 4.74,
+    "http": 36,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 28,
+    "bytes": 381766,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 67,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 76,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 78,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 80,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 82,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 86,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 70,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 72,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 98,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 102,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 117,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 523,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 528,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 530,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 531,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 528,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 533,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 539,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 538,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 534,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 544,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 547,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 553,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 557,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 559,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 558,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 556,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 563,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 518,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 563,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 63,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 60,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 65,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/trabalho?per_page=3",
+        "ms": 65,
+        "status": 200,
+        "bytes": 3637
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/100",
+        "ms": 61,
+        "status": 200,
+        "bytes": 3444
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/46",
+        "ms": 61,
+        "status": 200,
+        "bytes": 3543
+      }
+    ]
+  },
+  {
+    "path": "conserto-de-capotas-de-fibra",
+    "cache": "warm",
+    "kind": "page",
+    "contentFingerprint": "526303077e5d6615522b496a00e9b9855f63399231ad09d79a30278c449619f3",
+    "htmlFingerprint": "53c32607fc08c59d318926b114688c5bc43fb36fd7f306a7e936a910252fb56d",
+    "ms": 52,
+    "componentSsrMs": 5.19,
+    "http": 0,
+    "hits": 41,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  },
+  {
+    "path": "cidades",
+    "cache": "cold",
+    "kind": "cities",
+    "contentFingerprint": "357c5a3c15b22faf68a48e54186dc532181b49fd649dabc6ec3aa11bb030fee9",
+    "htmlFingerprint": "8d3f7842592784786dfc467b64f7e7fcb63351b5e855cdfffbf7aaa4bcb06fe6",
+    "ms": 304,
+    "componentSsrMs": 11.97,
+    "http": 33,
+    "hits": 5,
+    "deduplications": 2,
+    "media": 26,
+    "bytes": 371142,
+    "calls": [
+      {
+        "endpoint": "/wp-json/wp/v2/marca?per_page=100",
+        "ms": 72,
+        "status": 200,
+        "bytes": 10687
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/pages?page=1&per_page=100",
+        "ms": 76,
+        "status": 200,
+        "bytes": 9458
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/categoria_produto?per_page=100",
+        "ms": 83,
+        "status": 200,
+        "bytes": 5068
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/modelo?per_page=100",
+        "ms": 85,
+        "status": 200,
+        "bytes": 18080
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=1&per_page=100",
+        "ms": 87,
+        "status": 200,
+        "bytes": 234260
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/site-config?per_page=1&slug=jmb-capotas&status=publish",
+        "ms": 128,
+        "status": 200,
+        "bytes": 1396
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/112",
+        "ms": 69,
+        "status": 200,
+        "bytes": 3712
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/65",
+        "ms": 72,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/854",
+        "ms": 83,
+        "status": 200,
+        "bytes": 2373
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/899",
+        "ms": 82,
+        "status": 200,
+        "bytes": 4380
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/51",
+        "ms": 90,
+        "status": 200,
+        "bytes": 3304
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/67",
+        "ms": 107,
+        "status": 200,
+        "bytes": 2113
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/62",
+        "ms": 107,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/58",
+        "ms": 106,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/61",
+        "ms": 110,
+        "status": 200,
+        "bytes": 2043
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/915",
+        "ms": 118,
+        "status": 200,
+        "bytes": 3990
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/52",
+        "ms": 129,
+        "status": 200,
+        "bytes": 2032
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/60",
+        "ms": 141,
+        "status": 200,
+        "bytes": 2079
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/66",
+        "ms": 139,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/916",
+        "ms": 133,
+        "status": 200,
+        "bytes": 4248
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/897",
+        "ms": 134,
+        "status": 200,
+        "bytes": 4386
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/896",
+        "ms": 134,
+        "status": 200,
+        "bytes": 3941
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/68",
+        "ms": 152,
+        "status": 200,
+        "bytes": 2088
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/63",
+        "ms": 151,
+        "status": 200,
+        "bytes": 2052
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/59",
+        "ms": 152,
+        "status": 200,
+        "bytes": 2034
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/64",
+        "ms": 152,
+        "status": 200,
+        "bytes": 2059
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/cidade?page=2&per_page=100",
+        "ms": 99,
+        "status": 200,
+        "bytes": 16581
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/69",
+        "ms": 151,
+        "status": 200,
+        "bytes": 2719
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/818",
+        "ms": 152,
+        "status": 200,
+        "bytes": 3121
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/917",
+        "ms": 115,
+        "status": 200,
+        "bytes": 4313
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/855",
+        "ms": 70,
+        "status": 200,
+        "bytes": 3085
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/43",
+        "ms": 60,
+        "status": 200,
+        "bytes": 4132
+      },
+      {
+        "endpoint": "/wp-json/wp/v2/media/817",
+        "ms": 67,
+        "status": 200,
+        "bytes": 3121
+      }
+    ]
+  },
+  {
+    "path": "cidades",
+    "cache": "warm",
+    "kind": "cities",
+    "contentFingerprint": "357c5a3c15b22faf68a48e54186dc532181b49fd649dabc6ec3aa11bb030fee9",
+    "htmlFingerprint": "8d3f7842592784786dfc467b64f7e7fcb63351b5e855cdfffbf7aaa4bcb06fe6",
+    "ms": 51,
+    "componentSsrMs": 11.29,
+    "http": 0,
+    "hits": 38,
+    "deduplications": 0,
+    "media": 0,
+    "bytes": 0,
+    "calls": []
+  }
+]

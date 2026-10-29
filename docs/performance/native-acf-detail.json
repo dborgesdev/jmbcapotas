@@ -1,0 +1,1516 @@
+[
+  {
+    "data": {
+      "id": 44,
+      "featured_media": 578,
+      "acf": {
+        "galeria": {
+          "imagem_2": 579,
+          "imagem_3": 580,
+          "imagem_4": 581,
+          "imagem_5": ""
+        }
+      }
+    },
+    "ms": 419,
+    "endpoint": "produto?slug=capota-de-fibra-com-portas-laterais-para-fiat-strada",
+    "mode": "plain",
+    "bytes": 2406
+  },
+  {
+    "data": {
+      "id": 44,
+      "featured_media": 578,
+      "acf": {
+        "galeria": {
+          "imagem_2": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/5e098326-a7cb-4432-8b48-47b934eef539-jpg.webp",
+          "imagem_3": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/59b36611-5ae5-4bf2-a71f-b603a555dd08-jpg.webp",
+          "imagem_4": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-sec-06-jpg.webp",
+          "imagem_5": false
+        }
+      }
+    },
+    "ms": 197,
+    "endpoint": "produto?slug=capota-de-fibra-com-portas-laterais-para-fiat-strada",
+    "mode": "standard",
+    "bytes": 2734
+  },
+  {
+    "data": {
+      "id": 44,
+      "featured_media": 578,
+      "acf": {
+        "galeria": {
+          "imagem_2": 579,
+          "imagem_3": 580,
+          "imagem_4": 581,
+          "imagem_5": ""
+        }
+      },
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 578,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 860,
+              "height": 690,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 241,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg-300x241.webp"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg-150x150.webp"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 616,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg-768x616.webp"
+                },
+                "full": {
+                  "width": 860,
+                  "height": 690,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg.webp"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg.webp"
+          }
+        ]
+      }
+    },
+    "ms": 212,
+    "endpoint": "produto?slug=capota-de-fibra-com-portas-laterais-para-fiat-strada",
+    "mode": "embed-all",
+    "bytes": 7112
+  },
+  {
+    "data": {
+      "id": 44,
+      "featured_media": 578,
+      "acf": {
+        "galeria": {
+          "imagem_2": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/5e098326-a7cb-4432-8b48-47b934eef539-jpg.webp",
+          "imagem_3": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/59b36611-5ae5-4bf2-a71f-b603a555dd08-jpg.webp",
+          "imagem_4": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-sec-06-jpg.webp",
+          "imagem_5": false
+        }
+      },
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 578,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 860,
+              "height": 690,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 241,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg-300x241.webp"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg-150x150.webp"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 616,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg-768x616.webp"
+                },
+                "full": {
+                  "width": 860,
+                  "height": 690,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg.webp"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2024/09/strada-portas-laterais-2-nv-jpg.webp"
+          }
+        ]
+      }
+    },
+    "ms": 209,
+    "endpoint": "produto?slug=capota-de-fibra-com-portas-laterais-para-fiat-strada",
+    "mode": "combined-all",
+    "bytes": 7440
+  },
+  {
+    "data": {
+      "id": 50,
+      "featured_media": 46,
+      "acf": {
+        "galeria": {
+          "imagem_2": "",
+          "imagem_3": "",
+          "imagem_4": "",
+          "imagem_5": ""
+        }
+      }
+    },
+    "ms": 170,
+    "endpoint": "trabalho?slug=instalacao-capota-de-fibra-empresa-xyz",
+    "mode": "plain",
+    "bytes": 1852
+  },
+  {
+    "data": {
+      "id": 50,
+      "featured_media": 46,
+      "acf": {
+        "galeria": {
+          "imagem_2": false,
+          "imagem_3": false,
+          "imagem_4": false,
+          "imagem_5": false
+        }
+      }
+    },
+    "ms": 214,
+    "endpoint": "trabalho?slug=instalacao-capota-de-fibra-empresa-xyz",
+    "mode": "standard",
+    "bytes": 2918
+  },
+  {
+    "data": {
+      "id": 50,
+      "featured_media": 46,
+      "acf": {
+        "galeria": {
+          "imagem_2": "",
+          "imagem_3": "",
+          "imagem_4": "",
+          "imagem_5": ""
+        }
+      },
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 46,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 900,
+              "height": 700,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 233,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06-300x233.jpg"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06-150x150.jpg"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 597,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06-768x597.jpg"
+                },
+                "full": {
+                  "width": 900,
+                  "height": 700,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06.jpg"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06.jpg"
+          }
+        ]
+      }
+    },
+    "ms": 203,
+    "endpoint": "trabalho?slug=instalacao-capota-de-fibra-empresa-xyz",
+    "mode": "embed-all",
+    "bytes": 7368
+  },
+  {
+    "data": {
+      "id": 50,
+      "featured_media": 46,
+      "acf": {
+        "galeria": {
+          "imagem_2": false,
+          "imagem_3": false,
+          "imagem_4": false,
+          "imagem_5": false
+        }
+      },
+      "_embedded": {
+        "wp:featuredmedia": [
+          {
+            "id": 46,
+            "featured_media": 0,
+            "acf": [],
+            "alt_text": "",
+            "media_details": {
+              "width": 900,
+              "height": 700,
+              "sizes": {
+                "medium": {
+                  "width": 300,
+                  "height": 233,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06-300x233.jpg"
+                },
+                "thumbnail": {
+                  "width": 150,
+                  "height": 150,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06-150x150.jpg"
+                },
+                "medium_large": {
+                  "width": 768,
+                  "height": 597,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06-768x597.jpg"
+                },
+                "full": {
+                  "width": 900,
+                  "height": 700,
+                  "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06.jpg"
+                }
+              }
+            },
+            "source_url": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/strada-sec-06.jpg"
+          }
+        ]
+      }
+    },
+    "ms": 189,
+    "endpoint": "trabalho?slug=instalacao-capota-de-fibra-empresa-xyz",
+    "mode": "combined-all",
+    "bytes": 8434
+  },
+  {
+    "data": [
+      {
+        "id": 37,
+        "acf": {
+          "logo": 854,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 9,
+        "acf": {
+          "logo": 60,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 10,
+        "acf": {
+          "logo": 61,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 4,
+        "acf": {
+          "logo": 52,
+          "imagem_fundo": 855
+        }
+      },
+      {
+        "id": 8,
+        "acf": {
+          "logo": 59,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 17,
+        "acf": {
+          "logo": 68,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 16,
+        "acf": {
+          "logo": 67,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 11,
+        "acf": {
+          "logo": 62,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 12,
+        "acf": {
+          "logo": 63,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 13,
+        "acf": {
+          "logo": 64,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 14,
+        "acf": {
+          "logo": 65,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 15,
+        "acf": {
+          "logo": 66,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 7,
+        "acf": {
+          "logo": 58,
+          "imagem_fundo": ""
+        }
+      }
+    ],
+    "ms": 143,
+    "endpoint": "marca?per_page=100",
+    "mode": "plain",
+    "bytes": 10687
+  },
+  {
+    "data": [
+      {
+        "id": 37,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/agrale.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 9,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/chevrolet-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 10,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/dodge-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 4,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/fiat-home-2.png",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/fiat.jpg"
+        }
+      },
+      {
+        "id": 8,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/ford-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 17,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/land-rover-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 16,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/mahindra-rise-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 11,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/mitsubishi-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 12,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/nissan-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 13,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/peugeot-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 14,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/renault-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 15,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/toyota-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 7,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/volkswagem-home-2.png",
+          "imagem_fundo": false
+        }
+      }
+    ],
+    "ms": 233,
+    "endpoint": "marca?per_page=100",
+    "mode": "standard",
+    "bytes": 11900
+  },
+  {
+    "data": [
+      {
+        "id": 37,
+        "acf": {
+          "logo": 854,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 9,
+        "acf": {
+          "logo": 60,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 10,
+        "acf": {
+          "logo": 61,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 4,
+        "acf": {
+          "logo": 52,
+          "imagem_fundo": 855
+        }
+      },
+      {
+        "id": 8,
+        "acf": {
+          "logo": 59,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 17,
+        "acf": {
+          "logo": 68,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 16,
+        "acf": {
+          "logo": 67,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 11,
+        "acf": {
+          "logo": 62,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 12,
+        "acf": {
+          "logo": 63,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 13,
+        "acf": {
+          "logo": 64,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 14,
+        "acf": {
+          "logo": 65,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 15,
+        "acf": {
+          "logo": 66,
+          "imagem_fundo": ""
+        }
+      },
+      {
+        "id": 7,
+        "acf": {
+          "logo": 58,
+          "imagem_fundo": ""
+        }
+      }
+    ],
+    "ms": 198,
+    "endpoint": "marca?per_page=100",
+    "mode": "embed-all",
+    "bytes": 10687
+  },
+  {
+    "data": [
+      {
+        "id": 37,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/agrale.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 9,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/chevrolet-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 10,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/dodge-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 4,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/fiat-home-2.png",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/fiat.jpg"
+        }
+      },
+      {
+        "id": 8,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/ford-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 17,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/land-rover-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 16,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/mahindra-rise-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 11,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/mitsubishi-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 12,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/nissan-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 13,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/peugeot-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 14,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/renault-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 15,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/toyota-home-2.png",
+          "imagem_fundo": false
+        }
+      },
+      {
+        "id": 7,
+        "acf": {
+          "logo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/volkswagem-home-2.png",
+          "imagem_fundo": false
+        }
+      }
+    ],
+    "ms": 205,
+    "endpoint": "marca?per_page=100",
+    "mode": "combined-all",
+    "bytes": 11900
+  },
+  {
+    "data": [
+      {
+        "id": 24,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 34,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 35,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 32,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 30,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 28,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 22,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 25,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 29,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 23,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 38,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 19,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 31,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 33,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 26,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 36,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 18,
+        "acf": {
+          "imagem": 69
+        }
+      },
+      {
+        "id": 20,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 21,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 5,
+        "acf": {
+          "imagem": 51
+        }
+      },
+      {
+        "id": 27,
+        "acf": {
+          "imagem": null
+        }
+      }
+    ],
+    "ms": 117,
+    "endpoint": "modelo?per_page=100",
+    "mode": "plain",
+    "bytes": 18080
+  },
+  {
+    "data": [
+      {
+        "id": 24,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 34,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 35,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 32,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 30,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 28,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 22,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 25,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 29,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 23,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 38,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 19,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 31,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 33,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 26,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 36,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 18,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/S10-300x3001-1.jpg"
+        }
+      },
+      {
+        "id": 20,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 21,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 5,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/fiat-strada-26.webp"
+        }
+      },
+      {
+        "id": 27,
+        "acf": {
+          "imagem": false
+        }
+      }
+    ],
+    "ms": 192,
+    "endpoint": "modelo?per_page=100",
+    "mode": "standard",
+    "bytes": 22258
+  },
+  {
+    "data": [
+      {
+        "id": 24,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 34,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 35,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 32,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 30,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 28,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 22,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 25,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 29,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 23,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 38,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 19,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 31,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 33,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 26,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 36,
+        "acf": {
+          "imagem": null
+        }
+      },
+      {
+        "id": 18,
+        "acf": {
+          "imagem": 69
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 20,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 21,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 5,
+        "acf": {
+          "imagem": 51
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 27,
+        "acf": {
+          "imagem": null
+        },
+        "_embedded": {}
+      }
+    ],
+    "ms": 212,
+    "endpoint": "modelo?per_page=100",
+    "mode": "embed-all",
+    "bytes": 30765
+  },
+  {
+    "data": [
+      {
+        "id": 24,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 34,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 35,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 32,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 30,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 28,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 22,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 25,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 29,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 23,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 38,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 19,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 31,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 33,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 26,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 36,
+        "acf": {
+          "imagem": false
+        }
+      },
+      {
+        "id": 18,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/S10-300x3001-1.jpg"
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 20,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 21,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 5,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/fiat-strada-26.webp"
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 27,
+        "acf": {
+          "imagem": false
+        },
+        "_embedded": {}
+      }
+    ],
+    "ms": 242,
+    "endpoint": "modelo?per_page=100",
+    "mode": "combined-all",
+    "bytes": 34943
+  },
+  {
+    "data": [
+      {
+        "id": 6,
+        "acf": {
+          "imagem": 915,
+          "imagem_fundo": 915
+        }
+      },
+      {
+        "id": 42,
+        "acf": {
+          "imagem": 897,
+          "imagem_fundo": 897
+        }
+      },
+      {
+        "id": 3,
+        "acf": {
+          "imagem": 916,
+          "imagem_fundo": 916
+        }
+      },
+      {
+        "id": 40,
+        "acf": {
+          "imagem": 896,
+          "imagem_fundo": 896
+        }
+      },
+      {
+        "id": 41,
+        "acf": {
+          "imagem": 897,
+          "imagem_fundo": 897
+        }
+      },
+      {
+        "id": 39,
+        "acf": {
+          "imagem": 818,
+          "imagem_fundo": 817
+        }
+      }
+    ],
+    "ms": 172,
+    "endpoint": "categoria_produto?per_page=100",
+    "mode": "plain",
+    "bytes": 5068
+  },
+  {
+    "data": [
+      {
+        "id": 6,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capota-Camper-Site-JMB-Capotas.jpg",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capota-Camper-Site-JMB-Capotas.jpg"
+        }
+      },
+      {
+        "id": 42,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/D_NQ_NP_783169-MLB91525593907_092025-O-kit-fechadura-central-tampa-fechadura-interna-capota-fibra.webp",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/D_NQ_NP_783169-MLB91525593907_092025-O-kit-fechadura-central-tampa-fechadura-interna-capota-fibra.webp"
+        }
+      },
+      {
+        "id": 3,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Nissan-Frontier-4x4-foto-Site-JMB-Capotas.jpg",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Nissan-Frontier-4x4-foto-Site-JMB-Capotas.jpg"
+        }
+      },
+      {
+        "id": 40,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/model_main_webp_comprar-capota-maritima-de-lona-hilux-606_3b16e54814.PNG.png",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/model_main_webp_comprar-capota-maritima-de-lona-hilux-606_3b16e54814.PNG.png"
+        }
+      },
+      {
+        "id": 41,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/D_NQ_NP_783169-MLB91525593907_092025-O-kit-fechadura-central-tampa-fechadura-interna-capota-fibra.webp",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/D_NQ_NP_783169-MLB91525593907_092025-O-kit-fechadura-central-tampa-fechadura-interna-capota-fibra.webp"
+        }
+      },
+      {
+        "id": 39,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2019/12/DSC00336.webp",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2019/12/DSC00335.webp"
+        }
+      }
+    ],
+    "ms": 176,
+    "endpoint": "categoria_produto?per_page=100",
+    "mode": "standard",
+    "bytes": 6604
+  },
+  {
+    "data": [
+      {
+        "id": 6,
+        "acf": {
+          "imagem": 915,
+          "imagem_fundo": 915
+        }
+      },
+      {
+        "id": 42,
+        "acf": {
+          "imagem": 897,
+          "imagem_fundo": 897
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 3,
+        "acf": {
+          "imagem": 916,
+          "imagem_fundo": 916
+        }
+      },
+      {
+        "id": 40,
+        "acf": {
+          "imagem": 896,
+          "imagem_fundo": 896
+        }
+      },
+      {
+        "id": 41,
+        "acf": {
+          "imagem": 897,
+          "imagem_fundo": 897
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 39,
+        "acf": {
+          "imagem": 818,
+          "imagem_fundo": 817
+        }
+      }
+    ],
+    "ms": 207,
+    "endpoint": "categoria_produto?per_page=100",
+    "mode": "embed-all",
+    "bytes": 6564
+  },
+  {
+    "data": [
+      {
+        "id": 6,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capota-Camper-Site-JMB-Capotas.jpg",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Capota-Camper-Site-JMB-Capotas.jpg"
+        }
+      },
+      {
+        "id": 42,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/D_NQ_NP_783169-MLB91525593907_092025-O-kit-fechadura-central-tampa-fechadura-interna-capota-fibra.webp",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/D_NQ_NP_783169-MLB91525593907_092025-O-kit-fechadura-central-tampa-fechadura-interna-capota-fibra.webp"
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 3,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Nissan-Frontier-4x4-foto-Site-JMB-Capotas.jpg",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Nissan-Frontier-4x4-foto-Site-JMB-Capotas.jpg"
+        }
+      },
+      {
+        "id": 40,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/model_main_webp_comprar-capota-maritima-de-lona-hilux-606_3b16e54814.PNG.png",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/model_main_webp_comprar-capota-maritima-de-lona-hilux-606_3b16e54814.PNG.png"
+        }
+      },
+      {
+        "id": 41,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/D_NQ_NP_783169-MLB91525593907_092025-O-kit-fechadura-central-tampa-fechadura-interna-capota-fibra.webp",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/D_NQ_NP_783169-MLB91525593907_092025-O-kit-fechadura-central-tampa-fechadura-interna-capota-fibra.webp"
+        },
+        "_embedded": {}
+      },
+      {
+        "id": 39,
+        "acf": {
+          "imagem": "https://painel.jmbcapotas.com.br/wp-content/uploads/2019/12/DSC00336.webp",
+          "imagem_fundo": "https://painel.jmbcapotas.com.br/wp-content/uploads/2019/12/DSC00335.webp"
+        }
+      }
+    ],
+    "ms": 177,
+    "endpoint": "categoria_produto?per_page=100",
+    "mode": "combined-all",
+    "bytes": 8100
+  },
+  {
+    "data": {
+      "id": 874,
+      "acf": {
+        "hero": 917,
+        "final_cta": 917
+      }
+    },
+    "ms": 189,
+    "endpoint": "site-config?slug=jmb-capotas",
+    "mode": "plain",
+    "bytes": 1396
+  },
+  {
+    "data": {
+      "id": 874,
+      "acf": {
+        "hero": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Fiat-Strada-CD-Site-JMB-Capotas-2.jpg",
+        "final_cta": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Fiat-Strada-CD-Site-JMB-Capotas-2.jpg"
+      }
+    },
+    "ms": 281,
+    "endpoint": "site-config?slug=jmb-capotas",
+    "mode": "standard",
+    "bytes": 1608
+  },
+  {
+    "data": {
+      "id": 874,
+      "acf": {
+        "hero": 917,
+        "final_cta": 917
+      }
+    },
+    "ms": 193,
+    "endpoint": "site-config?slug=jmb-capotas",
+    "mode": "embed-all",
+    "bytes": 1396
+  },
+  {
+    "data": {
+      "id": 874,
+      "acf": {
+        "hero": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Fiat-Strada-CD-Site-JMB-Capotas-2.jpg",
+        "final_cta": "https://painel.jmbcapotas.com.br/wp-content/uploads/2026/10/Fiat-Strada-CD-Site-JMB-Capotas-2.jpg"
+      }
+    },
+    "ms": 176,
+    "endpoint": "site-config?slug=jmb-capotas",
+    "mode": "combined-all",
+    "bytes": 1608
+  }
+]

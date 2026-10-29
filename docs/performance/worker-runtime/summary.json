@@ -1,0 +1,29 @@
+{
+  "main": {
+    "sequentialMedianWallMs": 118.61,
+    "maxObservedHeapBytes": 67840724,
+    "sequenceHeapStartBytes": 61934836,
+    "sequenceHeapEndBytes": 67840724,
+    "afterSequenceHeapBytes": 67840724,
+    "serverJsBytes": 1460078,
+    "serverJsGzipSumBytes": 337197
+  },
+  "rest": {
+    "sequentialMedianWallMs": 83.47,
+    "maxObservedHeapBytes": 72380076,
+    "sequenceHeapStartBytes": 40481900,
+    "sequenceHeapEndBytes": 32483512,
+    "afterSequenceHeapBytes": 32483512,
+    "serverJsBytes": 1464511,
+    "serverJsGzipSumBytes": 338636
+  },
+  "final": {
+    "sequentialMedianWallMs": 28.29,
+    "maxObservedHeapBytes": 13009388,
+    "sequenceHeapStartBytes": 12059260,
+    "sequenceHeapEndBytes": 13009388,
+    "afterSequenceHeapBytes": 13009388,
+    "serverJsBytes": 1463409,
+    "serverJsGzipSumBytes": 338213
+  }
+}

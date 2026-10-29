@@ -3,6 +3,7 @@ export default tseslint.config(
   {
     ignores: [
       "dist/**",
+      "artifacts/**",
       "node_modules/**",
       "src/routeTree.gen.ts",
       ".wrangler/**",

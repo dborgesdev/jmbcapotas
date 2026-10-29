@@ -6,7 +6,22 @@ export type Media = {
   height: number;
   srcSet: string;
 };
+export type AcfImage =
+  | number
+  | string
+  | null
+  | false
+  | Media
+  | {
+      ID: number;
+      url: string;
+      alt: string;
+      width: number;
+      height: number;
+      sizes?: Record<string, string | number>;
+    };
 export type RawPost = {
+  _embedded?: { "wp:featuredmedia"?: unknown[] };
   id: number;
   slug: string;
   title: { rendered: string };
@@ -23,7 +38,7 @@ export type RawPost = {
     pronta_entrega?: boolean;
     estado?: string;
     produto?: number[];
-    galeria?: Record<string, number | string | null>;
+    galeria?: Record<string, AcfImage>;
   };
 };
 export type Term = {
@@ -35,14 +50,14 @@ export type Term = {
   parent?: number;
   acf?: {
     marca?: number;
-    logo?: number;
-    imagem?: number;
-    imagem_fundo?: number;
+    logo?: AcfImage;
+    imagem?: AcfImage;
+    imagem_fundo?: AcfImage;
   };
   image?: Media;
   background?: Media;
 };
-export type Post = Omit<RawPost, "title" | "content"> & {
+export type Post = Omit<RawPost, "title" | "content" | "_embedded"> & {
   name: string;
   html: string;
   summary: string;

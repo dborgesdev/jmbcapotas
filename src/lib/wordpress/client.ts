@@ -1,6 +1,12 @@
 import { API } from "../config";
 const cache = new Map<string, { expires: number; value: unknown }>();
 const pending = new Map<string, Promise<unknown>>();
+// Opt-in diagnostics for the measurement harness; no logging in production.
+export type RestEvent = { path: string; source: "http" | "cache" | "pending" };
+let observer: ((event: RestEvent) => void) | undefined;
+export function observeRest(callback?: (event: RestEvent) => void) {
+  observer = callback;
+}
 export class CmsError extends Error {
   constructor(
     public status: number,
@@ -15,15 +21,20 @@ export async function request<T>(
   path: string,
 ): Promise<{ data: T; total: number; pages: number }> {
   const existing = cache.get(path);
-  if (existing && existing.expires > Date.now())
+  if (existing && existing.expires > Date.now()) {
+    observer?.({ path, source: "cache" });
     return existing.value as { data: T; total: number; pages: number };
-  if (pending.has(path))
+  }
+  if (pending.has(path)) {
+    observer?.({ path, source: "pending" });
     return pending.get(path) as Promise<{
       data: T;
       total: number;
       pages: number;
     }>;
+  }
   const promise = (async () => {
+    observer?.({ path, source: "http" });
     const response = await fetch(`${API}/${path}`, {
       signal: AbortSignal.timeout(10000),
     });

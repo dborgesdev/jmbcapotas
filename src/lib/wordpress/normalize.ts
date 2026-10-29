@@ -1,28 +1,58 @@
-import { clean, safeHtml } from "./html";
-import { media } from "./media";
+import { postContent } from "./post-content";
+import { media, mediaId, mediaBatch, type MediaLookup } from "./media";
 import type { RawPost, Post, Media } from "./types";
-export async function normalizePost(p: RawPost, url: string): Promise<Post> {
-  const ids = [
-    ...new Set(
-      [p.featured_media, ...Object.values(p.acf?.galeria || {})]
-        .map(Number)
-        .filter(Boolean),
-    ),
+export function postMediaReferences(p: RawPost): unknown[] {
+  return [
+    p._embedded?.["wp:featuredmedia"]?.[0] || p.featured_media,
+    ...Object.values(p.acf?.galeria || {}),
   ];
-  const images = (await Promise.all(ids.map(media))).filter(
-    (m): m is Media => !!m,
-  );
+}
+export async function normalizePost(
+  p: RawPost,
+  url: string,
+  lookup?: MediaLookup,
+): Promise<Post> {
+  const resolved = lookup || (await mediaBatch(postMediaReferences(p)));
+  const slots = [
+    {
+      value: p.featured_media,
+      resolved:
+        p._embedded?.["wp:featuredmedia"]?.[0] ??
+        resolved.get(mediaId(p.featured_media)),
+    },
+    ...Object.values(p.acf?.galeria || {}).map((value) => ({
+      value,
+      resolved: resolved.get(mediaId(value)),
+    })),
+  ];
+  // Preserve explicit null (deleted image) and select the best representation for repeated IDs.
+  const unique = new Map<number, (typeof slots)[number]>();
+  for (const slot of slots) {
+    const id = mediaId(slot.value);
+    if (
+      id &&
+      (!unique.has(id) ||
+        (unique.get(id)?.resolved === undefined && slot.resolved !== undefined))
+    )
+      unique.set(id, slot);
+  }
+  const images = (
+    await Promise.all(
+      [...unique.values()].map((s) => media(s.value, s.resolved)),
+    )
+  ).filter((m): m is Media => !!m);
   return {
-    ...p,
-    name: clean(p.title.rendered),
-    html: safeHtml(p.content.rendered),
-    summary: clean(p.content.rendered).slice(0, 170),
-    introduction:
-      (p.content.rendered.match(/<p\b[^>]*>[\s\S]*?<\/p>/gi) || [])
-        .map(clean)
-        .find((text) => text.length >= 40)
-        ?.match(/^.*?[.!?](?:\s|$)|^.{1,240}(?:\s|$)/)?.[0]
-        ?.trim() || clean(p.content.rendered).slice(0, 170),
+    id: p.id,
+    slug: p.slug,
+    date: p.date,
+    modified: p.modified,
+    featured_media: p.featured_media,
+    categoria_produto: p.categoria_produto,
+    marca: p.marca,
+    modelo: p.modelo,
+    categories: p.categories,
+    acf: p.acf,
+    ...postContent(p),
     images,
     url,
   };
