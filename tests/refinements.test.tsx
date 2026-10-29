@@ -18,7 +18,7 @@ const image: Media = {
 const product = (id: number, marca: number[] = [], modelo: number[] = []) =>
   ({ id, marca, modelo }) as Post;
 describe("Refinamentos da V1", () => {
-  it("prioriza o mesmo veículo, complementa com genéricos e exclui outros veículos, duplicados e o atual", () => {
+  it("exige marca e modelo comuns, excluindo genéricos, duplicados e o atual", () => {
     const current = product(1, [3], [5]);
     const candidates = [
       current,
@@ -31,7 +31,7 @@ describe("Refinamentos da V1", () => {
       product(7, [], [5]),
     ];
     expect(selectRelatedProducts(current, candidates).map((p) => p.id)).toEqual(
-      [3, 2, 7],
+      [3],
     );
     expect(
       selectRelatedProducts(current, candidates, 1).map((p) => p.id),
@@ -43,7 +43,7 @@ describe("Refinamentos da V1", () => {
         product(2, [3], [5]),
         product(3),
       ]).map((p) => p.id),
-    ).toEqual([3]);
+    ).toEqual([]);
   });
   it("remove apenas numeração decorativa dos eyebrows e ponto final dos headings", () => {
     expect(eyebrowText("01 / Na prática")).toBe("Na prática");

@@ -9,10 +9,9 @@ const { Miniflare, Log, LogLevel, convertV4MiniflareOptions } = createRequire(
   require.resolve("wrangler/package.json"),
 )("miniflare");
 const variant = process.argv[2] || "final";
-const root =
-  variant === "final"
-    ? resolve(".")
-    : resolve(`artifacts/worker-audit/${variant}`);
+const root = ["final", "context-after"].includes(variant)
+  ? resolve(".")
+  : resolve(`artifacts/worker-audit/${variant}`);
 const paths = [
   "/",
   "/produtos/",
@@ -37,6 +36,20 @@ const paths = [
   "/sitemap.xml",
   "/robots.txt",
 ];
+if (variant.startsWith("context-")) {
+  paths.splice(
+    0,
+    paths.length,
+    "/",
+    "/produtos/",
+    "/capota-para-picape/capota-furgao-com-porta-traseira-horizontal-vw-saveiro/",
+    "/capota-para-picape/capota-de-fibra-basica-para-land-rover-defender/",
+    "/capota-para-picape/capota-de-fibra-com-portas-laterais-para-fiat-strada/",
+    "/capota-para-picape/capota-de-fibra-basica-para-toyota-hilux/",
+    "/capota-para-picape/capota-de-fibra-tampao-para-dodge-dakota/",
+    "/produtos/especificacoes-tecnicas/",
+  );
+}
 const results = [];
 mkdirSync("docs/performance/worker-runtime", { recursive: true });
 mkdirSync("artifacts/worker-audit/profiles", { recursive: true });
@@ -269,6 +282,17 @@ if (!process.env.AUDIT_SMOKE) {
       inspector.close();
       await instance.mf.dispose();
     }
+  }
+}
+if (variant.startsWith("context-")) {
+  const instance = await start();
+  const inspector = await inspect(instance.mf);
+  try {
+    for (const path of [...paths.slice(2), ...paths.slice(2)])
+      await measure(instance, inspector, path, "product-navigation");
+  } finally {
+    inspector.close();
+    await instance.mf.dispose();
   }
 }
 const selected = process.env.AUDIT_SMOKE ? paths.slice(0, 1) : paths;

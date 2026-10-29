@@ -22,6 +22,7 @@ function PublicOutlet() {
 
 export const Route = createRootRoute({
   beforeLoad: ({ location }) => ({ requestedPath: location.pathname }),
+  staleTime: 60_000,
   loader: () => loadPublicConfig(),
   head: ({ matches, match }) => {
     const missing = matches.some(

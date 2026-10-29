@@ -10,7 +10,8 @@ import {
 import { dirname, join, resolve } from "node:path";
 
 const variant = process.argv[2];
-if (!["main", "rest"].includes(variant)) throw new Error("Choose main or rest");
+if (!["main", "rest", "context-before"].includes(variant))
+  throw new Error("Choose main, rest or context-before");
 const target = resolve(`artifacts/worker-audit/${variant}`);
 if (existsSync(join(target, "package.json")))
   throw new Error("Snapshot exists; preserve it for comparisons.");
@@ -36,7 +37,7 @@ for (const file of files) {
   mkdirSync(dirname(destination), { recursive: true });
   writeFileSync(
     destination,
-    variant === "main"
+    variant !== "rest"
       ? execFileSync("git", ["show", `HEAD:${file}`], {
           maxBuffer: 64 * 1024 * 1024,
         })

@@ -1,48 +1,32 @@
-import { taxonomies } from "../wordpress/taxonomies";
-import { pages } from "../wordpress/pages";
-import { cityLinks, footerCities } from "../wordpress/cities";
-import { siteConfig } from "../wordpress/site-config";
+import { cityLinks } from "../wordpress/cities";
+import { allPublished, globalContext } from "./global-context";
 import type { Search, SiteData } from "./types";
 
-async function allPublished<T>(
-  fetchPage: (page: number) => Promise<{ items: T[]; pages: number }>,
-): Promise<T[]> {
-  const first = await fetchPage(1);
-  const items = [...first.items];
-  for (let page = 2; page <= first.pages; page++) {
-    items.push(...(await fetchPage(page)).items);
-  }
-  return items;
-}
 export async function siteContext(path: string, search: Search) {
-  const [taxResult, pagesResult, citiesResult, configResult] =
-    await Promise.allSettled([
-      taxonomies(),
-      allPublished((page) => pages({ per_page: 100, page })),
-      path === "/cidades/"
-        ? allPublished((page) => cityLinks({ per_page: 100, page }))
-        : footerCities(),
-      siteConfig(),
-    ]);
+  const globals = await globalContext();
+  // Full city metadata belongs only to the city index, never to the shared snapshot.
+  const cities =
+    path === "/cidades/"
+      ? await allPublished((page) => cityLinks({ per_page: 100, page })).catch(
+          () => [],
+        )
+      : globals.cities;
   const base: SiteData = {
-    config: configResult.status === "fulfilled" ? configResult.value : {},
+    config: globals.config,
     kind: "",
     title: "",
     path,
-    tax:
-      taxResult.status === "fulfilled"
-        ? taxResult.value
-        : { brands: [], models: [], categories: [] },
-    pages: pagesResult.status === "fulfilled" ? pagesResult.value : [],
-    cities: citiesResult.status === "fulfilled" ? citiesResult.value : [],
-    search,
+    tax: globals.tax,
+    pages: globals.pages,
+    cities,
+    search: { ...search },
   };
   return {
     base,
     requireTaxonomies: () => {
-      if (taxResult.status === "rejected") throw taxResult.reason;
+      if (globals.taxUnavailable) throw globals.taxError;
     },
-    taxUnavailable: taxResult.status === "rejected",
+    taxUnavailable: globals.taxUnavailable,
   };
 }
 export type SiteContext = Awaited<ReturnType<typeof siteContext>>;
