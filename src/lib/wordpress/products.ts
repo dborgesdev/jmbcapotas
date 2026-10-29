@@ -1,6 +1,7 @@
 import { all } from "./client";
 import { collection, type QueryParams } from "./query";
-import { normalizePost } from "./normalize";
+import { normalizePost, postMediaReferences } from "./normalize";
+import { mediaBatch } from "./media";
 import { productUrl } from "./product-urls";
 import type { RawPost, Term, Collection, Post } from "./types";
 import { selectRelatedProducts } from "./related";
@@ -26,11 +27,11 @@ export async function readyProducts(
     )
   ).filter((p) => p.acf?.pronta_entrega === true);
   const page = Number(params.page) || 1;
+  const visible = raw.slice((page - 1) * 12, page * 12);
+  const images = await mediaBatch(visible.flatMap(postMediaReferences));
   return {
     items: await Promise.all(
-      raw
-        .slice((page - 1) * 12, page * 12)
-        .map((p) => normalizePost(p, productUrl(p, categories))),
+      visible.map((p) => normalizePost(p, productUrl(p, categories), images)),
     ),
     total: raw.length,
     pages: Math.ceil(raw.length / 12),
@@ -66,9 +67,15 @@ export async function relatedProducts(
         exclude: String(post.id),
       }),
   ).catch(() => []);
+  const visibleGeneric = selectRelatedProducts(
+    post,
+    rawGeneric,
+    4 - selected.length,
+  );
+  const images = await mediaBatch(visibleGeneric.flatMap(postMediaReferences));
   const generic = await Promise.all(
-    selectRelatedProducts(post, rawGeneric, 4 - selected.length).map((p) =>
-      normalizePost(p, productUrl(p, categories)),
+    visibleGeneric.map((p) =>
+      normalizePost(p, productUrl(p, categories), images),
     ),
   );
   return selectRelatedProducts(post, [...selected, ...generic]);

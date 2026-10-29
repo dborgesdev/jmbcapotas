@@ -1,13 +1,14 @@
 import { FooterContacts } from "./FooterContacts";
 import { Logo } from "./Logo";
 import { type Post } from "../../lib/wordpress/types";
+import type { CityLink } from "../../lib/wordpress/cities";
 
 export function Footer({
   pages = [],
   cities = [],
 }: {
   pages?: Post[];
-  cities?: Post[];
+  cities?: CityLink[];
 }) {
   return (
     <footer className="bg-[#101214] text-white">

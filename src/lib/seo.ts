@@ -6,7 +6,10 @@ export function seo(d: SiteData) {
     d.post?.summary ||
     "Encontre produtos para seu veículo. Navegue por marcas, modelos e categorias e fale com a JMB Capotas pelo WhatsApp.";
   const canonical = `${SITE}${d.path}`;
-  const image = d.post?.images[0]?.url;
+  const specific = d.kind === "home" ? undefined : d.post?.images[0]?.url;
+  const image = specific
+    ? new URL(specific, SITE).href
+    : `${SITE}/og-image.webp`;
   return {
     meta: [
       { title },
@@ -20,7 +23,7 @@ export function seo(d: SiteData) {
       },
       {
         name: "twitter:card",
-        content: image ? "summary_large_image" : "summary",
+        content: "summary_large_image",
       },
       { name: "twitter:title", content: title },
       { name: "twitter:description", content: description },
@@ -30,7 +33,8 @@ export function seo(d: SiteData) {
             { name: "twitter:image", content: image },
           ]
         : []),
-      ...(Object.entries(d.search).some(([key, value]) =>
+      ...(d.kind === "404" ||
+      Object.entries(d.search).some(([key, value]) =>
         key === "pagina" ? Number(value) > 1 : Boolean(value),
       )
         ? [{ name: "robots", content: "noindex,follow" }]

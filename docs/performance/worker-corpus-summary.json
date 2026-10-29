@@ -1,0 +1,108 @@
+{
+  "capturedAt": "2026-10-29T16:56:37.914Z",
+  "counts": {
+    "produto": 114,
+    "trabalho": 2,
+    "cliente": 11,
+    "marca": 13,
+    "modelo": 21,
+    "categoria_produto": 6,
+    "site-config": 1,
+    "pages": 3,
+    "posts": 23,
+    "cidade": 107,
+    "categories": 1,
+    "media": 517
+  },
+  "requests": [
+    {
+      "endpoint": "produto",
+      "page": 1,
+      "bytes": 251895
+    },
+    {
+      "endpoint": "produto",
+      "page": 2,
+      "bytes": 35124
+    },
+    {
+      "endpoint": "trabalho",
+      "page": 1,
+      "bytes": 3637
+    },
+    {
+      "endpoint": "cliente",
+      "page": 1,
+      "bytes": 12162
+    },
+    {
+      "endpoint": "marca",
+      "page": 1,
+      "bytes": 10687
+    },
+    {
+      "endpoint": "modelo",
+      "page": 1,
+      "bytes": 18080
+    },
+    {
+      "endpoint": "categoria_produto",
+      "page": 1,
+      "bytes": 5068
+    },
+    {
+      "endpoint": "site-config",
+      "page": 1,
+      "bytes": 1396
+    },
+    {
+      "endpoint": "pages",
+      "page": 1,
+      "bytes": 9458
+    },
+    {
+      "endpoint": "posts",
+      "page": 1,
+      "bytes": 133061
+    },
+    {
+      "endpoint": "cidade",
+      "page": 1,
+      "bytes": 234260
+    },
+    {
+      "endpoint": "cidade",
+      "page": 2,
+      "bytes": 16582
+    },
+    {
+      "endpoint": "categories",
+      "page": 1,
+      "bytes": 700
+    },
+    {
+      "endpoint": "media",
+      "bytes": 323649
+    },
+    {
+      "endpoint": "media",
+      "bytes": 377138
+    },
+    {
+      "endpoint": "media",
+      "bytes": 382695
+    },
+    {
+      "endpoint": "media",
+      "bytes": 378588
+    },
+    {
+      "endpoint": "media",
+      "bytes": 368210
+    },
+    {
+      "endpoint": "media",
+      "bytes": 61192
+    }
+  ]
+}

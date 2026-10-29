@@ -8,11 +8,7 @@ import type { Term } from "../wordpress/types";
  * Legacy routes from the former WordPress installation.
  * Keep rules centralized and only redirect to verified canonical entities.
  */
-export async function legacyRedirect(
-  path: string,
-  categories: Term[],
-  brands: Term[] = [],
-) {
+export function staticLegacyRedirect(path: string) {
   if (path === "/carrinho/") {
     throw redirect({
       to: "/$/",
@@ -29,6 +25,14 @@ export async function legacyRedirect(
       statusCode: 301,
     });
   }
+}
+
+export async function legacyRedirect(
+  path: string,
+  categories: Term[],
+  brands: Term[] = [],
+) {
+  staticLegacyRedirect(path);
 
   // Old WordPress brand landing pages ended in "-venda-e-instalacao".
   // Redirect only when the brand taxonomy actually exists.

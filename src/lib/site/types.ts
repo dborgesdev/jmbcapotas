@@ -1,6 +1,7 @@
 import type { Post, Taxonomies, Collection } from "../wordpress/types";
 import type { Client } from "../wordpress/clients";
 import type { SiteConfig } from "../wordpress/site-config";
+import type { CityLink } from "../wordpress/cities";
 export type Search = {
   q?: string;
   categoria?: string;
@@ -16,7 +17,7 @@ export type SiteData = {
   path: string;
   tax: Taxonomies;
   pages: Post[];
-  cities: Post[];
+  cities: CityLink[];
   list?: Collection<Post>;
   post?: Post;
   works?: Post[];

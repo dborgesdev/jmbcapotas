@@ -1,5 +1,5 @@
 import { request } from "./client";
-import { media } from "./media";
+import { media, mediaId, resolvedMedia } from "./media";
 import type { Media } from "./types";
 import { brazilianPhone } from "../contacts";
 import { paymentConditions } from "../payment";
@@ -28,18 +28,17 @@ export function externalUrl(value: unknown): string | undefined {
 export async function normalizeSiteConfig(
   acf: Record<string, unknown>,
 ): Promise<SiteConfig> {
-  const ids = [acf.hero, acf.final_cta].map((id) =>
-    (typeof id === "number" || typeof id === "string") &&
-    Number.isSafeInteger(Number(id)) &&
-    Number(id) > 0
-      ? Number(id)
-      : 0,
-  );
+  const fields = ["hero", "final_cta"];
+  const ids = fields.map((field) => mediaId(acf[field]));
   const images = new Map(
     await Promise.all(
-      [...new Set(ids)]
-        .filter(Boolean)
-        .map(async (id) => [id, await media(id)] as const),
+      [...new Set(ids)].filter(Boolean).map(async (id) => {
+        const field =
+          fields.find(
+            (field) => mediaId(acf[field]) === id && resolvedMedia(acf[field]),
+          ) || fields[ids.indexOf(id)];
+        return [id, await media(acf[field])] as const;
+      }),
     ),
   );
   const email = typeof acf.email === "string" ? acf.email.trim() : "";
@@ -62,11 +61,13 @@ export async function normalizeSiteConfig(
 async function fetchSiteConfig(): Promise<SiteConfig> {
   try {
     const { data } = await request<
-      { slug: string; acf?: Record<string, unknown> }[]
+      {
+        slug: string;
+        acf?: Record<string, unknown>;
+      }[]
     >("site-config?slug=jmb-capotas&status=publish&per_page=1");
-    return await normalizeSiteConfig(
-      data.find((record) => record.slug === "jmb-capotas")?.acf || {},
-    );
+    const record = data.find((record) => record.slug === "jmb-capotas");
+    return await normalizeSiteConfig(record?.acf || {});
   } catch {
     return {};
   }
