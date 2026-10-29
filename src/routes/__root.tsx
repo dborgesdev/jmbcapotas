@@ -29,7 +29,7 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: "stylesheet", href: css },
-      { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
     ],
   }),
   component: () => (
