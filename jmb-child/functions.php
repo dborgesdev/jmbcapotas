@@ -1,6 +1,6 @@
 <?php
 /**
- * Bela Canaã Alianças
+ * JMB Capotas
  * Desenvolvido por Smart Local
  */
 
